@@ -22,7 +22,7 @@ export default async function DashboardPage() {
 
   const dbUser = await prisma.user.findUnique({
     where: { id: user.id },
-    select: { streak: true, xp: true, tier: true },
+    select: { streak: true, xp: true },
   });
   const attemptCount = await prisma.testAttempt.count({
     where: { userId: user.id, status: "COMPLETED" },
@@ -51,7 +51,7 @@ export default async function DashboardPage() {
         </div>
         <Badge variant="secondary" className="gap-1.5">
           <Sparkles className="h-3.5 w-3.5 text-primary" />
-          {dbUser?.tier ?? "FREE"} plan
+          {(dbUser?.xp ?? 0)} XP
         </Badge>
       </div>
 

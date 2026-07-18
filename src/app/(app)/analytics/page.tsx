@@ -4,6 +4,7 @@ import { Award, Flame, Target, Zap } from "lucide-react";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { BADGES, levelForXp } from "@/lib/gamification";
+import { hasScript } from "@/lib/walkthroughs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -123,6 +124,52 @@ export default async function AnalyticsPage() {
           mistakes={mistakes}
           avgPace={avgPace}
         />
+      )}
+
+      {/* Skill breakdown → walkthrough loop */}
+      {masteryData.length > 0 && (
+        <section>
+          <h2 className="mb-1 text-lg font-semibold">Accuracy by question type</h2>
+          <p className="mb-3 text-sm text-muted-foreground">
+            Aggregated from practice, tests, and walkthroughs. Weak areas link straight to a
+            guided walkthrough with Thoth.
+          </p>
+          <div className="space-y-2.5">
+            {masteryData.map((m) => {
+              const weak = m.accuracy < 70;
+              const color = m.accuracy >= 70 ? "bg-primary" : m.accuracy >= 40 ? "bg-amber-500" : "bg-destructive";
+              return (
+                <Card key={m.skill}>
+                  <CardContent className="py-3.5">
+                    <div className="mb-1.5 flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 text-sm">
+                        <span className="font-medium">{m.skill}</span>
+                        <Badge variant="secondary" className="text-[10px]">
+                          {m.section === "MATH" ? "Math" : "R&W"}
+                        </Badge>
+                      </div>
+                      <span className="shrink-0 text-sm tabular-nums text-muted-foreground">
+                        {Math.round((m.accuracy / 100) * m.attempts)}/{m.attempts} · {m.accuracy}%
+                      </span>
+                    </div>
+                    <div className="h-1.5 overflow-hidden rounded-full bg-muted">
+                      <div className={`h-full ${color}`} style={{ width: `${m.accuracy}%` }} />
+                    </div>
+                    {weak && hasScript(m.skill) && (
+                      <div className="mt-2.5">
+                        <Button size="sm" variant="outline" asChild>
+                          <Link href={`/walkthroughs/${encodeURIComponent(m.skill)}`}>
+                            Struggling with {m.skill}? Start the walkthrough →
+                          </Link>
+                        </Button>
+                      </div>
+                    )}
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+        </section>
       )}
 
       {/* Badges */}

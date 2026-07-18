@@ -30,6 +30,19 @@ export async function awardXp(userId: string, amount: number) {
   await prisma.user.update({ where: { id: userId }, data: { xp: { increment: amount } } });
 }
 
+/**
+ * Count one meaningful action for a user (surfaced in the developer dashboard).
+ * Call on: completing a practice/drill session, completing a mock test,
+ * completing a Thoth walkthrough, or reviewing a mistake-notebook question.
+ * Never called for page views or logins.
+ */
+export async function bumpUsefulInteraction(userId: string) {
+  await prisma.user.update({
+    where: { id: userId },
+    data: { usefulInteractions: { increment: 1 } },
+  });
+}
+
 /** Grant a badge if not already earned. Silent no-op on duplicates. */
 export async function grantBadge(userId: string, key: keyof typeof BADGES) {
   try {

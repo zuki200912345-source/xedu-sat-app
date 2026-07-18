@@ -3,7 +3,6 @@
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
-import { TIER_LIMITS } from "@/lib/config";
 
 const buildSchema = z.object({
   section: z.enum(["RW", "MATH"]),
@@ -22,39 +21,13 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/** Enforce the FREE daily drill-question cap. Returns the allowed count. */
-async function applyDailyLimit(userId: string, tier: string, requested: number): Promise<number> {
-  const limit = TIER_LIMITS[tier as keyof typeof TIER_LIMITS]?.dailyDrillQuestions ?? Infinity;
-  if (limit === Infinity) return requested;
-
-  const since = new Date();
-  since.setHours(0, 0, 0, 0);
-  const answeredToday = await prisma.answer.count({
-    where: {
-      moduleAttempt: {
-        attempt: {
-          userId,
-          test: { kind: { in: ["DRILL", "TOPIC"] } },
-          startedAt: { gte: since },
-        },
-      },
-    },
-  });
-  return Math.max(0, Math.min(requested, limit - answeredToday));
-}
-
 /**
  * Build an on-the-fly practice drill from the question bank and return its id.
  * The drill is a lightweight DRILL Test with one module, reusable by the runner.
  */
 export async function buildDrill(input: z.infer<typeof buildSchema>): Promise<{ testId: string } | { error: string }> {
-  const user = await requireUser();
+  await requireUser();
   const data = buildSchema.parse(input);
-
-  const allowed = await applyDailyLimit(user.id, user.tier, data.count);
-  if (allowed <= 0) {
-    return { error: "You've reached today's free drill limit. Upgrade to Plus for unlimited drills." };
-  }
 
   const pool = await prisma.question.findMany({
     where: {
@@ -67,7 +40,7 @@ export async function buildDrill(input: z.infer<typeof buildSchema>): Promise<{ 
   });
   if (pool.length === 0) return { error: "No questions match those filters yet." };
 
-  const picked = shuffle(pool).slice(0, allowed).map((q) => q.id);
+  const picked = shuffle(pool).slice(0, data.count).map((q) => q.id);
 
   const label = data.skill
     ? `${data.skill} drill`
@@ -133,11 +106,6 @@ export async function buildWeaknessDrill(): Promise<{ testId: string } | { error
     title = "Weakness Conqueror drill";
   }
 
-  const allowed = await applyDailyLimit(user.id, user.tier, questionIds.length);
-  if (allowed <= 0) {
-    return { error: "You've reached today's free drill limit. Upgrade to Plus for unlimited drills." };
-  }
-  questionIds = questionIds.slice(0, allowed);
   if (questionIds.length === 0) return { error: "Not enough questions available yet." };
 
   const test = await prisma.test.create({

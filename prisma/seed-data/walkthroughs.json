@@ -1,0 +1,751 @@
+{
+  "Command of Evidence": {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "intro": [
+      "Hi there! Ready to tackle 'Command of Evidence'? This question type asks you to find evidence that best supports a claim or completes a point.",
+      "It's a key skill for the SAT—and for arguing your ideas clearly in real life. Let's nail it!"
+    ],
+    "strategy": [
+      "First, read the claim or statement carefully. Understand what it's saying.",
+      "Next, skim the answer choices—they're usually short quotes or data points.",
+      "Then, match the choice to the claim: does it directly support the idea?",
+      "Watch out for traps: choices that are true but don't support the claim, or that contradict it."
+    ],
+    "teachIntro": "Let's work through a couple examples together. Ready?",
+    "soloIntro": "Great work! Now try a few on your own. You've got this.",
+    "encouragements": [
+      "Perfect! You spotted the direct support.",
+      "Nice job! That was a tricky one.",
+      "You're on fire! Keep it up."
+    ],
+    "retryNudge": "Almost! Take another look—think about which choice best backs up the claim.",
+    "explainIntro": "No worries, let me walk you through the reasoning step by step."
+  },
+  "Words in Context": {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "intro": [
+      "Hey there! Today we're tackling 'Words in Context' questions. These ask you to choose the best word or phrase to fill a blank in a passage.",
+      "They test how words are used in context—not just dictionary definitions, but shades of meaning and tone. Mastering these helps you read more precisely, which is key for college and beyond!"
+    ],
+    "strategy": [
+      "Step 1: Read the passage around the blank to understand the main idea and tone.",
+      "Step 2: Cover the answer choices and predict your own word or phrase that fits.",
+      "Step 3: Check each choice against your prediction. Eliminate ones that don't match the meaning or tone.",
+      "Watch out for trap answers: words that sound fancy but don't fit the context, or synonyms that are too strong/weak for the sentence.",
+      "Also beware of choices that are correct in isolation but disrupt the passage's flow or logic."
+    ],
+    "teachIntro": "Let's work through two examples together—I'll guide you step by step.",
+    "soloIntro": "Now you try a couple on your own. I'll be right here to help if you need it!",
+    "encouragements": [
+      "Great job! You nailed that one.",
+      "Perfect! You're really getting the hang of this.",
+      "Awesome! That's exactly right."
+    ],
+    "retryNudge": "Not quite—but that's okay! Give it another shot, and think about the context clues.",
+    "explainIntro": "Let's break down why the correct answer works and the others don't."
+  },
+  "Central Ideas and Details": {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "intro": [
+      "Hey there! Ready to tackle Central Ideas and Details questions? These ask you to find the main point or a key supporting detail in a passage. They're super common on the SAT, and mastering them boosts your Reading score fast.",
+      "Think of it as finding the 'big picture' or the most important 'puzzle piece' in a short text. It's all about understanding what the author really wants you to know."
+    ],
+    "strategy": [
+      "First, read the passage carefully but quickly. Focus on the first and last sentences—they often hint at the central idea.",
+      "Then, ask yourself: 'What is the one main point the author is making?' or 'Which detail directly supports that main point?'",
+      "Now, look at the answer choices. Eliminate any that are too broad, too narrow, or just not mentioned.",
+      "Watch out for trap answers: ones that are true but not the central idea, or ones that twist a detail into something else."
+    ],
+    "teachIntro": "Let's work through a couple of examples together. I'll guide you step by step.",
+    "soloIntro": "Now you try a few on your own. I'll be right here to help if you need it.",
+    "encouragements": [
+      "Nice! You nailed it—great job spotting the main idea.",
+      "Perfect! You're getting the hang of this.",
+      "Awesome! That detail was tricky, but you found it."
+    ],
+    "retryNudge": "Almost! Take another look—sometimes the right answer is hiding in plain sight.",
+    "explainIntro": "Let's break down why the correct answer works and where the others go wrong."
+  },
+  "Text Structure and Purpose": {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "intro": [
+      "Hey there! Ready to tackle Text Structure and Purpose questions?",
+      "These ask you to figure out why an author wrote something a certain way—like to compare, contrast, or support a claim.",
+      "Mastering this helps you read smarter, not harder. Let's dive in!"
+    ],
+    "strategy": [
+      "Step 1: Read the question first. It will say something like 'The main purpose of the text is to...' or 'Which choice best describes the structure?'",
+      "Step 2: Skim the text for signal words: 'however' suggests contrast, 'for example' suggests illustration, 'because' suggests explanation.",
+      "Step 3: Ask yourself: What's the author's main goal? Is it to persuade, explain, compare, or describe?",
+      "Watch out for trap answers that describe a minor detail instead of the overall purpose or structure."
+    ],
+    "teachIntro": "Let's work through an example together. I'll guide you step by step.",
+    "soloIntro": "Great job! Now try a few on your own. Remember the steps.",
+    "encouragements": [
+      "You nailed that! Clear thinking.",
+      "Perfect! You're really getting this.",
+      "Awesome! That was spot on."
+    ],
+    "retryNudge": "Almost! Take another look at the text and the steps. Try again?",
+    "explainIntro": "No worries, let's break it down together so you see how it works."
+  },
+  "Cross-Text Connections": {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "intro": [
+      "Hey there, ready to tackle Cross-Text Connections? This question type asks you to compare how two short passages relate to each other.",
+      "It's all about seeing how one text supports, contradicts, or refines the other. Mastering this helps you think critically across sources, which is huge for college and beyond.",
+      "Let's break it down so you can spot these connections like a pro!"
+    ],
+    "strategy": [
+      "Step 1: Read the first passage quickly, noting its main point or argument.",
+      "Step 2: Read the second passage, focusing on how it relates to the first—does it agree, disagree, or add nuance?",
+      "Step 3: Look at the answer choices. Cross out any that misrepresent either passage or their relationship.",
+      "Trap alert: watch for answers that are too extreme or that confuse agreement with disagreement. Also, avoid choices that only describe one passage.",
+      "Pick the choice that best describes the overall relationship between the two texts."
+    ],
+    "teachIntro": "Let's work through a couple of examples together to see this in action.",
+    "soloIntro": "Now you're ready to try a few on your own. I'll be right here to help if you need it!",
+    "encouragements": [
+      "Nice work! You really nailed that connection.",
+      "Boom! You're getting the hang of this.",
+      "Awesome! That's exactly how to compare two texts."
+    ],
+    "retryNudge": "Not quite, but that's okay! Give it another shot—you're closer than you think.",
+    "explainIntro": "All right, let me walk you through the correct reasoning so you can see where things went."
+  },
+  "Boundaries": {
+    "section": "RW",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "intro": [
+      "Hey there! Ready to tackle 'Boundaries' questions on the SAT?",
+      "These test how to correctly punctuate sentences, especially where clauses meet—like using commas, semicolons, or periods.",
+      "Mastering this will boost your writing clarity and your score!"
+    ],
+    "strategy": [
+      "First, read the whole sentence carefully. Identify the main clauses and any dependent clauses.",
+      "Ask yourself: Are these clauses independent? Can they stand alone? If both are independent, you need a semicolon, period, or comma + conjunction.",
+      "If one is dependent, check if it's essential to the sentence. Non-essential clauses get commas around them.",
+      "Watch out for common traps: using a comma between two independent sentences (comma splice) or missing a comma after an introductory phrase."
+    ],
+    "teachIntro": "Let's work through a couple of examples together to see how this works!",
+    "soloIntro": "Now you try a few on your own—I know you've got this!",
+    "encouragements": [
+      "Nice work! You really nailed that one.",
+      "Excellent! You're getting the hang of it.",
+      "Perfect! That's exactly how to handle boundaries."
+    ],
+    "retryNudge": "Almost there! Give it another shot—you can do it.",
+    "explainIntro": "Let's walk through the reasoning together so you can see how to get it right."
+  },
+  "Inferences": {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "intro": [
+      "Hey there! Ready to practice making inferences?",
+      "This question type tests how well you can read between the lines — drawing conclusions that aren't directly stated but are strongly supported by the text.",
+      "Mastering this is key for the SAT, but it's also a superpower for real-life reading and thinking. Let's sharpen that skill!"
+    ],
+    "strategy": [
+      "First, read the question carefully to know what you're looking for. Then, dive into the passage and find the specific evidence that supports the inference.",
+      "Your job is to pick the answer that MUST be true based on the passage — not what might be true or sounds logical in general.",
+      "Watch out for trap answers: ones that are too extreme, go beyond the text, or twist the facts. Also avoid answers that are true but not supported by the given passage.",
+      "A good trick: cover the answers, make your own inference from the text, then match it to the choices."
+    ],
+    "teachIntro": "Let's work through a couple of examples together — I'll guide you step by step.",
+    "soloIntro": "Now you try a few on your own. Take your time, and remember: find the evidence first!",
+    "encouragements": [
+      "Nice work! You're getting the hang of this.",
+      "Excellent! That's a tough skill, and you nailed it.",
+      "Great job! Your inference muscles are growing stronger."
+    ],
+    "retryNudge": "Almost! Give it another shot — think about what the text really says.",
+    "explainIntro": "No worries — let's break it down together and see where the evidence points."
+  },
+  "Form, Structure, and Sense": {
+    "section": "RW",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "intro": [
+      "Hey there! Ready to tackle another SAT Reading & Writing question type? This one's called 'Form, Structure, and Sense.'",
+      "It's all about making sure sentences are grammatically correct and flow smoothly. Think of it as being a sentence surgeon!",
+      "Mastering this will help you write clearly and avoid common errors, which is super useful for the SAT and beyond."
+    ],
+    "strategy": [
+      "Here's a simple 3-step plan: First, read the whole sentence carefully, ignoring the underlined part.",
+      "Second, predict what should go in the blank or what fix is needed. Think about grammar rules like subject-verb agreement, verb tense, or parallel structure.",
+      "Third, check each answer choice against your prediction. Eliminate the ones that don't match.",
+      "Watch out for trap answers that sound okay but break a rule, like a plural verb with a singular subject."
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see the strategy in action!",
+    "soloIntro": "Now it's your turn! Try a few on your own, and I'll be here to help if you need a nudge.",
+    "encouragements": [
+      "Nice work! You really nailed that one.",
+      "Great job! You're getting the hang of this.",
+      "Perfect! That's exactly how it's done."
+    ],
+    "retryNudge": "Almost! Take another look at the sentence and think about the grammar rule we talked about. Give it another shot!",
+    "explainIntro": "No worries! Let me walk you through the correct reasoning so you can see how it works."
+  },
+  "Transitions": {
+    "section": "RW",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "intro": [
+      "Hey there, welcome! 🌟 Today we’re tackling Transitions questions—these test how you connect ideas smoothly in a passage.",
+      "Mastering transitions is key to clear writing, and it’ll help you on both Reading & Writing sections. Ready to level up?"
+    ],
+    "strategy": [
+      "First, read the sentence before and after the blank to understand the relationship between the two ideas.",
+      "Look for clues: is the second idea supporting, contrasting, or giving an example of the first?",
+      "Then, pick the transition word that matches that relationship—like 'however' for contrast, 'therefore' for cause-effect.",
+      "Watch out for trap answers that sound fancy but don’t fit the logic—like using 'nevertheless' when you need 'for example'."
+    ],
+    "teachIntro": "Let’s try a couple together so you can see the strategy in action!",
+    "soloIntro": "Now you're ready to fly solo—try a few on your own. You've got this!",
+    "encouragements": [
+      "Boom! Nailed it! 🎉",
+      "You’re a transition pro! Keep it up!",
+      "Perfect choice—you’re really getting the hang of this!"
+    ],
+    "retryNudge": "Almost! Take another look at the relationship between the ideas—try again!",
+    "explainIntro": "No worries—let’s break down why the correct answer works, so you’ll ace it next time."
+  },
+  "Rhetorical Synthesis": {
+    "section": "RW",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "intro": [
+      "Hey there! Ready to tackle Rhetorical Synthesis questions? 🎉",
+      "These questions test how well you can combine information from multiple sources to create a clear, concise summary or statement.",
+      "Mastering this will help you write stronger arguments and organize ideas effectively—super useful for college and beyond!"
+    ],
+    "strategy": [
+      "Step 1: Read the question carefully. It will ask you to do something specific, like 'summarize the findings' or 'introduce the author's conclusion.'",
+      "Step 2: Identify the key pieces of information from each source that are relevant to that task. Focus on the main points, not every detail.",
+      "Step 3: Look for the answer choice that smoothly combines those key points in a logical order, without adding extra info or distorting the original meaning.",
+      "Common trap: Choices that mix up details from different sources or add opinions not stated in the texts. Stay true to the sources!",
+      "Another trap: Choices that are too vague or too specific—aim for a balanced, accurate summary."
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see the strategy in action!",
+    "soloIntro": "Now it's your turn! Try a couple on your own using the same steps.",
+    "encouragements": [
+      "Excellent! You nailed that one!",
+      "Great job, you're getting the hang of it!",
+      "Perfect! You're a rhetorical synthesis pro!"
+    ],
+    "retryNudge": "Not quite, but you're close! Give it another shot—think about which details are most important.",
+    "explainIntro": "Let me walk you through the reasoning so you can see where the right answer comes from."
+  },
+  "Linear Equations": {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Equations",
+    "intro": [
+      "Hey there! Ready to tackle some Linear Equations? 📚",
+      "This question type tests how well you can solve for an unknown in a straight-line equation.",
+      "Mastering this will boost your Algebra score — it's a staple on the Digital SAT!"
+    ],
+    "strategy": [
+      "Step 1: Isolate the variable. Get the variable term alone on one side.",
+      "Step 2: Use inverse operations. Add/subtract first, then multiply/divide.",
+      "Step 3: Check your answer by plugging it back into the original equation.",
+      "Watch out! Common traps: forgetting to distribute a negative sign, or mixing up operations."
+    ],
+    "teachIntro": "Let's work through a couple of examples together, step by step.",
+    "soloIntro": "Now it's your turn! Try a few on your own, and I'll be right here to help.",
+    "encouragements": [
+      "Yes! That's exactly right — you nailed it! 🎉",
+      "Great job! You're getting the hang of this!",
+      "Perfect! You're on fire today! 🔥"
+    ],
+    "retryNudge": "Almost! Take another look — you're just one step away.",
+    "explainIntro": "No worries, let's walk through it together step by step."
+  },
+  "Linear Inequalities": {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "intro": [
+      "Hey there! Ready to tackle linear inequalities? They're like equations, but with a twist—you solve them the same way, just watch the inequality sign.",
+      "This topic shows up a lot on the SAT Math, and mastering it helps you handle real-world comparisons. Plus, it's a quick win once you know the rules!"
+    ],
+    "strategy": [
+      "First, treat the inequality like an equation: isolate the variable using inverse operations. Add/subtract first, then multiply/divide.",
+      "Key rule: If you multiply or divide by a negative number, flip the inequality sign! That's the number one trap.",
+      "Graph your solution on a number line: open circle for < or >, closed for ≤ or ≥. Shade in the direction that makes the inequality true.",
+      "Common trap: forgetting to flip the sign when dividing by a negative. Always double-check that step!"
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see these steps in action.",
+    "soloIntro": "Now it's your turn! Try a few on your own, and remember—I'm here if you need a hint.",
+    "encouragements": [
+      "Nice work! You nailed that one!",
+      "Great job—you're getting the hang of it!",
+      "Perfect! That's exactly how it's done."
+    ],
+    "retryNudge": "Almost there! Give it another shot—check if you flipped the sign when you multiplied or divided by a negative.",
+    "explainIntro": "No worries, let's break it down together step by step so you see exactly where it went."
+  },
+  "Linear Functions": {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "intro": [
+      "Hey there! Ready to tackle linear functions? They're all about relationships that change at a constant rate—think graphs of straight lines.",
+      "This question type tests your ability to interpret equations, find slopes and intercepts, and match them to real-world contexts. Mastering it is key for the SAT Math section!"
+    ],
+    "strategy": [
+      "First, identify the form: slope-intercept (y = mx + b) or standard (Ax + By = C). That tells you where to start.",
+      "Next, pull out the slope (m) and y-intercept (b) from the equation or graph. Remember: slope is rise over run.",
+      "For word problems, define what x and y represent. Then find the rate of change (slope) and starting value (y-intercept).",
+      "Common trap: confusing slope with y-intercept or mixing up which variable is dependent. Always double-check units!"
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see the strategy in action.",
+    "soloIntro": "Now you try a few on your own. I'll be right here to cheer you on!",
+    "encouragements": [
+      "Nice work! You nailed that one.",
+      "Great job! You're really getting the hang of this.",
+      "Awesome! That was spot on."
+    ],
+    "retryNudge": "Almost! Take another look at the slope and intercept. You've got this—try again!",
+    "explainIntro": "No worries—let me walk through the reasoning step by step so you can see how it fits together."
+  },
+  "Quadratics": {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Quadratics",
+    "intro": [
+      "Hi there! Ready to tackle some quadratics? These are a big part of the SAT Math Advanced section. They show up a lot, so mastering them is a game-changer for your score!",
+      "Quadratic questions test your ability to work with parabolas, solve equations, and interpret graphs. Understanding them really helps with both algebra and real-world problems.",
+      "Let's break them down together so you can ace them with confidence!"
+    ],
+    "strategy": [
+      "First, identify the form: standard (ax²+bx+c), vertex (a(x-h)²+k), or factored (a(x-r)(x-s)). Each gives different clues.",
+      "For solving, use factoring, the quadratic formula, or completing the square. For graphs, relate the equation to the vertex and intercepts.",
+      "Common traps: forgetting to check for extraneous solutions, missing negative signs, or confusing vertex form with standard form.",
+      "Always double-check your answers by plugging them back into the original equation or using the graph to verify."
+    ],
+    "teachIntro": "Let's work through a couple of examples together. I'll guide you step by step!",
+    "soloIntro": "Now you try a couple on your own. Remember the steps we just practiced—you've got this!",
+    "encouragements": [
+      "Fantastic! You nailed that one!",
+      "Great thinking—that was a tricky one!",
+      "Perfect! You're really getting the hang of quadratics."
+    ],
+    "retryNudge": "Almost! That's a common misstep. Take another look and see if you can spot where it went wrong.",
+    "explainIntro": "No worries! Let me walk through the correct reasoning so it clicks."
+  },
+  "Systems of Linear Equations": {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "intro": [
+      "Hey there! I'm Thoth, your study buddy for the Digital SAT. Today we're tackling Systems of Linear Equations—a core Algebra topic that pops up a lot. Mastering this will help you solve real-world problems like mixing solutions or comparing costs. Ready to dive in?",
+      "This question type tests your ability to find where two lines intersect, or whether they have no solution or infinite solutions. It's like being a detective—you'll use elimination, substitution, or graphing to crack the case.",
+      "Why does it matter? Because systems are everywhere—from budgeting to physics. Plus, nailing this can boost your score quickly!"
+    ],
+    "strategy": [
+      "Here's the game plan. Step 1: Decide on a method—elimination or substitution. Elimination works best when coefficients match up; substitution when one variable is already isolated.",
+      "Step 2: Solve for one variable. For elimination, add or subtract equations to cancel a variable. For substitution, plug one equation into the other.",
+      "Step 3: Plug that value back to find the other variable. Then check your solution in both original equations.",
+      "Common trap: Watch out for 'no solution' or 'infinitely many solutions'—they happen when lines are parallel (same slope, different intercept) or identical (same line). Also, don't forget to double-check your arithmetic!"
+    ],
+    "teachIntro": "Let's work through a couple of examples together. I'll guide you step-by-step, and you can chip in with answers. First up: Solve y = 2x + 1 and 3x + y = 11.",
+    "soloIntro": "Now it's your turn! Try this one on your own: Solve 2x + 3y = 6 and 4x - y = 5. Take your time, and I'll be right here.",
+    "encouragements": [
+      "Great job! You're really getting the hang of this!",
+      "Nice work! That's exactly how a pro solves it.",
+      "Awesome! You nailed it—keep that momentum going!"
+    ],
+    "retryNudge": "Almost there! Why not give it another shot? Sometimes a small slip is all it takes.",
+    "explainIntro": "No worries—let's walk through it together. I'll show you the steps so it clicks this time."
+  },
+  "Exponentials": {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Exponentials",
+    "intro": [
+      "Hey there! Ready to tackle exponentials? This type of question shows up in the Advanced Math section of the SAT.",
+      "Exponential functions model real-world growth or decay, like population or money. Mastering them can boost your score!"
+    ],
+    "strategy": [
+      "First, identify the form: y = a * b^x. 'a' is the starting value, 'b' is the growth/decay factor.",
+      "If b > 1, it's growth; if 0 < b < 1, it's decay. The exponent x is usually time.",
+      "To solve, plug in given points or use the percent change: if it grows by r%, then b = 1 + r/100.",
+      "Watch out for traps: mixing up growth and decay factors, or forgetting to convert percent to decimal."
+    ],
+    "teachIntro": "Let's work through a couple of examples together to see this in action.",
+    "soloIntro": "Now try a few on your own—I'll be right here to help if you need it!",
+    "encouragements": [
+      "Great job! You nailed it!",
+      "Awesome work! You're getting the hang of this.",
+      "Perfect! That's exactly right."
+    ],
+    "retryNudge": "Almost! Give it another shot—you're on the right track.",
+    "explainIntro": "No worries, let me walk through the reasoning step by step."
+  },
+  "Polynomials and Rational Expressions": {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Polynomials and Rational Expressions",
+    "intro": [
+      "Hey there! 👋 Ready to tackle Polynomials and Rational Expressions?",
+      "This question type tests your ability to simplify, factor, and solve expressions with variables and exponents.",
+      "Mastering this unlocks tons of points on the SAT—and it's super useful for real-world problem-solving too!"
+    ],
+    "strategy": [
+      "Step 1: If you see rational expressions, factor everything first—numerator and denominator.",
+      "Step 2: Cancel common factors. Watch out for domain restrictions: values that make the denominator zero are off-limits.",
+      "Step 3: For polynomial equations, get everything to one side, factor, and set each factor to zero.",
+      "Common trap: forgetting to check for extraneous solutions when multiplying both sides by a variable expression.",
+      "Another trap: confusing factors that cancel with those that don't—always note what's left in the denominator."
+    ],
+    "teachIntro": "Let's work through a couple examples together so you can see these steps in action.",
+    "soloIntro": "Now you try a few on your own—I'll be right here to guide you if you get stuck.",
+    "encouragements": [
+      "Nice work! You nailed it! 🌟",
+      "That's exactly right—you're getting the hang of this!",
+      "Perfect! Keep that momentum going! 🚀"
+    ],
+    "retryNudge": "Not quite—give it another shot, you're close!",
+    "explainIntro": "Let's walk through the reasoning together so you can see where the path went."
+  },
+  "Radicals and Absolute Value": {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Radicals and Absolute Value",
+    "intro": [
+      "Hey there! Ready to tackle Radicals and Absolute Value questions? These pop up in the Advanced Math section of the Digital SAT.",
+      "They test your ability to handle square roots, cube roots, and absolute values—super important for algebra and beyond.",
+      "Mastering these will help you solve equations that might look tricky at first, but I promise they're doable!"
+    ],
+    "strategy": [
+      "Here's the game plan: 1) Isolate the radical or absolute value. 2) Square both sides (or remove absolute value by considering ±). 3) Solve the resulting equation. 4) Always check your solutions—extraneous ones are sneaky!",
+      "Common trap: Forgetting to check for extraneous solutions after squaring. Also, with absolute values, don't forget the negative case!",
+      "Another trap: Squaring both sides incorrectly—make sure you square the whole side, not just individual terms.",
+      "And remember: if you get a solution that makes a radicand negative or doesn't satisfy the original equation, toss it out!"
+    ],
+    "teachIntro": "Let's work through a couple together so you can see these steps in action!",
+    "soloIntro": "Now you try a few on your own—you've got this!",
+    "encouragements": [
+      "Nice work! That was spot on.",
+      "You're crushing it! Keep that momentum!",
+      "Perfect! You're really getting the hang of this."
+    ],
+    "retryNudge": "Almost! Give it another shot—check your steps carefully.",
+    "explainIntro": "No worries, let's walk through the reasoning together so you can nail it next time."
+  },
+  "Nonlinear Systems": {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Systems",
+    "intro": [
+      "Hey there! Ready to tackle nonlinear systems? This type tests how well you can solve equations where at least one is nonlinear, like quadratics or exponentials.",
+      "It matters because it's a key skill for advanced math and appears often on the SAT. Plus, it's all about connecting algebra and graphing—pretty cool, right?"
+    ],
+    "strategy": [
+      "Step 1: Identify the equations. Look for one linear and one quadratic (or other nonlinear). Often, you'll solve by substitution.",
+      "Step 2: Solve the linear equation for one variable (say y in terms of x) and plug into the nonlinear equation.",
+      "Step 3: Solve the resulting equation (it might be quadratic). You may get two solutions or none.",
+      "Step 4: Check each solution in both original equations—the SAT loves trap answers that work in one but not the other.",
+      "Watch out: common traps include forgetting to check extraneous solutions, especially with square roots or denominators."
+    ],
+    "teachIntro": "Let's work through a couple of examples together. I'll guide you step by step.",
+    "soloIntro": "Now try a couple on your own. Remember the steps—you've got this!",
+    "encouragements": [
+      "Nice work! That was spot on.",
+      "You nailed it—great job!",
+      "Perfect! You're really getting the hang of this."
+    ],
+    "retryNudge": "Almost! Take another look—sometimes a small slip is all it is. Give it another shot!",
+    "explainIntro": "No worries, let's break it down together. Here's how to think it through."
+  },
+  "Ratios and Rates": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios and Rates",
+    "intro": [
+      "Hey there! Ready to tackle ratios and rates? They pop up a lot on the SAT Math, especially in Problem-Solving and Data Analysis. Understanding them will help you make sense of real-world situations like speed, cost, or mixtures.",
+      "Think of a ratio as a comparison of two quantities, like 3:2 or 3/2. A rate is just a ratio with different units, like miles per hour. They might ask you to find a missing value, compare two situations, or scale up.",
+      "Mastering this means you'll handle many word problems with confidence. Let's dive in!"
+    ],
+    "strategy": [
+      "Step 1: Read the problem carefully and identify what quantities are being compared. Look for keywords like 'per,' 'for every,' 'ratio,' or 'rate.'",
+      "Step 2: Write the ratio or rate as a fraction. If it's a ratio of A to B, write A/B. For rates, include units (e.g., miles/hour).",
+      "Step 3: Set up a proportion if you need to find an unknown. Cross-multiply and solve. Or, if comparing, make sure units match.",
+      "Step 4: Check your answer. Does it make sense? Did you keep units consistent? Watch out for traps like mixing up the order (A to B vs B to A) or forgetting to convert units.",
+      "Common trap: The SAT might give you a ratio like 'the ratio of boys to girls is 3:5' and ask for the fraction that are boys. That's 3/(3+5)=3/8, not 3/5. Stay sharp!"
+    ],
+    "teachIntro": "Let's work through an example together. I'll guide you step-by-step.",
+    "soloIntro": "Now it's your turn! Try these two on your own. I'll be right here to help if you need it.",
+    "encouragements": [
+      "Awesome! You nailed it!",
+      "Great job! That's exactly right.",
+      "Perfect! You're getting the hang of this."
+    ],
+    "retryNudge": "Not quite, but that's okay! Give it another shot—think about the steps we practiced.",
+    "explainIntro": "Let's go through the reasoning together so you can see where things went off track."
+  },
+  "Percentages": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "intro": [
+      "Hey there! Ready to tackle percentages? This is a super common topic on the SAT Math section, especially in Problem-Solving and Data Analysis.",
+      "You'll see questions about discounts, interest, percent change, and more—it's all about understanding how parts relate to wholes.",
+      "Mastering percentages will help you not only on the test but also in real life, like when you're shopping or reading the news!"
+    ],
+    "strategy": [
+      "First, identify what you're given and what you need: the whole, the part, or the percent. Translate the words into an equation: part = percent × whole.",
+      "Be careful with percent increase/decrease: add or subtract the percent from 100% first, then multiply. For example, a 20% increase means 120% of the original.",
+      "Always check your answer: does it make sense? A common trap is forgetting to convert the percent to a decimal before multiplying, so always divide by 100 first.",
+      "Another trap is mixing up the starting value for percent change—remember, the 'original' is the base you compare to."
+    ],
+    "teachIntro": "Let's walk through a couple of examples together to see how this works in action.",
+    "soloIntro": "Now it's your turn! Try a few on your own, and I'll be right here to help if you need it.",
+    "encouragements": [
+      "Nice work! You nailed it.",
+      "You're a percentage pro!",
+      "Perfect! That was spot on."
+    ],
+    "retryNudge": "Almost! Give it another shot—you're really close.",
+    "explainIntro": "No worries, let me show you the reasoning step by step so you can tackle the next one confidently."
+  },
+  "Statistics": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Statistics",
+    "intro": [
+      "Hey there! 😊 Ready to tackle Statistics questions on the SAT? I'm Thoth, and I'm here to help you master them.",
+      "These problems test how well you can understand and interpret data—things like mean, median, mode, range, and standard deviation.",
+      "They show up a lot in the Problem-Solving and Data Analysis section, and getting them right can really boost your score. Let's dive in!"
+    ],
+    "strategy": [
+      "First, read the question carefully and identify what statistic they're asking for—mean, median, mode, or something else.",
+      "Second, look at the data given: is it a list, a table, or a graph? Organize it if needed, like putting numbers in order for median.",
+      "Third, apply the formula or definition. For mean, add and divide. For median, find the middle. Watch out for outliers!",
+      "Common trap: Forgetting to sort data before finding the median, or confusing mean and median when data is skewed.",
+      "Also, be careful with 'changes'—if a data point is added or removed, recalculate step by step."
+    ],
+    "teachIntro": "Great, let's work through a couple of examples together to see how this works in action!",
+    "soloIntro": "Now you try a few on your own! I'll be right here to help if you need a nudge.",
+    "encouragements": [
+      "Nice work! You nailed that one! 🎉",
+      "Perfect! You're really getting the hang of this!",
+      "Awesome! That was spot on—keep it up!"
+    ],
+    "retryNudge": "Almost! Take another look—check your steps and give it another try. You've got this!",
+    "explainIntro": "No worries! Let me walk you through the reasoning step by step so it clicks."
+  },
+  "Probability": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "intro": [
+      "Hey there! 👋 Ready to tackle probability questions on the SAT? Let's do this!",
+      "These problems test your ability to figure out how likely something is to happen.",
+      "They show up a lot in the Problem-Solving and Data Analysis section, so mastering them can really boost your score. 💪"
+    ],
+    "strategy": [
+      "First, read the problem carefully and identify the total number of possible outcomes.",
+      "Next, find the number of favorable outcomes — the ones that match what we want.",
+      "Then, plug into the formula: Probability = (Favorable outcomes) / (Total outcomes).",
+      "Simplify the fraction if needed, and watch out for traps like misreading the table or counting the wrong set of outcomes.",
+      "Always double-check: Are you asked for a probability, a ratio, or a percent? And is the event independent or conditional?"
+    ],
+    "teachIntro": "Let's work through a couple of examples together to see this in action!",
+    "soloIntro": "Now you try one on your own. You've got this!",
+    "encouragements": [
+      "Boom! Nailed it! 🎉",
+      "Perfect! You're a probability pro!",
+      "Yes! That's exactly right — keep that momentum going!"
+    ],
+    "retryNudge": "Not quite — but that's okay! Give it another shot, you're closer than you think.",
+    "explainIntro": "Let me walk you through the reasoning so you can see where things went sideways."
+  },
+  "Two-Way Tables": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Way Tables",
+    "intro": [
+      "Hey there! Ready to conquer two-way tables? I'm Thoth, and I'll guide you through it.",
+      "This type of question tests how well you read and interpret data organized in tables—super common on the SAT!",
+      "Mastering this means you'll be able to extract info quickly and avoid silly mistakes. Let's dive in!"
+    ],
+    "strategy": [
+      "Here's the plan: First, read the table carefully—know what each row and column represents.",
+      "Second, identify what the question is asking: a specific cell, a row total, a column total, or a percentage?",
+      "Third, compute the answer by reading the correct cell or by adding/subtracting values. Watch out for the trap: they might ask for a percentage or a fraction, so double-check the wording!",
+      "Also, many students accidentally read the wrong row or column. Always label the table in your mind."
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see the strategy in action.",
+    "soloIntro": "Nice work! Now try a few on your own—I know you've got this!",
+    "encouragements": [
+      "Boom! You nailed it!",
+      "That's exactly right—great reading!",
+      "Perfect! You're a two-table pro!"
+    ],
+    "retryNudge": "Not quite, but that's okay! Give it another shot—read the table carefully.",
+    "explainIntro": "Let me walk you through the correct reasoning so you can learn from this."
+  },
+  "Area and Volume": {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "intro": [
+      "Hey there! Ready to tackle Area and Volume questions?",
+      "These problems test your ability to find areas and volumes of shapes like circles, triangles, and prisms.",
+      "They show up a lot on the SAT, so nailing them can really boost your math score!"
+    ],
+    "strategy": [
+      "First, identify the shape and write down the formula you need.",
+      "Plug in the given values carefully—watch out for units!",
+      "Solve step by step, and check if the answer makes sense.",
+      "Common trap: mixing up radius and diameter, or forgetting to square/cube. Stay sharp!"
+    ],
+    "teachIntro": "Let's work through a couple examples together to see how it's done.",
+    "soloIntro": "Now you try a few on your own—I know you've got this!",
+    "encouragements": [
+      "Boom! Nailed it!",
+      "You're crushing these!",
+      "Perfect—keep that momentum going!"
+    ],
+    "retryNudge": "Almost! Take another look and give it another shot.",
+    "explainIntro": "No worries—let me walk you through the correct reasoning."
+  },
+  "Angles and Lines": {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Angles and Lines",
+    "intro": [
+      "Hey there! Ready to tackle Angles and Lines on the SAT? 🎉",
+      "This question type tests your understanding of parallel lines, transversals, and angle relationships.",
+      "Mastering this helps you see geometry in real life—like in bridges and buildings—and boosts your score!"
+    ],
+    "strategy": [
+      "First, identify any parallel lines and a transversal crossing them—they're key.",
+      "Then, look for corresponding, alternate interior, or same-side interior angles. Mark them on the diagram.",
+      "Use vertical angles and linear pairs to fill in missing measures step by step.",
+      "Common trap: assuming angles are equal just because they look it—always check the rules!",
+      "Also, watch out for extra info or diagrams not drawn to scale—trust the numbers, not your eyes."
+    ],
+    "teachIntro": "Let's work through a couple examples together to see this in action!",
+    "soloIntro": "Now you try a few on your own—I know you can do this!",
+    "encouragements": [
+      "Nice work! You nailed it! 🎯",
+      "Great job! That's exactly right! 🌟",
+      "Perfect! You're a geometry star! ⭐"
+    ],
+    "retryNudge": "No worries—take another look and give it another shot! You've got this.",
+    "explainIntro": "Let me walk you through the correct reasoning so you can see where things went."
+  },
+  "Scatterplots and Line of Best Fit": {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Scatterplots and Line of Best Fit",
+    "intro": [
+      "Hey there! 🌟 Today we're diving into scatterplots and lines of best fit—a key SAT Math topic. You'll learn to read trends, pick the best line, and make predictions. Let's go!",
+      "This type of question tests your ability to see patterns in data and use a line to summarize them. It's super practical for real-world stuff like science and economics.",
+      "Mastering this means you'll crush data questions and gain confidence with graphs. Ready to get started?"
+    ],
+    "strategy": [
+      "Step 1: Look at the scatterplot—notice the overall direction: does it go up, down, or stay flat? That's the trend.",
+      "Step 2: Find the line of best fit—it should go through the 'center' of the points, not necessarily connect them. Use it to predict y for a given x.",
+      "Step 3: When choosing between lines, check the slope (steepness) and intercept (where it hits the y-axis). The best line minimizes the distance to all points.",
+      "Common trap: Don't pick a line that connects extreme points or ignores the general pattern. Also, watch for outliers that might mislead you!"
+    ],
+    "teachIntro": "Alright, let's work through a couple of examples together to see this in action. I'll guide you step by step!",
+    "soloIntro": "Now it's your turn! Try a few on your own—remember the steps and trust the trend. I'm here if you need a nudge.",
+    "encouragements": [
+      "Nice work! You nailed it 🎉",
+      "Awesome! You're getting the hang of this 📈",
+      "Perfect! That's exactly how you read a scatterplot 💪"
+    ],
+    "retryNudge": "Almost there! Take another look at the trend—does the line really match the points? Give it another shot!",
+    "explainIntro": "No worries, let me walk you through the correct reasoning so you can see where the pattern leads."
+  },
+  "Triangles": {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "intro": [
+      "Hey there! Ready to dive into triangles? These pop up a lot on the SAT, and they're all about side lengths, angles, and special rules.",
+      "Mastering triangles helps you unlock geometry and trig questions—key for a strong math score. Let's make it feel easy!"
+    ],
+    "strategy": [
+      "Step 1: Identify what you're given—side lengths, angles, or both. Look for clues like right angles or parallel lines.",
+      "Step 2: Recall the key triangle rules: sum of angles = 180°, Pythagorean theorem for right triangles, and side ratios for special triangles (30-60-90, 45-45-90).",
+      "Step 3: Set up an equation or proportion to solve. Draw a diagram if it helps you see the relationships.",
+      "Watch out for trap answers! Common ones include forgetting to square in the Pythagorean theorem or mixing up which side is opposite which angle."
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see these steps in action.",
+    "soloIntro": "Now you try a couple on your own. I'll be right here to help if you need it!",
+    "encouragements": [
+      "Nice work! You nailed that one.",
+      "Great job! Your triangle skills are sharp.",
+      "Perfect! You're really getting the hang of this."
+    ],
+    "retryNudge": "Almost there! Take another look—sometimes a small detail makes all the difference.",
+    "explainIntro": "No worries! Let's walk through the reasoning step by step so it clicks."
+  },
+  "Circles": {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "intro": [
+      "Hey there! Ready to tackle circles on the SAT? These questions test how well you know circle properties and equations.",
+      "They show up often in the Geometry and Trigonometry section, and mastering them can really boost your score!"
+    ],
+    "strategy": [
+      "First, identify what the question is asking: center, radius, area, circumference, or arc length?",
+      "Second, recall the key formulas: (x-h)^2 + (y-k)^2 = r^2 for the equation, C = 2πr, A = πr^2.",
+      "Third, watch out for traps: don't confuse radius with diameter, and remember that the center is (h,k), not (x,y).",
+      "Also, if they give the equation in expanded form, complete the square to find the center and radius."
+    ],
+    "teachIntro": "Let's work through a couple of examples together so you can see these steps in action.",
+    "soloIntro": "Awesome! Now try a few on your own. Remember the steps and watch for those traps.",
+    "encouragements": [
+      "Great job! You nailed it!",
+      "Perfect! You're getting the hang of circles!",
+      "Excellent work! Keep it up!"
+    ],
+    "retryNudge": "Almost! Take another look at the problem and give it one more try.",
+    "explainIntro": "No worries, let's walk through the reasoning together so it clicks."
+  },
+  "Right-Triangle Trigonometry": {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right-Triangle Trigonometry",
+    "intro": [
+      "Hey there! Let's tackle Right-Triangle Trigonometry together.",
+      "This question type tests your ability to use sine, cosine, and tangent to find missing sides or angles in right triangles.",
+      "Mastering this is key for geometry and real-world problem solving—plus it shows up a lot on the SAT!"
+    ],
+    "strategy": [
+      "Step 1: Identify the given angle and sides (opposite, adjacent, hypotenuse) relative to that angle.",
+      "Step 2: Choose the right trig ratio: SOH CAH TOA (sin=opp/hyp, cos=adj/hyp, tan=opp/adj).",
+      "Step 3: Set up an equation and solve for the unknown. Remember: if you're finding an angle, use inverse trig (sin⁻¹, cos⁻¹, tan⁻¹).",
+      "Watch for trap answers that mix up opposite and adjacent, or use the wrong ratio. Double-check your labeling!"
+    ],
+    "teachIntro": "Great, let's work through a couple of examples together. I'll guide you step by step.",
+    "soloIntro": "You're ready! Try a few on your own now. Remember your steps and watch for those traps.",
+    "encouragements": [
+      "Nice work! You nailed that one!",
+      "Perfect! You're getting the hang of this.",
+      "Awesome! That's exactly right. Keep going!"
+    ],
+    "retryNudge": "Almost! Give it another try—you're on the right track.",
+    "explainIntro": "No worries! Let me walk you through the correct reasoning step by step."
+  }
+}

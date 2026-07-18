@@ -23,14 +23,9 @@ export function StartTestButton({
     try {
       const attemptId = await startFullTest(testId);
       router.push(`/tests/take/${attemptId}`);
-    } catch (e) {
+    } catch {
       setLoading(false);
-      if (e instanceof Error && e.message === "UPGRADE") {
-        toast.error("Full tests are a Plus feature — upgrade to unlock");
-        router.push("/settings/billing");
-      } else {
-        toast.error("Could not start the test");
-      }
+      toast.error("Could not start the test");
     }
   }
 

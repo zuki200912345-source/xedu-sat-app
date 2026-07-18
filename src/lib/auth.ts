@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { compare } from "bcryptjs";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { Role, Tier } from "@/lib/enums";
+import { Role } from "@/lib/enums";
 import { getServerSession } from "next-auth";
 import { rateLimit, clientIp, LIMITS } from "@/lib/rate-limit";
 
@@ -50,19 +50,15 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async jwt({ token, user, trigger }) {
-      // On sign-in (and on session refresh) hydrate role/tier from the DB so
+      // On sign-in (and on session refresh) hydrate the role from the DB so
       // permission changes take effect without re-login on next refresh.
       const userId = user?.id ?? token.sub;
       if (userId && (user || trigger === "update" || !token.role)) {
         const dbUser = await prisma.user.findUnique({
           where: { id: userId },
-          select: { role: true, tier: true, subscriptionStatus: true },
+          select: { role: true },
         });
-        if (dbUser) {
-          token.role = Role.parse(dbUser.role);
-          token.tier = Tier.parse(dbUser.tier);
-          token.subscriptionStatus = dbUser.subscriptionStatus;
-        }
+        if (dbUser) token.role = Role.parse(dbUser.role);
       }
       return token;
     },
@@ -70,7 +66,6 @@ export const authOptions: NextAuthOptions = {
       if (session.user && token.sub) {
         session.user.id = token.sub;
         session.user.role = (token.role as Role) ?? "STUDENT";
-        session.user.tier = (token.tier as Tier) ?? "FREE";
       }
       return session;
     },

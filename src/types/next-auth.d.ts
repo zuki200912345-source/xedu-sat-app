@@ -1,12 +1,11 @@
 import type { DefaultSession } from "next-auth";
-import type { Role, Tier } from "@/lib/enums";
+import type { Role } from "@/lib/enums";
 
 declare module "next-auth" {
   interface Session {
     user: {
       id: string;
       role: Role;
-      tier: Tier;
     } & DefaultSession["user"];
   }
 }
@@ -14,7 +13,5 @@ declare module "next-auth" {
 declare module "next-auth/jwt" {
   interface JWT {
     role?: Role;
-    tier?: Tier;
-    subscriptionStatus?: string;
   }
 }

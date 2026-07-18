@@ -2,7 +2,7 @@
 
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { requireTier } from "@/lib/tier";
+import { requireUser } from "@/lib/auth";
 import { sm2, type Grade } from "@/lib/sm2";
 import { awardXp } from "@/lib/gamification";
 
@@ -13,7 +13,7 @@ const gradeSchema = z.object({
 
 /** Record one flashcard review and schedule the next via SM-2. */
 export async function gradeCard(input: { wordId: string; grade: Grade }) {
-  const user = await requireTier("PLUS");
+  const user = await requireUser();
   const { wordId, grade } = gradeSchema.parse(input);
 
   const existing = await prisma.vocabProgress.findUnique({

@@ -4,7 +4,6 @@ import {
   BookOpenCheck,
   BrainCircuit,
   CalendarClock,
-  Check,
   GraduationCap,
   LineChart,
   Sparkles,
@@ -49,35 +48,6 @@ const features = [
   },
 ];
 
-const tiers = [
-  {
-    name: "Free",
-    price: "$0",
-    period: "forever",
-    tagline: "See where you stand",
-    features: ["Adaptive diagnostic + study plan", "10 drill questions per day", "1 sample test module", "Basic progress stats"],
-    cta: "Start free",
-    highlighted: false,
-  },
-  {
-    name: "Plus",
-    price: "$19",
-    period: "/month",
-    tagline: "Everything you need to climb",
-    features: ["All full-length adaptive tests", "Unlimited drills + Weakness Conqueror", "Vocabulary flashcards (SM-2)", "Full analytics + predicted score"],
-    cta: "Get Plus",
-    highlighted: true,
-  },
-  {
-    name: "Premium",
-    price: "$49",
-    period: "/month",
-    tagline: "Plus, with a coach in your corner",
-    features: ["Everything in Plus", "4 tutoring credits per month", "Priority new features", "Tutor-reviewed study plan"],
-    cta: "Go Premium",
-    highlighted: false,
-  },
-];
 
 export default async function LandingPage() {
   const session = await auth();
@@ -89,7 +59,6 @@ export default async function LandingPage() {
           <Logo />
           <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
             <a href="#features" className="hover:text-foreground">Features</a>
-            <a href="#pricing" className="hover:text-foreground">Pricing</a>
           </nav>
           <div className="flex items-center gap-2">
             {session?.user ? (
@@ -176,61 +145,6 @@ export default async function LandingPage() {
                   </CardHeader>
                   <CardContent className="text-sm text-muted-foreground">
                     {body}
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Pricing */}
-        <section id="pricing" className="border-t">
-          <div className="mx-auto max-w-6xl px-4 py-20">
-            <div className="mx-auto max-w-xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight">Simple pricing</h2>
-              <p className="mt-3 text-muted-foreground">
-                Start free. Upgrade when you&apos;re ready to go all in.
-              </p>
-            </div>
-            <div className="mt-12 grid gap-6 lg:grid-cols-3">
-              {tiers.map((tier) => (
-                <Card
-                  key={tier.name}
-                  className={
-                    tier.highlighted
-                      ? "relative border-primary shadow-lg shadow-primary/10"
-                      : "border-border/70"
-                  }
-                >
-                  {tier.highlighted && (
-                    <Badge className="absolute -top-3 left-1/2 -translate-x-1/2">
-                      Most popular
-                    </Badge>
-                  )}
-                  <CardHeader>
-                    <CardTitle className="text-lg">{tier.name}</CardTitle>
-                    <div className="flex items-baseline gap-1">
-                      <span className="text-4xl font-bold">{tier.price}</span>
-                      <span className="text-sm text-muted-foreground">{tier.period}</span>
-                    </div>
-                    <p className="text-sm text-muted-foreground">{tier.tagline}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-2.5 text-sm">
-                      {tier.features.map((f) => (
-                        <li key={f} className="flex items-start gap-2">
-                          <Check className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                          <span>{f}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <Button
-                      className="mt-6 w-full"
-                      variant={tier.highlighted ? "default" : "outline"}
-                      asChild
-                    >
-                      <Link href="/register">{tier.cta}</Link>
-                    </Button>
                   </CardContent>
                 </Card>
               ))}

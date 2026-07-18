@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
 import { isResponseCorrect } from "@/lib/scoring";
+import { captureMistake, resolveMistake } from "@/lib/mistakes";
 
 /**
  * Start (or resume) a practice attempt for a single-module drill test. Returns
@@ -147,6 +148,11 @@ export async function finishPracticeAttempt(attemptId: string) {
       update: { isCorrect: correct },
     });
 
+    // Mistake notebook: capture wrong answers, resolve ones now answered right.
+    const answered = answer?.response != null && answer.response !== "";
+    if (correct) await resolveMistake(user.id, q.id);
+    else if (answered) await captureMistake({ userId: user.id, questionId: q.id, source: "practice", response: answer?.response ?? null });
+
     const m = masteryDelta.get(q.skill) ?? { section: q.section, attempts: 0, correct: 0 };
     m.attempts++;
     if (correct) m.correct++;
@@ -182,10 +188,10 @@ export async function finishPracticeAttempt(attemptId: string) {
     data: { status: "COMPLETED", completedAt: new Date() },
   });
 
-  // Award XP for completing a practice module.
+  // Award XP for completing a practice module, and count a useful interaction.
   await prisma.user.update({
     where: { id: user.id },
-    data: { xp: { increment: 10 + rawCorrect * 2 } },
+    data: { xp: { increment: 10 + rawCorrect * 2 }, usefulInteractions: { increment: 1 } },
   });
 
   revalidatePath("/practice");

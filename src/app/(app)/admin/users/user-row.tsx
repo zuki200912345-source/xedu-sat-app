@@ -10,16 +10,15 @@ const selectClass = "rounded-md border border-input bg-background px-2 py-1 text
 export function UserRow({
   user,
 }: {
-  user: { id: string; name: string; email: string; role: string; tier: string; xp: number };
+  user: { id: string; name: string; email: string; role: string; xp: number };
 }) {
   const router = useRouter();
   const [role, setRole] = useState(user.role);
-  const [tier, setTier] = useState(user.tier);
   const [busy, setBusy] = useState(false);
 
-  async function save(nextRole: string, nextTier: string) {
+  async function save(nextRole: string) {
     setBusy(true);
-    const res = await updateUser({ userId: user.id, role: nextRole, tier: nextTier }).catch(() => null);
+    const res = await updateUser({ userId: user.id, role: nextRole }).catch(() => null);
     setBusy(false);
     if (res?.ok) {
       toast.success(`Updated ${user.name}`);
@@ -31,38 +30,23 @@ export function UserRow({
 
   return (
     <div className="grid grid-cols-12 items-center gap-2 px-4 py-3">
-      <div className="col-span-4 min-w-0">
+      <div className="col-span-6 min-w-0">
         <div className="truncate font-medium">{user.name}</div>
         <div className="truncate text-xs text-muted-foreground">{user.email}</div>
       </div>
-      <div className="col-span-3">
+      <div className="col-span-4">
         <select
           className={selectClass}
           value={role}
           disabled={busy}
           onChange={(e) => {
             setRole(e.target.value);
-            save(e.target.value, tier);
+            save(e.target.value);
           }}
         >
           <option value="STUDENT">STUDENT</option>
           <option value="TUTOR">TUTOR</option>
           <option value="ADMIN">ADMIN</option>
-        </select>
-      </div>
-      <div className="col-span-3">
-        <select
-          className={selectClass}
-          value={tier}
-          disabled={busy}
-          onChange={(e) => {
-            setTier(e.target.value);
-            save(role, e.target.value);
-          }}
-        >
-          <option value="FREE">FREE</option>
-          <option value="PLUS">PLUS</option>
-          <option value="PREMIUM">PREMIUM</option>
         </select>
       </div>
       <div className="col-span-2 text-right text-sm text-muted-foreground">{user.xp}</div>

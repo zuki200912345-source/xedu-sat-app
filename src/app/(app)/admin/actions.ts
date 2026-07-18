@@ -4,7 +4,7 @@ import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireRole } from "@/lib/auth";
-import { Role, Tier, Section, Difficulty, QuestionType } from "@/lib/enums";
+import { Role, Section, Difficulty, QuestionType } from "@/lib/enums";
 import { similarityGate, SIMILARITY_THRESHOLD } from "@/lib/similarity";
 
 const questionSchema = z.object({
@@ -72,14 +72,14 @@ export async function createQuestion(input: z.infer<typeof questionSchema>): Pro
   return { id: q.id };
 }
 
-/** Update a user's role and tier (admin user management). */
-export async function updateUser(input: { userId: string; role: string; tier: string }): Promise<{ ok: boolean }> {
+/** Update a user's role (admin user management). */
+export async function updateUser(input: { userId: string; role: string }): Promise<{ ok: boolean }> {
   await requireRole("ADMIN");
-  const data = z.object({ userId: z.string().min(1), role: Role, tier: Tier }).parse(input);
+  const data = z.object({ userId: z.string().min(1), role: Role }).parse(input);
 
   await prisma.user.update({
     where: { id: data.userId },
-    data: { role: data.role, tier: data.tier },
+    data: { role: data.role },
   });
   revalidatePath("/admin/users");
   return { ok: true };

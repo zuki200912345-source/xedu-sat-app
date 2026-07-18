@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { CalendarClock, Lock, Video } from "lucide-react";
+import { Video } from "lucide-react";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { tierMeets } from "@/lib/tier";
 import { openSlots } from "@/lib/slots";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -15,12 +14,6 @@ export const metadata: Metadata = { title: "Tutoring" };
 export default async function TutoringPage() {
   const session = await auth();
   const user = session!.user;
-  const canBook = tierMeets(user.tier, "PREMIUM");
-
-  const dbUser = await prisma.user.findUniqueOrThrow({
-    where: { id: user.id },
-    select: { tutoringCredits: true },
-  });
 
   const tutors = await prisma.tutorProfile.findMany({ include: { user: true } });
   const tutorSlots = await Promise.all(
@@ -48,39 +41,12 @@ export default async function TutoringPage() {
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <h1 className="text-2xl font-bold tracking-tight">Tutoring</h1>
-          <p className="mt-1 text-muted-foreground">
-            Book a 1-on-1 session. Each confirmed booking gets a video link automatically.
-          </p>
-        </div>
-        {canBook && (
-          <Badge variant="secondary" className="gap-1.5 text-sm">
-            <CalendarClock className="h-4 w-4 text-primary" />
-            {dbUser.tutoringCredits} credit{dbUser.tutoringCredits === 1 ? "" : "s"} left
-          </Badge>
-        )}
+      <div>
+        <h1 className="text-2xl font-bold tracking-tight">Tutoring</h1>
+        <p className="mt-1 text-muted-foreground">
+          Book a 1-on-1 session. Each confirmed booking gets a video link automatically.
+        </p>
       </div>
-
-      {!canBook && (
-        <Card className="border-primary/40 bg-accent/40">
-          <CardContent className="flex flex-wrap items-center justify-between gap-4 pt-6">
-            <div className="flex items-center gap-3">
-              <Lock className="h-5 w-5 text-primary" />
-              <div>
-                <p className="font-medium">Tutoring is a Premium feature</p>
-                <p className="text-sm text-muted-foreground">
-                  Premium includes monthly tutoring credits for 1-on-1 sessions.
-                </p>
-              </div>
-            </div>
-            <Button asChild>
-              <Link href="/settings/billing">Upgrade to Premium</Link>
-            </Button>
-          </CardContent>
-        </Card>
-      )}
 
       {/* Upcoming sessions */}
       {upcoming.length > 0 && (
@@ -132,11 +98,7 @@ export default async function TutoringPage() {
               </div>
             </CardHeader>
             <CardContent>
-              <TutorBooking
-                tutorProfileId={profile.id}
-                slots={slots}
-                canBook={canBook && dbUser.tutoringCredits > 0}
-              />
+              <TutorBooking tutorProfileId={profile.id} slots={slots} canBook={true} />
             </CardContent>
           </Card>
         ))}

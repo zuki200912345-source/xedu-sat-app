@@ -28,13 +28,19 @@ model User {
   email              String    @unique
   passwordHash       String?
   role               String    @default("STUDENT") // STUDENT | TUTOR | ADMIN
-  tier               String    @default("FREE") // FREE | PLUS | PREMIUM
-  subscriptionStatus String    @default("inactive") // inactive | active | past_due | canceled
+  // ---- DEPRECATED: billing removed (all features unlocked). Columns kept to
+  // preserve existing user records; no longer read or written by the app. ----
+  tier               String    @default("FREE")
+  subscriptionStatus String    @default("inactive")
   stripeCustomerId   String?   @unique
+  tutoringCredits    Int       @default(0)
+  // -------------------------------------------------------------------------
   streak             Int       @default(0)
   lastActiveDay      DateTime?
   xp                 Int       @default(0)
-  tutoringCredits    Int       @default(0)
+  // Meaningful actions (practice/mock/walkthrough completion, notebook review).
+  // Server-incremented only; surfaced in the internal developer dashboard.
+  usefulInteractions Int       @default(0)
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
 
@@ -78,6 +84,7 @@ model Question {
 
   moduleQuestions ModuleQuestion[]
   answers         Answer[]
+  mistakeEntries  MistakeEntry[]
 
   @@index([section, domain, skill, difficulty])
 }
@@ -304,6 +311,34 @@ model LessonProgress {
   completedAt DateTime @default(now())
 
   @@unique([userId, lessonId])
+}
+
+// Thoth guided-walkthrough progress, one row per (user, question-type skill).
+model WalkthroughProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  skill     String
+  status    String   @default("IN_PROGRESS") // IN_PROGRESS | COMPLETED
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, skill])
+}
+
+// Mistake notebook: every question a student got wrong (practice, mock,
+// walkthrough). Resolved when re-answered correctly (kept, not deleted).
+model MistakeEntry {
+  id           String    @id @default(cuid())
+  userId       String
+  questionId   String
+  question     Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  source       String    @default("practice") // practice | mock | walkthrough | diagnostic
+  userResponse String?
+  resolved     Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+  resolvedAt   DateTime?
+
+  @@unique([userId, questionId])
+  @@index([userId, resolved])
 }
 
 // ---------------------------------------------------------------------------

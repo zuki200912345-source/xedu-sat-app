@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { tierMeets } from "@/lib/tier";
 import { FlashcardSession, type StudyCard } from "./flashcard-session";
 
 export const metadata: Metadata = { title: "Review flashcards" };
@@ -10,7 +9,6 @@ export const metadata: Metadata = { title: "Review flashcards" };
 export default async function StudyPage() {
   const session = await auth();
   const user = session!.user;
-  if (!tierMeets(user.tier, "PLUS")) redirect("/flashcards");
 
   const now = new Date();
 

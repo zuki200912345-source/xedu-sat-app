@@ -11,7 +11,9 @@ import {
   Dumbbell,
   LayoutDashboard,
   LogOut,
+  MessagesSquare,
   Newspaper,
+  NotebookPen,
   Settings,
   ShieldCheck,
   Stethoscope,
@@ -21,14 +23,15 @@ import {
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import type { Role, Tier } from "@/lib/enums";
+import type { Role } from "@/lib/enums";
 
 const studentNav = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/diagnostic", label: "Diagnostic", icon: Stethoscope },
   { href: "/tests", label: "Full tests", icon: Timer },
   { href: "/practice", label: "Practice drills", icon: Dumbbell },
+  { href: "/walkthroughs", label: "Learn with Thoth", icon: MessagesSquare },
+  { href: "/notebook", label: "Mistake notebook", icon: NotebookPen },
   { href: "/lessons", label: "Lessons", icon: BookText },
   { href: "/reading", label: "Daily Reading", icon: Newspaper },
   { href: "/flashcards", label: "Flashcards", icon: BookOpenCheck },
@@ -36,7 +39,7 @@ const studentNav = [
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
 ];
 
-export function AppSidebar({ role, tier }: { role: Role; tier: Tier }) {
+export function AppSidebar({ role }: { role: Role }) {
   const pathname = usePathname();
 
   const items = [...studentNav];
@@ -74,10 +77,6 @@ export function AppSidebar({ role, tier }: { role: Role; tier: Tier }) {
         })}
       </nav>
       <div className="space-y-2 border-t p-3">
-        <div className="flex items-center justify-between px-2 text-xs text-muted-foreground">
-          <span>Plan</span>
-          <Badge variant={tier === "FREE" ? "secondary" : "default"}>{tier}</Badge>
-        </div>
         <Link
           href="/settings"
           className={cn(

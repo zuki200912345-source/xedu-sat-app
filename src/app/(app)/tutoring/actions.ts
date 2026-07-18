@@ -4,7 +4,6 @@ import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
-import { tierMeets } from "@/lib/tier";
 import { createMeeting } from "@/lib/meeting";
 
 const bookSchema = z.object({
@@ -12,22 +11,15 @@ const bookSchema = z.object({
   startsAt: z.string().datetime(),
 });
 
-/** Book a tutoring slot: create the meeting link and spend one credit. */
+/** Book a tutoring slot and create the meeting link (available to all users). */
 export async function bookSlot(input: z.infer<typeof bookSchema>): Promise<{ bookingId: string } | { error: string }> {
   const user = await requireUser();
   const data = bookSchema.parse(input);
 
-  if (!tierMeets(user.tier, "PREMIUM")) {
-    return { error: "Tutoring is a Premium feature. Upgrade to book sessions." };
-  }
-
   const dbUser = await prisma.user.findUniqueOrThrow({
     where: { id: user.id },
-    select: { tutoringCredits: true, name: true },
+    select: { name: true },
   });
-  if (dbUser.tutoringCredits <= 0) {
-    return { error: "You're out of tutoring credits for this month." };
-  }
 
   const profile = await prisma.tutorProfile.findUnique({
     where: { id: data.tutorProfileId },
@@ -62,16 +54,11 @@ export async function bookSlot(input: z.infer<typeof bookSchema>): Promise<{ boo
     },
   });
 
-  await prisma.user.update({
-    where: { id: user.id },
-    data: { tutoringCredits: { decrement: 1 } },
-  });
-
   revalidatePath("/tutoring");
   return { bookingId: booking.id };
 }
 
-/** Cancel a booking and refund the credit. */
+/** Cancel a booking. */
 export async function cancelBooking(bookingId: string): Promise<{ ok: boolean }> {
   const user = await requireUser();
   z.string().min(1).parse(bookingId);
@@ -81,7 +68,6 @@ export async function cancelBooking(bookingId: string): Promise<{ ok: boolean }>
   if (booking.status !== "CONFIRMED") return { ok: false };
 
   await prisma.booking.update({ where: { id: bookingId }, data: { status: "CANCELED" } });
-  await prisma.user.update({ where: { id: user.id }, data: { tutoringCredits: { increment: 1 } } });
 
   revalidatePath("/tutoring");
   return { ok: true };

@@ -3,8 +3,8 @@
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
-import { requireTier } from "@/lib/tier";
 import { isResponseCorrect } from "@/lib/scoring";
+import { captureMistake, resolveMistake } from "@/lib/mistakes";
 import { routeTier } from "@/lib/sat-engine/router";
 import { scoreSection } from "@/lib/sat-engine/scorer";
 import { questionsPerModule, type Section } from "@/lib/sat-engine/spec";
@@ -15,7 +15,7 @@ import { activeModuleAttempt } from "@/lib/full-test";
  * this is gated to PLUS/PREMIUM. Creates the first module attempt (R&W M1).
  */
 export async function startFullTest(testId: string): Promise<string> {
-  const user = await requireTier("PLUS");
+  const user = await requireUser();
 
   const test = await prisma.test.findUnique({
     where: { id: testId },
@@ -60,6 +60,9 @@ async function gradeModule(moduleAttemptId: string): Promise<{ rawCorrect: numbe
   let rawCorrect = 0;
   const mastery = new Map<string, { section: string; attempts: number; correct: number }>();
 
+  const gotRight: string[] = [];
+  const gotWrong: { id: string; response: string | null }[] = [];
+
   for (const q of questions) {
     const ans = ma.answers.find((a) => a.questionId === q.id);
     const correct = isResponseCorrect(q.type, q.correctAnswer, ans?.response ?? null);
@@ -78,6 +81,10 @@ async function gradeModule(moduleAttemptId: string): Promise<{ rawCorrect: numbe
       update: { isCorrect: correct },
     });
 
+    const answered = ans?.response != null && ans.response !== "";
+    if (correct) gotRight.push(q.id);
+    else if (answered) gotWrong.push({ id: q.id, response: ans?.response ?? null });
+
     const m = mastery.get(q.skill) ?? { section: q.section, attempts: 0, correct: 0 };
     m.attempts++;
     if (correct) m.correct++;
@@ -88,6 +95,10 @@ async function gradeModule(moduleAttemptId: string): Promise<{ rawCorrect: numbe
     where: { id: ma.id },
     include: { attempt: true },
   })).attempt.userId;
+
+  // Mistake notebook: capture wrong answers, resolve ones now answered right.
+  for (const id of gotRight) await resolveMistake(userId, id);
+  for (const w of gotWrong) await captureMistake({ userId, questionId: w.id, source: "mock", response: w.response });
 
   for (const [skill, d] of mastery) {
     await prisma.skillMastery.upsert({
@@ -238,9 +249,10 @@ async function finalizeScores(attemptId: string): Promise<void> {
     },
   });
 
+  // XP for finishing a full mock, and count a useful interaction.
   await prisma.user.update({
     where: { id: attempt.userId },
-    data: { xp: { increment: 100 } },
+    data: { xp: { increment: 100 }, usefulInteractions: { increment: 1 } },
   });
 
   revalidatePath("/tests");

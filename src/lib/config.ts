@@ -27,32 +27,3 @@ export const SAT_CONFIG = {
   totalScore: { min: 400, max: 1600 },
 } as const;
 
-export const TIER_LIMITS = {
-  FREE: {
-    dailyDrillQuestions: 10,
-    fullTests: 0,
-    sampleModules: 1,
-    diagnostic: true,
-    flashcards: false,
-    analytics: "basic",
-    tutoringCreditsPerMonth: 0,
-  },
-  PLUS: {
-    dailyDrillQuestions: Infinity,
-    fullTests: Infinity,
-    sampleModules: Infinity,
-    diagnostic: true,
-    flashcards: true,
-    analytics: "full",
-    tutoringCreditsPerMonth: 0,
-  },
-  PREMIUM: {
-    dailyDrillQuestions: Infinity,
-    fullTests: Infinity,
-    sampleModules: Infinity,
-    diagnostic: true,
-    flashcards: true,
-    analytics: "full",
-    tutoringCreditsPerMonth: 4,
-  },
-} as const;

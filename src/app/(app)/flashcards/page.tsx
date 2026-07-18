@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { BookOpen, Flame, Lock, Sparkles } from "lucide-react";
+import { BookOpen, Flame, Sparkles } from "lucide-react";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { tierMeets } from "@/lib/tier";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -12,10 +11,6 @@ export const metadata: Metadata = { title: "Flashcards" };
 export default async function FlashcardsPage() {
   const session = await auth();
   const user = session!.user;
-
-  if (!tierMeets(user.tier, "PLUS")) {
-    return <UpgradeGate />;
-  }
 
   const now = new Date();
   const totalWords = await prisma.vocabWord.count();
@@ -78,26 +73,3 @@ function Stat({ label, value, icon }: { label: string; value: React.ReactNode; i
   );
 }
 
-function UpgradeGate() {
-  return (
-    <div className="space-y-6">
-      <h1 className="text-2xl font-bold tracking-tight">Vocabulary flashcards</h1>
-      <Card className="border-primary/40 bg-accent/40">
-        <CardContent className="flex flex-wrap items-center justify-between gap-4 pt-6">
-          <div className="flex items-center gap-3">
-            <Lock className="h-5 w-5 text-primary" />
-            <div>
-              <p className="font-medium">Flashcards are a Plus feature</p>
-              <p className="text-sm text-muted-foreground">
-                Upgrade to unlock 150+ SAT words with spaced repetition.
-              </p>
-            </div>
-          </div>
-          <Button asChild>
-            <Link href="/settings/billing">Upgrade to Plus</Link>
-          </Button>
-        </CardContent>
-      </Card>
-    </div>
-  );
-}

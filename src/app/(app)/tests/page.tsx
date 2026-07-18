@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Clock, Lock, Timer, TrendingUp } from "lucide-react";
+import { Clock, Timer, TrendingUp } from "lucide-react";
 import { prisma } from "@/lib/prisma";
 import { auth } from "@/lib/auth";
-import { tierMeets } from "@/lib/tier";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -21,7 +20,6 @@ export const metadata: Metadata = { title: "Full tests" };
 export default async function TestsPage() {
   const session = await auth();
   const user = session!.user;
-  const canTakeFullTests = tierMeets(user.tier, "PLUS");
 
   const tests = await prisma.test.findMany({
     where: { kind: "FULL", isPublished: true },
@@ -44,25 +42,6 @@ export default async function TestsPage() {
           score — the full Digital SAT experience.
         </p>
       </div>
-
-      {!canTakeFullTests && (
-        <Card className="border-primary/40 bg-accent/40">
-          <CardContent className="flex flex-wrap items-center justify-between gap-4 pt-6">
-            <div className="flex items-center gap-3">
-              <Lock className="h-5 w-5 text-primary" />
-              <div>
-                <p className="font-medium">Full-length tests are a Plus feature</p>
-                <p className="text-sm text-muted-foreground">
-                  Upgrade to take complete adaptive tests and get scaled scores.
-                </p>
-              </div>
-            </div>
-            <Button asChild>
-              <Link href="/settings/billing">Upgrade to Plus</Link>
-            </Button>
-          </CardContent>
-        </Card>
-      )}
 
       <div className="grid gap-4 md:grid-cols-2">
         {tests.map((test) => {
@@ -96,17 +75,11 @@ export default async function TestsPage() {
                 </div>
               </CardContent>
               <CardFooter className="gap-2">
-                {canTakeFullTests ? (
-                  <StartTestButton
-                    testId={test.id}
-                    label={inProgress ? "Resume test" : completed ? "Retake test" : "Start test"}
-                    className="flex-1"
-                  />
-                ) : (
-                  <Button className="flex-1" disabled>
-                    <Lock className="mr-1.5 h-4 w-4" /> Plus required
-                  </Button>
-                )}
+                <StartTestButton
+                  testId={test.id}
+                  label={inProgress ? "Resume test" : completed ? "Retake test" : "Start test"}
+                  className="flex-1"
+                />
                 {completed && attempt && (
                   <Button variant="outline" asChild>
                     <Link href={`/tests/report/${attempt.id}`}>View report</Link>
