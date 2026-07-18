@@ -1,0 +1,1349 @@
+[
+  {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Angles and Lines",
+    "title": "Mastering Angles, Parallel Lines, and Transversals",
+    "summary": "Learn how to identify and solve problems involving complementary, supplementary, vertical, and parallel line angles on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Angle Basics: Complementary and Supplementary",
+          "body": "Complementary angles sum to 90 degrees. Supplementary angles sum to 180 degrees. On the SAT, look for right angle symbols (a small square) or straight lines to identify these relationships."
+        },
+        {
+          "heading": "Vertical Angles and Linear Pairs",
+          "body": "Vertical angles are opposite each other when two lines intersect; they are always equal. Linear pairs are adjacent angles that form a straight line (sum to 180°). Use these to set up equations quickly."
+        },
+        {
+          "heading": "Parallel Lines Cut by a Transversal",
+          "body": "When a transversal crosses parallel lines, eight angles are formed. Corresponding angles are equal, alternate interior angles are equal, and consecutive interior angles sum to 180°. Memorize these three rules to solve almost any parallel line problem."
+        },
+        {
+          "heading": "Angle Notation and Diagrams",
+          "body": "The SAT often labels angles with variables or expressions. Always mark known relationships on the diagram (e.g., equal angles with arcs, parallel lines with arrows) to avoid confusion."
+        }
+      ],
+      "strategies": [
+        "Draw extra lines or extend existing ones to create known angle relationships.",
+        "Write algebraic equations based on angle relationships (e.g., x + y = 180) and solve systematically.",
+        "If a diagram is not to scale, rely only on given angle measures and geometric rules, not visual appearance.",
+        "Check if angles are in degrees or radians (SAT uses degrees for geometry problems).",
+        "For parallel line problems, identify the transversal and label all angles with corresponding numbers or variables."
+      ],
+      "worked": {
+        "problem": "In the figure, line l is parallel to line m, and line t is a transversal. Angle 1 measures (3x + 20)° and angle 2 measures (5x - 40)°. Find the value of x.",
+        "solution": "Angles 1 and 2 are consecutive interior angles (same side of transversal, between the parallels). They sum to 180°. So (3x + 20) + (5x - 40) = 180. Simplify: 8x - 20 = 180, then 8x = 200, so x = 25."
+      },
+      "mistakes": [
+        "Assuming lines are parallel without the given symbol or statement.",
+        "Confusing corresponding angles with alternate interior angles.",
+        "Forgetting that supplementary means sum to 180°, not 90°.",
+        "Misreading angle notation (e.g., angle 1 vs. the measure of angle 1)."
+      ],
+      "takeaway": "Always identify the angle pair relationship first, then write an equation based on that relationship to solve for the unknown."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "title": "Mastering Circle Equations and Properties for the Digital SAT",
+    "summary": "Learn how to work with circle equations in the coordinate plane, including center-radius form, completing the square, and key properties like tangents and chords.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Standard Equation of a Circle",
+          "body": "The standard equation of a circle with center (h, k) and radius r is (x - h)^2 + (y - k)^2 = r^2. On the SAT, you'll often need to identify the center and radius from an equation or write the equation given the center and radius."
+        },
+        {
+          "heading": "Completing the Square for Circle Equations",
+          "body": "When given a general equation like x^2 + y^2 + ax + by + c = 0, you must complete the square for both x and y to rewrite it in standard form. Group x terms together and y terms together, then add the necessary constants to create perfect squares."
+        },
+        {
+          "heading": "Tangents to Circles",
+          "body": "A tangent line touches a circle at exactly one point and is perpendicular to the radius at that point. The distance from the center to the tangent line equals the radius. On the SAT, you may need to find the equation of a tangent line or use the perpendicular relationship."
+        },
+        {
+          "heading": "Chords and Arc Measures",
+          "body": "A chord is a segment whose endpoints lie on the circle. The perpendicular from the center to a chord bisects the chord. Central angles correspond to arc measures, and inscribed angles are half the measure of their intercepted arc."
+        }
+      ],
+      "strategies": [
+        "Always rewrite circle equations into standard form (x - h)^2 + (y - k)^2 = r^2 before identifying center and radius.",
+        "When completing the square, remember to add the same constant to both sides of the equation.",
+        "For tangent problems, use the fact that the radius to the point of tangency is perpendicular to the tangent line.",
+        "In problems with chords, draw the radius perpendicular to the chord to create right triangles.",
+        "If the SAT gives a circle graph, count grid units from center to edge to find the radius."
+      ],
+      "worked": {
+        "problem": "A circle has equation x^2 + y^2 - 6x + 4y = 12. What are the coordinates of its center and its radius?",
+        "solution": "1. Group x and y terms: (x^2 - 6x) + (y^2 + 4y) = 12. 2. Complete the square for x: half of -6 is -3, square is 9, add 9 inside and to right: (x^2 - 6x + 9) + (y^2 + 4y) = 12 + 9. 3. Complete square for y: half of 4 is 2, square is 4, add 4 inside and to right: (x^2 - 6x + 9) + (y^2 + 4y + 4) = 12 + 9 + 4. 4. Write as squares: (x - 3)^2 + (y + 2)^2 = 25. 5. Center is (3, -2), radius = sqrt(25) = 5."
+      },
+      "mistakes": [
+        "Forgetting to add the constant from completing the square to both sides of the equation.",
+        "Confusing the sign of h and k: (x - h)^2 means center x-coordinate is h, not -h.",
+        "Thinking the radius is the value on the right side without taking the square root.",
+        "Assuming a tangent line is perpendicular to the chord instead of the radius."
+      ],
+      "takeaway": "Always convert circle equations to standard form to easily find the center and radius, and remember that tangents are perpendicular to radii at the point of contact."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and Volume",
+    "title": "Mastering Area and Volume for the Digital SAT",
+    "summary": "This lesson covers how to compute areas of 2D figures and volumes of 3D solids, including composite shapes and real-world applications, with strategies to solve efficiently on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Area Formulas for Common Shapes",
+          "body": "The area of a rectangle is length times width (A = lw). For a triangle, it's (1/2) * base * height. A circle's area is πr^2, where r is the radius. A parallelogram's area is base times height. A trapezoid's area is (1/2) * (b1 + b2) * h."
+        },
+        {
+          "heading": "Volume Formulas for Common Solids",
+          "body": "Volume of a rectangular prism is length times width times height (V = lwh). For a cylinder, V = πr^2h. For a sphere, V = (4/3)πr^3. For a cone, V = (1/3)πr^2h. For a pyramid, V = (1/3) * (base area) * height."
+        },
+        {
+          "heading": "Composite Shapes and Solids",
+          "body": "Many SAT problems involve shapes made by combining two or more basic shapes. To find the total area or volume, break the figure into simpler parts, compute each separately, then add or subtract as needed. For example, a rectangle with a semicircle on top requires separate area calculations."
+        },
+        {
+          "heading": "Units and Dimensionality",
+          "body": "Area is measured in square units (e.g., ft^2, cm^2), while volume is in cubic units (e.g., ft^3, cm^3). When given dimensions in different units, convert to the same unit before calculating. Pay attention to whether the problem asks for area or volume."
+        }
+      ],
+      "strategies": [
+        "Always write down the formula before plugging in numbers to avoid careless errors.",
+        "For composite shapes, sketch and label each part, then compute areas/volumes separately and combine.",
+        "When a problem involves a 3D figure, identify which faces or dimensions are relevant (e.g., for surface area vs volume).",
+        "If the problem gives a diagram with missing dimensions, look for relationships (e.g., similar triangles, Pythagorean theorem) to find them.",
+        "Check your answer for reasonableness: e.g., a volume should be larger than the area of its base."
+      ],
+      "worked": {
+        "problem": "A rectangular prism has a length of 8 cm, a width of 5 cm, and a height of 3 cm. A cylinder with radius 2 cm and height 3 cm is removed from the center of the prism (the cylinder's height matches the prism's height). What is the volume of the remaining solid? (Use π ≈ 3.14)",
+        "solution": "First, find the volume of the rectangular prism: V_prism = lwh = 8 * 5 * 3 = 120 cm^3. Next, find the volume of the cylinder: V_cylinder = πr^2h = 3.14 * (2^2) * 3 = 3.14 * 4 * 3 = 37.68 cm^3. Then subtract: remaining volume = 120 - 37.68 = 82.32 cm^3."
+      },
+      "mistakes": [
+        "Forgetting to use the correct formula (e.g., using area formula for volume).",
+        "Mixing up radius and diameter (always halve diameter to get radius).",
+        "Not converting units when dimensions are given in different units (e.g., cm and m).",
+        "For composite shapes, adding instead of subtracting when a part is removed."
+      ],
+      "takeaway": "Always identify the correct formula, break complex figures into simpler parts, and double-check units and arithmetic to avoid common pitfalls."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right-Triangle Trigonometry",
+    "title": "Mastering Right-Triangle Trig: SOH CAH TOA on the SAT",
+    "summary": "Learn how to use sine, cosine, and tangent to solve for missing sides and angles in right triangles, a key skill for the Geometry and Trigonometry domain.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "SOH CAH TOA",
+          "body": "This acronym helps you remember the three basic trig ratios. SOH: Sine = Opposite / Hypotenuse. CAH: Cosine = Adjacent / Hypotenuse. TOA: Tangent = Opposite / Adjacent. Always identify which sides are opposite, adjacent, and hypotenuse relative to a given acute angle in a right triangle."
+        },
+        {
+          "heading": "Inverse Trig Functions",
+          "body": "To find an angle when you know two sides, use inverse trig functions: sin^-1, cos^-1, tan^-1. For example, if sin(x) = 0.5, then x = sin^-1(0.5) = 30°. On the SAT, you may need to use the calculator to evaluate these."
+        },
+        {
+          "heading": "Special Right Triangles",
+          "body": "Two common triangles appear often: 30-60-90 and 45-45-90. In a 30-60-90, sides are in ratio 1 : sqrt(3) : 2. In a 45-45-90, sides are 1 : 1 : sqrt(2). Knowing these can save time, but trig works for any right triangle."
+        },
+        {
+          "heading": "Solving for Sides and Angles",
+          "body": "Given one side and one acute angle, you can find any other side using the appropriate trig ratio. Given two sides, you can find an angle using inverse trig. Always draw a diagram and label the sides relative to the angle you're using."
+        }
+      ],
+      "strategies": [
+        "Label the sides (opposite, adjacent, hypotenuse) relative to the given angle before choosing a ratio.",
+        "If you need a side, pick the trig ratio that uses the given side and the side you want. If you need an angle, use inverse trig.",
+        "On calculator-based questions, ensure your calculator is in degree mode (not radians).",
+        "When the triangle is not labeled, draw a right triangle and mark the given angle and side lengths.",
+        "Check if the triangle is a special right triangle (30-60-90 or 45-45-90) to use exact values instead of decimals."
+      ],
+      "worked": {
+        "problem": "In right triangle ABC, angle C is the right angle. Angle A = 35° and side AB (hypotenuse) = 10. Find the length of side BC (opposite angle A) to the nearest tenth.",
+        "solution": "We are given the hypotenuse (10) and need the side opposite angle A. Use SOH: sin(35°) = opposite/hypotenuse = BC/10. So BC = 10 * sin(35°). Using a calculator: sin(35°) ≈ 0.5736, so BC ≈ 10 * 0.5736 = 5.736 ≈ 5.7."
+      },
+      "mistakes": [
+        "Using the wrong ratio: e.g., using cosine when you need sine. Always check SOH CAH TOA.",
+        "Forgetting to switch calculator to degree mode, leading to wrong decimal values.",
+        "Confusing opposite and adjacent sides relative to the angle—remember adjacent is next to the angle, opposite is across.",
+        "Applying inverse trig when you should be using a regular trig ratio to find a side."
+      ],
+      "takeaway": "With SOH CAH TOA and inverse trig, you can solve for any missing side or angle in a right triangle—just carefully identify your given and needed values."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "title": "Mastering Triangles: Angles, Side Ratios, and the Pythagorean Theorem",
+    "summary": "Triangles are a cornerstone of the Digital SAT Math section. This lesson covers essential triangle properties, special right triangles, and the Pythagorean Theorem to help you solve a variety of geometry and trigonometry problems efficiently.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Triangle Angle Sum and Exterior Angle",
+          "body": "The sum of the interior angles of any triangle is always 180 degrees. For any exterior angle (formed by extending one side), its measure equals the sum of the two remote interior angles. This is a fast way to find missing angles without solving step-by-step."
+        },
+        {
+          "heading": "Special Right Triangles: 45-45-90 and 30-60-90",
+          "body": "In a 45-45-90 triangle, the legs are equal, and the hypotenuse is leg * sqrt(2). In a 30-60-90 triangle, the sides are in ratio 1 : sqrt(3) : 2 (short leg : long leg : hypotenuse). Memorizing these ratios allows you to find side lengths instantly without the Pythagorean Theorem."
+        },
+        {
+          "heading": "Pythagorean Theorem and Its Converse",
+          "body": "In any right triangle, a^2 + b^2 = c^2, where c is the hypotenuse. The converse also holds: if a^2 + b^2 = c^2, the triangle is right. Use this to verify right angles or find missing sides, but be careful to identify the hypotenuse correctly."
+        },
+        {
+          "heading": "Triangle Inequality Theorem",
+          "body": "The sum of any two sides of a triangle must be greater than the third side. This helps determine if a set of three lengths can form a triangle. On the SAT, you may need to find possible ranges for a missing side length given two other sides."
+        }
+      ],
+      "strategies": [
+        "Draw a diagram for every triangle problem, labeling known sides and angles.",
+        "Check for special right triangles (45-45-90 or 30-60-90) before using the Pythagorean Theorem—they save time.",
+        "When given two sides of a right triangle, always verify which side is the hypotenuse (opposite the right angle).",
+        "For non-right triangles, consider using the Law of Sines or Cosines if needed, but the SAT often uses special right triangles or similar triangles.",
+        "Use the exterior angle theorem as a shortcut: an exterior angle equals the sum of the two opposite interior angles."
+      ],
+      "worked": {
+        "problem": "In triangle ABC, angle A = 45 degrees, angle B = 60 degrees, and side AB = 10. What is the length of side AC? (Note: side AC is opposite angle B.)",
+        "solution": "First, find angle C: 180 - 45 - 60 = 75 degrees. This is not a special right triangle. However, we can use the Law of Sines: AC / sin(B) = AB / sin(C). So AC / sin(60) = 10 / sin(75). sin(60) = sqrt(3)/2 ≈ 0.8660, sin(75) ≈ 0.9659. Thus AC = 10 * sin(60) / sin(75) ≈ 10 * 0.8660 / 0.9659 ≈ 8.97. Alternatively, note that 75 = 45+30, so sin(75) = sin(45+30) = sin45 cos30 + cos45 sin30 = (√2/2)(√3/2)+(√2/2)(1/2)=√6/4+√2/4=(√6+√2)/4 ≈ 0.9659. Then AC = 10*(√3/2) / ((√6+√2)/4) = 10*(√3/2)*(4/(√6+√2)) = 20√3/(√6+√2). Rationalize: multiply numerator and denominator by (√6-√2): 20√3(√6-√2)/(6-2)=20√3(√6-√2)/4=5√3(√6-√2)=5(√18-√6)=5(3√2-√6)=15√2-5√6 ≈ 21.21-12.25=8.96. So AC ≈ 8.96."
+      },
+      "mistakes": [
+        "Forgetting that the sum of angles is 180 degrees only for triangles, not other polygons.",
+        "Misidentifying the hypotenuse in a right triangle—it's always opposite the right angle, not necessarily the longest side (though it is).",
+        "Applying the Pythagorean Theorem to non-right triangles without checking for a right angle.",
+        "Confusing the side ratios in 30-60-90 triangles: the side opposite 30 is half the hypotenuse, not the side opposite 60."
+      ],
+      "takeaway": "Master the angle sum, special right triangle ratios, and Pythagorean Theorem to handle most triangle problems on the Digital SAT quickly and accurately."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "title": "Mastering Probability: From Basics to Digital SAT Success",
+    "summary": "Learn how to calculate probabilities of simple and compound events, understand conditional probability, and apply these concepts to the types of probability questions you'll see on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Basic Probability",
+          "body": "Probability = (number of favorable outcomes) / (total number of possible outcomes). All outcomes must be equally likely. The probability of an event is always between 0 and 1 inclusive."
+        },
+        {
+          "heading": "Complement Rule",
+          "body": "The probability that an event does NOT happen is 1 minus the probability that it does happen: P(not A) = 1 - P(A). This is useful when it's easier to count the complement."
+        },
+        {
+          "heading": "Probability of Compound Events (AND & OR)",
+          "body": "For independent events, P(A and B) = P(A) * P(B). For mutually exclusive events, P(A or B) = P(A) + P(B). If events are not mutually exclusive, use P(A or B) = P(A) + P(B) - P(A and B)."
+        },
+        {
+          "heading": "Conditional Probability",
+          "body": "Probability of event A given event B has occurred: P(A|B) = P(A and B) / P(B). On the SAT, this often appears in two-way tables. Read carefully: the condition changes the total number of possible outcomes."
+        }
+      ],
+      "strategies": [
+        "Identify the 'total' and the 'favorable' outcomes carefully. Often the total is not the whole set but a subset (e.g., given condition).",
+        "For two-way tables, always find the row total or column total that matches the condition before calculating probability.",
+        "When using 'and' or 'or', check if events are independent or mutually exclusive. On the SAT, they often tell you or the context makes it clear.",
+        "If a problem says 'at least one', consider using the complement rule: P(at least one) = 1 - P(none).",
+        "Double-check whether order matters. For example, rolling two dice: there are 36 total outcomes (ordered pairs)."
+      ],
+      "worked": {
+        "problem": "A bag contains 5 red marbles, 3 blue marbles, and 2 green marbles. Two marbles are drawn at random without replacement. What is the probability that both marbles are red?",
+        "solution": "Total marbles = 5+3+2 = 10. Probability first marble is red: 5/10 = 1/2. After drawing one red, there are 4 red left and 9 total marbles. Probability second is red: 4/9. Since draws are dependent (no replacement), multiply: (1/2)*(4/9) = 4/18 = 2/9. So the probability is 2/9."
+      },
+      "mistakes": [
+        "Forgetting to adjust the total after drawing without replacement (e.g., using 10 for both draws).",
+        "Adding probabilities when you should multiply (confusing 'and' with 'or').",
+        "Assuming events are independent when they are not (e.g., drawing without replacement).",
+        "Misreading the condition in conditional probability problems – using the wrong total."
+      ],
+      "takeaway": "Probability on the Digital SAT is about careful counting and applying the right rule for compound events; always define the sample space and favorable outcomes clearly."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Statistics",
+    "title": "Mastering Statistics: Mean, Median, Mode, and Range",
+    "summary": "This lesson covers the core statistical measures—mean, median, mode, and range—and how to interpret them in data sets, a key skill for the Digital SAT Math section.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Mean (Average)",
+          "body": "The mean is the sum of all values divided by the number of values. It is sensitive to outliers, meaning extremely high or low values can skew it. For example, the mean of {2, 4, 6, 100} is (2+4+6+100)/4 = 28."
+        },
+        {
+          "heading": "Median",
+          "body": "The median is the middle value when data is ordered from least to greatest. If there is an even number of values, the median is the average of the two middle numbers. Unlike the mean, the median is resistant to outliers."
+        },
+        {
+          "heading": "Mode",
+          "body": "The mode is the value that appears most frequently. A data set can have one mode, more than one mode (multimodal), or no mode if all values occur with the same frequency. The mode is useful for categorical data."
+        },
+        {
+          "heading": "Range",
+          "body": "The range is the difference between the maximum and minimum values in a data set. It measures the spread of the data. A larger range indicates greater variability."
+        }
+      ],
+      "strategies": [
+        "For mean problems, use the formula: mean = sum / count. If the mean and count are given, multiply to find the sum.",
+        "When a data set has an outlier, the median is usually a better measure of center than the mean.",
+        "To find the median quickly, sort the data first. For an even number of values, remember to average the two middle numbers.",
+        "If a question asks for the mode, look for the value with the highest frequency. If all frequencies are equal, there is no mode.",
+        "For range, always subtract the smallest from the largest. Double-check that you have identified the correct extremes."
+      ],
+      "worked": {
+        "problem": "The test scores of 10 students are: 72, 85, 91, 85, 68, 74, 85, 90, 78, 82. What are the mean, median, mode, and range of these scores?",
+        "solution": "First, sort the scores: 68, 72, 74, 78, 82, 85, 85, 85, 90, 91. Mean = sum / 10 = (68+72+74+78+82+85+85+85+90+91)/10 = 810/10 = 81. Median: since there are 10 values (even), median = average of the 5th and 6th values = (82+85)/2 = 83.5. Mode: 85 appears three times, more than any other, so mode = 85. Range = max - min = 91 - 68 = 23."
+      },
+      "mistakes": [
+        "Forgetting to sort data before finding the median.",
+        "Mistaking the mean for the median when an outlier is present.",
+        "Adding incorrectly when computing the sum for the mean.",
+        "Confusing range with interquartile range (IQR); range is simply max minus min."
+      ],
+      "takeaway": "To ace statistics questions, always sort data for median, use sum/count for mean, check frequencies for mode, and subtract extremes for range."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Scatterplots and Line of Best Fit",
+    "title": "Mastering Scatterplots and the Line of Best Fit on the Digital SAT",
+    "summary": "Learn how to interpret scatterplots, determine the line of best fit, and use it to make predictions—a key skill for the Problem-Solving and Data Analysis domain.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What is a Scatterplot?",
+          "body": "A scatterplot displays the relationship between two quantitative variables. Each point represents an observation with coordinates (x, y). The pattern of points shows the correlation: positive (both increase), negative (one increases as the other decreases), or no correlation."
+        },
+        {
+          "heading": "The Line of Best Fit",
+          "body": "The line of best fit (or trend line) is a straight line that best represents the data on a scatterplot. It minimizes the distances (residuals) from all points to the line. The line can be used to estimate values and describe the overall trend."
+        },
+        {
+          "heading": "Interpreting Slope and Intercept",
+          "body": "The slope of the line of best fit indicates the rate of change: how much y changes for a one-unit increase in x. The y-intercept is the predicted value of y when x = 0 (if meaningful). On the SAT, you may need to find the slope or intercept from a graph or data."
+        },
+        {
+          "heading": "Using the Line to Make Predictions",
+          "body": "You can use the line of best fit to predict y for a given x (interpolation or extrapolation). On the SAT, you may be asked to estimate a value from the graph or choose which point is farthest from the line (largest residual)."
+        }
+      ],
+      "strategies": [
+        "Draw the line of best fit by eye: try to have about the same number of points above and below the line.",
+        "Use two points on the line (not necessarily data points) to calculate slope: slope = (y2 - y1) / (x2 - x1).",
+        "When asked for the 'best fit line' equation from a list, check the slope sign (positive/negative) and approximate y-intercept from the graph.",
+        "To predict a y-value, locate x on the horizontal axis, go up to the line, then read the y-value on the vertical axis.",
+        "For a residual question, the point with the largest vertical distance from the line has the largest residual."
+      ],
+      "worked": {
+        "problem": "A scatterplot shows the relationship between hours studied (x) and test score (y) for 10 students. The line of best fit passes through (2, 55) and (6, 85). What is the predicted test score for a student who studies 5 hours?",
+        "solution": "First, find the slope: m = (85 - 55) / (6 - 2) = 30 / 4 = 7.5. Use point-slope form: y - 55 = 7.5(x - 2). For x = 5: y - 55 = 7.5(5 - 2) = 7.5 * 3 = 22.5, so y = 55 + 22.5 = 77.5. The predicted test score is 77.5."
+      },
+      "mistakes": [
+        "Confusing the line of best fit with connecting all data points—the line is a summary, not a connection.",
+        "Using data points that are not on the line to calculate slope—always use two points on the line itself.",
+        "Extrapolating too far beyond the data range without considering that the trend may change.",
+        "Misreading the graph scale, especially when axes start at values other than zero."
+      ],
+      "takeaway": "The line of best fit summarizes the trend in a scatterplot; use its slope and intercept to describe the relationship and make predictions."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-Way Tables",
+    "title": "Mastering Two-Way Tables: Conditional Probability and Data Analysis",
+    "summary": "Learn how to extract probabilities and relationships from two-way tables, a key skill for the Digital SAT Problem-Solving and Data Analysis domain.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What is a Two-Way Table?",
+          "body": "A two-way table organizes data into rows and columns, showing the frequency of two categorical variables. For example, rows might represent gender (male/female) and columns represent favorite subject (math/English). Each cell shows the count for that combination, and totals are given in the margins."
+        },
+        {
+          "heading": "Marginal and Joint Frequencies",
+          "body": "Joint frequencies are the counts in the cells (e.g., males who prefer math). Marginal frequencies are the row and column totals (e.g., total males, total who prefer math). These are used to calculate probabilities: P(event) = (joint frequency) / (total)."
+        },
+        {
+          "heading": "Conditional Probability",
+          "body": "Conditional probability asks: given that one event occurs, what is the probability of another? For example, P(male | prefers math) = number of males who prefer math divided by total who prefer math. This means we restrict the denominator to the condition (the column or row total)."
+        },
+        {
+          "heading": "Interpreting Relative Frequencies",
+          "body": "Relative frequencies are proportions (fractions or percentages) that compare parts to the whole or to a condition. The SAT often asks whether two variables are independent: if P(A|B) = P(A), then they are independent. Otherwise, there is an association."
+        }
+      ],
+      "strategies": [
+        "Always start by reading the table's labels and totals carefully. Identify what each row and column represents.",
+        "When asked for a probability, write it as a fraction: (number of favorable outcomes) / (total outcomes). Simplify if possible.",
+        "For conditional probability, the denominator is the row or column total of the given condition, not the overall total.",
+        "Use the table to find joint frequencies directly. For example, the count in the intersection of 'male' and 'prefers math' is the joint frequency.",
+        "If a question asks about association or independence, compare the conditional probability to the marginal probability of the same event."
+      ],
+      "worked": {
+        "problem": "A survey of 200 students asked about their grade level (9th or 10th) and whether they prefer online or in-person classes. The results are in the table below.\n\n| Grade | Online | In-Person | Total |\n|-------|--------|-----------|-------|\n| 9th   | 30     | 50        | 80    |\n| 10th  | 70     | 50        | 120   |\n| Total | 100    | 100       | 200   |\n\nWhat is the probability that a randomly selected student prefers online classes, given that they are in 10th grade?",
+        "solution": "We want P(online | 10th). Given that the student is in 10th grade, we only look at the 10th grade row. The total number of 10th graders is 120. Among them, 70 prefer online. So the probability is 70/120 = 7/12. Answer: 7/12."
+      },
+      "mistakes": [
+        "Using the overall total instead of the row or column total for conditional probability. Remember: 'given' restricts the denominator.",
+        "Misreading the table labels, e.g., confusing rows and columns. Always check the title of each row and column.",
+        "Forgetting to simplify fractions. The SAT often expects simplest form, but decimals or percentages may also be acceptable if specified.",
+        "Assuming independence without checking. Two variables can appear related but may not be; always compute the conditional probability to verify."
+      ],
+      "takeaway": "When solving two-way table problems, always identify the condition first to set the correct denominator, then find the matching joint frequency."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "title": "Mastering Percentages: From Basics to SAT Shortcuts",
+    "summary": "Learn to translate percentage problems into simple equations and proportions, and discover time-saving strategies for the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Percent as Part/Whole",
+          "body": "A percentage is a ratio that compares a part to a whole, multiplied by 100. The basic formula is: part = (percent / 100) * whole. For example, 20% of 50 is (20/100)*50 = 10. Always identify the 'whole' (the total) and the 'part' (the portion)."
+        },
+        {
+          "heading": "Percent Increase and Decrease",
+          "body": "Percent change = (new - original) / original * 100. For a 25% increase on 80: new = 80 * (1 + 0.25) = 100. For a 25% decrease: new = 80 * (1 - 0.25) = 60. Be careful: the 'original' is the denominator."
+        },
+        {
+          "heading": "Percent of a Percent",
+          "body": "When finding a percentage of a percentage, multiply the decimals. For example, 30% of 20% of a number = 0.30 * 0.20 = 0.06 = 6% of the original. This is common in multi-step problems."
+        },
+        {
+          "heading": "Percent Word Problems with Unknowns",
+          "body": "Set up equations using the percent formula. For 'What percent of 120 is 30?': (x/100)*120 = 30 → x = (30/120)*100 = 25%. For 'If 15 is 20% of what number?': 15 = 0.20 * whole → whole = 15/0.20 = 75."
+        }
+      ],
+      "strategies": [
+        "Convert percentages to decimals or fractions for easier calculation (e.g., 37% = 0.37 or 37/100).",
+        "In percent change problems, always use the original value as the denominator, not the new value.",
+        "When a problem says 'increased by 30%', multiply by 1.30; for 'decreased by 30%', multiply by 0.70.",
+        "Use the 'plug in' strategy: if a percent of an unknown is given, pick a convenient number like 100 to simplify.",
+        "Read carefully: 'what percent of A is B' is different from 'what percent is A of B' – swap the part and whole."
+      ],
+      "worked": {
+        "problem": "A store increased the price of a jacket by 20%. After the increase, the jacket costs $90. What was the original price?",
+        "solution": "Let the original price be x. A 20% increase means new price = x * (1 + 0.20) = 1.20x. So 1.20x = 90. Divide both sides by 1.20: x = 90 / 1.20 = 75. The original price was $75."
+      },
+      "mistakes": [
+        "Using the new value as the denominator in percent change (e.g., (90-75)/90 = 16.7% instead of 20%).",
+        "Confusing 'percent of' with 'percent increase': 20% of 75 is 15, but a 20% increase adds 15 to get 90.",
+        "Forgetting to convert percent to decimal before multiplying (e.g., writing 20% * 75 = 1500 instead of 0.20*75=15).",
+        "Misidentifying the whole in word problems (e.g., '30% of what number is 15?' – the whole is unknown, not 15)."
+      ],
+      "takeaway": "Translate every percentage problem into the simple equation part = (percent/100) * whole, and always double-check which value is the original."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear Systems",
+    "title": "Solving Nonlinear Systems: Substitution & Elimination",
+    "summary": "Learn how to solve systems of equations where at least one equation is nonlinear (quadratic, exponential, etc.) using substitution and elimination strategies.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Nonlinear Systems Overview",
+          "body": "A nonlinear system includes at least one equation that is not linear (e.g., quadratic, exponential, absolute value). The solution set is the set of all (x, y) pairs that satisfy both equations. There can be 0, 1, 2, or more solutions."
+        },
+        {
+          "heading": "Substitution Method",
+          "body": "When one equation can be easily solved for one variable (e.g., y = ...), substitute that expression into the other equation. This yields a single equation in one variable, which you solve. Then back-substitute to find the other variable."
+        },
+        {
+          "heading": "Elimination Method",
+          "body": "If the equations have like terms that can be added or subtracted to cancel a variable, use elimination. For nonlinear systems, elimination often works when both equations have the same squared term or exponential term. After elimination, solve the resulting equation."
+        },
+        {
+          "heading": "Checking Solutions",
+          "body": "Always verify solutions in both original equations. Nonlinear systems may produce extraneous solutions when squaring or taking logs. Plug each (x, y) pair into both equations to confirm."
+        }
+      ],
+      "strategies": [
+        "If one equation is linear (y = mx + b), substitute directly into the nonlinear equation.",
+        "If both equations have the same squared term (e.g., x^2), try elimination by subtracting the equations.",
+        "Look for patterns: if a system has y = x^2 and y = 2x + 3, set them equal: x^2 = 2x + 3.",
+        "Be prepared for multiple solutions: a quadratic can yield two x-values, each giving a y.",
+        "When solving quadratics, use factoring or the quadratic formula; the SAT may give nice numbers."
+      ],
+      "worked": {
+        "problem": "Solve the system: y = x^2 - 4x + 5 and y = 2x - 3.",
+        "solution": "Set the two expressions for y equal: x^2 - 4x + 5 = 2x - 3. Bring all terms to one side: x^2 - 6x + 8 = 0. Factor: (x - 2)(x - 4) = 0, so x = 2 or x = 4. Substitute into y = 2x - 3: when x = 2, y = 1; when x = 4, y = 5. Check in y = x^2 - 4x + 5: (2,1) gives 4 - 8 + 5 = 1, ok; (4,5) gives 16 - 16 + 5 = 5, ok. Solutions: (2,1) and (4,5)."
+      },
+      "mistakes": [
+        "Forgetting to substitute back to find both coordinates.",
+        "Assuming a system has only one solution; nonlinear systems can have 0, 1, or 2 solutions.",
+        "Making algebraic errors when combining like terms or factoring.",
+        "Not checking for extraneous solutions when squaring both sides."
+      ],
+      "takeaway": "To solve nonlinear systems, isolate one variable and substitute, or eliminate like terms, then solve the resulting equation and back-substitute to find all solutions."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios and Rates",
+    "title": "Mastering Ratios and Rates for the Digital SAT",
+    "summary": "Learn to set up and solve ratio and rate problems efficiently, using tables, proportions, and unit conversions to tackle real-world scenarios on the SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Ratios vs. Rates",
+          "body": "A ratio compares two quantities of the same unit (e.g., boys to girls). A rate compares quantities with different units (e.g., miles per hour). Both can be expressed as fractions and simplified."
+        },
+        {
+          "heading": "Setting Up Proportions",
+          "body": "When two ratios or rates are equal, you can set up a proportion: a/b = c/d. Cross-multiply to solve for the unknown. Always keep the same order in both fractions (e.g., part/whole or miles/hours)."
+        },
+        {
+          "heading": "Unit Rates and Conversion",
+          "body": "A unit rate is a rate with denominator 1 (e.g., 60 miles per hour). To convert units, multiply by conversion factors that equal 1 (e.g., 1 hour/60 minutes). Cancel units to ensure the correct result."
+        },
+        {
+          "heading": "Scaling Ratios",
+          "body": "If a ratio is given (e.g., 3:5), you can scale it by multiplying both parts by the same number. For a total quantity, set up an equation: 3x + 5x = total, then solve for x."
+        }
+      ],
+      "strategies": [
+        "Identify the two quantities being compared and write them as a fraction in the same order as the problem.",
+        "When given a ratio and a total, use the sum of the parts to find the scaling factor.",
+        "Convert all units to the same system before setting up a proportion to avoid errors.",
+        "Check your answer by plugging it back into the original ratio or rate to see if it makes sense.",
+        "For multiple-step problems, break them into smaller parts and solve step by step."
+      ],
+      "worked": {
+        "problem": "A recipe for 12 cookies requires 2 cups of flour. At this rate, how many cups of flour are needed to make 30 cookies?",
+        "solution": "Set up a proportion: 2 cups / 12 cookies = x cups / 30 cookies. Cross-multiply: 2 * 30 = 12 * x → 60 = 12x → x = 5. So 5 cups of flour are needed."
+      },
+      "mistakes": [
+        "Reversing the order of terms in the proportion (e.g., putting cookies over flour instead of flour over cookies).",
+        "Forgetting to simplify the ratio before scaling, leading to larger numbers and more arithmetic.",
+        "Mixing units (e.g., using minutes and hours in the same proportion without converting).",
+        "Assuming a ratio means actual quantities instead of relative parts (e.g., 3:2 does not mean 3 and 2 total, but 3 parts and 2 parts)."
+      ],
+      "takeaway": "Always set up ratios and rates as fractions with consistent units, then use cross-multiplication to solve for the unknown."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Function Notation and Transformations",
+    "title": "Mastering Function Notation and Transformations on the SAT",
+    "summary": "Learn to interpret function notation like f(x) and g(x) and understand how adding, subtracting, multiplying, or negating inputs or outputs shifts, stretches, or reflects the graph. This skill is essential for solving many Advanced Math questions on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Function Notation Basics",
+          "body": "A function f(x) assigns exactly one output for each input x. For example, if f(x) = 2x+3, then f(4) = 2(4)+3 = 11. On the SAT, you'll often see transformations like f(x)+k or f(x-h)."
+        },
+        {
+          "heading": "Vertical Transformations",
+          "body": "Adding a constant outside the function, f(x)+k, shifts the graph up k units (if k>0) or down (if k<0). Multiplying the entire function by a, a*f(x), stretches vertically if |a|>1, compresses if 0<|a|<1, and reflects over the x-axis if a is negative."
+        },
+        {
+          "heading": "Horizontal Transformations",
+          "body": "Adding a constant inside the function, f(x-h), shifts the graph right h units (if h>0) or left (if h<0). Multiplying the input, f(bx), compresses horizontally if |b|>1, stretches if 0<|b|<1, and reflects over the y-axis if b is negative. Note: horizontal transformations are opposite of intuition."
+        },
+        {
+          "heading": "Combining Transformations",
+          "body": "Multiple transformations can be applied in sequence. For example, g(x) = -2f(x-3)+1 means: shift f right 3, stretch vertically by 2, reflect over x-axis, then shift up 1. Always work inside-out: horizontal shift first, then vertical stretch/reflect, then vertical shift."
+        }
+      ],
+      "strategies": [
+        "When given a transformed function, identify the base function (often linear, quadratic, or absolute value) and track key points (like vertex or intercepts) through each transformation.",
+        "For multiple choice, plug in a simple x value (like 0 or 1) into the original and transformed functions to see how the output changes.",
+        "Remember: f(x)+k moves the graph up/down; f(x-k) moves it left/right (opposite sign). Write 'inside opposite' on your scratch paper.",
+        "If a transformation involves a negative sign, check for reflection: f(-x) reflects over y-axis, -f(x) reflects over x-axis.",
+        "Use the answer choices to eliminate: if a question asks for the graph of g(x) = -f(x)+2, look for a graph that is flipped vertically and shifted up."
+      ],
+      "worked": {
+        "problem": "The function f(x) = x^2 is transformed to g(x) = -3f(x-2) + 4. What is the vertex of g(x)?",
+        "solution": "The base function f(x)=x^2 has vertex (0,0). Apply transformations in order: horizontal shift: f(x-2) shifts right 2 → vertex (2,0). Vertical stretch by 3: 3f(x-2) multiplies y-coordinates by 3 → vertex (2,0). Reflection over x-axis: -3f(x-2) changes sign of y → vertex (2,0). Vertical shift up 4: -3f(x-2)+4 adds 4 to y → vertex (2,4). Thus the vertex of g(x) is (2,4)."
+      },
+      "mistakes": [
+        "Mixing up horizontal shifts: f(x+2) shifts left, not right. Remember: inside the function, opposite direction.",
+        "Forgetting to apply vertical stretch/compression before vertical shift. Always multiply/reflect first, then add/subtract.",
+        "Thinking that f(2x) stretches the graph horizontally. Actually, f(2x) compresses horizontally by factor 1/2.",
+        "Neglecting to apply transformations to all points, especially when finding intercepts or vertices."
+      ],
+      "takeaway": "Transformations follow a consistent order: horizontal shift, then vertical stretch/reflect, then vertical shift—and always remember that horizontal moves go the opposite direction of the sign."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Polynomials and Rational Expressions",
+    "title": "Mastering Polynomials & Rational Expressions for the Digital SAT",
+    "summary": "Learn to simplify, factor, and solve polynomial and rational expressions, and apply key strategies to tackle SAT questions efficiently.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Polynomial Operations and Factoring",
+          "body": "Polynomials are expressions like 3x^2 + 5x - 2. You must be able to add, subtract, multiply, and factor them. Factoring techniques include greatest common factor (GCF), difference of squares (a^2 - b^2 = (a-b)(a+b)), trinomials (x^2 + bx + c), and grouping. Factoring is essential for simplifying rational expressions and solving equations."
+        },
+        {
+          "heading": "Rational Expressions and Domain Restrictions",
+          "body": "A rational expression is a fraction where numerator and denominator are polynomials. The denominator cannot be zero, so values that make denominator zero are excluded from the domain. Simplify by factoring and canceling common factors. Always note restrictions before canceling."
+        },
+        {
+          "heading": "Operations with Rational Expressions",
+          "body": "Add, subtract, multiply, and divide rational expressions similarly to numeric fractions. Multiply across numerators and denominators; divide by multiplying by the reciprocal. For addition/subtraction, find a common denominator. Simplify final expression by canceling common factors."
+        },
+        {
+          "heading": "Solving Rational Equations",
+          "body": "To solve rational equations, multiply both sides by the common denominator to clear fractions, then solve the resulting polynomial equation. Check solutions in the original equation to avoid extraneous solutions (values that make denominator zero)."
+        }
+      ],
+      "strategies": [
+        "Before simplifying rational expressions, factor numerators and denominators completely to identify cancellations.",
+        "When adding or subtracting rational expressions, find the least common denominator (LCD) by taking each factor to the highest power it appears.",
+        "For rational equations, multiply every term by the LCD to eliminate denominators, then solve. Always check for extraneous solutions.",
+        "Use structure: recognize difference of squares, perfect square trinomials, and sum/difference of cubes to factor quickly.",
+        "If a problem gives multiple-choice answers, test each choice by plugging into the original equation or expression to see which works."
+      ],
+      "worked": {
+        "problem": "Simplify: (x^2 - 9) / (x^2 + 5x + 6) * (x^2 + 2x) / (x - 3). Then find the value of the expression when x = 4.",
+        "solution": "Factor each polynomial: x^2 - 9 = (x-3)(x+3); x^2+5x+6 = (x+2)(x+3); x^2+2x = x(x+2). The expression becomes [(x-3)(x+3)] / [(x+2)(x+3)] * [x(x+2)] / (x-3). Cancel common factors: (x+3) cancels, (x-3) cancels, (x+2) cancels. Result: x. For x=4, value is 4."
+      },
+      "mistakes": [
+        "Forgetting to exclude values that make the denominator zero from the domain.",
+        "Canceling terms instead of factors (e.g., canceling x in (x+2)/(x+3) is wrong).",
+        "Not factoring completely before simplifying, leading to missed cancellations.",
+        "When solving rational equations, not multiplying every term by the LCD, or forgetting to check for extraneous solutions."
+      ],
+      "takeaway": "Always factor first, cancel common factors, and check domain restrictions to simplify rational expressions and solve equations correctly."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Exponentials",
+    "title": "Mastering Exponential Functions for the Digital SAT",
+    "summary": "Learn to identify, interpret, and manipulate exponential expressions and functions, including growth/decay models and equivalent forms, to solve problems efficiently on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Exponential vs. Linear Growth",
+          "body": "Linear functions have a constant rate of change (add/subtract), while exponential functions have a constant percent change (multiply/divide by a factor). In an exponential function of the form y = a(b)^x, 'a' is the initial value (when x=0) and 'b' is the growth factor (b>1 for growth, 0<b<1 for decay). The exponent x often represents time or number of periods."
+        },
+        {
+          "heading": "Equivalent Forms of Exponential Expressions",
+          "body": "Exponential expressions can be rewritten using properties of exponents: (b^m)(b^n)=b^(m+n), (b^m)^n = b^(mn), and b^(-n)=1/(b^n). On the SAT, you may need to rewrite an expression like 4^(x+2) as 16*4^x, or 9^(2x) as (9^2)^x = 81^x. Recognizing these equivalences helps simplify and solve."
+        },
+        {
+          "heading": "Solving Exponential Equations",
+          "body": "When bases are the same, set exponents equal. For example, if 2^(3x-1)=2^(x+5), then 3x-1=x+5, so x=3. If bases differ, try to rewrite with a common base (e.g., 9^(x)=27 -> (3^2)^x=3^3 -> 3^(2x)=3^3 -> 2x=3 -> x=1.5). On the SAT, equations often require this technique."
+        },
+        {
+          "heading": "Interpreting Exponential Models in Context",
+          "body": "Real-world scenarios like population growth, radioactive decay, and compound interest use exponential models. The Digital SAT may ask you to identify the initial amount, growth/decay factor, or percent change from a given equation. For example, in f(t)=500(0.85)^t, 500 is initial, 0.85 is decay factor (15% decrease per unit time)."
+        }
+      ],
+      "strategies": [
+        "Check the base: If the base is between 0 and 1, it's decay; if >1, it's growth.",
+        "When solving exponential equations, always try to rewrite both sides with the same base before equating exponents.",
+        "For word problems, identify the initial value (when exponent=0) and the factor per unit time.",
+        "Use the exponent rules to simplify expressions before plugging in numbers or comparing.",
+        "On the calculator section, you can verify equivalent forms by testing a simple value of x (e.g., x=0 or x=1)."
+      ],
+      "worked": {
+        "problem": "The function f(x) = 24(0.5)^(x/3) models the amount of a radioactive substance, in grams, remaining after x days. What is the daily decay rate? (Express as a percent.)",
+        "solution": "The function is f(x)=24(0.5)^(x/3). The factor per 3 days is 0.5. To find the daily factor, set (daily factor)^3 = 0.5, so daily factor = (0.5)^(1/3) ≈ 0.7937. The daily decay rate is 1 - 0.7937 = 0.2063, or about 20.6%. Alternatively, rewrite as f(x)=24[(0.5)^(1/3)]^x = 24(0.7937)^x, so the daily decay factor is 0.7937, meaning a 20.6% decrease per day."
+      },
+      "mistakes": [
+        "Confusing growth factor with growth rate: A growth factor of 1.05 means a 5% increase, not 1.05%.",
+        "Forgetting to apply exponent rules correctly when rewriting bases, e.g., 4^(x+2) = 16*4^x, not 4^x+2.",
+        "Misidentifying the initial value: In y = a(b)^x, a is the value when x=0, not the y-intercept if the graph is shifted.",
+        "Assuming all exponential equations can be solved by equating exponents; if bases can't be made the same, use logarithms (rare on SAT)."
+      ],
+      "takeaway": "Master the properties of exponents and the form y = a(b)^x to quickly interpret and solve exponential problems on the Digital SAT."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Advanced Math",
+    "skill": "Quadratics",
+    "title": "Mastering Quadratics: From Factoring to the Vertex",
+    "summary": "Learn to solve, factor, and analyze quadratic equations — essential for the Digital SAT Math section.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Standard Form and Key Features",
+          "body": "A quadratic is written as f(x) = ax^2 + bx + c, where a != 0. The graph is a parabola. The sign of 'a' tells you if it opens up (a > 0) or down (a < 0). The y-intercept is (0, c)."
+        },
+        {
+          "heading": "Factoring and Solving",
+          "body": "To solve x^2 + bx + c = 0, find two numbers that multiply to c and add to b. For example, x^2 + 5x + 6 = 0 factors to (x+2)(x+3)=0, so x = -2 or -3. If factoring isn't possible, use the quadratic formula: x = [-b ± sqrt(b^2 - 4ac)] / (2a)."
+        },
+        {
+          "heading": "Vertex Form and Completing the Square",
+          "body": "The vertex form is f(x) = a(x - h)^2 + k, where (h, k) is the vertex. Convert from standard form by completing the square: for x^2 + bx, add and subtract (b/2)^2. The vertex gives the maximum or minimum value."
+        },
+        {
+          "heading": "The Discriminant",
+          "body": "The discriminant D = b^2 - 4ac tells the number of real solutions: D > 0 means two distinct real solutions, D = 0 means one repeated solution, D < 0 means no real solutions (two complex)."
+        }
+      ],
+      "strategies": [
+        "When factoring, always check if the quadratic has a common factor first.",
+        "If the coefficient of x^2 is not 1, try factoring by grouping or use the quadratic formula.",
+        "To find the vertex quickly, use h = -b/(2a), then k = f(h).",
+        "On the SAT, if a quadratic is given in a table, look for symmetric y-values to find the axis of symmetry.",
+        "For word problems, define variables and set up the equation; often the vertex gives the maximum profit or minimum cost."
+      ],
+      "worked": {
+        "problem": "Solve 2x^2 - 5x - 3 = 0. Then find the vertex of the parabola y = 2x^2 - 5x - 3.",
+        "solution": "First, solve the equation. Use the quadratic formula: a=2, b=-5, c=-3. Discriminant = (-5)^2 - 4*2*(-3) = 25 + 24 = 49. sqrt(49)=7. So x = [5 ± 7]/(4). x = (5+7)/4 = 12/4 = 3, and x = (5-7)/4 = -2/4 = -0.5. Solutions: x = 3 and x = -0.5. Vertex: h = -b/(2a) = -(-5)/(4) = 5/4 = 1.25. k = f(1.25) = 2*(1.5625) - 5*1.25 - 3 = 3.125 - 6.25 - 3 = -6.125. Vertex: (1.25, -6.125)."
+      },
+      "mistakes": [
+        "Forgetting to set the equation to zero before factoring or using the quadratic formula.",
+        "Mixing up the signs when using the quadratic formula (especially -b).",
+        "Assuming the vertex is always at x = 0 or that the y-intercept is the vertex.",
+        "Not checking if the quadratic can be factored first, wasting time on the formula."
+      ],
+      "takeaway": "Master factoring and the quadratic formula, and always find the vertex to understand the graph's maximum or minimum."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Inequalities",
+    "title": "Mastering Linear Inequalities: Graphs, Solutions, and Traps",
+    "summary": "Learn how to solve and graph linear inequalities on the number line and coordinate plane, and avoid common pitfalls that cost points on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Solving a Linear Inequality",
+          "body": "Treat the inequality like a linear equation, but remember: multiplying or dividing by a negative number flips the inequality sign. For example, -2x > 6 becomes x < -3 after dividing by -2."
+        },
+        {
+          "heading": "Graphing on a Number Line",
+          "body": "For a single variable inequality, graph on a number line. Use an open circle for < or > (strict) and a closed circle for ≤ or ≥ (inclusive). Shade in the direction that satisfies the inequality."
+        },
+        {
+          "heading": "Graphing on the Coordinate Plane",
+          "body": "Two-variable inequalities like y > 2x + 1 are graphed as a boundary line (dashed for >/<, solid for ≤/≥) and a shaded region. Test a point (like (0,0)) to decide which side to shade."
+        },
+        {
+          "heading": "Systems of Linear Inequalities",
+          "body": "A system of inequalities has a solution region where all inequalities overlap. The SAT often asks which point satisfies all inequalities. Test each given point in all inequalities."
+        }
+      ],
+      "strategies": [
+        "When solving, isolate the variable just like an equation, but always check if you multiplied or divided by a negative—flip the sign immediately.",
+        "For number line graphs, quickly sketch the line and circle, then shade the side where the inequality holds (e.g., x > 2 shade right).",
+        "For coordinate plane graphs, use the slope-intercept form y = mx + b to draw the boundary, then test (0,0) if it's not on the line.",
+        "In systems, plug each answer choice into every inequality. The correct answer must satisfy all inequalities simultaneously.",
+        "If the inequality is strict (< or >), the boundary line is dashed; if inclusive (≤ or ≥), it's solid. The SAT may test this distinction."
+      ],
+      "worked": {
+        "problem": "Solve the inequality: 3(x - 2) + 5 ≤ 2x + 1. Graph the solution on a number line.",
+        "solution": "First, distribute: 3x - 6 + 5 ≤ 2x + 1 → 3x - 1 ≤ 2x + 1. Subtract 2x: x - 1 ≤ 1. Add 1: x ≤ 2. On a number line, draw a closed circle at 2 (since ≤) and shade to the left (all numbers less than or equal to 2)."
+      },
+      "mistakes": [
+        "Forgetting to flip the inequality sign when multiplying or dividing by a negative number.",
+        "Using an open circle for ≤ or ≥ (should be closed) or vice versa.",
+        "Shading the wrong side of the boundary line on a coordinate graph—always test a point.",
+        "Assuming a point that satisfies one inequality in a system works for all—must check each."
+      ],
+      "takeaway": "Treat inequalities like equations but watch the sign when multiplying/dividing by negatives, and always graph with the correct boundary style and shading."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Systems of Linear Equations",
+    "title": "Mastering Systems of Linear Equations: Solve with Confidence",
+    "summary": "Learn to solve systems of two linear equations using substitution, elimination, and graphing, and apply these methods to SAT-style problems efficiently.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Is a System of Linear Equations?",
+          "body": "A system of linear equations consists of two or more linear equations with the same variables. The solution is the point (x, y) that satisfies all equations simultaneously. On the SAT, you'll typically work with two equations and two unknowns."
+        },
+        {
+          "heading": "Solving by Substitution",
+          "body": "Isolate one variable in one equation, then substitute that expression into the other equation. Solve for the remaining variable, then back-substitute to find the other. This method is ideal when one equation already has a variable with coefficient 1."
+        },
+        {
+          "heading": "Solving by Elimination",
+          "body": "Add or subtract the equations to eliminate one variable. Multiply one or both equations by constants if needed so that the coefficients of one variable are opposites. Then solve for the remaining variable and substitute back. This method is efficient when coefficients align nicely."
+        },
+        {
+          "heading": "Interpreting Solutions: One, None, or Infinite",
+          "body": "A system can have exactly one solution (lines intersect), no solution (parallel lines), or infinitely many solutions (coincident lines). On the SAT, you may be asked to determine which case applies without fully solving."
+        }
+      ],
+      "strategies": [
+        "Check if elimination is faster: if coefficients of one variable are the same or opposites, add/subtract immediately.",
+        "If a variable has coefficient 1, solve by substitution to avoid fractions.",
+        "When the problem asks for the value of x + y or another expression, solve for that combination directly by adding or subtracting equations.",
+        "Always verify your solution by plugging back into both original equations—this catches arithmetic errors.",
+        "If time is short, use the answer choices: plug each into the equations to see which works."
+      ],
+      "worked": {
+        "problem": "Solve the system: 2x + 3y = 7 and 4x - y = 5. Find the value of x + y.",
+        "solution": "Use elimination. Multiply the second equation by 3: 3*(4x - y) = 3*5 => 12x - 3y = 15. Add to the first equation: (2x + 3y) + (12x - 3y) = 7 + 15 => 14x = 22 => x = 22/14 = 11/7. Substitute into 4x - y = 5: 4*(11/7) - y = 5 => 44/7 - y = 5 => y = 44/7 - 5 = 44/7 - 35/7 = 9/7. Then x + y = 11/7 + 9/7 = 20/7. So the answer is 20/7."
+      },
+      "mistakes": [
+        "Forgetting to multiply every term when using elimination—common error: only multiplying the terms you want to cancel.",
+        "Misaligning equations when adding/subtracting; write them stacked vertically to keep terms aligned.",
+        "Substituting the wrong variable or expression—always double-check which variable you isolated.",
+        "Assuming a system has a unique solution without checking for parallel lines (no solution) or identical lines (infinite solutions)."
+      ],
+      "takeaway": "Master substitution and elimination, always verify your answer, and stay alert for special cases to solve any system of linear equations on the SAT."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Functions",
+    "title": "Mastering Linear Functions: Slope, Intercepts, and Graphs",
+    "summary": "Learn how to interpret, write, and analyze linear functions in slope-intercept form and point-slope form, and apply them to real-world contexts on the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Slope-Intercept Form",
+          "body": "A linear function can be written as y = mx + b, where m is the slope and b is the y-intercept. The slope represents the rate of change (rise over run), and the y-intercept is the point where the line crosses the y-axis (x=0). For example, in y = 2x + 3, the slope is 2 and the y-intercept is 3."
+        },
+        {
+          "heading": "Point-Slope Form",
+          "body": "Another useful form is y - y1 = m(x - x1), where (x1, y1) is a known point on the line and m is the slope. This is helpful when you know a point and the slope, or when you need to find the equation from two points. For instance, if a line passes through (1,4) with slope -2, the equation is y - 4 = -2(x - 1)."
+        },
+        {
+          "heading": "Graphing and Interpreting Linear Functions",
+          "body": "To graph a linear function, plot the y-intercept first, then use the slope to find another point. The x-intercept is found by setting y=0. In context problems, the slope often represents a rate (e.g., cost per item) and the y-intercept represents a fixed starting value (e.g., initial fee)."
+        },
+        {
+          "heading": "Parallel and Perpendicular Lines",
+          "body": "Parallel lines have equal slopes (m1 = m2). Perpendicular lines have slopes that are negative reciprocals (m1 * m2 = -1). For example, lines y = 3x + 1 and y = 3x - 4 are parallel; lines y = 2x and y = -1/2 x are perpendicular."
+        }
+      ],
+      "strategies": [
+        "When given two points, first find the slope using m = (y2 - y1)/(x2 - x1), then plug into y = mx + b to solve for b.",
+        "For word problems, identify the independent variable (x) and dependent variable (y). Look for keywords like 'per' or 'each' to find the slope, and 'initial' or 'starting' for the y-intercept.",
+        "If a question asks for an equation from a graph, read the y-intercept directly from where the line crosses the y-axis, then count the rise/run to find the slope.",
+        "To check if a point lies on a line, substitute its coordinates into the equation and see if it holds true.",
+        "When dealing with parallel/perpendicular, compare slopes. Remember that a vertical line (x = constant) has undefined slope, and a horizontal line has slope 0."
+      ],
+      "worked": {
+        "problem": "A taxi company charges a flat fee of $3.50 plus $2.25 per mile. Write a linear function C(m) that represents the cost for a trip of m miles. Then find the cost for a 10-mile trip.",
+        "solution": "The flat fee is the y-intercept: b = 3.50. The cost per mile is the slope: m = 2.25. So the function is C(m) = 2.25m + 3.50. For m=10: C(10) = 2.25(10) + 3.50 = 22.50 + 3.50 = 26.00. The cost is $26.00."
+      },
+      "mistakes": [
+        "Confusing slope and y-intercept: remember slope is the coefficient of x, and y-intercept is the constant term.",
+        "Forgetting to convert word problem rates into slope (e.g., 'per' means divide, but in context, if something increases by 2 for every 1 unit, slope is 2/1 = 2).",
+        "Mixing up x and y when finding slope: always use (y2 - y1)/(x2 - x1).",
+        "Assuming the y-intercept is always at (0,0) — it's not; it's where the line crosses the y-axis, which could be any value."
+      ],
+      "takeaway": "Linear functions are all about the constant rate of change (slope) and starting point (y-intercept); master these and you can handle any linear function problem on the SAT."
+    }
+  },
+  {
+    "section": "MATH",
+    "domain": "Algebra",
+    "skill": "Linear Equations",
+    "title": "Mastering Linear Equations: Slope, Intercepts, and Solutions",
+    "summary": "Learn to solve and interpret linear equations in one and two variables, including slope-intercept form and point-slope form, with strategies tailored for the Digital SAT.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Slope-Intercept Form",
+          "body": "The slope-intercept form of a linear equation is y = mx + b, where m is the slope and b is the y-intercept. The slope represents the rate of change, while the y-intercept is the point where the line crosses the y-axis."
+        },
+        {
+          "heading": "Point-Slope Form",
+          "body": "Point-slope form is y - y1 = m(x - x1), where m is the slope and (x1, y1) is a point on the line. This form is useful when you know the slope and one point, or when you need to find the equation from two points."
+        },
+        {
+          "heading": "Solving Linear Equations in One Variable",
+          "body": "To solve an equation like 2x + 3 = 7, isolate the variable by performing inverse operations. For equations with variables on both sides, combine like terms and use addition/subtraction to get the variable on one side, then multiply/divide to solve."
+        },
+        {
+          "heading": "Systems of Linear Equations",
+          "body": "A system of two linear equations can be solved by substitution, elimination, or graphing. The solution is the point (x, y) that satisfies both equations. On the SAT, you may need to determine if a system has one solution, no solution, or infinitely many solutions."
+        }
+      ],
+      "strategies": [
+        "When given two points, find the slope first using m = (y2 - y1)/(x2 - x1), then use point-slope form to write the equation.",
+        "For equations in y = mx + b form, the slope is the coefficient of x. Be careful with signs: y = -2x + 3 has slope -2.",
+        "To solve for x, always do the same operation to both sides. Check your answer by plugging it back into the original equation.",
+        "If a system has no solution, the lines are parallel (same slope, different y-intercept). If infinitely many, they are the same line."
+      ],
+      "worked": {
+        "problem": "A line passes through the points (2, 5) and (4, 11). What is the equation of the line in slope-intercept form?",
+        "solution": "First, find the slope: m = (11 - 5) / (4 - 2) = 6/2 = 3. Then use point-slope form with (2, 5): y - 5 = 3(x - 2). Simplify: y - 5 = 3x - 6, so y = 3x - 1. The equation is y = 3x - 1."
+      },
+      "mistakes": [
+        "Mixing up the x and y coordinates when computing slope: always do (y2 - y1)/(x2 - x1).",
+        "Forgetting to distribute correctly when converting from point-slope to slope-intercept form.",
+        "When solving an equation, adding instead of subtracting (or vice versa) when moving terms across the equals sign.",
+        "Assuming a system has a unique solution without checking if slopes are equal (parallel lines)."
+      ],
+      "takeaway": "Linear equations are all about constant rates of change; master slope and intercepts, and you can handle any line."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "title": "Mastering Transitions: Linking Ideas with Precision",
+    "summary": "Learn how to choose the right transition word or phrase to show relationships between sentences and paragraphs on the Digital SAT. This lesson covers the main logical categories and strategies to avoid common traps.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Are Transitions?",
+          "body": "Transitions (also called linking words or conjunctive adverbs) connect ideas between sentences or paragraphs. They signal the logical relationship—such as cause, contrast, continuation, or emphasis—helping the reader follow your argument."
+        },
+        {
+          "heading": "The Five Main Logical Categories",
+          "body": "Most transitions fall into five groups: (1) Addition/Continuation: furthermore, moreover, in addition. (2) Contrast/Concession: however, nevertheless, although, but. (3) Cause/Effect: therefore, consequently, because, thus. (4) Sequence/Time: first, next, then, meanwhile. (5) Emphasis/Example: in fact, for example, indeed. Knowing these categories helps you pick the correct one."
+        },
+        {
+          "heading": "How to Analyze the Relationship",
+          "body": "Read the sentence before the blank and the sentence after. Ask: does the second sentence add a similar point? Does it oppose the first? Does it provide a result? The answer tells you which category of transition fits."
+        },
+        {
+          "heading": "Punctuation and Placement",
+          "body": "Transitions are often followed by a comma (e.g., 'Therefore, we left.'). Some can start a sentence or appear mid-sentence. Pay attention to whether the transition is connecting two independent clauses (use semicolon or period before it) or just adding a word."
+        }
+      ],
+      "strategies": [
+        "Cover the answer choices and predict the logical relationship before looking at options.",
+        "Eliminate choices that do not match the predicted relationship (e.g., don't pick 'however' if the ideas agree).",
+        "Read the entire sentence or paragraph to see the full context, not just the two sentences around the blank.",
+        "Check for common trap transitions like 'for example' when the second sentence is not an example, or 'in addition' when it's actually a contrast."
+      ],
+      "worked": {
+        "problem": "The artist’s early work was largely ignored by critics. _____, her later paintings received widespread acclaim.\nA) For example\nB) Nevertheless\nC) Similarly\nD) Consequently",
+        "solution": "The first sentence says early work was ignored. The second says later paintings received acclaim. This is a contrast (ignored vs. acclaimed). 'Nevertheless' indicates contrast. 'For example' would need an example, not a contrast. 'Similarly' would mean both were ignored or both acclaimed. 'Consequently' would mean the ignoring caused the acclaim, which is not logical. So the answer is B) Nevertheless."
+      },
+      "mistakes": [
+        "Choosing 'however' when the relationship is actually cause-effect (e.g., 'He studied hard, however he got an A'—incorrect; should be 'therefore').",
+        "Picking 'in addition' when the second sentence contradicts the first.",
+        "Ignoring the full context: sometimes the transition connects to a previous paragraph, not just the previous sentence.",
+        "Forgetting that 'although' and 'but' are conjunctions that often start a dependent clause, not always a separate sentence."
+      ],
+      "takeaway": "Always identify the logical relationship between the two connected ideas before selecting a transition; the correct choice will match that relationship exactly."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "title": "Mastering Rhetorical Synthesis: Combine Ideas with Purpose",
+    "summary": "Learn how to select the most effective sentence that synthesizes information from multiple sources to achieve a specific rhetorical goal.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Is Rhetorical Synthesis?",
+          "body": "Rhetorical Synthesis questions ask you to combine information from two or more sources (notes, texts, or data) into a single sentence that fulfills a clear purpose, such as introducing a topic, supporting a claim, or comparing viewpoints. You must choose the option that best integrates the given details while maintaining logical flow and clarity."
+        },
+        {
+          "heading": "Identifying the Rhetorical Goal",
+          "body": "Each question specifies a goal, like 'to introduce a study' or 'to contrast two theories.' Your job is to pick the sentence that accomplishes that goal using the provided information. Always read the goal first and keep it in mind as you evaluate each answer choice."
+        },
+        {
+          "heading": "Synthesis vs. Summary",
+          "body": "Synthesis means combining multiple pieces of information into a coherent whole, not just listing them. A good synthesis shows relationships (cause-effect, contrast, support) and stays focused on the goal. Avoid choices that simply repeat facts without connecting them or that include irrelevant details."
+        },
+        {
+          "heading": "Precision and Conciseness",
+          "body": "The correct answer will be precise (using exact numbers, names, or terms from the notes) and concise (no extra words). It should not change the meaning of the original notes or add assumptions. Each word must serve the rhetorical goal."
+        }
+      ],
+      "strategies": [
+        "Read the question's goal first, then scan the notes for relevant information.",
+        "Eliminate answer choices that include information not in the notes or that distort the original meaning.",
+        "Look for the choice that logically connects the pieces (e.g., 'because,' 'however,' 'for example') to match the goal.",
+        "Check that the chosen sentence could stand alone as a clear, complete statement that fulfills the goal.",
+        "If two choices seem close, pick the one that is more direct and avoids unnecessary complexity."
+      ],
+      "worked": {
+        "problem": "Notes:\n- A 2023 study by Dr. Lee found that students who slept 8+ hours scored 15% higher on memory tests.\n- A 2024 study by Dr. Patel found no significant difference in test scores between students who slept 6 hours and those who slept 8 hours.\n- Both studies used college students as participants.\n\nGoal: Synthesize the information to emphasize the disagreement between the two studies.\n\nA) Dr. Lee's 2023 study and Dr. Patel's 2024 study both examined college students' sleep and test performance, but they reached different conclusions.\nB) A 2023 study by Dr. Lee and a 2024 study by Dr. Patel both examined college students, with Dr. Lee finding a benefit for 8+ hours of sleep and Dr. Patel finding no difference between 6 and 8 hours.\nC) Dr. Lee's 2023 study found that college students who slept 8+ hours scored 15% higher on memory tests, while Dr. Patel's 2024 study found no significant difference between 6 and 8 hours of sleep.\nD) Two studies on college students' sleep and test performance came to different conclusions.",
+        "solution": "The goal is to emphasize disagreement. Option A directly states 'they reached different conclusions,' but it does not specify what those conclusions are. Option B presents both findings but does not highlight the disagreement. Option C clearly contrasts the two findings using 'while,' showing the disagreement explicitly and including specific details. Option D is too vague. Therefore, option C best synthesizes the information to emphasize the disagreement."
+      },
+      "mistakes": [
+        "Choosing an answer that merely lists facts without showing a relationship required by the goal.",
+        "Selecting an option that includes information not present in the notes, such as an author's opinion.",
+        "Overlooking the specific goal and picking a sentence that is accurate but does not fulfill the rhetorical purpose.",
+        "Picking a wordy or convoluted sentence when a clearer, more direct option exists."
+      ],
+      "takeaway": "Always let the rhetorical goal guide your selection—choose the sentence that best combines the given information to achieve that specific purpose."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "title": "Mastering Form, Structure, and Sense: Sentence Flow on the Digital SAT",
+    "summary": "Learn how to identify and correct errors in sentence form, structure, and sense, including misplaced modifiers, parallel structure, and logical coherence, to boost your Standard English Conventions score.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Parallel Structure",
+          "body": "When listing items or connecting ideas with conjunctions like 'and' or 'or,' ensure all elements share the same grammatical form. For example, 'running, jumping, and to swim' is incorrect; it should be 'running, jumping, and swimming.' Parallel structure improves clarity and rhythm."
+        },
+        {
+          "heading": "Misplaced and Dangling Modifiers",
+          "body": "Modifiers (descriptive words or phrases) must clearly refer to the correct noun. A misplaced modifier like 'Walking to school, the bus passed me' wrongly suggests the bus is walking. Revise to 'Walking to school, I saw the bus pass me.' Dangling modifiers have no clear subject at all."
+        },
+        {
+          "heading": "Logical Coherence and Sense",
+          "body": "Sentences must make logical sense. Look for contradictions, illogical cause-effect, or missing information. For instance, 'Because it rained, the picnic was a success' is illogical; rain usually spoils picnics. Ensure the relationship between clauses is reasonable."
+        },
+        {
+          "heading": "Subject-Verb and Pronoun Agreement",
+          "body": "Verbs must agree with their subjects in number (singular/plural), and pronouns must agree with their antecedents. For example, 'Each of the students have a book' is incorrect; 'Each' is singular, so it should be 'has.' Collective nouns like 'team' can be tricky: 'The team is winning' (singular) vs. 'The team are arguing' (plural, but less common on SAT)."
+        }
+      ],
+      "strategies": [
+        "Read the entire sentence before focusing on the underlined portion to catch overall sense issues.",
+        "Check for parallel structure by listing items after 'and,' 'or,' or 'but' and ensuring they match in form (e.g., all nouns, all gerunds).",
+        "When you see a modifier at the start of a sentence, ask: 'Who or what is doing the action?' The noun right after the comma should be the answer.",
+        "For subject-verb agreement, ignore prepositional phrases between the subject and verb to find the true subject.",
+        "Eliminate answer choices that create illogical meaning or contradiction, even if they are grammatically correct."
+      ],
+      "worked": {
+        "problem": "The artist, known for her vibrant paintings and her innovative use of color, were celebrated at the gallery opening.\nA) NO CHANGE\nB) was celebrated\nC) have been celebrated\nD) are celebrated",
+        "solution": "The correct answer is B) was celebrated. The subject is 'The artist' (singular), so the verb must be singular. 'Were' (A) is plural. 'Have been celebrated' (C) is plural and present perfect, not needed. 'Are celebrated' (D) is present tense, but the event is past. The phrase 'known for...' is a modifier, so ignore it to find the subject. Thus, 'The artist... was celebrated' is correct."
+      },
+      "mistakes": [
+        "Choosing a verb that agrees with a noun inside a prepositional phrase instead of the actual subject (e.g., 'A box of chocolates are tasty' – 'box' is singular, so 'is' is correct).",
+        "Assuming that if a sentence sounds okay in casual speech, it's correct on the SAT (e.g., 'Me and him went' should be 'He and I went').",
+        "Forgetting to check whether the sentence makes logical sense, especially with cause-effect words like 'because,' 'therefore,' or 'although.'",
+        "Mixing verb tenses unnecessarily when the time frame is consistent (e.g., 'She walked to the store and buys milk' should be 'bought')."
+      ],
+      "takeaway": "On the Digital SAT, always check that every sentence is grammatically consistent, logically coherent, and structurally parallel—if it feels off, it probably is."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "title": "Mastering Sentence Boundaries: Punctuation That Connects",
+    "summary": "Learn how to correctly use punctuation to join and separate clauses in SAT Reading & Writing questions, focusing on commas, semicolons, colons, and dashes.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Independent Clauses",
+          "body": "An independent clause has a subject and a verb and can stand alone as a sentence. For example, 'The sun set' is a complete sentence. Recognizing independent clauses is key to choosing the right punctuation between them."
+        },
+        {
+          "heading": "Comma + FANBOYS (Coordinating Conjunction)",
+          "body": "To join two independent clauses, use a comma followed by a FANBOYS conjunction (for, and, nor, but, or, yet, so). Example: 'I studied hard, so I passed the test.' Without the conjunction, a comma alone creates a comma splice error."
+        },
+        {
+          "heading": "Semicolon and Colon",
+          "body": "A semicolon joins two closely related independent clauses without a conjunction: 'She loves math; he prefers writing.' A colon introduces a list, explanation, or example after an independent clause: 'He had one goal: to win.'"
+        },
+        {
+          "heading": "Em Dash and Parentheses",
+          "body": "An em dash (—) creates a strong break or emphasis, often replacing a colon or parentheses. Use it to set off a phrase: 'The answer—surprisingly simple—was right in front of us.' Parentheses add less emphasis: 'The answer (surprisingly simple) was obvious.'"
+        }
+      ],
+      "strategies": [
+        "Identify each clause: underline subjects and verbs to see if a clause is independent or dependent.",
+        "Test punctuation by reading aloud: a period should sound like a full stop; a semicolon like a pause.",
+        "Eliminate options with comma splices (two independent clauses joined by only a comma).",
+        "Check for run-on sentences: if two independent clauses have no punctuation or conjunction, it's wrong.",
+        "Use the 'one independent clause' rule for colons: the text before a colon must be a complete sentence."
+      ],
+      "worked": {
+        "problem": "The museum’s new exhibit features ancient artifacts from Egypt many of which have never been displayed before.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?\nA) Egypt, many\nB) Egypt; many\nC) Egypt many\nD) Egypt: many",
+        "solution": "The sentence has two independent clauses: 'The museum’s new exhibit features ancient artifacts from Egypt' and 'many of which have never been displayed before.' The second clause is actually a dependent clause starting with 'many of which,' so it cannot stand alone. However, the first part is independent. The correct punctuation needs to link the independent clause to the dependent clause. A comma is appropriate here because the dependent clause follows the independent clause. Option A (comma) is correct. Option B (semicolon) is incorrect because a semicolon connects two independent clauses. Option C has no punctuation, creating a run-on. Option D (colon) requires the first part to be an independent clause introducing a list or explanation, which is not the case here."
+      },
+      "mistakes": [
+        "Using a comma alone to join two independent clauses (comma splice).",
+        "Using a semicolon before a dependent clause or a list (semicolons require independent clauses on both sides).",
+        "Forgetting that a colon must follow a complete independent clause.",
+        "Overusing em dashes; they are strong and should be used sparingly for emphasis."
+      ],
+      "takeaway": "Always check if the clauses on either side of punctuation are independent or dependent, and match the punctuation to the relationship."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "title": "Mastering Inferences: Reading Between the Lines on the Digital SAT",
+    "summary": "Learn how to identify implicit meanings and draw logical conclusions from explicit textual evidence, a critical skill for the Information and Ideas domain.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Is an Inference?",
+          "body": "An inference is a conclusion reached on the basis of evidence and reasoning, not directly stated. On the SAT, you must combine what the text says with common sense to deduce what the author implies."
+        },
+        {
+          "heading": "Evidence-Based Reasoning",
+          "body": "Every correct inference must be supported by specific textual evidence. Avoid choosing answers that seem plausible but cannot be directly linked to the passage. The best answer is the one that is most strongly justified by the text."
+        },
+        {
+          "heading": "Distinguishing Inference from Summary",
+          "body": "A summary restates information already given. An inference goes a step further: it uses the given information to deduce something new. For example, if the text says 'She locked the door before bed,' you can infer she values security, even though it's not stated."
+        },
+        {
+          "heading": "Common Inference Types",
+          "body": "The SAT often tests inferences about cause and effect, character motivation, author's attitude, or the likely outcome of a situation. Identifying the type can guide your reasoning."
+        }
+      ],
+      "strategies": [
+        "Read the question first to know what to look for, then read the passage with that focus.",
+        "Underline or mentally note the specific sentence(s) that support your inference.",
+        "Eliminate answer choices that are too extreme, too broad, or not supported by the text.",
+        "Paraphrase the inference in your own words before looking at the options to avoid being misled by distractors.",
+        "When stuck, ask: 'What must be true if the passage is true?' This helps you stay grounded in evidence."
+      ],
+      "worked": {
+        "problem": "Passage: 'Dr. Kim had spent years researching the effects of sleep deprivation. Her latest study showed that participants who slept less than five hours per night had significantly higher levels of cortisol. She noted that these participants also reported more frequent feelings of anxiety. However, she cautioned that correlation does not imply causation.'\n\nWhich of the following can most reasonably be inferred from the passage?\nA) Sleep deprivation directly causes increased anxiety.\nB) Dr. Kim believes that cortisol levels cause anxiety.\nC) There is a relationship between sleep duration and cortisol levels.\nD) Participants who slept less than five hours were more likely to have anxiety than those who slept more.",
+        "solution": "The correct answer is C. The passage states that participants with less sleep had higher cortisol, which is a direct observation. This supports the inference that sleep duration and cortisol are related. Option A is too strong because the passage explicitly says correlation does not imply causation. Option B is not stated or implied; Dr. Kim's caution suggests she does not assume causation. Option D goes beyond the evidence; the passage does not compare groups or mention likelihood. Only C is directly supported by the text."
+      },
+      "mistakes": [
+        "Choosing an answer that sounds logical but has no support in the passage.",
+        "Overlooking qualifiers like 'some,' 'often,' or 'may' that affect the strength of the inference.",
+        "Confusing an inference with a direct statement from the text.",
+        "Selecting an answer that is too extreme (e.g., using 'always' or 'never') when the text is more cautious."
+      ],
+      "takeaway": "To ace inference questions, always anchor your reasoning in specific textual evidence and avoid jumping to conclusions that go beyond what the passage supports."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "title": "Mastering Command of Evidence: Find Proof in the Passage",
+    "summary": "Learn how to identify the best textual evidence to support claims, inferences, or conclusions on the Digital SAT Reading & Writing section.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What is Command of Evidence?",
+          "body": "This skill tests your ability to locate the specific part of a passage that directly supports a given claim or answers a question. You’ll often be asked which quotation or sentence provides the best evidence for an idea."
+        },
+        {
+          "heading": "Types of Evidence Questions",
+          "body": "There are two main types: (1) finding evidence to support a stated claim, and (2) identifying the best evidence for an inference or conclusion you draw from the passage. Both require careful reading and elimination."
+        },
+        {
+          "heading": "The Link Between Question and Evidence",
+          "body": "The correct evidence must directly and explicitly support the claim. Look for keywords, synonyms, or logical connections between the claim and the passage. Avoid choices that are too broad, too narrow, or unrelated."
+        },
+        {
+          "heading": "Using Line References Wisely",
+          "body": "Often, answer choices include line numbers. Read around those lines to understand context. The right evidence usually contains a clear match to the claim, not just a tangential mention."
+        }
+      ],
+      "strategies": [
+        "Read the question first to understand what claim or inference you need to support.",
+        "Paraphrase the claim in your own words to clarify what you're looking for.",
+        "Eliminate answer choices that are too general, irrelevant, or contradict the claim.",
+        "When in doubt, check if the evidence directly uses key words from the claim.",
+        "Practice with paired questions: one asks for a conclusion, the next asks for evidence."
+      ],
+      "worked": {
+        "problem": "Passage: 'The discovery of penicillin in 1928 by Alexander Fleming was accidental. He noticed that a mold called Penicillium notatum inhibited bacterial growth. However, it wasn't until the 1940s that Howard Florey and Ernst Boris Chain developed a method to mass-produce the drug, saving countless lives during World War II.'\n\nQuestion: Which of the following best supports the claim that penicillin's medical impact was delayed?\nA) 'The discovery of penicillin in 1928 by Alexander Fleming was accidental.'\nB) 'He noticed that a mold called Penicillium notatum inhibited bacterial growth.'\nC) 'It wasn't until the 1940s that Howard Florey and Ernst Boris Chain developed a method to mass-produce the drug.'\nD) 'Saving countless lives during World War II.'",
+        "solution": "The claim is that penicillin's medical impact was delayed. Option C directly states that mass production (necessary for medical impact) did not occur until the 1940s, showing a delay from the 1928 discovery. A and B describe the discovery itself, not a delay. D describes the eventual impact, not the delay. Therefore, C is correct."
+      },
+      "mistakes": [
+        "Choosing evidence that sounds related but doesn't directly support the claim.",
+        "Focusing on line numbers without reading the full context around them.",
+        "Picking evidence that supports a different claim or is too vague.",
+        "Ignoring the logical link between the claim and the evidence."
+      ],
+      "takeaway": "Always match the evidence precisely to the claim—look for direct, explicit support, not just thematic similarity."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "title": "Mastering Central Ideas and Details on the Digital SAT",
+    "summary": "Learn to identify the main point of a passage and distinguish it from supporting details, a key skill for the Information and Ideas domain.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "Central Idea vs. Supporting Details",
+          "body": "The central idea is the main point or argument the author is trying to convey. Supporting details are facts, examples, or evidence that explain or prove the central idea. On the SAT, questions often ask you to identify the central idea or to find a detail that supports it."
+        },
+        {
+          "heading": "How to Find the Central Idea",
+          "body": "Read the passage carefully, focusing on the first and last sentences of each paragraph. The central idea is often stated directly in the introduction or conclusion, or it may be implied. Ask yourself: 'What is the author's main message?' Look for repeated words or themes."
+        },
+        {
+          "heading": "Role of Details in the Passage",
+          "body": "Details provide evidence for the central idea. They can be statistics, examples, anecdotes, or logical reasoning. A good detail directly supports the main point without introducing a new idea. When a question asks for a detail, find the part of the passage that matches the question's focus."
+        },
+        {
+          "heading": "Distinguishing Central Ideas from Minor Points",
+          "body": "Not every statement in a passage is the central idea. Minor points are specific claims that support the main idea but are not the overall takeaway. To avoid confusion, summarize the passage in one sentence; that sentence is the central idea."
+        }
+      ],
+      "strategies": [
+        "Read the passage first to get the gist, then answer questions. For central idea questions, skim the first and last paragraphs.",
+        "Eliminate answer choices that are too narrow (focus on a detail) or too broad (beyond the passage).",
+        "For detail questions, use keywords from the question to locate the relevant sentence or paragraph.",
+        "If stuck, try paraphrasing each answer choice and compare to your own summary of the passage."
+      ],
+      "worked": {
+        "problem": "Passage: The Great Barrier Reef, stretching over 2,300 kilometers off Australia's coast, is the world's largest coral reef system. It is home to thousands of marine species, including fish, turtles, and sharks. However, rising sea temperatures due to climate change have caused widespread coral bleaching, threatening the reef's biodiversity. Conservation efforts, such as reducing pollution and establishing marine protected areas, aim to preserve this natural wonder.\n\nQuestion: Which of the following best describes the central idea of the passage?\nA) The Great Barrier Reef is home to many marine species.\nB) Climate change is causing coral bleaching in the Great Barrier Reef.\nC) The Great Barrier Reef is threatened by climate change, but conservation efforts are underway.\nD) Conservation efforts include reducing pollution and establishing marine protected areas.",
+        "solution": "Step 1: Read the passage and identify the main topic: the Great Barrier Reef. Step 2: Note the structure: first sentence introduces the reef, second describes its biodiversity, third introduces the threat (climate change causing bleaching), fourth mentions conservation efforts. Step 3: Summarize: The passage discusses a threat to the reef and what is being done about it. Step 4: Evaluate answer choices: A is a detail, not the main idea. B is part of the threat but misses the conservation part. C captures both the threat and the response, which is the overall message. D is a specific detail about conservation. Therefore, the correct answer is C."
+      },
+      "mistakes": [
+        "Choosing an answer that is too specific (a detail) instead of the main point.",
+        "Selecting an answer that is too broad or outside the passage's scope.",
+        "Misreading the question: confusing 'central idea' with 'supporting detail'.",
+        "Overlooking the author's purpose: the central idea often includes the author's perspective or call to action."
+      ],
+      "takeaway": "Always ask 'What is the author's main point?' and verify that your chosen answer covers the entire passage, not just one part."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "title": "Bridging Perspectives: Mastering Cross-Text Connections",
+    "summary": "Learn how to analyze how two short passages relate to each other—whether they agree, disagree, or one extends the other—and answer questions that ask you to compare or contrast their main points.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Is a Cross-Text Connection?",
+          "body": "Cross-Text Connection questions present two short passages (labeled Text 1 and Text 2) and ask how they relate. You might need to identify whether the second passage supports, contradicts, or provides a different perspective on the first. These questions test your ability to synthesize information from two sources."
+        },
+        {
+          "heading": "Types of Relationships",
+          "body": "Common relationships include: (1) Agreement – Text 2 reinforces or illustrates Text 1's claim. (2) Disagreement – Text 2 challenges or contradicts Text 1. (3) Extension – Text 2 builds on Text 1 by adding detail, nuance, or a specific example. (4) Different Focus – Text 2 addresses a related but distinct aspect without directly agreeing or disagreeing."
+        },
+        {
+          "heading": "Key Clue Words",
+          "body": "Look for signal words in the answer choices: 'supports,' 'contradicts,' 'refines,' 'qualifies,' 'provides an example of,' 'shifts focus to.' These words indicate the type of connection. Also note any contrasting or additive language in the passages themselves, such as 'however,' 'in contrast,' 'similarly,' or 'furthermore.'"
+        },
+        {
+          "heading": "The Central Idea Is Key",
+          "body": "To determine the relationship, you must first identify the main claim or purpose of each passage. Don't get lost in details. Ask: What is Text 1 arguing? What is Text 2 arguing? Then compare those central ideas. The correct answer will reflect the relationship between those big-picture points."
+        }
+      ],
+      "strategies": [
+        "Read each passage quickly to grasp its main idea. Jot down a one-sentence summary for each.",
+        "Before looking at the answer choices, decide in your own words whether Text 2 agrees, disagrees, or extends Text 1.",
+        "Eliminate choices that mischaracterize either passage's main point. A choice that sounds plausible for the relationship but misstates a passage is wrong.",
+        "Watch for 'trap' answer choices that describe a relationship that sounds logical but isn't actually supported by the text. Always double-check with direct evidence.",
+        "If stuck, re-read the final sentence of each passage—often the conclusion reveals the author's stance."
+      ],
+      "worked": {
+        "problem": "Text 1:\nThe widespread use of social media has been linked to increased feelings of loneliness among teenagers. Studies show that the more time teens spend on platforms like Instagram and Snapchat, the more likely they are to report social isolation. This suggests that digital interactions cannot replace the emotional benefits of face-to-face contact.\n\nText 2:\nWhile social media can sometimes lead to loneliness, it also offers vital connections for teens who might otherwise be isolated. For example, LGBTQ+ youth often find supportive communities online that they lack in their offline lives. For these teens, social media can reduce loneliness rather than increase it.\n\nWhich choice best describes the relationship between the two texts?\nA) Text 2 contradicts the claim in Text 1 that social media causes loneliness.\nB) Text 2 provides an exception to the general trend described in Text 1.\nC) Text 2 agrees with Text 1 and offers additional evidence.\nD) Text 2 shifts focus from teenagers to a different age group.",
+        "solution": "Text 1 argues that social media use increases loneliness among teens. Text 2 acknowledges that social media can cause loneliness but points out that it can also reduce loneliness for certain groups (like LGBTQ+ youth). This is not a flat contradiction (A) because Text 2 doesn't deny that social media can cause loneliness; it adds a nuance. It is not an agreement (C) because Text 2 challenges the one-sided claim. It does not shift age groups (D). Instead, Text 2 presents a specific case where the opposite effect occurs, which is an exception to the general trend. Therefore, the correct answer is B."
+      },
+      "mistakes": [
+        "Assuming that if Text 2 mentions a different aspect, it must contradict Text 1. Often it simply extends or refines the idea.",
+        "Choosing an answer that sounds like a common relationship (e.g., 'supports') but misstates what one of the passages actually says.",
+        "Focusing on minor details instead of the main argument of each passage. The relationship is about central ideas, not peripheral facts.",
+        "Reading only one passage carefully and skimming the other. Both passages must be understood to determine the connection."
+      ],
+      "takeaway": "To master Cross-Text Connections, always summarize each passage's main claim first, then decide how they relate—agree, disagree, or extend—before checking the answer choices."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "title": "Mastering Words in Context: Decoding Meaning from Clues",
+    "summary": "Learn how to determine the meaning of unfamiliar words or phrases by using context clues from the surrounding text, a key skill for the Digital SAT Reading & Writing section.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What Are Words in Context Questions?",
+          "body": "These questions ask you to figure out what a word or phrase means based on how it is used in a passage. They do not test your vocabulary knowledge in isolation; instead, they test your ability to use context—like nearby words, sentence structure, and the overall topic—to infer meaning."
+        },
+        {
+          "heading": "Types of Context Clues",
+          "body": "Common clue types include: definition/explanation (the text directly defines the word), synonym/restatement (a similar word or phrase is used nearby), antonym/contrast (a word with opposite meaning appears), example (specific examples illustrate the word), and cause/effect (the word's meaning is tied to a result or reason). Recognizing these patterns helps you decode unfamiliar terms."
+        },
+        {
+          "heading": "The Role of Punctuation and Structure",
+          "body": "Punctuation marks like commas, dashes, colons, and parentheses often signal context clues. For example, a colon may introduce a definition, and dashes can set off an explanation. Also, the grammatical role of the word (noun, verb, adjective) can narrow down possible meanings."
+        },
+        {
+          "heading": "Eliminating Wrong Answers",
+          "body": "Even if you don't know the exact meaning, you can often eliminate answer choices that don't fit the context. Look for words that are too extreme, irrelevant to the passage's topic, or contradict the surrounding sentences. The correct answer will always make sense when substituted back into the original sentence."
+        }
+      ],
+      "strategies": [
+        "Read the sentence containing the word carefully, then read 1-2 sentences before and after to gather context.",
+        "Identify the type of context clue (definition, example, contrast, etc.) and use it to predict a meaning before looking at the answer choices.",
+        "Plug each answer choice into the original sentence to see which one fits best in terms of meaning and grammar.",
+        "Watch for signal words like 'however,' 'similarly,' 'for example,' 'because,' and 'such as' that hint at the relationship between the word and its context.",
+        "If stuck, eliminate choices that are clearly too narrow, too broad, or unrelated to the passage's main idea."
+      ],
+      "worked": {
+        "problem": "Passage: The scientist's hypothesis was initially met with skepticism, but after years of meticulous data collection, her theory became widely accepted. In this context, 'meticulous' most nearly means:\nA) careless\nB) thorough\nC) rapid\nD) experimental",
+        "solution": "The correct answer is B) thorough. Context clues: 'meticulous' describes the data collection that led to acceptance after skepticism. 'Careless' (A) is opposite of what would lead to acceptance. 'Rapid' (C) is not supported—the passage mentions 'years,' implying careful, not fast. 'Experimental' (D) is too vague; the focus is on the quality of the data collection, not its nature. The word 'meticulous' means showing great attention to detail, i.e., thorough."
+      },
+      "mistakes": [
+        "Choosing an answer based on a word's common meaning without checking the context (e.g., assuming 'novel' always means 'book' when it could mean 'new').",
+        "Ignoring the overall passage tone or topic; a word might have a different connotation in a scientific vs. literary text.",
+        "Failing to read enough context—only looking at the immediate sentence can lead to misinterpretation.",
+        "Selecting a word that is a synonym in isolation but does not fit the specific nuance of the passage."
+      ],
+      "takeaway": "Always let the passage guide your understanding of a word's meaning—context is king."
+    }
+  },
+  {
+    "section": "RW",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "title": "Mastering Text Structure and Purpose on the Digital SAT",
+    "summary": "Learn to identify how authors organize passages and why they make specific choices, so you can confidently answer questions about the overall structure and purpose of a text.",
+    "body": {
+      "concepts": [
+        {
+          "heading": "What is Text Structure?",
+          "body": "Text structure refers to how a passage is organized. Common structures include cause/effect, compare/contrast, problem/solution, chronological order, and description. Recognizing the structure helps you predict the flow of ideas and understand the author's main point."
+        },
+        {
+          "heading": "What is Text Purpose?",
+          "body": "Purpose answers the question: Why did the author write this? Typical purposes are to inform, persuade, entertain, or describe. Often a passage may have a primary purpose (e.g., to inform) and a secondary purpose (e.g., to persuade). The Digital SAT will ask you to identify the main purpose of a passage or a specific part."
+        },
+        {
+          "heading": "The Role of Transitions and Signal Words",
+          "body": "Transition words act as signposts for structure. For example, 'however' and 'on the other hand' signal contrast; 'therefore' and 'as a result' signal cause/effect; 'first', 'next', 'finally' signal sequence. Pay attention to these clues to quickly map the passage's organization."
+        },
+        {
+          "heading": "Purpose vs. Main Idea",
+          "body": "The main idea is what the passage is about; the purpose is why the author wrote it. For example, a passage might explain how photosynthesis works (main idea) to inform readers (purpose). A question about purpose will often use verbs like 'argue', 'illustrate', 'criticize', 'defend', 'propose'."
+        }
+      ],
+      "strategies": [
+        "Read the question first to know whether you need to identify structure or purpose. Then skim the passage with that lens.",
+        "For structure questions, look for the overall pattern: does the passage present a problem then solution? Compare two things? Describe a sequence? Use transition words as clues.",
+        "For purpose questions, ask yourself: What is the author trying to achieve? Eliminate answers that are too broad (e.g., 'to discuss X' when the passage does much more) or too narrow (e.g., only one paragraph's purpose).",
+        "When stuck, re-read the first and last sentences of each paragraph. They often reveal the structure and purpose.",
+        "For paired passages, identify each passage's purpose separately, then note how they relate (e.g., one supports, the other challenges)."
+      ],
+      "worked": {
+        "problem": "Passage: 'While many people assume that recycling is always environmentally beneficial, recent studies show that the process itself consumes significant energy. For example, recycling aluminum saves 95% of the energy needed to produce new aluminum, but recycling plastics often uses more energy than making new plastic. Therefore, the environmental impact of recycling depends heavily on the material. In conclusion, we must evaluate recycling programs on a case-by-case basis rather than assuming all recycling is equally good.'\n\nQuestion: Which choice best describes the overall structure of the passage?\nA) It presents a common belief, then challenges it with evidence, and finally offers a nuanced conclusion.\nB) It lists several benefits of recycling and then argues for increased recycling efforts.\nC) It compares two types of recycling and declares one superior.\nD) It describes a problem and then proposes a solution.",
+        "solution": "The correct answer is A. The passage begins with a common belief ('recycling is always beneficial'), then challenges it with evidence about energy consumption (aluminum vs. plastic), and ends with a nuanced conclusion ('evaluate on a case-by-case basis'). Choice B is wrong because the passage does not argue for increased recycling; it questions blanket assumptions. Choice C is too narrow—the comparison is just an example, not the overall structure. Choice D is incorrect because the passage does not propose a specific solution; it offers a recommendation for evaluation."
+      },
+      "mistakes": [
+        "Confusing purpose with main idea: 'To explain how recycling works' is a main idea error; the purpose is 'to challenge a common assumption'.",
+        "Focusing on details instead of the big picture: When asked for overall structure, don't get lost in a single example or paragraph.",
+        "Choosing an answer that is too broad or too specific: For example, 'to discuss recycling' is too broad; 'to compare aluminum and plastic recycling' is too narrow for the whole passage.",
+        "Ignoring transition words: Words like 'while', 'therefore', 'in conclusion' are key to understanding structure. Missing them can lead to wrong answers."
+      ],
+      "takeaway": "Always identify the passage's overall pattern (structure) and the author's goal (purpose) by focusing on transitions, the opening and closing statements, and the relationship between ideas."
+    }
+  }
+]

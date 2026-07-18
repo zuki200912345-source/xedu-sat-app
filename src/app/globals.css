@@ -2,26 +2,122 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* XeduSAT blue design system
+       primary  #102A4E (brand navy)  accent light navy
+       XeduSAT brand navy (from the logo) #102A4E is the primary.
+       text #0F172A (dark navy)   surface #F8FAFC (light) */
+    --background: 0 0% 100%;
+    --foreground: 214 60% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 214 60% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 214 60% 12%;
+    --primary: 215 66% 20%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 214 40% 95%;
+    --secondary-foreground: 215 66% 24%;
+    --muted: 214 40% 96%;
+    --muted-foreground: 215 20% 42%;
+    --accent: 214 52% 92%;
+    --accent-foreground: 215 66% 24%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 90%;
+    --input: 214 32% 90%;
+    --ring: 215 66% 32%;
+    --chart-1: 215 66% 26%;
+    --chart-2: 213 70% 45%;
+    --chart-3: 199 80% 45%;
+    --chart-4: 224 55% 40%;
+    --chart-5: 213 80% 62%;
+    --radius: 0.625rem;
+    --sidebar: 214 45% 97%;
+    --sidebar-foreground: 214 60% 12%;
+    --sidebar-primary: 215 66% 20%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 214 52% 92%;
+    --sidebar-accent-foreground: 215 66% 24%;
+    --sidebar-border: 214 32% 90%;
+    --sidebar-ring: 215 66% 32%;
+  }
+
+  .dark {
+    --background: 215 55% 8%;
+    --foreground: 210 40% 98%;
+    --card: 215 50% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 215 50% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 213 70% 58%;
+    --primary-foreground: 215 66% 12%;
+    --secondary: 215 40% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 215 40% 16%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 215 40% 20%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 45%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 40% 20%;
+    --input: 215 40% 20%;
+    --ring: 213 70% 58%;
+    --chart-1: 213 70% 58%;
+    --chart-2: 213 94% 68%;
+    --chart-3: 199 89% 48%;
+    --chart-4: 224 76% 58%;
+    --chart-5: 214 95% 77%;
+    --sidebar: 215 55% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 213 70% 58%;
+    --sidebar-primary-foreground: 215 66% 12%;
+    --sidebar-accent: 215 40% 20%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 215 40% 20%;
+    --sidebar-ring: 213 70% 58%;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Bluebook-style dashed section divider: repeating blue / yellow / gray dashes. */
+.bluebook-divider {
+  height: 3px;
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    to right,
+    #7ca8f7 0,
+    #7ca8f7 18px,
+    transparent 18px,
+    transparent 27px,
+    #f5d442 27px,
+    #f5d442 45px,
+    transparent 45px,
+    transparent 54px,
+    #cbd5e1 54px,
+    #cbd5e1 72px,
+    transparent 72px,
+    transparent 81px
+  );
+}
+
+/* The little device "notch" at the top-center of the Bluebook test chrome. */
+.bluebook-notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 18px;
+  width: 92px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background: #0f172a;
 }

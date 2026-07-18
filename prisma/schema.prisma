@@ -1,0 +1,368 @@
+// XeduSAT data model.
+//
+// NOTE ON ENUMS / JSON: SQLite (local dev default) does not support Prisma
+// enums or Json columns, so enum-like fields are Strings validated by Zod at
+// every boundary (see src/lib/enums.ts) and structured payloads (e.g. MCQ
+// choices) are JSON-serialized Strings. Both are fully Postgres-compatible —
+// switching to Postgres for prod is a one-line datasource change (see README).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  // Neon (Vercel Postgres) injects these; pooled URL for runtime queries,
+  // unpooled/direct URL for schema migrations.
+  url       = env("xedusat_POSTGRES_PRISMA_URL")
+  directUrl = env("xedusat_DATABASE_URL_UNPOOLED")
+}
+
+// ---------------------------------------------------------------------------
+// Users & auth
+// ---------------------------------------------------------------------------
+
+model User {
+  id                 String    @id @default(cuid())
+  name               String
+  email              String    @unique
+  passwordHash       String?
+  role               String    @default("STUDENT") // STUDENT | TUTOR | ADMIN
+  tier               String    @default("FREE") // FREE | PLUS | PREMIUM
+  subscriptionStatus String    @default("inactive") // inactive | active | past_due | canceled
+  stripeCustomerId   String?   @unique
+  streak             Int       @default(0)
+  lastActiveDay      DateTime?
+  xp                 Int       @default(0)
+  tutoringCredits    Int       @default(0)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  testAttempts    TestAttempt[]
+  vocabProgress   VocabProgress[]
+  skillMastery    SkillMastery[]
+  tutorProfile    TutorProfile?
+  bookingsAsStudent Booking[]     @relation("StudentBookings")
+  badges          Badge[]
+}
+
+// ---------------------------------------------------------------------------
+// Content: passages, questions, tests, modules
+// ---------------------------------------------------------------------------
+
+model Passage {
+  id        String     @id @default(cuid())
+  title     String?
+  content   String // 25–150 words for R&W; may include a data table/graph spec
+  graphSpec String? // JSON: quantitative stimulus (table/chart) for Command of Evidence
+  questions Question[]
+}
+
+model Question {
+  id            String  @id @default(cuid())
+  section       String // RW | MATH
+  domain        String // blueprint domain, e.g. "Craft and Structure"
+  skill         String // blueprint skill, e.g. "Words in Context"
+  difficulty    String // easy | medium | hard (coarse band)
+  difficultyValue Float  @default(2.0) // continuous 1.0–3.0 (spec difficulty scale)
+  subtype       String? // spec subtype/subtopic (e.g. punctuation_boundaries)
+  type          String // MCQ | SPR (question format)
+  stem          String
+  choices       String? // JSON array of 4 strings for MCQ; null for SPR
+  correctAnswer String // MCQ: "A".."D"; SPR: canonical value, "|"-separated accepted forms
+  explanation   String
+  status        String  @default("PUBLISHED") // DRAFT (pipeline output, admin review) | PUBLISHED
+  passageId     String?
+  passage       Passage? @relation(fields: [passageId], references: [id])
+  createdAt     DateTime @default(now())
+
+  moduleQuestions ModuleQuestion[]
+  answers         Answer[]
+
+  @@index([section, domain, skill, difficulty])
+}
+
+model Test {
+  id          String   @id @default(cuid())
+  title       String
+  kind        String   @default("FULL") // FULL | DIAGNOSTIC | DRILL | TOPIC
+  description String?
+  isPublished Boolean  @default(false)
+  // For TOPIC/DRILL presets: what the drill focuses on (null for full tests).
+  section     String? // RW | MATH
+  domain      String?
+  skill       String?
+  difficulty  String? // easy | medium | hard | mixed
+  createdAt   DateTime @default(now())
+
+  modules     Module[]
+  attempts    TestAttempt[]
+  scaleTables ScaleTable[]
+}
+
+model Module {
+  id      String @id @default(cuid())
+  testId  String
+  test    Test   @relation(fields: [testId], references: [id], onDelete: Cascade)
+  section String // RW | MATH
+  order   Int // 1 | 2
+  path    String @default("BASE") // BASE (module 1) | EASY | HARD (module 2 variants)
+
+  questions      ModuleQuestion[]
+  moduleAttempts ModuleAttempt[]
+
+  @@unique([testId, section, order, path])
+}
+
+model ModuleQuestion {
+  id         String   @id @default(cuid())
+  moduleId   String
+  module     Module   @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  order      Int
+
+  @@unique([moduleId, order])
+  @@unique([moduleId, questionId])
+}
+
+// ---------------------------------------------------------------------------
+// Attempts & scoring
+// ---------------------------------------------------------------------------
+
+model TestAttempt {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  testId      String
+  test        Test      @relation(fields: [testId], references: [id], onDelete: Cascade)
+  status      String    @default("IN_PROGRESS") // IN_PROGRESS | BREAK | COMPLETED | ABANDONED
+  rwScaled    Int?
+  mathScaled  Int?
+  scaledTotal Int?
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  moduleAttempts ModuleAttempt[]
+}
+
+model ModuleAttempt {
+  id               String    @id @default(cuid())
+  attemptId        String
+  attempt          TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  moduleId         String
+  module           Module    @relation(fields: [moduleId], references: [id])
+  rawCorrect       Int?
+  routedPath       String? // EASY | HARD — set after module 1 is scored
+  secondsRemaining Int? // for resume
+  startedAt        DateTime  @default(now())
+  completedAt      DateTime?
+
+  answers Answer[]
+}
+
+model Answer {
+  id              String  @id @default(cuid())
+  moduleAttemptId String
+  moduleAttempt   ModuleAttempt @relation(fields: [moduleAttemptId], references: [id], onDelete: Cascade)
+  questionId      String
+  question        Question @relation(fields: [questionId], references: [id])
+  response        String?
+  isCorrect       Boolean?
+  secondsSpent    Int     @default(0)
+  flagged         Boolean @default(false)
+  eliminated      String? // JSON array of struck-through choice letters
+
+  @@unique([moduleAttemptId, questionId])
+}
+
+// Per-form raw→scaled lookup, incl. Easy-path capping (separate rows per path).
+model ScaleTable {
+  id          String @id @default(cuid())
+  testId      String
+  test        Test   @relation(fields: [testId], references: [id], onDelete: Cascade)
+  section     String // RW | MATH
+  path        String // EASY | HARD
+  rawScore    Int
+  scaledScore Int
+
+  @@unique([testId, section, path, rawScore])
+}
+
+// ---------------------------------------------------------------------------
+// Vocabulary (SM-2 spaced repetition)
+// ---------------------------------------------------------------------------
+
+model VocabWord {
+  id           String @id @default(cuid())
+  word         String @unique
+  partOfSpeech String
+  definition   String
+  example      String
+  deck         String @default("Core SAT")
+
+  progress VocabProgress[]
+}
+
+model VocabProgress {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  wordId      String
+  word        VocabWord @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  easeFactor  Float     @default(2.5)
+  interval    Int       @default(0) // days
+  repetitions Int       @default(0)
+  dueAt       DateTime  @default(now())
+  lastGrade   String? // AGAIN | HARD | GOOD | EASY
+
+  @@unique([userId, wordId])
+}
+
+// ---------------------------------------------------------------------------
+// Tutoring
+// ---------------------------------------------------------------------------
+
+model TutorProfile {
+  id         String @id @default(cuid())
+  userId     String @unique
+  user       User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bio        String
+  subjects   String // JSON array, e.g. ["Math","R&W"]
+  hourlyRate Int    @default(0) // cents
+
+  availability Availability[]
+  bookings     Booking[]      @relation("TutorBookings")
+}
+
+model Availability {
+  id          String    @id @default(cuid())
+  tutorId     String
+  tutor       TutorProfile @relation(fields: [tutorId], references: [id], onDelete: Cascade)
+  kind        String    @default("RECURRING") // RECURRING | EXCEPTION (blocked date)
+  weekday     Int? // 0–6, for RECURRING
+  startMinute Int? // minutes from midnight
+  endMinute   Int?
+  date        DateTime? // for EXCEPTION
+}
+
+model Booking {
+  id              String   @id @default(cuid())
+  studentId       String
+  student         User     @relation("StudentBookings", fields: [studentId], references: [id], onDelete: Cascade)
+  tutorId         String
+  tutor           TutorProfile @relation("TutorBookings", fields: [tutorId], references: [id], onDelete: Cascade)
+  startsAt        DateTime
+  endsAt          DateTime
+  status          String   @default("CONFIRMED") // CONFIRMED | CANCELED | COMPLETED
+  meetingUrl      String?
+  meetingProvider String? // zoom | mock
+  notes           String?
+  createdAt       DateTime @default(now())
+}
+
+// ---------------------------------------------------------------------------
+// Analytics
+// ---------------------------------------------------------------------------
+
+model SkillMastery {
+  id       String   @id @default(cuid())
+  userId   String
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  section  String // RW | MATH
+  skill    String
+  attempts Int      @default(0)
+  correct  Int      @default(0)
+  lastSeen DateTime @default(now())
+
+  @@unique([userId, skill])
+}
+
+// ---------------------------------------------------------------------------
+// Lessons — original teaching content, one per skill, generated from an
+// attribute rubric (never copyrighted text) and human-reviewable.
+// ---------------------------------------------------------------------------
+
+model Lesson {
+  id        String   @id @default(cuid())
+  section   String // RW | MATH
+  domain    String
+  skill     String @unique
+  title     String
+  summary   String
+  // JSON: { concepts: [{heading, body}], strategies: string[],
+  //         worked: {problem, solution}, mistakes: string[], takeaway }
+  body      String
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+}
+
+model LessonProgress {
+  id          String   @id @default(cuid())
+  userId      String
+  lessonId    String
+  completedAt DateTime @default(now())
+
+  @@unique([userId, lessonId])
+}
+
+// ---------------------------------------------------------------------------
+// Daily Reading — a required news article per day + AI-analyzed summary.
+// ---------------------------------------------------------------------------
+
+model ReadingArticle {
+  id          String   @id @default(cuid())
+  title       String
+  source      String
+  category    String
+  content     String // full article text (~320–480 words)
+  modelSummary String // expert reference summary used to ground AI feedback
+  url         String? // original URL when sourced from a live news adapter
+  // Deterministic ordering for the "article of the day" rotation.
+  dayIndex    Int      @unique
+  publishedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  submissions ReadingSubmission[]
+}
+
+model ReadingSubmission {
+  id          String   @id @default(cuid())
+  userId      String
+  articleId   String
+  article     ReadingArticle @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  summary     String
+  wordCount   Int
+  score       Int // 0–100 comprehension estimate
+  // JSON: { understood: string[], missed: string[], overall: string }
+  feedback    String
+  submittedAt DateTime @default(now())
+
+  @@unique([userId, articleId])
+}
+
+// Gamification: badges the user has earned.
+model Badge {
+  id       String   @id @default(cuid())
+  userId   String
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  key      String // e.g. "first_test", "streak_7", "century_club"
+  earnedAt DateTime @default(now())
+
+  @@unique([userId, key])
+}
+
+// ---------------------------------------------------------------------------
+// INTERNAL reference corpus — attribute metadata only, used to guide original
+// question authoring. ADMIN-only. Never exposed through any student-facing
+// API, page, or serializer. Contains NO copyrighted text.
+// ---------------------------------------------------------------------------
+
+model ReferenceCorpusItem {
+  id             String   @id @default(cuid())
+  domain         String
+  skill          String
+  difficulty     String
+  structureNotes String // structural/attribute notes only — never item text
+  createdAt      DateTime @default(now())
+}

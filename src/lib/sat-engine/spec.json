@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "version": "2.0",
+    "test": "Digital SAT (Bluebook format)",
+    "verified_against": "Official College Board Bluebook practice tests (module domain counts: C&S 7, I&I 7, SEC 7, EoI 6 per R&W module; Math 35/35/15/15 interleaved by difficulty, ~25% SPR)",
+    "note": "Real SAT routes to only TWO Module 2 variants (easier/harder). This spec uses a custom 5-tier routing system for finer-grained practice. Do not present tiers as official College Board behavior.",
+    "counts_note": "All type counts are targets with tolerance ±1. A generated module MUST still total exactly 27 (RW) or 22 (Math). Apply jitter by moving one question between adjacent type blocks, never by changing the total.",
+    "difficulty_scale": "1.0 = easy, 2.0 = medium, 3.0 = hard (continuous)"
+  },
+
+  "adaptive_routing": {
+    "description": "Module 1 raw correct count determines Module 2 tier. Both sections use 5 tiers.",
+    "reading_writing": {
+      "module_1_questions": 27,
+      "tiers": [
+        { "tier": 1, "label": "easy",            "module1_correct_range": [0, 5],   "difficulty_offset": -0.7, "mix": { "easy": 0.60, "medium": 0.30, "hard": 0.10 } },
+        { "tier": 2, "label": "moderate",        "module1_correct_range": [6, 10],  "difficulty_offset": -0.35, "mix": { "easy": 0.45, "medium": 0.40, "hard": 0.15 } },
+        { "tier": 3, "label": "difficult",       "module1_correct_range": [11, 16], "difficulty_offset": 0.0,  "mix": { "easy": 0.30, "medium": 0.40, "hard": 0.30 } },
+        { "tier": 4, "label": "quite_difficult", "module1_correct_range": [17, 22], "difficulty_offset": 0.35, "mix": { "easy": 0.15, "medium": 0.40, "hard": 0.45 } },
+        { "tier": 5, "label": "very_difficult",  "module1_correct_range": [23, 27], "difficulty_offset": 0.7,  "mix": { "easy": 0.05, "medium": 0.30, "hard": 0.65 } }
+      ]
+    },
+    "math": {
+      "module_1_questions": 22,
+      "tiers": [
+        { "tier": 1, "label": "easy",            "module1_correct_range": [0, 4],   "difficulty_offset": -0.7, "mix": { "easy": 0.60, "medium": 0.30, "hard": 0.10 } },
+        { "tier": 2, "label": "moderate",        "module1_correct_range": [5, 8],   "difficulty_offset": -0.35, "mix": { "easy": 0.45, "medium": 0.40, "hard": 0.15 } },
+        { "tier": 3, "label": "difficult",       "module1_correct_range": [9, 13],  "difficulty_offset": 0.0,  "mix": { "easy": 0.30, "medium": 0.40, "hard": 0.30 } },
+        { "tier": 4, "label": "quite_difficult", "module1_correct_range": [14, 18], "difficulty_offset": 0.35, "mix": { "easy": 0.15, "medium": 0.40, "hard": 0.45 } },
+        { "tier": 5, "label": "very_difficult",  "module1_correct_range": [19, 22], "difficulty_offset": 0.7,  "mix": { "easy": 0.05, "medium": 0.30, "hard": 0.65 } }
+      ]
+    },
+    "module_1_rule": "Module 1 always uses tier 3 (baseline broad mix of easy/medium/hard), matching the real test."
+  },
+
+  "reading_writing": {
+    "questions_per_module": 27,
+    "time_minutes": 32,
+    "passage_length_words": [25, 150],
+    "ordering_rule": "Question types ALWAYS appear in the block order below (verified: fixed order on every real module). Within each block, questions run easiest to hardest. Exception: the SEC block mixes grammar and punctuation subtypes together, sorted only by difficulty. Difficulty RESETS at the start of the SEC block, then climbs again to the end of the module.",
+    "blueprint": [
+      {
+        "order": 1,
+        "type": "words_in_context",
+        "domain": "Craft and Structure",
+        "count": 4, "tolerance": 1,
+        "typical_positions": [1, 5],
+        "generation_note": "Vocabulary fill-in-the-blank or meaning-of-word questions. Vocab sophistication scales with tier: tier 1-2 uses common words (cautious, mild), tier 4-5 uses advanced words used precisely (sanguine, vindicated, proscribed). Within the block, order easiest word to hardest."
+      },
+      {
+        "order": 2,
+        "type": "text_structure_and_purpose",
+        "domain": "Craft and Structure",
+        "count": 2, "tolerance": 1,
+        "typical_positions": [5, 7],
+        "generation_note": "Main purpose of the text / function of a sentence within the text. Passages include fiction, literary nonfiction, science, humanities."
+      },
+      {
+        "order": 3,
+        "type": "cross_text_connections",
+        "domain": "Craft and Structure",
+        "count": 1, "tolerance": 1,
+        "typical_positions": [7, 8],
+        "generation_note": "Two short paired texts; ask how Author 2 would respond to Author 1. May be absent (count 0) in some modules, especially lower tiers."
+      },
+      {
+        "order": 4,
+        "type": "central_ideas_and_details",
+        "domain": "Information and Ideas",
+        "count": 2, "tolerance": 1,
+        "typical_positions": [8, 10],
+        "generation_note": "Main idea of the passage, or a specific stated detail. Includes literature excerpts (the 'fiction' comprehension questions)."
+      },
+      {
+        "order": 5,
+        "type": "command_of_evidence_textual",
+        "domain": "Information and Ideas",
+        "count": 2, "tolerance": 1,
+        "typical_positions": [10, 12],
+        "generation_note": "A claim is given; pick the quotation or finding that best supports/illustrates/undermines it."
+      },
+      {
+        "order": 6,
+        "type": "command_of_evidence_quantitative",
+        "domain": "Information and Ideas",
+        "count": 1, "tolerance": 1,
+        "typical_positions": [12, 14],
+        "generation_note": "Passage plus a table or bar/line graph; pick the data that completes or supports the claim. Requires rendering a small data figure."
+      },
+      {
+        "order": 7,
+        "type": "inferences",
+        "domain": "Information and Ideas",
+        "count": 2, "tolerance": 1,
+        "typical_positions": [13, 15],
+        "generation_note": "Logical completion: passage ends with a blank ('Therefore, ______'); pick the choice that most logically follows. Hardest reading questions; scale reasoning depth with tier."
+      },
+      {
+        "order": 8,
+        "type": "standard_english_conventions",
+        "domain": "Standard English Conventions",
+        "count": 7, "tolerance": 1,
+        "typical_positions": [15, 22],
+        "subtypes": {
+          "grammar_form_structure_sense": {
+            "share": 0.5,
+            "topics": ["subject-verb agreement", "pronoun-antecedent agreement", "verb tense consistency", "modifier placement", "subject-modifier placement", "plural/possessive forms"]
+          },
+          "punctuation_boundaries": {
+            "share": 0.5,
+            "topics": ["comma vs semicolon vs colon", "sentence boundaries / run-ons / fragments", "coordination and subordination", "nonessential clause punctuation (paired commas/dashes)", "punctuation with supplements and lists"]
+          }
+        },
+        "generation_note": "CRITICAL: do NOT group grammar questions then punctuation questions. Interleave the two subtypes randomly, sorted ONLY by difficulty (this matches the real test and is the one block where types are mixed). Difficulty resets to easy at the start of this block."
+      },
+      {
+        "order": 9,
+        "type": "transitions",
+        "domain": "Expression of Ideas",
+        "count": 3, "tolerance": 1,
+        "typical_positions": [22, 25],
+        "generation_note": "Choose the transition word/phrase (however, moreover, consequently, for example, ...) that best fits the logical relationship between sentences."
+      },
+      {
+        "order": 10,
+        "type": "rhetorical_synthesis",
+        "domain": "Expression of Ideas",
+        "count": 3, "tolerance": 1,
+        "typical_positions": [25, 27],
+        "generation_note": "Bulleted student notes plus a stated goal ('The student wants to emphasize X'); pick the sentence that uses the notes to accomplish the goal. Always the final questions of the module."
+      }
+    ],
+    "blueprint_totals_check": "4+2+1+2+2+1+2+7+3+3 = 27. When applying ±1 jitter, borrow/lend between adjacent blocks so the sum stays 27. Recommended jitter pairs: (words_in_context <-> text_structure), (cross_text <-> central_ideas), (evidence_quantitative <-> inferences), (transitions <-> rhetorical_synthesis), (SEC <-> transitions)."
+  },
+
+  "math": {
+    "questions_per_module": 22,
+    "time_minutes": 35,
+    "calculator": "Allowed throughout (embed or link Desmos if possible)",
+    "ordering_rule": "NO topic grouping. Domains are interleaved; the ONLY ordering rule is strictly increasing difficulty from Q1 (easiest) to Q22 (hardest). Never place two consecutive questions from the same subtopic.",
+    "format": {
+      "multiple_choice_share": 0.75,
+      "spr_share": 0.25,
+      "spr_count": 5, "spr_tolerance": 1,
+      "spr_note": "SPR (student-produced response / type-in) questions are SCATTERED among MC questions, not grouped at the end. SPR answers must be integers or simple fractions/decimals enterable in 5 characters (6 with a negative sign)."
+    },
+    "domain_counts_per_module": [
+      {
+        "domain": "algebra",
+        "count": 8, "tolerance": 1,
+        "share_target": 0.35,
+        "position_bias": "skews toward Q1-Q12 but some appear late",
+        "subtopics": {
+          "linear_equations_one_variable": 0.20,
+          "linear_functions": 0.30,
+          "linear_equations_two_variables_and_systems": 0.30,
+          "linear_inequalities": 0.20
+        }
+      },
+      {
+        "domain": "advanced_math",
+        "count": 8, "tolerance": 1,
+        "share_target": 0.35,
+        "position_bias": "skews toward Q10-Q22; dominates the final third",
+        "subtopics": {
+          "equivalent_expressions": 0.25,
+          "nonlinear_equations_and_systems": 0.35,
+          "nonlinear_functions_quadratic_exponential_polynomial_rational_absolute_value": 0.40
+        }
+      },
+      {
+        "domain": "problem_solving_and_data_analysis",
+        "count": 3, "tolerance": 1,
+        "share_target": 0.15,
+        "position_bias": "spread across Q2-Q16",
+        "subtopics": {
+          "ratios_rates_proportions_units": 0.25,
+          "percentages": 0.20,
+          "one_variable_data_center_and_spread": 0.15,
+          "two_variable_data_models_and_scatterplots": 0.20,
+          "probability_and_conditional_probability": 0.10,
+          "sample_statistics_margin_of_error_evaluating_claims": 0.10
+        }
+      },
+      {
+        "domain": "geometry_and_trigonometry",
+        "count": 3, "tolerance": 1,
+        "share_target": 0.15,
+        "position_bias": "spread; hardest circle/trig items land in Q17-Q22",
+        "subtopics": {
+          "area_and_volume": 0.30,
+          "lines_angles_triangles": 0.30,
+          "right_triangles_and_trigonometry": 0.25,
+          "circles": 0.15
+        }
+      }
+    ],
+    "domain_totals_check": "8+8+3+3 = 22. Jitter pairs: (algebra <-> advanced_math), (psda <-> geometry).",
+    "difficulty_curve_module": [
+      { "q": 1,  "difficulty": 1.1 }, { "q": 2,  "difficulty": 1.2 }, { "q": 3,  "difficulty": 1.3 },
+      { "q": 4,  "difficulty": 1.4 }, { "q": 5,  "difficulty": 1.5 }, { "q": 6,  "difficulty": 1.6 },
+      { "q": 7,  "difficulty": 1.7 }, { "q": 8,  "difficulty": 1.8 }, { "q": 9,  "difficulty": 1.9 },
+      { "q": 10, "difficulty": 2.0 }, { "q": 11, "difficulty": 2.1 }, { "q": 12, "difficulty": 2.2 },
+      { "q": 13, "difficulty": 2.3 }, { "q": 14, "difficulty": 2.3 }, { "q": 15, "difficulty": 2.4 },
+      { "q": 16, "difficulty": 2.5 }, { "q": 17, "difficulty": 2.5 }, { "q": 18, "difficulty": 2.6 },
+      { "q": 19, "difficulty": 2.7 }, { "q": 20, "difficulty": 2.7 }, { "q": 21, "difficulty": 2.8 },
+      { "q": 22, "difficulty": 2.9 }
+    ],
+    "difficulty_curve_note": "This is the tier-3 (baseline / Module 1) curve. For Module 2, add the tier's difficulty_offset to every value, then clamp to [1.0, 3.0]."
+  },
+
+  "scoring_model": {
+    "note": "Real College Board scoring is proprietary IRT. This is a reasonable approximation for a practice app.",
+    "per_section": {
+      "scale": [200, 800],
+      "formula": "score = 200 + round_to_10( (m1_correct + m2_correct) / (m1_total + m2_total) * 600 * tier_multiplier )",
+      "tier_multipliers": { "1": 0.72, "2": 0.84, "3": 0.94, "4": 1.0, "5": 1.0 },
+      "tier_caps": { "1": 480, "2": 570, "3": 650, "4": 730, "5": 800 },
+      "cap_note": "Mirrors the real test's behavior where routing to an easier Module 2 caps the maximum achievable section score (~590 on the real 2-route system)."
+    }
+  }
+}

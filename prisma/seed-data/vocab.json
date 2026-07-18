@@ -1,0 +1,1101 @@
+[
+  {
+    "word": "abate",
+    "partOfSpeech": "verb",
+    "definition": "to become less intense or widespread",
+    "example": "The storm began to abate after hours of heavy rain.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "benevolent",
+    "partOfSpeech": "adjective",
+    "definition": "well-meaning and kindly",
+    "example": "The benevolent donor funded scholarships for underprivileged students.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "candid",
+    "partOfSpeech": "adjective",
+    "definition": "truthful and straightforward; frank",
+    "example": "Her candid remarks about the company's failures were appreciated.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "diligent",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing care in one's work or duties",
+    "example": "The diligent student reviewed all notes before the exam.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "elaborate",
+    "partOfSpeech": "verb",
+    "definition": "to develop or present in detail",
+    "example": "Could you elaborate on your plan for the project?",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "facilitate",
+    "partOfSpeech": "verb",
+    "definition": "to make an action or process easy or easier",
+    "example": "The new software will facilitate data analysis.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "gratuitous",
+    "partOfSpeech": "adjective",
+    "definition": "uncalled for; lacking good reason; unwarranted",
+    "example": "The movie was criticized for its gratuitous violence.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "hypothetical",
+    "partOfSpeech": "adjective",
+    "definition": "supposed but not necessarily real or true",
+    "example": "Let's consider a hypothetical scenario where demand doubles.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "impartial",
+    "partOfSpeech": "adjective",
+    "definition": "treating all rivals or disputants equally; fair and just",
+    "example": "A judge must remain impartial during a trial.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "juxtapose",
+    "partOfSpeech": "verb",
+    "definition": "to place close together for contrasting effect",
+    "example": "The artist juxtaposed light and dark colors to create drama.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "lucid",
+    "partOfSpeech": "adjective",
+    "definition": "expressed clearly; easy to understand",
+    "example": "Her lucid explanation clarified the complex theory.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "meticulous",
+    "partOfSpeech": "adjective",
+    "definition": "showing great attention to detail; very careful and precise",
+    "example": "The architect was meticulous in her measurements.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "nostalgia",
+    "partOfSpeech": "noun",
+    "definition": "a sentimental longing for the past",
+    "example": "Listening to old songs filled him with nostalgia.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "obsolete",
+    "partOfSpeech": "adjective",
+    "definition": "no longer produced or used; out of date",
+    "example": "Floppy disks are now obsolete technology.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "paradox",
+    "partOfSpeech": "noun",
+    "definition": "a seemingly contradictory statement that may nonetheless be true",
+    "example": "The paradox of the liar sentence is a classic puzzle.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "quintessential",
+    "partOfSpeech": "adjective",
+    "definition": "representing the most perfect or typical example of a quality",
+    "example": "Paris is the quintessential romantic city.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "reticent",
+    "partOfSpeech": "adjective",
+    "definition": "not revealing one's thoughts or feelings readily",
+    "example": "He was reticent about his personal life.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "synthesize",
+    "partOfSpeech": "verb",
+    "definition": "to combine a number of things into a coherent whole",
+    "example": "The report synthesizes data from multiple sources.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "tenacious",
+    "partOfSpeech": "adjective",
+    "definition": "tending to keep a firm hold of something; persistent",
+    "example": "Her tenacious pursuit of justice inspired others.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ubiquitous",
+    "partOfSpeech": "adjective",
+    "definition": "present, appearing, or found everywhere",
+    "example": "Smartphones have become ubiquitous in modern society.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "vindicate",
+    "partOfSpeech": "verb",
+    "definition": "to clear someone of blame or suspicion",
+    "example": "The evidence vindicated the accused scientist.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "whimsical",
+    "partOfSpeech": "adjective",
+    "definition": "playfully quaint or fanciful, especially in an appealing way",
+    "example": "The artist's whimsical drawings delighted children.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "xenophobia",
+    "partOfSpeech": "noun",
+    "definition": "dislike of or prejudice against people from other countries",
+    "example": "The politician's speech stoked xenophobia among the audience.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "yield",
+    "partOfSpeech": "verb",
+    "definition": "to produce or provide (a natural, agricultural, or industrial product)",
+    "example": "The farm yields enough crops to feed the village.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "zealous",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing great energy or enthusiasm for a cause or objective",
+    "example": "The zealous volunteers worked tirelessly for the charity.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "acumen",
+    "partOfSpeech": "noun",
+    "definition": "the ability to make good judgments and quick decisions",
+    "example": "Her business acumen helped the company navigate the financial crisis.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "alacrity",
+    "partOfSpeech": "noun",
+    "definition": "brisk and cheerful readiness",
+    "example": "He accepted the challenge with alacrity, eager to prove his skills.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ambiguous",
+    "partOfSpeech": "adjective",
+    "definition": "open to more than one interpretation; unclear",
+    "example": "The ambiguous instructions left the students unsure of what to do.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ameliorate",
+    "partOfSpeech": "verb",
+    "definition": "to make something bad or unsatisfactory better",
+    "example": "The new policies aim to ameliorate the living conditions in the city.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "anomaly",
+    "partOfSpeech": "noun",
+    "definition": "something that deviates from the standard or norm",
+    "example": "The warm weather in January was an anomaly for the region.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "antagonize",
+    "partOfSpeech": "verb",
+    "definition": "to cause someone to become hostile or angry",
+    "example": "His rude comments only served to antagonize the audience.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "apathy",
+    "partOfSpeech": "noun",
+    "definition": "lack of interest, enthusiasm, or concern",
+    "example": "The voter apathy led to a very low turnout in the election.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "arbitrary",
+    "partOfSpeech": "adjective",
+    "definition": "based on random choice or personal whim, not reason",
+    "example": "The arbitrary decision to cancel the project frustrated the team.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "arduous",
+    "partOfSpeech": "adjective",
+    "definition": "involving great effort, difficulty, or hardship",
+    "example": "The arduous journey through the mountains took several days.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "austere",
+    "partOfSpeech": "adjective",
+    "definition": "severe in manner or appearance; strictly simple and plain",
+    "example": "The monk lived an austere life with few possessions.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "capricious",
+    "partOfSpeech": "adjective",
+    "definition": "given to sudden changes of mood or behavior",
+    "example": "The capricious weather made it hard to plan outdoor activities.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "cogent",
+    "partOfSpeech": "adjective",
+    "definition": "clear, logical, and convincing",
+    "example": "She presented a cogent argument for the new policy.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "complacent",
+    "partOfSpeech": "adjective",
+    "definition": "showing smug or uncritical satisfaction with oneself",
+    "example": "After winning several awards, he became complacent and stopped improving.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "conundrum",
+    "partOfSpeech": "noun",
+    "definition": "a confusing and difficult problem or question",
+    "example": "The ethical conundrum left the committee debating for hours.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "daunting",
+    "partOfSpeech": "adjective",
+    "definition": "seeming difficult to deal with; intimidating",
+    "example": "The daunting task of climbing the mountain discouraged many hikers.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "deference",
+    "partOfSpeech": "noun",
+    "definition": "humble submission and respect",
+    "example": "He treated his elders with deference and courtesy.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "delineate",
+    "partOfSpeech": "verb",
+    "definition": "to describe or portray something precisely",
+    "example": "The report delineates the steps needed to improve safety.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "disparate",
+    "partOfSpeech": "adjective",
+    "definition": "essentially different in kind; not able to be compared",
+    "example": "The two cultures had disparate views on marriage.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "dogmatic",
+    "partOfSpeech": "adjective",
+    "definition": "inclined to assert opinions as if they were facts",
+    "example": "His dogmatic approach discouraged open discussion.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "eclectic",
+    "partOfSpeech": "adjective",
+    "definition": "deriving ideas or style from a broad range of sources",
+    "example": "Her eclectic taste in music ranged from classical to hip-hop.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "efficacy",
+    "partOfSpeech": "noun",
+    "definition": "the ability to produce a desired result",
+    "example": "The efficacy of the new drug was confirmed by clinical trials.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "elucidate",
+    "partOfSpeech": "verb",
+    "definition": "to make something clear; explain",
+    "example": "The teacher elucidated the complex theory with simple examples.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "empirical",
+    "partOfSpeech": "adjective",
+    "definition": "based on observation or experience, not theory",
+    "example": "The researchers collected empirical data to support their hypothesis.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "engender",
+    "partOfSpeech": "verb",
+    "definition": "to cause or give rise to a feeling or situation",
+    "example": "His speech engendered a sense of hope among the listeners.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "enigmatic",
+    "partOfSpeech": "adjective",
+    "definition": "difficult to interpret or understand; mysterious",
+    "example": "The enigmatic painting left viewers puzzled about its meaning.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "admonish",
+    "partOfSpeech": "verb",
+    "definition": "to warn or reprimand firmly but not harshly",
+    "example": "The teacher admonished the student for not completing the homework.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "aesthetic",
+    "partOfSpeech": "adjective",
+    "definition": "concerned with beauty or the appreciation of beauty",
+    "example": "The garden's aesthetic appeal was enhanced by the careful arrangement of flowers.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "aggregate",
+    "partOfSpeech": "noun",
+    "definition": "a whole formed by combining several elements",
+    "example": "The aggregate of donations exceeded the charity's goal.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "alleviate",
+    "partOfSpeech": "verb",
+    "definition": "to make suffering or a problem less severe",
+    "example": "The medicine helped alleviate her pain.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ambivalent",
+    "partOfSpeech": "adjective",
+    "definition": "having mixed feelings about something",
+    "example": "She felt ambivalent about moving to a new city.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "analogous",
+    "partOfSpeech": "adjective",
+    "definition": "comparable or similar in certain respects",
+    "example": "The relationship between a teacher and student is analogous to that of a mentor and protégé.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "anecdote",
+    "partOfSpeech": "noun",
+    "definition": "a short amusing or interesting story about a real incident",
+    "example": "He shared an anecdote about his first day at work.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "antagonistic",
+    "partOfSpeech": "adjective",
+    "definition": "showing dislike or opposition",
+    "example": "The debate became antagonistic when personal insults were exchanged.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "antithesis",
+    "partOfSpeech": "noun",
+    "definition": "the direct opposite of something",
+    "example": "Love is the antithesis of hate.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "apprehensive",
+    "partOfSpeech": "adjective",
+    "definition": "anxious or fearful about the future",
+    "example": "She was apprehensive about the upcoming exam.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "articulate",
+    "partOfSpeech": "adjective",
+    "definition": "able to express ideas clearly and effectively",
+    "example": "The articulate speaker persuaded the audience.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ascertain",
+    "partOfSpeech": "verb",
+    "definition": "to find out definitely",
+    "example": "The detective tried to ascertain the truth.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "assuage",
+    "partOfSpeech": "verb",
+    "definition": "to make an unpleasant feeling less intense",
+    "example": "He tried to assuage her guilt with kind words.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "conciliatory",
+    "partOfSpeech": "adjective",
+    "definition": "intended to gain goodwill or reduce hostility",
+    "example": "The leader's conciliatory speech eased tensions.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "condone",
+    "partOfSpeech": "verb",
+    "definition": "to accept or allow wrongdoing",
+    "example": "The school does not condone cheating.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "conspicuous",
+    "partOfSpeech": "adjective",
+    "definition": "standing out so as to be clearly visible",
+    "example": "Her bright red hat was conspicuous in the crowd.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "contentious",
+    "partOfSpeech": "adjective",
+    "definition": "causing disagreement or argument",
+    "example": "The contentious issue divided the community.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "adulation",
+    "partOfSpeech": "noun",
+    "definition": "excessive praise or flattery",
+    "example": "The celebrity basked in the adulation of her fans.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "belligerent",
+    "partOfSpeech": "adjective",
+    "definition": "hostile and aggressive",
+    "example": "His belligerent tone made the negotiation difficult.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "circumspect",
+    "partOfSpeech": "adjective",
+    "definition": "wary and unwilling to take risks",
+    "example": "She was circumspect about investing in the volatile market.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "decorum",
+    "partOfSpeech": "noun",
+    "definition": "behavior in keeping with good taste and propriety",
+    "example": "The students maintained decorum during the assembly.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "egregious",
+    "partOfSpeech": "adjective",
+    "definition": "outstandingly bad; shocking",
+    "example": "The error in the report was egregious and cost the company millions.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "facetious",
+    "partOfSpeech": "adjective",
+    "definition": "treating serious issues with deliberately inappropriate humor",
+    "example": "His facetious remarks during the meeting offended several colleagues.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "gregarious",
+    "partOfSpeech": "adjective",
+    "definition": "fond of company; sociable",
+    "example": "The gregarious host made sure everyone felt welcome.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "heinous",
+    "partOfSpeech": "adjective",
+    "definition": "utterly odious or wicked",
+    "example": "The heinous crime shocked the entire community.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "iconoclast",
+    "partOfSpeech": "noun",
+    "definition": "a person who attacks cherished beliefs or institutions",
+    "example": "As an iconoclast, he challenged traditional educational methods.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "jocular",
+    "partOfSpeech": "adjective",
+    "definition": "fond of or characterized by joking; humorous",
+    "example": "The jocular professor kept the class entertained with witty anecdotes.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "laconic",
+    "partOfSpeech": "adjective",
+    "definition": "using very few words; concise",
+    "example": "His laconic reply suggested he was not interested in the discussion.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "magnanimous",
+    "partOfSpeech": "adjective",
+    "definition": "very generous or forgiving",
+    "example": "The magnanimous donor funded the entire scholarship program.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "nefarious",
+    "partOfSpeech": "adjective",
+    "definition": "wicked or criminal",
+    "example": "The nefarious plot was discovered just in time.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ostentatious",
+    "partOfSpeech": "adjective",
+    "definition": "characterized by vulgar or pretentious display; designed to impress",
+    "example": "The ostentatious mansion was filled with gold fixtures and marble statues.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "pedantic",
+    "partOfSpeech": "adjective",
+    "definition": "excessively concerned with minor details or rules",
+    "example": "His pedantic corrections annoyed everyone in the writing group.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "quixotic",
+    "partOfSpeech": "adjective",
+    "definition": "exceedingly idealistic; unrealistic and impractical",
+    "example": "Her quixotic plan to end world hunger ignored logistical challenges.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "rancorous",
+    "partOfSpeech": "adjective",
+    "definition": "characterized by bitterness or resentment",
+    "example": "The rancorous debate left no room for compromise.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "sagacious",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing keen mental discernment and good judgment",
+    "example": "The sagacious leader navigated the crisis with remarkable insight.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "taciturn",
+    "partOfSpeech": "adjective",
+    "definition": "reserved or uncommunicative in speech; saying little",
+    "example": "The taciturn cowboy responded with a single nod.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "umbrage",
+    "partOfSpeech": "noun",
+    "definition": "offense or annoyance",
+    "example": "She took umbrage at his dismissive comment.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "venerable",
+    "partOfSpeech": "adjective",
+    "definition": "accorded great respect, especially because of age, wisdom, or character",
+    "example": "The venerable professor had taught at the university for decades.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "vociferous",
+    "partOfSpeech": "adjective",
+    "definition": "vehement or clamorous in expression",
+    "example": "The vociferous crowd demanded immediate action.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "wary",
+    "partOfSpeech": "adjective",
+    "definition": "feeling or showing caution about possible dangers or problems",
+    "example": "Investors are wary of putting money into unproven startups.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "zealot",
+    "partOfSpeech": "noun",
+    "definition": "a person who is fanatical and uncompromising in pursuit of their ideals",
+    "example": "The religious zealot refused to consider any other beliefs.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "aberration",
+    "partOfSpeech": "noun",
+    "definition": "a departure from what is normal or expected",
+    "example": "The warm weather in December was an aberration, not a sign of climate change.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "abstain",
+    "partOfSpeech": "verb",
+    "definition": "to refrain from something by choice",
+    "example": "She decided to abstain from voting until she could research the candidates thoroughly.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "accolade",
+    "partOfSpeech": "noun",
+    "definition": "an award or privilege granted as a special honor",
+    "example": "The scientist received the highest accolade for her groundbreaking research.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "acquiesce",
+    "partOfSpeech": "verb",
+    "definition": "to accept something reluctantly but without protest",
+    "example": "He acquiesced to the demands after realizing resistance was futile.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "amiable",
+    "partOfSpeech": "adjective",
+    "definition": "friendly and pleasant in disposition",
+    "example": "Despite the tense negotiations, the ambassador remained amiable and approachable.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "benevolence",
+    "partOfSpeech": "noun",
+    "definition": "kindness or generosity",
+    "example": "The charity's benevolence helped countless families in need.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "catalyst",
+    "partOfSpeech": "noun",
+    "definition": "something that causes an important change to happen",
+    "example": "The protest served as a catalyst for widespread political reform.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "diffident",
+    "partOfSpeech": "adjective",
+    "definition": "modest or shy because of a lack of self-confidence",
+    "example": "The diffident speaker struggled to make eye contact with the audience.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "emulate",
+    "partOfSpeech": "verb",
+    "definition": "to imitate or match, often with admiration",
+    "example": "Young athletes often try to emulate their sports heroes.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "fallacious",
+    "partOfSpeech": "adjective",
+    "definition": "based on a mistaken belief; logically unsound",
+    "example": "His fallacious argument crumbled under scrutiny.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "garrulous",
+    "partOfSpeech": "adjective",
+    "definition": "excessively talkative, especially on trivial matters",
+    "example": "The garrulous host kept the guests entertained with endless stories.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "harbinger",
+    "partOfSpeech": "noun",
+    "definition": "a person or thing that announces or signals the approach of another",
+    "example": "The first robin is a harbinger of spring.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "impetuous",
+    "partOfSpeech": "adjective",
+    "definition": "acting or done quickly and without thought or care",
+    "example": "His impetuous decision to quit his job surprised everyone.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "jubilant",
+    "partOfSpeech": "adjective",
+    "definition": "feeling or expressing great happiness and triumph",
+    "example": "The team was jubilant after winning the championship.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "kudos",
+    "partOfSpeech": "noun",
+    "definition": "praise and honor received for an achievement",
+    "example": "She received kudos from her peers for her groundbreaking research.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "litigant",
+    "partOfSpeech": "noun",
+    "definition": "a person involved in a lawsuit",
+    "example": "The litigant presented her case before the judge.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "malevolent",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing a wish to do evil to others",
+    "example": "The villain's malevolent laugh echoed through the hall.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "nonchalant",
+    "partOfSpeech": "adjective",
+    "definition": "feeling or appearing casually calm and relaxed",
+    "example": "He tried to appear nonchalant, but his trembling hands gave him away.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "opulent",
+    "partOfSpeech": "adjective",
+    "definition": "ostentatiously rich and luxurious or lavish",
+    "example": "The opulent palace was decorated with gold and marble.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "perfunctory",
+    "partOfSpeech": "adjective",
+    "definition": "carried out with a minimum of effort or reflection",
+    "example": "He gave a perfunctory nod before returning to his work.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "querulous",
+    "partOfSpeech": "adjective",
+    "definition": "complaining in a petulant or whining manner",
+    "example": "The querulous customer demanded to speak with the manager.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "reclusive",
+    "partOfSpeech": "adjective",
+    "definition": "avoiding the company of other people; solitary",
+    "example": "The reclusive author rarely gave interviews.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "spurious",
+    "partOfSpeech": "adjective",
+    "definition": "not being what it purports to be; false or fake",
+    "example": "The spurious document was quickly exposed as a forgery.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "transient",
+    "partOfSpeech": "adjective",
+    "definition": "lasting only for a short time; impermanent",
+    "example": "The beauty of cherry blossoms is transient, lasting just a few days.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "untenable",
+    "partOfSpeech": "adjective",
+    "definition": "not able to be maintained or defended against attack or objection",
+    "example": "His argument became untenable after new evidence emerged.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "verbose",
+    "partOfSpeech": "adjective",
+    "definition": "using or expressed in more words than are needed",
+    "example": "The verbose report could have been summarized in a few paragraphs.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "warranted",
+    "partOfSpeech": "adjective",
+    "definition": "justified or necessary under the circumstances",
+    "example": "Her concern was warranted given the rising crime rates.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "anomalous",
+    "partOfSpeech": "adjective",
+    "definition": "deviating from what is standard, normal, or expected",
+    "example": "The anomalous test results prompted a review of the experiment.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ephemeral",
+    "partOfSpeech": "adjective",
+    "definition": "lasting for a very short time",
+    "example": "The beauty of cherry blossoms is ephemeral, lasting only a week or two.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "pragmatic",
+    "partOfSpeech": "adjective",
+    "definition": "dealing with things sensibly and realistically",
+    "example": "She took a pragmatic approach to problem-solving, focusing on what worked rather than ideal solutions.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "copious",
+    "partOfSpeech": "adjective",
+    "definition": "abundant in supply or quantity",
+    "example": "He took copious notes during the lecture to ensure he didn't miss anything.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "enervate",
+    "partOfSpeech": "verb",
+    "definition": "cause someone to feel drained of energy",
+    "example": "The oppressive heat enervated the hikers, forcing them to rest frequently.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "equivocal",
+    "partOfSpeech": "adjective",
+    "definition": "open to more than one interpretation; ambiguous",
+    "example": "The politician gave an equivocal answer, avoiding a clear stance on the issue.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "insidious",
+    "partOfSpeech": "adjective",
+    "definition": "proceeding in a gradual, subtle way but with harmful effects",
+    "example": "The insidious spread of misinformation eroded public trust.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "mercurial",
+    "partOfSpeech": "adjective",
+    "definition": "subject to sudden or unpredictable changes of mood",
+    "example": "Her mercurial temperament made it difficult to predict her reactions.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "obfuscate",
+    "partOfSpeech": "verb",
+    "definition": "render obscure, unclear, or unintelligible",
+    "example": "The lawyer tried to obfuscate the facts with complex jargon.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "perfidious",
+    "partOfSpeech": "adjective",
+    "definition": "deceitful and untrustworthy",
+    "example": "The perfidious ally betrayed the kingdom's secrets to the enemy.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "prodigal",
+    "partOfSpeech": "adjective",
+    "definition": "spending money or resources freely and recklessly",
+    "example": "The prodigal heir wasted his inheritance on lavish parties.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "recalcitrant",
+    "partOfSpeech": "adjective",
+    "definition": "having an obstinately uncooperative attitude",
+    "example": "The recalcitrant student refused to follow any classroom rules.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "specious",
+    "partOfSpeech": "adjective",
+    "definition": "superficially plausible but actually wrong",
+    "example": "His specious argument sounded convincing but fell apart under scrutiny.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "turgid",
+    "partOfSpeech": "adjective",
+    "definition": "swollen and distended; or (of language) pompous or boring",
+    "example": "The professor's turgid prose made the textbook difficult to read.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "vituperate",
+    "partOfSpeech": "verb",
+    "definition": "blame or insult someone in strong or violent language",
+    "example": "The critic vituperated the film for its lack of originality.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "acme",
+    "partOfSpeech": "noun",
+    "definition": "the point at which something is at its best or most highly developed",
+    "example": "The artist's latest work represents the acme of her career.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "bellwether",
+    "partOfSpeech": "noun",
+    "definition": "an indicator of trends or future developments",
+    "example": "The tech company is considered a bellwether for the industry's direction.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "chicanery",
+    "partOfSpeech": "noun",
+    "definition": "the use of trickery to achieve a political, financial, or legal purpose",
+    "example": "The accountant's chicanery eventually led to a fraud investigation.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "diatribe",
+    "partOfSpeech": "noun",
+    "definition": "a forceful and bitter verbal attack against someone or something",
+    "example": "His speech turned into a diatribe against the government's policies.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "fatuous",
+    "partOfSpeech": "adjective",
+    "definition": "silly and pointless",
+    "example": "The fatuous comments derailed the serious discussion.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ignominious",
+    "partOfSpeech": "adjective",
+    "definition": "deserving or causing public disgrace or shame",
+    "example": "The team suffered an ignominious defeat in the championship game.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "mendacious",
+    "partOfSpeech": "adjective",
+    "definition": "not telling the truth; lying",
+    "example": "The mendacious witness fabricated details under oath.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "penurious",
+    "partOfSpeech": "adjective",
+    "definition": "extremely poor; poverty-stricken",
+    "example": "The penurious family lived in a cramped, dilapidated apartment.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "sycophant",
+    "partOfSpeech": "noun",
+    "definition": "a person who acts obsequiously toward someone important to gain advantage",
+    "example": "The CEO surrounded himself with sycophants who never disagreed with him.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "veracious",
+    "partOfSpeech": "adjective",
+    "definition": "speaking or representing the truth",
+    "example": "The veracious reporter refused to publish unverified claims.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "abdicate",
+    "partOfSpeech": "verb",
+    "definition": "to formally give up power, a right, or responsibility",
+    "example": "The king chose to abdicate the throne in favor of his son.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "aberrant",
+    "partOfSpeech": "adjective",
+    "definition": "deviating from what is normal or expected",
+    "example": "His aberrant behavior raised concerns among his colleagues.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "abhor",
+    "partOfSpeech": "verb",
+    "definition": "to regard with disgust or hatred",
+    "example": "She abhors any form of cruelty to animals.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "brevity",
+    "partOfSpeech": "noun",
+    "definition": "shortness of time or duration",
+    "example": "The brevity of his speech surprised the audience.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "candor",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being open and honest",
+    "example": "Her candor during the interview was refreshing.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "censure",
+    "partOfSpeech": "verb",
+    "definition": "to express severe disapproval of someone or something",
+    "example": "The committee voted to censure the senator for misconduct.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "corroborate",
+    "partOfSpeech": "verb",
+    "definition": "to confirm or give support to a statement or theory",
+    "example": "The evidence corroborates the witness's testimony.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "deride",
+    "partOfSpeech": "verb",
+    "definition": "to mock or ridicule",
+    "example": "Critics derided the politician's proposal as impractical.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "disparage",
+    "partOfSpeech": "verb",
+    "definition": "to speak of in a belittling or disrespectful way",
+    "example": "She refused to disparage her opponent's efforts.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "ebullient",
+    "partOfSpeech": "adjective",
+    "definition": "cheerful and full of energy",
+    "example": "The ebullient crowd cheered the winning team.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "erudite",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing great knowledge",
+    "example": "The erudite scholar spoke on many topics.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "exacerbate",
+    "partOfSpeech": "verb",
+    "definition": "to make a problem or situation worse",
+    "example": "The drought exacerbated the region's water shortage.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "germane",
+    "partOfSpeech": "adjective",
+    "definition": "relevant to a subject under consideration",
+    "example": "Her comments were germane to the discussion.",
+    "deck": "Core SAT"
+  },
+  {
+    "word": "grandiose",
+    "partOfSpeech": "adjective",
+    "definition": "impressive or magnificent in appearance or style",
+    "example": "The architect's grandiose plans included a massive fountain.",
+    "deck": "Core SAT"
+  }
+]
