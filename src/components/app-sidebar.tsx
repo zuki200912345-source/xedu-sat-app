@@ -39,7 +39,7 @@ const studentNav = [
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
 ];
 
-export function AppSidebar({ role }: { role: Role }) {
+export function AppSidebar({ role, onNavigate }: { role: Role; onNavigate?: () => void }) {
   const pathname = usePathname();
 
   const items = [...studentNav];
@@ -62,6 +62,7 @@ export function AppSidebar({ role }: { role: Role }) {
             <Link
               key={href}
               href={href}
+              onClick={onNavigate}
               aria-current={active ? "page" : undefined}
               className={cn(
                 "flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors",

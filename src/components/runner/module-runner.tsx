@@ -15,6 +15,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
+import { useFullscreenSession } from "@/lib/use-fullscreen";
 import { useRunner, type AnswerState } from "@/lib/runner-store";
 import type { RunnerQuestion } from "@/lib/serialize";
 import { isValidSPRFormat } from "@/lib/scoring";
@@ -83,6 +84,9 @@ export function ModuleRunner({
   const [refOpen, setRefOpen] = useState(false);
   const [directionsOpen, setDirectionsOpen] = useState(false);
   const [annotate, setAnnotate] = useState(false);
+
+  // Tests & practice run in true browser fullscreen (distraction-free).
+  useFullscreenSession();
 
   const isMath = section === "MATH";
 

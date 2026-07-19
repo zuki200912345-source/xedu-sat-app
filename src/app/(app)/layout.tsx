@@ -1,17 +1,10 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
-import { AppSidebar } from "@/components/app-sidebar";
+import { AppShell } from "@/components/app-shell";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const session = await auth();
   if (!session?.user) redirect("/login");
 
-  return (
-    <div className="flex h-screen overflow-hidden">
-      <AppSidebar role={session.user.role} />
-      <main className="xedu-grid flex-1 overflow-y-auto bg-secondary/30">
-        <div className="mx-auto max-w-6xl px-6 py-8">{children}</div>
-      </main>
-    </div>
-  );
+  return <AppShell role={session.user.role}>{children}</AppShell>;
 }
