@@ -96,8 +96,9 @@ async function upsertQuestion(q: SeedQuestion): Promise<string> {
       domain: q.domain,
       skill: q.skill,
       difficulty: q.difficulty,
-      difficultyValue: difficultyValueFor(q.difficulty, q.explanation),
+      difficultyValue: q.difficultyValue ?? difficultyValueFor(q.difficulty, q.explanation),
       subtype: spec.subtype,
+      subtopic: q.subtopic ?? null,
       type: q.type,
       stem: q.stem,
       choices: q.choices ? JSON.stringify(q.choices) : null,
@@ -165,10 +166,11 @@ async function seedQuestionBank(): Promise<{ rwIds: string[]; mathIds: string[] 
   for (const q of mathQuestions) mathIds.push(await upsertQuestion(q));
 
   // DeepSeek-authored bank (committed JSON so seeding is deterministic/offline).
-  const genPath = join(__dirname, "seed-data/generated-bank.json");
   let generated = 0;
-  if (existsSync(genPath)) {
-    const items = JSON.parse(readFileSync(genPath, "utf8")) as SeedQuestion[];
+  for (const file of ["seed-data/generated-bank.json", "seed-data/challenge-bank.json"]) {
+    const p = join(__dirname, file);
+    if (!existsSync(p)) continue;
+    const items = JSON.parse(readFileSync(p, "utf8")) as SeedQuestion[];
     for (const q of items) {
       await upsertQuestion(q);
       generated++;

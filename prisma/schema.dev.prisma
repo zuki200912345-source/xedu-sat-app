@@ -69,6 +69,7 @@ model Question {
   difficulty    String // easy | medium | hard (coarse band)
   difficultyValue Float  @default(2.0) // continuous 1.0–3.0 (spec difficulty scale)
   subtype       String? // spec subtype/subtopic (e.g. punctuation_boundaries)
+  subtopic      String? // fine-grained content tag for browsing/analytics; engine ignores it
   type          String // MCQ | SPR (question format)
   stem          String
   choices       String? // JSON array of 4 strings for MCQ; null for SPR
