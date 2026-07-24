@@ -11,7 +11,7 @@ import type { Role } from "@/lib/enums";
  * button in the slim top bar toggles it — on mobile the sidebar overlays with a
  * backdrop; on desktop it collapses the column to reclaim space.
  */
-export function AppShell({ role, children }: { role: Role; children: React.ReactNode }) {
+export function AppShell({ role, hideDiagnostic, children }: { role: Role; hideDiagnostic?: boolean; children: React.ReactNode }) {
   const [open, setOpen] = useState(true);
   const closeOnMobile = () => {
     if (typeof window !== "undefined" && window.innerWidth < 768) setOpen(false);
@@ -37,7 +37,7 @@ export function AppShell({ role, children }: { role: Role; children: React.React
         )}
       >
         <div className="h-full w-60">
-          <AppSidebar role={role} onNavigate={closeOnMobile} />
+          <AppSidebar role={role} hideDiagnostic={hideDiagnostic} onNavigate={closeOnMobile} />
         </div>
       </div>
 

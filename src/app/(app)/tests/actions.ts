@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
+import { logTrainingEvent } from "@/lib/training";
 import { requireUser } from "@/lib/auth";
 import { isResponseCorrect } from "@/lib/scoring";
 import { captureMistake, resolveMistake } from "@/lib/mistakes";
@@ -253,6 +254,21 @@ async function finalizeScores(attemptId: string): Promise<void> {
   await prisma.user.update({
     where: { id: attempt.userId },
     data: { xp: { increment: 100 }, usefulInteractions: { increment: 1 } },
+  });
+
+  // Training corpus: scaled outcome + per-module routing for this attempt.
+  logTrainingEvent(attempt.userId, "attempt_completed", {
+    attemptId,
+    kind: "FULL",
+    rwScaled,
+    mathScaled,
+    scaledTotal: rwScaled + mathScaled,
+    modules: attempt.moduleAttempts.map((ma) => ({
+      section: ma.module.section,
+      order: ma.module.order,
+      path: ma.module.path,
+      rawCorrect: ma.rawCorrect,
+    })),
   });
 
   revalidatePath("/tests");

@@ -4,6 +4,7 @@ import { BarChart3, BookOpenCheck, BookText, Dumbbell, Flame, MessagesSquare, Ne
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { getNextArticle } from "@/lib/reading";
+import { hasCompletedDiagnostic } from "@/lib/training";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,6 +27,8 @@ export default async function DashboardPage() {
 
   // The user's next unlocked article in the sequential reading chain.
   const nextArticle = await getNextArticle(user.id);
+  // Once the diagnostic is done it moves out of the way (kept for training data).
+  const diagnosticDone = await hasCompletedDiagnostic(user.id);
 
   const firstName = user.name?.split(" ")[0] ?? "there";
 
@@ -49,6 +52,25 @@ export default async function DashboardPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
+        {diagnosticDone ? (
+          <Card className="border-primary/30 bg-accent/30">
+            <CardHeader>
+              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <Timer className="h-5 w-5" />
+              </div>
+              <CardTitle>Take a full mock test</CardTitle>
+              <CardDescription>
+                Diagnostic complete ✓ — your plan lives in Analytics. Keep momentum with a full
+                adaptive test under real timing.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Button asChild className="rounded-full">
+                <Link href="/tests">Start a full test</Link>
+              </Button>
+            </CardContent>
+          </Card>
+        ) : (
         <Card className="border-primary/30 bg-accent/30">
           <CardHeader>
             <div className="mb-1 flex h-11 w-11 items-center justify-center rounded-full bg-primary text-primary-foreground">
@@ -66,6 +88,7 @@ export default async function DashboardPage() {
             </Button>
           </CardContent>
         </Card>
+        )}
         <Card>
           <CardHeader>
             <div className="mb-1 flex h-11 w-11 items-center justify-center rounded-full bg-violet-100 text-violet-600">
@@ -115,7 +138,7 @@ export default async function DashboardPage() {
           {[
             { href: "/tests", label: "Full tests", body: "10 adaptive mocks", icon: Timer, chip: "bg-blue-100 text-blue-600" },
             { href: "/practice", label: "Practice drills", body: "Target any skill", icon: Dumbbell, chip: "bg-violet-100 text-violet-600" },
-            { href: "/flashcards", label: "Flashcards", body: "150+ SAT words", icon: BookOpenCheck, chip: "bg-amber-100 text-amber-600" },
+            { href: "/flashcards", label: "Flashcards", body: "1,000 SAT words", icon: BookOpenCheck, chip: "bg-amber-100 text-amber-600" },
             { href: "/analytics", label: "Analytics", body: "Track progress", icon: BarChart3, chip: "bg-emerald-100 text-emerald-600" },
             { href: "/lessons", label: "Lessons", body: "Learn every skill", icon: BookText, chip: "bg-blue-100 text-blue-600" },
             { href: "/notebook", label: "Mistake notebook", body: "Conquer misses", icon: BookText, chip: "bg-rose-100 text-rose-600" },

@@ -39,10 +39,12 @@ const studentNav = [
   { href: "/analytics", label: "Analytics", icon: BarChart3 },
 ];
 
-export function AppSidebar({ role, onNavigate }: { role: Role; onNavigate?: () => void }) {
+export function AppSidebar({ role, hideDiagnostic, onNavigate }: { role: Role; hideDiagnostic?: boolean; onNavigate?: () => void }) {
   const pathname = usePathname();
 
-  const items = [...studentNav];
+  // The diagnostic disappears from the nav once completed (it stays reachable
+  // from Analytics for a retake; the data is kept for training).
+  const items = studentNav.filter((i) => !(hideDiagnostic && i.href === "/diagnostic"));
   if (role === "TUTOR" || role === "ADMIN") {
     items.push({ href: "/tutor", label: "Tutor hub", icon: Users });
   }

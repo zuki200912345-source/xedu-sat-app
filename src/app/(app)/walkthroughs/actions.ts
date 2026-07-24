@@ -6,6 +6,7 @@ import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
 import { captureMistake, resolveMistake } from "@/lib/mistakes";
 import { awardXp, bumpUsefulInteraction } from "@/lib/gamification";
+import { logTrainingEvent } from "@/lib/training";
 
 const answerSchema = z.object({
   skill: z.string().min(1).max(120),
@@ -22,6 +23,9 @@ const answerSchema = z.object({
 export async function recordWalkthroughAnswer(input: z.infer<typeof answerSchema>) {
   const user = await requireUser();
   const data = answerSchema.parse(input);
+
+  // Training corpus: every walkthrough answer, right or wrong.
+  logTrainingEvent(user.id, "walkthrough_answer", data);
 
   const q = await prisma.question.findUnique({
     where: { id: data.questionId },

@@ -8,6 +8,7 @@ import { analyzeSummary, countWords, MIN_WORDS } from "@/lib/summary-analysis";
 import { isArticleUnlocked } from "@/lib/reading";
 import { awardXp, grantBadge, touchStreak } from "@/lib/gamification";
 import { rateLimit, LIMITS } from "@/lib/rate-limit";
+import { logTrainingEvent } from "@/lib/training";
 
 const submitSchema = z.object({
   articleId: z.string().min(1).max(64),
@@ -60,6 +61,15 @@ export async function submitSummary(
       score: feedback.score,
       feedback: JSON.stringify(feedback),
     },
+  });
+
+  // Training corpus: the summary text and its graded feedback.
+  logTrainingEvent(user.id, "reading_summary", {
+    articleId,
+    summary,
+    wordCount: words,
+    score: feedback.score,
+    aiUnavailable: (feedback as { aiUnavailable?: boolean }).aiUnavailable ?? false,
   });
 
   await awardXp(user.id, 15 + Math.round(feedback.score / 10));

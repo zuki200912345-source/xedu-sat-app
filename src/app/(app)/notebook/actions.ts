@@ -4,6 +4,7 @@ import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
+import { logTrainingEvent } from "@/lib/training";
 import { isResponseCorrect } from "@/lib/scoring";
 import { resolveMistake } from "@/lib/mistakes";
 import { bumpUsefulInteraction } from "@/lib/gamification";
@@ -37,6 +38,7 @@ export async function reattemptMistake(
   if (!q) return { error: "Question not found." };
 
   const correct = isResponseCorrect(q.type, q.correctAnswer, response);
+  logTrainingEvent(user.id, "mistake_reattempt", { questionId, response, correct });
   if (correct) await resolveMistake(user.id, questionId);
 
   // Engaging with the notebook is a meaningful action.

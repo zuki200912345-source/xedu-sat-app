@@ -6,6 +6,7 @@ import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
 import { isResponseCorrect } from "@/lib/scoring";
 import { captureMistake, resolveMistake } from "@/lib/mistakes";
+import { logTrainingEvent } from "@/lib/training";
 
 /**
  * Start (or resume) a practice attempt for a single-module drill test. Returns
@@ -158,6 +159,24 @@ export async function finishPracticeAttempt(attemptId: string) {
     if (correct) m.correct++;
     masteryDelta.set(q.skill, m);
   }
+
+  // Training corpus: the full graded response set for this attempt.
+  logTrainingEvent(user.id, "attempt_completed", {
+    attemptId,
+    rawCorrect,
+    total: questions.length,
+    responses: questions.map((q) => {
+      const answer = ma.answers.find((a) => a.questionId === q.id);
+      return {
+        questionId: q.id,
+        skill: q.skill,
+        section: q.section,
+        response: answer?.response ?? null,
+        correct: isResponseCorrect(q.type, q.correctAnswer, answer?.response ?? null),
+        secondsSpent: answer?.secondsSpent ?? 0,
+      };
+    }),
+  });
 
   // Update per-skill mastery counters.
   for (const [skill, d] of masteryDelta) {

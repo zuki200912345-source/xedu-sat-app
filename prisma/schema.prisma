@@ -402,3 +402,21 @@ model ReferenceCorpusItem {
   structureNotes String // structural/attribute notes only — never item text
   createdAt      DateTime @default(now())
 }
+
+// ---------------------------------------------------------------------------
+// Training data (long-term): append-only log of user work — diagnostic and
+// test responses, walkthrough answers, notebook re-attempts, reading
+// summaries. Exported as JSONL for future model training and for measuring
+// whether the platform actually improves outcomes. Never joined into product
+// features; safe to truncate.
+// ---------------------------------------------------------------------------
+model TrainingEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  kind      String // attempt_completed | walkthrough_answer | mistake_reattempt | reading_summary
+  payload   String // JSON blob of the event
+  createdAt DateTime @default(now())
+
+  @@index([kind, createdAt])
+  @@index([userId, createdAt])
+}
