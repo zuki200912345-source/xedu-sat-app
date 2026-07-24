@@ -525,6 +525,17 @@ async function callOnce(j: Job): Promise<SeedQuestion | null> {
     if (!Array.isArray(p.choices) || p.choices.length !== 4) return null;
     if (new Set(p.choices.map((c) => String(c).trim())).size !== 4) return null;
     if (!["A", "B", "C", "D"].includes(String(p.correctAnswer))) return null;
+    // SAT-01: models list the correct answer early ("A" ~45% of the time).
+    // Shuffle at authoring time so the key lands at a uniformly random index.
+    const letters = ["A", "B", "C", "D"];
+    const order = [0, 1, 2, 3];
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    const oldIdx = letters.indexOf(String(p.correctAnswer));
+    p.choices = order.map((i) => (p.choices as string[])[i]) as typeof p.choices;
+    p.correctAnswer = letters[order.indexOf(oldIdx)];
   }
   return {
     section: j.section,

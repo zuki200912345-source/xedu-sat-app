@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Lock } from "lucide-react";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import { isArticleUnlocked } from "@/lib/reading";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import type { SummaryFeedback } from "@/lib/summary-analysis";
 import { SummaryForm } from "./summary-form";
@@ -17,6 +19,30 @@ export default async function ArticlePage({ params }: { params: { articleId: str
 
   const article = await prisma.readingArticle.findUnique({ where: { id: params.articleId } });
   if (!article) notFound();
+
+  // Sequential unlock: the article is readable only if every earlier one is done.
+  if (!(await isArticleUnlocked(user.id, article.id))) {
+    return (
+      <div className="mx-auto max-w-3xl space-y-6">
+        <Link href="/reading" className="text-sm text-muted-foreground hover:text-foreground">
+          ← Daily Reading
+        </Link>
+        <Card>
+          <CardContent className="flex flex-col items-center gap-3 py-16 text-center">
+            <Lock className="h-10 w-10 text-muted-foreground" />
+            <h1 className="text-xl font-semibold">Article locked</h1>
+            <p className="max-w-md text-sm text-muted-foreground">
+              Articles unlock in order — finish the one before this to read
+              &ldquo;{article.title}&rdquo;.
+            </p>
+            <Button asChild className="mt-2">
+              <Link href="/reading">Go to your next article</Link>
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
 
   const submission = await prisma.readingSubmission.findUnique({
     where: { userId_articleId: { userId: user.id, articleId: article.id } },

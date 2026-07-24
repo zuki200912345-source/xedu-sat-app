@@ -435,6 +435,42 @@ async function seedArticles() {
   console.log(`✓ Seeded ${articles.length} reading articles`);
 }
 
+/**
+ * Append the bulk article library (articles-library.json) AFTER the base set,
+ * continuing the sequential dayIndex chain. Idempotent: skips titles already
+ * present, so re-seeding never duplicates or reorders existing articles.
+ */
+async function seedArticleLibrary() {
+  const path = join(__dirname, "seed-data/articles-library.json");
+  if (!existsSync(path)) {
+    console.log("✓ No articles-library.json — skipping bulk article library");
+    return;
+  }
+  const items = JSON.parse(readFileSync(path, "utf8")) as ArticleSeed[];
+  const existing = await prisma.readingArticle.findMany({ select: { title: true, dayIndex: true } });
+  const titles = new Set(existing.map((a) => a.title.toLowerCase().trim()));
+  let dayIndex = existing.reduce((m, a) => Math.max(m, a.dayIndex), -1) + 1;
+
+  let added = 0;
+  for (const a of items) {
+    const key = a.title.toLowerCase().trim();
+    if (titles.has(key)) continue;
+    titles.add(key);
+    await prisma.readingArticle.create({
+      data: {
+        title: a.title,
+        source: a.source,
+        category: a.category,
+        content: a.content,
+        modelSummary: a.modelSummary,
+        dayIndex: dayIndex++,
+      },
+    });
+    added++;
+  }
+  console.log(`✓ Article library: ${added} added (${titles.size} total)`);
+}
+
 async function seedReferenceCorpus() {
   if ((await prisma.referenceCorpusItem.count()) > 0) {
     console.log("✓ Reference corpus already seeded — skipping");
@@ -465,6 +501,7 @@ async function main() {
   await seedVocab();
   await seedLessons();
   await seedArticles();
+  await seedArticleLibrary();
   await seedReferenceCorpus();
   console.log("Done. Log in with student@xedusat.test / password123");
 }

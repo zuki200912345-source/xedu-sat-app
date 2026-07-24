@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth";
 import { analyzeSummary, countWords, MIN_WORDS } from "@/lib/summary-analysis";
+import { isArticleUnlocked } from "@/lib/reading";
 import { awardXp, grantBadge, touchStreak } from "@/lib/gamification";
 import { rateLimit, LIMITS } from "@/lib/rate-limit";
 
@@ -36,6 +37,11 @@ export async function submitSummary(
 
   const article = await prisma.readingArticle.findUnique({ where: { id: articleId } });
   if (!article) return { error: "Article not found." };
+
+  // Sequential unlock: reject submissions for articles the user hasn't reached.
+  if (!(await isArticleUnlocked(user.id, articleId))) {
+    return { error: "This article is still locked — finish the previous one first." };
+  }
 
   // One submission per article per user.
   const existing = await prisma.readingSubmission.findUnique({

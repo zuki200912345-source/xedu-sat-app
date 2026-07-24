@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BarChart3, BookOpenCheck, BookText, Dumbbell, Flame, MessagesSquare, Newspaper, Stethoscope, Timer, Zap } from "lucide-react";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { getTodaysArticle } from "@/lib/reading";
+import { getNextArticle } from "@/lib/reading";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,10 +24,8 @@ export default async function DashboardPage() {
     where: { userId: user.id, status: "COMPLETED" },
   });
 
-  const todaysArticle = await getTodaysArticle();
-  const todayReadingDone = todaysArticle
-    ? (await prisma.readingSubmission.count({ where: { userId: user.id, articleId: todaysArticle.id } })) > 0
-    : true;
+  // The user's next unlocked article in the sequential reading chain.
+  const nextArticle = await getNextArticle(user.id);
 
   const firstName = user.name?.split(" ")[0] ?? "there";
 
@@ -87,9 +85,9 @@ export default async function DashboardPage() {
         </Card>
       </div>
 
-      {/* Daily Reading requirement */}
-      {todaysArticle && (
-        <Card className={todayReadingDone ? "border-emerald-300 bg-emerald-50/40" : "border-primary/30 bg-accent/30"}>
+      {/* Daily Reading: the next article in the sequential chain */}
+      {nextArticle && (
+        <Card className="border-primary/30 bg-accent/30">
           <CardContent className="flex flex-wrap items-center justify-between gap-4 py-5">
             <div className="flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-primary text-primary-foreground">
@@ -97,18 +95,14 @@ export default async function DashboardPage() {
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <span className="font-medium">Today&apos;s required reading</span>
-                  <Badge variant={todayReadingDone ? "default" : "secondary"}>
-                    {todayReadingDone ? "Done ✓" : "Pending"}
-                  </Badge>
+                  <span className="font-medium">Next up in Daily Reading</span>
+                  <Badge variant="secondary">Article #{nextArticle.dayIndex + 1}</Badge>
                 </div>
-                <p className="text-sm text-muted-foreground">{todaysArticle.title}</p>
+                <p className="text-sm text-muted-foreground">{nextArticle.title}</p>
               </div>
             </div>
-            <Button variant={todayReadingDone ? "outline" : "default"} asChild className="rounded-full">
-              <Link href={`/reading/${todaysArticle.id}`}>
-                {todayReadingDone ? "Review feedback" : "Read & summarize"}
-              </Link>
+            <Button asChild className="rounded-full">
+              <Link href={`/reading/${nextArticle.id}`}>Read & summarize</Link>
             </Button>
           </CardContent>
         </Card>

@@ -249,6 +249,16 @@ async function author(s: Spec): Promise<SeedQuestion | null> {
         if (!Array.isArray(p.choices) || p.choices.length !== 4) throw new Error("choices");
         if (new Set(p.choices.map((c) => String(c).trim())).size !== 4) throw new Error("dup choices");
         if (!["A", "B", "C", "D"].includes(String(p.correctAnswer))) throw new Error("key");
+        // SAT-01: shuffle at authoring time so the key position is uniform.
+        const letters = ["A", "B", "C", "D"];
+        const order = [0, 1, 2, 3];
+        for (let i = order.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [order[i], order[j]] = [order[j], order[i]];
+        }
+        const oldIdx = letters.indexOf(String(p.correctAnswer));
+        p.choices = order.map((i) => (p.choices as string[])[i]) as typeof p.choices;
+        p.correctAnswer = letters[order.indexOf(oldIdx)];
       }
       const item: SeedQuestion = {
         section: s.section,

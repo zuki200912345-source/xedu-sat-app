@@ -5,7 +5,6 @@ import { isResponseCorrect, isValidSPRFormat } from "../src/lib/scoring";
 import { sm2 } from "../src/lib/sm2";
 import { similarityGate } from "../src/lib/similarity";
 import { countWords, MIN_WORDS } from "../src/lib/summary-analysis";
-import { dayNumber } from "../src/lib/reading";
 
 describe("5-tier scoring & routing", () => {
   const perfect = (tier: number) =>
@@ -73,13 +72,6 @@ describe("daily reading", () => {
     expect(MIN_WORDS).toBe(50);
   });
 
-  it("picks a stable article-of-the-day index per calendar day", () => {
-    const a = dayNumber(new Date("2026-07-07T09:00:00Z"));
-    const b = dayNumber(new Date("2026-07-07T23:00:00Z"));
-    const c = dayNumber(new Date("2026-07-08T01:00:00Z"));
-    expect(a).toBe(b); // same day → same article
-    expect(c).toBe(a + 1); // next day → next article
-  });
 });
 
 describe("similarity gate", () => {
