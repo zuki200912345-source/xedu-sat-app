@@ -37,6 +37,24 @@ describe("answer-key distribution (SAT-01)", () => {
     for (const q of mcqs) expect(LETTERS).toContain(q.correctAnswer);
   });
 
+  it("explanations that cite a letter as correct cite the actual key", () => {
+    // The guard that catches a broken remap: when an explanation says
+    // "Choice X … correct" (and not "incorrect"), X must be the answer key.
+    let checked = 0;
+    for (const q of mcqs) {
+      const re = /\b(?:options?|choices?|answers?)\s+([A-D])\b([^.]{0,60})/gi;
+      let m: RegExpExecArray | null;
+      while ((m = re.exec(q.explanation))) {
+        const tail = m[2] ?? "";
+        if (/\bcorrect/i.test(tail) && !/\bincorrect/i.test(tail)) {
+          checked++;
+          expect(m[1].toUpperCase(), `"${m[0].trim()}" but key is ${q.correctAnswer}`).toBe(q.correctAnswer);
+        }
+      }
+    }
+    expect(checked).toBeGreaterThan(50); // the pattern must actually occur
+  });
+
   for (const scope of ["overall", "RW", "MATH"] as const) {
     it(`${scope}: every letter within 25% ± ${TOLERANCE}`, () => {
       const qs = scope === "overall" ? mcqs : mcqs.filter((q) => q.section === scope);

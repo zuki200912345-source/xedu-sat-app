@@ -24,6 +24,7 @@ import { similarityGate } from "./generate-questions";
 import { rwQuestions } from "../prisma/seed-data/rw-questions";
 import { mathQuestions } from "../prisma/seed-data/math-questions";
 import type { SeedQuestion } from "../prisma/seed-data/types";
+import { mathUnsafe, remapExplanation } from "./remap-letters";
 
 const OUT = join(__dirname, "../prisma/seed-data/generated-bank.json");
 const API_KEY = process.env.DEEPSEEK_API_KEY;
@@ -536,6 +537,15 @@ async function callOnce(j: Job): Promise<SeedQuestion | null> {
     const oldIdx = letters.indexOf(String(p.correctAnswer));
     p.choices = order.map((i) => (p.choices as string[])[i]) as typeof p.choices;
     p.correctAnswer = letters[order.indexOf(oldIdx)];
+    // Remap any letter references in the explanation through the permutation
+    // (skip when MATH letters could be geometry labels/variables — rare in
+    // fresh authoring, and the item text itself is still valid unshuffled refs
+    // are not introduced by generation in that case).
+    const perm = [0, 1, 2, 3].map((o) => order.indexOf(o));
+    const sec = j.section;
+    if (p.explanation && !(sec === "MATH" && mathUnsafe(p.explanation))) {
+      p.explanation = remapExplanation(p.explanation, sec as "RW" | "MATH", perm);
+    }
   }
   return {
     section: j.section,

@@ -10,13 +10,13 @@
     "passageText": "In economic modeling, the concept of ‘revealed preference’ holds that consumers’ actual purchasing behavior reveals their true preferences, even if those preferences contradict stated intentions. However, this framework assumes that consumers have perfect information and face no transaction costs. In reality, consumers often make choices under uncertainty or with limited information, leading to outcomes that may not align with their underlying preferences. For instance, a consumer might purchase a more expensive product not because they prefer it, but because they are unaware of a cheaper alternative. Behavioral economists argue that such ‘bounded rationality’ challenges the validity of revealed preference as a tool for welfare analysis. Nevertheless, proponents counter that welfare analysis does not require identifying true preferences; it only requires that choices be consistent over time. They posit that if choices are consistent, even if based on imperfect information, they still provide a stable basis for evaluating economic welfare. This debate hinges on whether consistency alone suffices for welfare assessments, or whether genuine preference satisfaction is necessary.",
     "stem": "Which choice best describes an inference supported by the passage?",
     "choices": [
-      "Proponents of revealed preference believe that consistency in choices, regardless of the underlying information, is sufficient for welfare analysis.",
-      "Behavioral economists and proponents of revealed preference agree that transaction costs are negligible in most purchasing decisions.",
+      "The passage suggests that bounded rationality definitively disproves the usefulness of revealed preference in economic modeling.",
       "The debate between behavioral economists and proponents of revealed preference centers on whether consumers ever act irrationally.",
-      "The passage suggests that bounded rationality definitively disproves the usefulness of revealed preference in economic modeling."
+      "Proponents of revealed preference believe that consistency in choices, regardless of the underlying information, is sufficient for welfare analysis.",
+      "Behavioral economists and proponents of revealed preference agree that transaction costs are negligible in most purchasing decisions."
     ],
-    "correctAnswer": "A",
-    "explanation": "The passage states that proponents argue welfare analysis requires only consistent choices over time, not true preferences. Thus, they believe consistency suffices, even with imperfect information. Distractor B is wrong because the passage says bounded rationality 'challenges' but doesn't definitively disprove; it's a debate. Distractor C is false; the passage mentions transaction costs as an assumption of revealed preference that is often violated. Distractor D is too narrow; the debate is about whether consistency alone is enough, not just about irrationality."
+    "correctAnswer": "C",
+    "explanation": "The passage states that proponents argue welfare analysis requires only consistent choices over time, not true preferences. Thus, they believe consistency suffices, even with imperfect information. Distractor A is wrong because the passage says bounded rationality 'challenges' but doesn't definitively disprove; it's a debate. Distractor D is false; the passage mentions transaction costs as an assumption of revealed preference that is often violated. Distractor B is too narrow; the debate is about whether consistency alone is enough, not just about irrationality."
   },
   {
     "section": "RW",
@@ -29,13 +29,13 @@
     "passageText": "Text 1:\nThe rapid expansion of remote work has been widely celebrated for reducing carbon emissions from commuting. However, this benefit may be more modest than assumed. Many remote workers compensate by taking more frequent long-distance leisure trips, offsetting the daily commute savings. Moreover, the shift to digital communication increases energy demand for data centers and home offices, often powered by fossil fuels. Thus, while remote work undoubtedly lowers some emissions, its net environmental impact is likely smaller than proponents claim.\n\nText 2:\nProponents of remote work often point to reduced commuting emissions as an unqualified good. Yet this overlooks the rebound effects that characterize many efficiency gains. When a resource becomes cheaper or more accessible—in this case, time formerly spent commuting—people tend to use it in ways that erode the initial savings. For example, remote workers may relocate to areas with lower housing costs but longer travel distances for essential services, or they may increase air travel for business that was previously unnecessary. The net effect is often a partial recapture of the avoided emissions, a pattern well-documented in energy economics.",
     "stem": "Which of the following best describes how Author 2 would most likely qualify Author 1's claim that the environmental benefits of remote work are 'more modest than assumed'?",
     "choices": [
-      "Author 2 would agree that the benefits are modest but argue that Author 1's focus on leisure trips underestimates the rebound effect, which also includes relocation and increased air travel.",
-      "Author 2 would reject the claim entirely, asserting that remote work's environmental benefits are not modest but are instead clear and substantial when properly measured.",
+      "Author 2 would argue that the benefits are even smaller than Author 1 suggests because the rebound effect is so substantial that it nearly eliminates any emissions savings.",
       "Author 2 would contend that Author 1's claim is too pessimistic, as the rebound effect is temporary and can be mitigated by policy, so the net benefits may still be significant.",
-      "Author 2 would argue that the benefits are even smaller than Author 1 suggests because the rebound effect is so substantial that it nearly eliminates any emissions savings."
+      "Author 2 would agree that the benefits are modest but argue that Author 1's focus on leisure trips underestimates the rebound effect, which also includes relocation and increased air travel.",
+      "Author 2 would reject the claim entirely, asserting that remote work's environmental benefits are not modest but are instead clear and substantial when properly measured."
     ],
-    "correctAnswer": "A",
-    "explanation": "Author 2 expands on the concept of rebound effects, mentioning relocation and increased air travel as additional mechanisms that offset emissions savings from reduced commuting. This extends Author 1's point about leisure trips, not contradicts it, making A the best description."
+    "correctAnswer": "C",
+    "explanation": "Author 2 expands on the concept of rebound effects, mentioning relocation and increased air travel as additional mechanisms that offset emissions savings from reduced commuting. This extends Author 1's point about leisure trips, not contradicts it, making C the best description."
   },
   {
     "section": "RW",
@@ -49,12 +49,12 @@
     "stem": "The student is writing a persuasive essay arguing that technology alone cannot solve the Great Pacific Garbage Patch problem. Which two notes together provide the strongest support for this argument?",
     "choices": [
       "Notes 4 and 6: The cleanup system collected 9,000 kg of plastic, but it also causes bycatch and is slow, demonstrating that technology has drawbacks and may not be sufficient alone.",
+      "Notes 2 and 4: While 80% of debris comes from land, the cleanup system has successfully collected plastic, suggesting technology can address the problem.",
       "Notes 1 and 6: The patch is enormous (twice the size of Texas), and the cleanup system would take over a decade to clean just 10% of it, showing technology's limited impact on the scale of the issue.",
-      "Notes 3 and 5: The GPGP consists mostly of macroplastics, and the cleanup system has a low carbon footprint, indicating that technological solutions are well-suited to the problem.",
-      "Notes 2 and 4: While 80% of debris comes from land, the cleanup system has successfully collected plastic, suggesting technology can address the problem."
+      "Notes 3 and 5: The GPGP consists mostly of macroplastics, and the cleanup system has a low carbon footprint, indicating that technological solutions are well-suited to the problem."
     ],
-    "correctAnswer": "B",
-    "explanation": "The goal is to support the argument that technology alone cannot solve the problem. Notes 1 and 6 together highlight the immense size of the patch and the extremely slow cleanup rate, directly showing technology's inadequacy on the scale required. Choice D mentions bycatch but does not emphasize the overall inadequacy; it focuses on drawbacks rather than the core limitation of technology's ability to solve the problem alone."
+    "correctAnswer": "C",
+    "explanation": "The goal is to support the argument that technology alone cannot solve the problem. Notes 1 and 6 together highlight the immense size of the patch and the extremely slow cleanup rate, directly showing technology's inadequacy on the scale required. Choice A mentions bycatch but does not emphasize the overall inadequacy; it focuses on drawbacks rather than the core limitation of technology's ability to solve the problem alone."
   },
   {
     "section": "RW",
@@ -73,7 +73,7 @@
       "In the experimental group, ants walked westward regardless of the time of day."
     ],
     "correctAnswer": "C",
-    "explanation": "The hypothesis is that ants use the polarization pattern, not the sun's position directly. Rotating the pattern by 90 degrees caused a 90-degree shift in direction, supporting polarization use. A 180-degree rotation should cause a 180-degree shift (southward) if polarization is the cue. This result would rule out the confound that the filter merely distorts the sun's position, because a 180-degree rotation of polarization would not change the sun's direction (since the sun's position remains fixed), but the ants would still reverse direction. Choices A and B do not address the confound, and D merely confirms the need for some light cue."
+    "explanation": "The hypothesis is that ants use the polarization pattern, not the sun's position directly. Rotating the pattern by 90 degrees caused a 90-degree shift in direction, supporting polarization use. D 180-degree rotation should cause a 180-degree shift (southward) if polarization is the cue. This result would rule out the confound that the filter merely distorts the sun's position, because a 180-degree rotation of polarization would not change the sun's direction (since the sun's position remains fixed), but the ants would still reverse direction. Choices D and A do not address the confound, and B merely confirms the need for some light cue."
   },
   {
     "section": "MATH",

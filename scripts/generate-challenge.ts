@@ -12,6 +12,7 @@
 import { writeFileSync } from "fs";
 import { join } from "path";
 import type { SeedQuestion } from "../prisma/seed-data/types";
+import { mathUnsafe, remapExplanation } from "./remap-letters";
 
 const OUT = join(__dirname, "../prisma/seed-data/challenge-bank.json");
 const API_KEY = process.env.DEEPSEEK_API_KEY;
@@ -259,6 +260,15 @@ async function author(s: Spec): Promise<SeedQuestion | null> {
         const oldIdx = letters.indexOf(String(p.correctAnswer));
         p.choices = order.map((i) => (p.choices as string[])[i]) as typeof p.choices;
         p.correctAnswer = letters[order.indexOf(oldIdx)];
+        // Remap any letter references in the explanation through the permutation
+        // (skip when MATH letters could be geometry labels/variables — rare in
+        // fresh authoring, and the item text itself is still valid unshuffled refs
+        // are not introduced by generation in that case).
+        const perm = [0, 1, 2, 3].map((o) => order.indexOf(o));
+        const sec = s.section;
+        if (p.explanation && !(sec === "MATH" && mathUnsafe(p.explanation))) {
+          p.explanation = remapExplanation(p.explanation, sec as "RW" | "MATH", perm);
+        }
       }
       const item: SeedQuestion = {
         section: s.section,
