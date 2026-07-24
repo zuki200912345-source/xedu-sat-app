@@ -77,6 +77,7 @@ export function ModuleRunner({
   const markClean = useRunner((s) => s.markClean);
 
   const [ready, setReady] = useState(false);
+  const [started, setStarted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(durationMinutes * 60);
   const [submitOpen, setSubmitOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -99,15 +100,26 @@ export function ModuleRunner({
   const q = questions[current];
   const a = q ? answers[q.id] : undefined;
 
+  // Once the module starts, warn on any attempt to leave/close the tab.
+  useEffect(() => {
+    if (!started || submitting) return;
+    const onBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = "";
+    };
+    window.addEventListener("beforeunload", onBeforeUnload);
+    return () => window.removeEventListener("beforeunload", onBeforeUnload);
+  }, [started, submitting]);
+
   // Per-second timer: count down module time, count up time-on-question.
   useEffect(() => {
-    if (!ready || !q) return;
+    if (!ready || !started || !q) return;
     const id = setInterval(() => {
       tick(q.id);
       setSecondsLeft((s) => Math.max(0, s - 1));
     }, 1000);
     return () => clearInterval(id);
-  }, [ready, q, tick]);
+  }, [ready, started, q, tick]);
 
   const submit = useCallback(async () => {
     setSubmitting(true);
@@ -184,6 +196,42 @@ export function ModuleRunner({
   }, [q, next, prev, setResponse]);
 
   if (!ready || !q) return null;
+
+  // ---- Pre-test lock screen: nothing is visible until the student commits ----
+  if (!started) {
+    return (
+      <div className="flex h-screen flex-col items-center justify-center gap-6 bg-white px-6 text-center text-[#0f172a]">
+        <div className="max-w-md space-y-4">
+          {heading ? (
+            <>
+              <h1 className="text-2xl font-bold">{heading.line1}</h1>
+              <p className="text-muted-foreground">{heading.line2}</p>
+            </>
+          ) : (
+            <h1 className="text-2xl font-bold">{section === "MATH" ? "Math" : "Reading & Writing"} module</h1>
+          )}
+          <div className="rounded-2xl border bg-secondary/40 p-5 text-left text-sm leading-relaxed">
+            <p className="font-semibold">Before you start:</p>
+            <ul className="mt-2 list-disc space-y-1.5 pl-5">
+              <li>{questions.length} questions · {durationMinutes} minutes. The timer starts the moment you begin.</li>
+              <li>The screen locks into fullscreen and <strong>you can&apos;t leave</strong> until you submit this module.</li>
+              <li>You may submit early to move to the next module here — but on the <strong>real Digital SAT you cannot skip modules or breaks</strong>, so practice with the full time.</li>
+            </ul>
+          </div>
+          <Button
+            size="lg"
+            className="w-full"
+            onClick={() => {
+              document.documentElement.requestFullscreen?.().catch(() => {});
+              setStarted(true);
+            }}
+          >
+            Start test
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   const answeredCount = questions.filter(
     (qq) => answers[qq.id]?.response != null && answers[qq.id]?.response !== "",
@@ -433,7 +481,8 @@ export function ModuleRunner({
               You&apos;ve answered {answeredCount} of {questions.length} questions.
               {answeredCount < questions.length &&
                 " Unanswered questions will be marked incorrect."}{" "}
-              {submitDialogBody ?? "You can't change answers after submitting."}
+              {submitDialogBody ?? "You can't change answers after submitting."}{" "}
+              Remember: on the real Digital SAT you can&apos;t skip modules or breaks.
             </DialogDescription>
           </DialogHeader>
           <DialogFooter>

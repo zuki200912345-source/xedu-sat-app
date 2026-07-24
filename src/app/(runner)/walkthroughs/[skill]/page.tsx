@@ -14,9 +14,11 @@ export default async function WalkthroughFlowPage({
   const script = getScript(skill);
   if (!script) notFound();
 
-  // Draw up to 5 questions for this skill, easiest → hardest.
+  // Draw up to 5 questions for this skill, easiest → hardest. MCQ only — the
+  // chat teaches through answer choices, and a grid-in (SPR) would leave the
+  // student with nothing to click.
   const rows = await prisma.question.findMany({
-    where: { skill, status: "PUBLISHED" },
+    where: { skill, status: "PUBLISHED", type: "MCQ" },
     orderBy: { difficultyValue: "asc" },
     take: 5,
     include: { passage: true },

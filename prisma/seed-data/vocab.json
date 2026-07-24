@@ -1097,5 +1097,5906 @@
     "definition": "impressive or magnificent in appearance or style",
     "example": "The architect's grandiose plans included a massive fountain.",
     "deck": "Core SAT"
+  },
+  {
+    "word": "mitigate",
+    "partOfSpeech": "verb",
+    "definition": "to make less severe or serious.",
+    "example": "Planting trees can help mitigate the effects of climate change.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "controversy",
+    "partOfSpeech": "noun",
+    "definition": "a prolonged public dispute or debate.",
+    "example": "The new policy sparked controversy among students and parents.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exploiting",
+    "partOfSpeech": "verb",
+    "definition": "using selfishly or unethically for profit.",
+    "example": "The company was accused of exploiting child labor in its factories.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "intricate",
+    "partOfSpeech": "adjective",
+    "definition": "very complicated or detailed.",
+    "example": "The intricate design of the clock amazed the engineers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "immutable",
+    "partOfSpeech": "adjective",
+    "definition": "unchanging over time or unable to be changed.",
+    "example": "The laws of physics are considered immutable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sustainable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be maintained at a steady level without exhausting resources.",
+    "example": "We need to develop sustainable energy sources for the future.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unrivaled",
+    "partOfSpeech": "adjective",
+    "definition": "better than all others in quality or achievement.",
+    "example": "Her unrivaled talent made her the star of the team.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "categorize",
+    "partOfSpeech": "verb",
+    "definition": "to place in a particular class or group.",
+    "example": "Scientists categorize animals by their characteristics.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "overlooked",
+    "partOfSpeech": "adjective",
+    "definition": "not noticed or considered.",
+    "example": "The overlooked detail turned out to be crucial.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "presuppose",
+    "partOfSpeech": "verb",
+    "definition": "to require or assume as a precondition.",
+    "example": "His argument presupposes that everyone agrees on the facts.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "replaced",
+    "partOfSpeech": "verb",
+    "definition": "took the place of something else.",
+    "example": "The old printer was replaced with a faster model.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "validate",
+    "partOfSpeech": "verb",
+    "definition": "to confirm the truth or accuracy of something.",
+    "example": "The experiment's results validate our hypothesis.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "confusion",
+    "partOfSpeech": "noun",
+    "definition": "a state of being bewildered or unclear.",
+    "example": "The confusing instructions led to widespread confusion.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "designate",
+    "partOfSpeech": "verb",
+    "definition": "to officially assign a role or name.",
+    "example": "The principal will designate a new student council president.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "monetizing",
+    "partOfSpeech": "verb",
+    "definition": "converting something into a source of revenue.",
+    "example": "The app is monetizing user data through targeted ads.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "objective",
+    "partOfSpeech": "adjective",
+    "definition": "based on facts, not personal feelings.",
+    "example": "A judge must remain objective during a trial.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "profound",
+    "partOfSpeech": "adjective",
+    "definition": "very great or intense in depth or meaning.",
+    "example": "The documentary had a profound impact on my views.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "undermine",
+    "partOfSpeech": "verb",
+    "definition": "to weaken or damage gradually or insidiously.",
+    "example": "Spreading rumors can undermine a person's reputation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "cited",
+    "partOfSpeech": "verb",
+    "definition": "quoted or mentioned as evidence or authority.",
+    "example": "The lawyer cited several precedents in her argument.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "counteract",
+    "partOfSpeech": "verb",
+    "definition": "to act against something to reduce its effect.",
+    "example": "Drinking water can counteract the effects of dehydration.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "dynamic",
+    "partOfSpeech": "adjective",
+    "definition": "characterized by constant change or activity.",
+    "example": "The startup has a dynamic work environment.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "explanation",
+    "partOfSpeech": "noun",
+    "definition": "a statement that makes something clear.",
+    "example": "The teacher gave a thorough explanation of the math problem.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "idealized",
+    "partOfSpeech": "adjective",
+    "definition": "regarded as perfect or better than reality.",
+    "example": "The movie presents an idealized version of high school.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "illusory",
+    "partOfSpeech": "adjective",
+    "definition": "based on illusion; not real.",
+    "example": "The promise of quick riches proved illusory.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imposing",
+    "partOfSpeech": "adjective",
+    "definition": "impressive in size, appearance, or manner.",
+    "example": "The imposing building dominated the city skyline.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "invented",
+    "partOfSpeech": "verb",
+    "definition": "created or devised something new or original.",
+    "example": "She invented a clever excuse for being late.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prevented",
+    "partOfSpeech": "verb",
+    "definition": "stopped something from happening or existing.",
+    "example": "The quick response prevented a major disaster.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reject",
+    "partOfSpeech": "verb",
+    "definition": "refuse to accept, consider, or submit to.",
+    "example": "The committee voted to reject the proposal.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "repudiation",
+    "partOfSpeech": "noun",
+    "definition": "refusal to accept or disowning of something.",
+    "example": "His repudiation of the treaty shocked the allies.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "similarities",
+    "partOfSpeech": "noun",
+    "definition": "qualities or features that are alike.",
+    "example": "The similarities between the twins are striking.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "assess",
+    "partOfSpeech": "verb",
+    "definition": "evaluate or estimate the nature or value of.",
+    "example": "We need to assess the damage after the storm.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "controversial",
+    "partOfSpeech": "adjective",
+    "definition": "causing public disagreement or debate.",
+    "example": "The new policy is highly controversial among students.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "corroborated",
+    "partOfSpeech": "verb",
+    "definition": "confirmed or supported with evidence.",
+    "example": "Her story was corroborated by eyewitnesses.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exploit",
+    "partOfSpeech": "verb",
+    "definition": "use selfishly or unfairly for one's own advantage.",
+    "example": "Companies should not exploit their workers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imaginative",
+    "partOfSpeech": "adjective",
+    "definition": "having or showing creativity or inventiveness.",
+    "example": "The imaginative game design captivated players.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "preclude",
+    "partOfSpeech": "verb",
+    "definition": "prevent something from happening or make impossible.",
+    "example": "His injury will preclude him from playing.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "supplant",
+    "partOfSpeech": "verb",
+    "definition": "replace or take the place of something.",
+    "example": "Digital books may supplant printed ones.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "understated",
+    "partOfSpeech": "adjective",
+    "definition": "presented or expressed in a subtle way.",
+    "example": "Her understated elegance made her stand out.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accentuate",
+    "partOfSpeech": "verb",
+    "definition": "make something more noticeable or prominent.",
+    "example": "The lighting accentuates the painting's colors.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "advancement",
+    "partOfSpeech": "noun",
+    "definition": "progress or development in a field.",
+    "example": "Medical advancement has increased life expectancy.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "augmented",
+    "partOfSpeech": "verb",
+    "definition": "made something greater or larger.",
+    "example": "The new funds augmented the school's budget.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "confused",
+    "partOfSpeech": "adjective",
+    "definition": "unable to think clearly or understand.",
+    "example": "I was confused by the complicated instructions.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "continuity",
+    "partOfSpeech": "noun",
+    "definition": "uninterrupted connection or sequence.",
+    "example": "The film's continuity errors annoyed fans.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "convened",
+    "partOfSpeech": "verb",
+    "definition": "came together for a meeting or assembly.",
+    "example": "The committee convened to discuss the issue.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "convey",
+    "partOfSpeech": "verb",
+    "definition": "communicate or express an idea or feeling.",
+    "example": "Her tone conveyed her disappointment clearly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "credible",
+    "partOfSpeech": "adjective",
+    "definition": "able to be believed; convincing.",
+    "example": "The witness gave a credible account of events.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "customary",
+    "partOfSpeech": "adjective",
+    "definition": "according to usual practice or tradition.",
+    "example": "It is customary to tip the waiter.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "denounce",
+    "partOfSpeech": "verb",
+    "definition": "publicly declare to be wrong or evil.",
+    "example": "The senator denounced the corrupt practices.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "dependence",
+    "partOfSpeech": "noun",
+    "definition": "state of relying on someone or something.",
+    "example": "His dependence on caffeine is unhealthy.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "deserving",
+    "partOfSpeech": "adjective",
+    "definition": "worthy of reward or punishment.",
+    "example": "She felt the scholarship was for someone more deserving than herself.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "displaced",
+    "partOfSpeech": "adjective",
+    "definition": "forced to leave one's home or position.",
+    "example": "The earthquake left thousands of families displaced.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disputed",
+    "partOfSpeech": "adjective",
+    "definition": "subject to disagreement or argument.",
+    "example": "The disputed territory caused tension between the two countries.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "eccentric",
+    "partOfSpeech": "adjective",
+    "definition": "unconventional and slightly strange in behavior.",
+    "example": "My eccentric uncle collects rubber ducks from around the world.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "enduring",
+    "partOfSpeech": "adjective",
+    "definition": "lasting over a long period of time.",
+    "example": "Their enduring friendship survived many disagreements.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exaggerate",
+    "partOfSpeech": "verb",
+    "definition": "to represent something as larger or greater than it is.",
+    "example": "He tends to exaggerate the size of the fish he caught.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exposure",
+    "partOfSpeech": "noun",
+    "definition": "the state of being subjected to something harmful or new.",
+    "example": "Prolonged exposure to the sun can cause skin damage.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ignore",
+    "partOfSpeech": "verb",
+    "definition": "to refuse to pay attention to something or someone.",
+    "example": "She decided to ignore his rude comments.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "innovation",
+    "partOfSpeech": "noun",
+    "definition": "a new method, idea, or product.",
+    "example": "The smartphone was a major innovation in communication.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "magnify",
+    "partOfSpeech": "verb",
+    "definition": "to make something appear larger or more important.",
+    "example": "Using a microscope can magnify tiny organisms.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "meager",
+    "partOfSpeech": "adjective",
+    "definition": "lacking in quantity or quality; insufficient.",
+    "example": "The refugees survived on meager rations of rice and water.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "mock",
+    "partOfSpeech": "verb",
+    "definition": "to tease or make fun of someone or something.",
+    "example": "The bullies would mock his accent.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "neglect",
+    "partOfSpeech": "verb",
+    "definition": "to fail to care for or pay attention to properly.",
+    "example": "The landlord neglected to fix the broken heater.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "palpable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be felt or touched; tangible.",
+    "example": "The tension in the room was palpable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "predictable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be foreseen or expected.",
+    "example": "The movie's ending was predictable and boring.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prioritize",
+    "partOfSpeech": "verb",
+    "definition": "to arrange or deal with in order of importance.",
+    "example": "You need to prioritize your tasks for the week.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "scrutinize",
+    "partOfSpeech": "verb",
+    "definition": "to examine or inspect closely and critically.",
+    "example": "The teacher scrutinized every essay for plagiarism.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "skeptically",
+    "partOfSpeech": "adverb",
+    "definition": "in a doubting or questioning manner.",
+    "example": "He looked skeptically at the advertisement's claims.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sophistication",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being refined or complex.",
+    "example": "The sophistication of the software impressed the engineers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "uncertain",
+    "partOfSpeech": "adjective",
+    "definition": "not known or definite; doubtful.",
+    "example": "The future of the project remains uncertain.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unequivocal",
+    "partOfSpeech": "adjective",
+    "definition": "leaving no doubt; unambiguous.",
+    "example": "The evidence provided unequivocal proof of his guilt.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "amusing",
+    "partOfSpeech": "adjective",
+    "definition": "entertaining or causing laughter.",
+    "example": "The comedian's amusing stories kept the audience laughing.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "annotate",
+    "partOfSpeech": "verb",
+    "definition": "to add notes or comments to a text.",
+    "example": "Students were asked to annotate the poem for homework.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "appraising",
+    "partOfSpeech": "adjective",
+    "definition": "assessing the value or quality of something",
+    "example": "The teacher gave an appraising look at my essay before grading it.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "assertive",
+    "partOfSpeech": "adjective",
+    "definition": "confident and direct in claiming one's rights",
+    "example": "She was assertive in the meeting, stating her opinions clearly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "avorably",
+    "partOfSpeech": "adverb",
+    "definition": "in a way that shows approval or advantage",
+    "example": "The committee looked avorably upon his proposal.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "breadth",
+    "partOfSpeech": "noun",
+    "definition": "wide range or extent of something",
+    "example": "The breadth of his knowledge impressed everyone.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "circumvent",
+    "partOfSpeech": "verb",
+    "definition": "find a way around an obstacle or rule",
+    "example": "They tried to circumvent the security system.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "complicated",
+    "partOfSpeech": "adjective",
+    "definition": "consisting of many interconnecting parts; complex",
+    "example": "The instructions were so complicated that I gave up.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "conceal",
+    "partOfSpeech": "verb",
+    "definition": "keep from being seen or known",
+    "example": "He tried to conceal his disappointment.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "consequence",
+    "partOfSpeech": "noun",
+    "definition": "a result or effect of an action",
+    "example": "Every action has a consequence.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "consequences",
+    "partOfSpeech": "noun",
+    "definition": "plural of consequence; results or effects",
+    "example": "She faced the consequences of her choices.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "conventional",
+    "partOfSpeech": "adjective",
+    "definition": "based on or in accordance with general agreement",
+    "example": "They followed conventional methods in the experiment.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "determined",
+    "partOfSpeech": "adjective",
+    "definition": "having a firm decision or purpose",
+    "example": "She was determined to finish the race.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "discern",
+    "partOfSpeech": "verb",
+    "definition": "perceive or recognize something with difficulty",
+    "example": "I could discern a figure in the fog.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "discount",
+    "partOfSpeech": "verb",
+    "definition": "regard as being unworthy of consideration",
+    "example": "Don't discount his opinion just because he's young.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disseminate",
+    "partOfSpeech": "verb",
+    "definition": "spread widely, as information or ideas",
+    "example": "The organization aims to disseminate health information.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "engendering",
+    "partOfSpeech": "verb",
+    "definition": "causing or giving rise to a feeling or situation",
+    "example": "His speech is engendering hope among the people.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "hesitancy",
+    "partOfSpeech": "noun",
+    "definition": "uncertainty or reluctance in acting",
+    "example": "Her hesitancy to speak up was noticeable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "hesitant",
+    "partOfSpeech": "adjective",
+    "definition": "tentative, unsure, or slow in acting",
+    "example": "He was hesitant to try the new food.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "idiosyncratic",
+    "partOfSpeech": "adjective",
+    "definition": "peculiar to an individual; distinctive",
+    "example": "Her idiosyncratic style made her stand out.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "implement",
+    "partOfSpeech": "verb",
+    "definition": "put a decision or plan into effect",
+    "example": "The school will implement a new dress code.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "inconsequential",
+    "partOfSpeech": "adjective",
+    "definition": "not important or significant",
+    "example": "The typo was inconsequential to the meaning.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "minimize",
+    "partOfSpeech": "verb",
+    "definition": "reduce to the smallest possible amount",
+    "example": "We need to minimize waste in production.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "misunderstood",
+    "partOfSpeech": "adjective",
+    "definition": "not correctly interpreted or appreciated",
+    "example": "He felt misunderstood by his peers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "neutrally",
+    "partOfSpeech": "adverb",
+    "definition": "in an impartial or unbiased manner",
+    "example": "The mediator listened neutrally to both sides.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "nurture",
+    "partOfSpeech": "verb",
+    "definition": "care for and encourage growth or development",
+    "example": "Parents should nurture their children's talents.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pervasive",
+    "partOfSpeech": "adjective",
+    "definition": "spreading widely throughout an area or group",
+    "example": "The pervasive smell of smoke filled the room.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pinion",
+    "partOfSpeech": "verb",
+    "definition": "to restrain or immobilize by binding the arms",
+    "example": "The security guard managed to pinion the suspect's arms behind his back.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rdinary",
+    "partOfSpeech": "adjective",
+    "definition": "commonplace; not exceptional in any way",
+    "example": "The movie was just an rdinary romantic comedy with no surprises.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reciprocate",
+    "partOfSpeech": "verb",
+    "definition": "to respond in kind to a gesture or action",
+    "example": "She smiled at him, and he quickly reciprocated with a wave.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rectify",
+    "partOfSpeech": "verb",
+    "definition": "to correct or make right an error or problem",
+    "example": "The company promised to rectify the billing mistake immediately.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rejection",
+    "partOfSpeech": "noun",
+    "definition": "the act of refusing to accept or consider",
+    "example": "His job rejection stung, but he kept applying elsewhere.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "riginality",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being novel or inventive",
+    "example": "The artist's riginality set her apart from her peers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rtunate",
+    "partOfSpeech": "adjective",
+    "definition": "having good luck or favorable circumstances",
+    "example": "We were rtunate to find a parking spot right away.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "satiate",
+    "partOfSpeech": "verb",
+    "definition": "to satisfy fully, especially an appetite or desire",
+    "example": "The huge meal finally satiated his hunger.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "strangely",
+    "partOfSpeech": "adverb",
+    "definition": "in an unusual or surprising manner",
+    "example": "Strangely, the dog didn't bark at the mailman today.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "subtlety",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being delicate or understated",
+    "example": "The humor in the play relied on subtlety rather than slapstick.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "surprised",
+    "partOfSpeech": "adjective",
+    "definition": "feeling or showing unexpected astonishment",
+    "example": "I was surprised to see my old friend at the airport.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "symbolize",
+    "partOfSpeech": "verb",
+    "definition": "to represent or stand for something else",
+    "example": "The dove is often used to symbolize peace.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "variable",
+    "partOfSpeech": "noun",
+    "definition": "an element that can change or vary",
+    "example": "In the experiment, temperature was the key variable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "abandon",
+    "partOfSpeech": "verb",
+    "definition": "to leave behind or give up completely",
+    "example": "They had to abandon the car due to the snowstorm.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "acclaim",
+    "partOfSpeech": "noun",
+    "definition": "enthusiastic praise or public approval",
+    "example": "The novel received widespread acclaim from critics.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ambivalence",
+    "partOfSpeech": "noun",
+    "definition": "mixed feelings or contradictory ideas about something",
+    "example": "Her ambivalence about moving abroad made the decision hard.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "amiliarize",
+    "partOfSpeech": "verb",
+    "definition": "to make someone knowledgeable about something",
+    "example": "The training session will amiliarize you with the software.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "amorphous",
+    "partOfSpeech": "adjective",
+    "definition": "shapeless or lacking a clear structure",
+    "example": "The early plans were still amorphous and vague.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "amplify",
+    "partOfSpeech": "verb",
+    "definition": "to increase the strength or effect of something",
+    "example": "The microphone amplified his voice so everyone could hear.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "analogical",
+    "partOfSpeech": "adjective",
+    "definition": "based on or involving comparison between similar things",
+    "example": "The teacher used an analogical argument to explain the concept.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "associative",
+    "partOfSpeech": "adjective",
+    "definition": "relating to the linking of ideas or sensations",
+    "example": "Her associative thinking led to creative solutions.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "bserve",
+    "partOfSpeech": "verb",
+    "definition": "to watch carefully or notice something",
+    "example": "Scientists bserve the behavior of animals in the wild.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "capitalizing",
+    "partOfSpeech": "verb",
+    "definition": "taking advantage of an opportunity for gain",
+    "example": "The company is capitalizing on the growing demand for electric cars.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "common",
+    "partOfSpeech": "adjective",
+    "definition": "occurring frequently or widely shared",
+    "example": "It is common for students to feel nervous before exams.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "commonplace",
+    "partOfSpeech": "adjective",
+    "definition": "ordinary and not in any way special",
+    "example": "Smartphones have become commonplace in modern society.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "complaint",
+    "partOfSpeech": "noun",
+    "definition": "an expression of dissatisfaction or grievance",
+    "example": "Her complaint about the noisy construction was ignored by the landlord.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "complexity",
+    "partOfSpeech": "noun",
+    "definition": "the state of being intricate or complicated",
+    "example": "The complexity of the math problem frustrated even the brightest students.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "concealed",
+    "partOfSpeech": "adjective",
+    "definition": "kept hidden or secret",
+    "example": "The concealed camera caught the thief in action.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "conclusions",
+    "partOfSpeech": "noun",
+    "definition": "judgments or decisions reached after reasoning",
+    "example": "After reviewing the data, the scientist drew firm conclusions.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "conjectures",
+    "partOfSpeech": "noun",
+    "definition": "opinions or guesses based on incomplete information",
+    "example": "His theories were mere conjectures without solid evidence.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "constrain",
+    "partOfSpeech": "verb",
+    "definition": "to restrict or limit within bounds",
+    "example": "Budget cuts constrain the school's ability to hire new teachers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "constrict",
+    "partOfSpeech": "verb",
+    "definition": "to make narrower or tighter",
+    "example": "The snake constricts its prey to suffocate it.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "costly",
+    "partOfSpeech": "adjective",
+    "definition": "causing great expense or loss",
+    "example": "The costly mistake set the project back by months.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "counterfactual",
+    "partOfSpeech": "adjective",
+    "definition": "relating to what did not happen but could have",
+    "example": "The historian explored counterfactual scenarios of World War II.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "debatable",
+    "partOfSpeech": "adjective",
+    "definition": "open to discussion or argument",
+    "example": "Whether the policy is effective remains debatable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disastrous",
+    "partOfSpeech": "adjective",
+    "definition": "causing great damage or suffering",
+    "example": "The oil spill had disastrous effects on marine life.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disguise",
+    "partOfSpeech": "verb",
+    "definition": "to conceal the true nature of",
+    "example": "She tried to disguise her disappointment with a smile.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "easible",
+    "partOfSpeech": "adjective",
+    "definition": "achievable or possible without difficulty",
+    "example": "With proper planning, the goal is easily feasible.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "equalize",
+    "partOfSpeech": "verb",
+    "definition": "to make equal in amount or status",
+    "example": "The new law aims to equalize opportunities for all students.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "equitable",
+    "partOfSpeech": "adjective",
+    "definition": "fair and impartial",
+    "example": "The judge ensured an equitable distribution of the inheritance.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "extended",
+    "partOfSpeech": "adjective",
+    "definition": "made longer in time or scope",
+    "example": "The extended warranty covers repairs for five years.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "genuine",
+    "partOfSpeech": "adjective",
+    "definition": "truly what it is said to be; authentic",
+    "example": "Her genuine concern for others made her a beloved friend.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "humble",
+    "partOfSpeech": "adjective",
+    "definition": "modest in attitude or status",
+    "example": "Despite his fame, he remained humble and approachable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "identify",
+    "partOfSpeech": "verb",
+    "definition": "to establish or recognize as a particular thing",
+    "example": "Can you identify the author of this poem?",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imitate",
+    "partOfSpeech": "verb",
+    "definition": "to copy or mimic the actions or style of",
+    "example": "Young children often imitate their parents' behavior.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imitated",
+    "partOfSpeech": "verb",
+    "definition": "copied or mimicked",
+    "example": "The artist's style was widely imitated by his followers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "immense",
+    "partOfSpeech": "adjective",
+    "definition": "extremely large or great",
+    "example": "The immense skyscraper dominated the city skyline.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "impartiality",
+    "partOfSpeech": "noun",
+    "definition": "fairness and lack of bias",
+    "example": "The referee's impartiality was questioned after the controversial call.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "incongruous",
+    "partOfSpeech": "adjective",
+    "definition": "not in harmony or keeping with the surroundings",
+    "example": "The modern sculpture looked incongruous in the historic square.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "induce",
+    "partOfSpeech": "verb",
+    "definition": "to cause or bring about",
+    "example": "The medicine may induce drowsiness, so avoid driving.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ineluctable",
+    "partOfSpeech": "adjective",
+    "definition": "Impossible to avoid or evade.",
+    "example": "The ineluctable conclusion was that he had failed the test.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "inspired",
+    "partOfSpeech": "adjective",
+    "definition": "Exceptionally creative or insightful.",
+    "example": "Her inspired speech moved the entire audience.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "insuperable",
+    "partOfSpeech": "adjective",
+    "definition": "Incapable of being overcome or solved.",
+    "example": "The mountain seemed an insuperable obstacle to their journey.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "irreproachable",
+    "partOfSpeech": "adjective",
+    "definition": "Free from blame or fault; blameless.",
+    "example": "Her irreproachable conduct earned her everyone's respect.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "momentous",
+    "partOfSpeech": "adjective",
+    "definition": "Of great importance or significance.",
+    "example": "Graduation day was a momentous occasion for our family.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "neutral",
+    "partOfSpeech": "adjective",
+    "definition": "Not supporting either side in a conflict.",
+    "example": "Switzerland remained neutral during the war.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "practicality",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being sensible and realistic.",
+    "example": "She chose the car for its practicality, not its looks.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "publicity",
+    "partOfSpeech": "noun",
+    "definition": "Public attention or media coverage.",
+    "example": "The movie received a lot of publicity before its release.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "recognize",
+    "partOfSpeech": "verb",
+    "definition": "To identify or acknowledge something known.",
+    "example": "I didn't recognize him with his new haircut.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "refute",
+    "partOfSpeech": "verb",
+    "definition": "To prove a statement or person wrong.",
+    "example": "The scientist refuted the outdated theory with new evidence.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rejected",
+    "partOfSpeech": "verb",
+    "definition": "Refused to accept, believe, or use.",
+    "example": "She rejected his offer of help because she was proud.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "replace",
+    "partOfSpeech": "verb",
+    "definition": "To take the place of something else.",
+    "example": "They had to replace the old roof after the storm.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "representative",
+    "partOfSpeech": "noun",
+    "definition": "A person chosen to act for others.",
+    "example": "Our class elected a representative to the student council.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "repudiate",
+    "partOfSpeech": "verb",
+    "definition": "To refuse to accept or be associated with.",
+    "example": "The politician repudiated his earlier statements.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reputation",
+    "partOfSpeech": "noun",
+    "definition": "The beliefs held about someone's character.",
+    "example": "His reputation as a hard worker preceded him.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "requirement",
+    "partOfSpeech": "noun",
+    "definition": "Something that is necessary or mandatory.",
+    "example": "A passing grade is a requirement for graduation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reveal",
+    "partOfSpeech": "verb",
+    "definition": "To make known something hidden or secret.",
+    "example": "The detective refused to reveal the suspect's name.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rgetting",
+    "partOfSpeech": "verb",
+    "definition": "Present participle of 'get' meaning obtaining.",
+    "example": "He is rgetting a new phone for his birthday.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "satisfying",
+    "partOfSpeech": "adjective",
+    "definition": "Giving fulfillment or contentment.",
+    "example": "Finishing the puzzle was deeply satisfying.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "simplified",
+    "partOfSpeech": "adjective",
+    "definition": "Made easier or less complex.",
+    "example": "The teacher provided a simplified version of the text.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "summations",
+    "partOfSpeech": "noun",
+    "definition": "The totals or summaries of something.",
+    "example": "The summations of the data showed a clear trend.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "supplanted",
+    "partOfSpeech": "verb",
+    "definition": "Replaced or superseded by something else.",
+    "example": "Email supplanted letter writing for most people.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sympathy",
+    "partOfSpeech": "noun",
+    "definition": "Feeling of pity or sorrow for another's misfortune.",
+    "example": "I felt great sympathy for the victims of the flood.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "tolerance",
+    "partOfSpeech": "noun",
+    "definition": "Willingness to accept views different from one's own.",
+    "example": "The school promotes tolerance among all students.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unattainable",
+    "partOfSpeech": "adjective",
+    "definition": "Not able to be reached or achieved.",
+    "example": "For many, a perfect score seems unattainable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "vershadows",
+    "partOfSpeech": "verb",
+    "definition": "casts a shadow over; makes less important",
+    "example": "Her achievements vershadows everyone else's in the class.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "achieved",
+    "partOfSpeech": "verb",
+    "definition": "successfully reached a goal or objective",
+    "example": "She achieved her dream of becoming a doctor.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "acquire",
+    "partOfSpeech": "verb",
+    "definition": "gain possession or knowledge of something",
+    "example": "He hopes to acquire new skills through the internship.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "adequate",
+    "partOfSpeech": "adjective",
+    "definition": "sufficient for a specific need or requirement",
+    "example": "The amount of food was adequate for the party.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "attacked",
+    "partOfSpeech": "verb",
+    "definition": "criticized or opposed strongly and aggressively",
+    "example": "The politician attacked his opponent's record.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "awkward",
+    "partOfSpeech": "adjective",
+    "definition": "causing difficulty or embarrassment; clumsy",
+    "example": "The silence after his joke was awkward.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "biased",
+    "partOfSpeech": "adjective",
+    "definition": "showing unfair preference for one side",
+    "example": "The article was biased against the new policy.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "blamed",
+    "partOfSpeech": "verb",
+    "definition": "held responsible for a fault or wrong",
+    "example": "She blamed the rain for the delay.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "cial",
+    "partOfSpeech": "adjective",
+    "definition": "relating to finance or commerce",
+    "example": "The company faced cial difficulties this quarter.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "coincidence",
+    "partOfSpeech": "noun",
+    "definition": "a remarkable occurrence of events without apparent cause",
+    "example": "Meeting her at the airport was a strange coincidence.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "collaborators",
+    "partOfSpeech": "noun",
+    "definition": "people who work jointly on an activity",
+    "example": "The collaborators finished the project ahead of schedule.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "commended",
+    "partOfSpeech": "verb",
+    "definition": "praised formally or officially",
+    "example": "The teacher commended her for the excellent essay.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "competent",
+    "partOfSpeech": "adjective",
+    "definition": "having the necessary ability or skills",
+    "example": "He is a competent mechanic who fixes cars quickly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "competition",
+    "partOfSpeech": "noun",
+    "definition": "the act of competing; rivalry for a prize",
+    "example": "The competition for the scholarship was fierce.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "concludes",
+    "partOfSpeech": "verb",
+    "definition": "brings to an end; reaches a decision",
+    "example": "The report concludes that more research is needed.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "conscientious",
+    "partOfSpeech": "adjective",
+    "definition": "thorough and careful; guided by conscience",
+    "example": "She is a conscientious student who always does her homework.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "counterbalance",
+    "partOfSpeech": "noun",
+    "definition": "a weight or force that balances another",
+    "example": "His calm voice served as a counterbalance to her anger.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "cused",
+    "partOfSpeech": "verb",
+    "definition": "accused or blamed for something",
+    "example": "He was cused of cheating on the test.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "derived",
+    "partOfSpeech": "verb",
+    "definition": "obtained from a source or origin",
+    "example": "The word 'astronomy' is derived from Greek.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "detractors",
+    "partOfSpeech": "noun",
+    "definition": "people who criticize or belittle something",
+    "example": "Despite detractors, the movie was a huge success.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "discover",
+    "partOfSpeech": "verb",
+    "definition": "find something unexpectedly or for the first time",
+    "example": "She hopes to discover a cure for the disease.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "dispersed",
+    "partOfSpeech": "verb",
+    "definition": "scattered or spread over a wide area",
+    "example": "The crowd dispersed after the concert ended.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "eclipsed",
+    "partOfSpeech": "verb",
+    "definition": "outshone or surpassed; made less important",
+    "example": "Her talent eclipsed that of her peers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "eliciting",
+    "partOfSpeech": "verb",
+    "definition": "drawing out or evoking a response",
+    "example": "The comedian's jokes were eliciting laughter from the audience.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "epitomized",
+    "partOfSpeech": "verb",
+    "definition": "served as a perfect example of",
+    "example": "Her kindness epitomized the spirit of the community.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "equivalence",
+    "partOfSpeech": "noun",
+    "definition": "The state of being equal in value or meaning.",
+    "example": "The equivalence of the two equations was proven by the mathematician.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "examples",
+    "partOfSpeech": "noun",
+    "definition": "Specific instances used to illustrate a concept.",
+    "example": "The teacher gave several examples to clarify the grammar rule.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exceptions",
+    "partOfSpeech": "noun",
+    "definition": "Cases that do not follow a general rule.",
+    "example": "Most students passed, but there were a few exceptions.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exemplifications",
+    "partOfSpeech": "noun",
+    "definition": "Examples that serve to illustrate or clarify.",
+    "example": "The essay included several exemplifications of the theory.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "explains",
+    "partOfSpeech": "verb",
+    "definition": "Makes clear or gives reason for something.",
+    "example": "She explains the concept so well that everyone understands.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "guessed",
+    "partOfSpeech": "verb",
+    "definition": "Formed an opinion without sufficient evidence.",
+    "example": "He guessed the answer to the trivia question correctly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "halting",
+    "partOfSpeech": "adjective",
+    "definition": "Slow and hesitant, as if unsure.",
+    "example": "His halting speech revealed his nervousness.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ictitious",
+    "partOfSpeech": "adjective",
+    "definition": "Fictional or fabricated; not real.",
+    "example": "The story was entirely ictitious and not based on fact.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "illuminate",
+    "partOfSpeech": "verb",
+    "definition": "To clarify or make understandable.",
+    "example": "The diagram helped illuminate the complex process.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imitation",
+    "partOfSpeech": "noun",
+    "definition": "A copy or mimicry of something genuine.",
+    "example": "The painting was an imitation of a famous masterpiece.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imitators",
+    "partOfSpeech": "noun",
+    "definition": "People or things that copy others.",
+    "example": "The brand had many imitators but few original ideas.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imperative",
+    "partOfSpeech": "adjective",
+    "definition": "Essential or crucial; of vital importance.",
+    "example": "It is imperative that you submit the application by Friday.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "impressive",
+    "partOfSpeech": "adjective",
+    "definition": "Evoking admiration through size, skill, or quality.",
+    "example": "Her impressive performance earned a standing ovation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "incident",
+    "partOfSpeech": "noun",
+    "definition": "An event or occurrence, often minor or notable.",
+    "example": "The incident at the mall was caught on camera.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "indications",
+    "partOfSpeech": "noun",
+    "definition": "Signs or pieces of evidence pointing to a fact.",
+    "example": "Early indications suggest the project will succeed.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "influenced",
+    "partOfSpeech": "verb",
+    "definition": "Had an effect on someone's decisions or actions.",
+    "example": "Her mentor influenced her career choice greatly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ingenious",
+    "partOfSpeech": "adjective",
+    "definition": "Clever, original, and inventive.",
+    "example": "The engineer devised an ingenious solution to the problem.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "insight",
+    "partOfSpeech": "noun",
+    "definition": "A deep understanding of a complex situation.",
+    "example": "Her insight into human behavior was remarkable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "insufficient",
+    "partOfSpeech": "adjective",
+    "definition": "Not enough to meet a need or requirement.",
+    "example": "The evidence was insufficient to prove his guilt.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "insurmountable",
+    "partOfSpeech": "adjective",
+    "definition": "Too great to be overcome or conquered.",
+    "example": "The obstacle seemed insurmountable, but they persisted.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "interaction",
+    "partOfSpeech": "noun",
+    "definition": "Communication or direct involvement with someone.",
+    "example": "The interaction between the two chemicals was dangerous.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "irrelevant",
+    "partOfSpeech": "adjective",
+    "definition": "Not connected to the matter at hand.",
+    "example": "His comment was irrelevant to the discussion.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "manageable",
+    "partOfSpeech": "adjective",
+    "definition": "Able to be controlled or handled easily.",
+    "example": "The workload was manageable once we prioritized tasks.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "misanthropic",
+    "partOfSpeech": "adjective",
+    "definition": "Hating or distrusting humankind.",
+    "example": "The misanthropic hermit avoided all social contact.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "modest",
+    "partOfSpeech": "adjective",
+    "definition": "Humble in behavior or moderate in amount.",
+    "example": "Despite her success, she remained modest about her achievements.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "nebulous",
+    "partOfSpeech": "adjective",
+    "definition": "unclear, vague, or ill-defined.",
+    "example": "The plan was still nebulous, with no concrete steps outlined.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "notional",
+    "partOfSpeech": "adjective",
+    "definition": "existing only as an idea, not real.",
+    "example": "The notional value of the stock doesn't reflect actual cash.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "placated",
+    "partOfSpeech": "verb",
+    "definition": "made someone less angry or hostile.",
+    "example": "The teacher placated the upset student with a kind word.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "praised",
+    "partOfSpeech": "verb",
+    "definition": "expressed approval or admiration for.",
+    "example": "She praised her teammate for the game-winning goal.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "precedents",
+    "partOfSpeech": "noun",
+    "definition": "earlier examples that serve as a guide.",
+    "example": "The judge cited legal precedents to support her ruling.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "precedes",
+    "partOfSpeech": "verb",
+    "definition": "comes before in time or order.",
+    "example": "The appetizer precedes the main course at dinner.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "precipitating",
+    "partOfSpeech": "verb",
+    "definition": "causing something to happen suddenly.",
+    "example": "The argument was precipitating a fight between them.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "precursors",
+    "partOfSpeech": "noun",
+    "definition": "things that come before and indicate something.",
+    "example": "Dark clouds are often precursors of a storm.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prestige",
+    "partOfSpeech": "noun",
+    "definition": "high reputation or respect from achievements.",
+    "example": "Getting into that university carries a lot of prestige.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pretending",
+    "partOfSpeech": "verb",
+    "definition": "acting as if something is true when it's not.",
+    "example": "He was pretending to be sick to skip school.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pristine",
+    "partOfSpeech": "adjective",
+    "definition": "in original, unspoiled condition; clean.",
+    "example": "The beach was pristine, with no trash in sight.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "promote",
+    "partOfSpeech": "verb",
+    "definition": "support or actively encourage something.",
+    "example": "The campaign aims to promote healthy eating habits.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reprieve",
+    "partOfSpeech": "noun",
+    "definition": "a temporary relief from something unpleasant.",
+    "example": "The rain gave us a reprieve from the heat.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "resight",
+    "partOfSpeech": "verb",
+    "definition": "to see something again after a period.",
+    "example": "I hope to resight that rare bird tomorrow.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "respond",
+    "partOfSpeech": "verb",
+    "definition": "to answer or react to something.",
+    "example": "Please respond to my text when you can.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "restalls",
+    "partOfSpeech": "verb",
+    "definition": "delays or postpones something again.",
+    "example": "The committee restalls the vote until next month.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "retrieving",
+    "partOfSpeech": "verb",
+    "definition": "getting something back from a location.",
+    "example": "He is retrieving his phone from the lost and found.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sanguine",
+    "partOfSpeech": "adjective",
+    "definition": "optimistic, especially in a difficult situation.",
+    "example": "Despite the loss, she remained sanguine about the future.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "saving",
+    "partOfSpeech": "verb",
+    "definition": "keeping money or resources for later use.",
+    "example": "She is saving her allowance to buy a new bike.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "stabilizing",
+    "partOfSpeech": "verb",
+    "definition": "making something steady or unchanging.",
+    "example": "The medicine is stabilizing his blood pressure.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "startle",
+    "partOfSpeech": "verb",
+    "definition": "to cause a sudden surprise or shock.",
+    "example": "The loud noise made me startle.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "straightforward",
+    "partOfSpeech": "adjective",
+    "definition": "easy to understand or simple.",
+    "example": "The instructions were straightforward and clear.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "subordinate",
+    "partOfSpeech": "adjective",
+    "definition": "lower in rank or position.",
+    "example": "In the army, a private is subordinate to a sergeant.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "substantial",
+    "partOfSpeech": "adjective",
+    "definition": "of considerable amount, size, or importance.",
+    "example": "She received a substantial raise after the promotion.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "tenuous",
+    "partOfSpeech": "adjective",
+    "definition": "very weak or slight; not firm.",
+    "example": "His connection to the company is tenuous at best.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "uestion",
+    "partOfSpeech": "noun",
+    "definition": "A query or doubt; subject of dispute.",
+    "example": "The uestion of who broke the vase remained unanswered.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "underscores",
+    "partOfSpeech": "verb",
+    "definition": "Emphasizes or stresses the importance of.",
+    "example": "Her dedication underscores her commitment to the team.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unprecedented",
+    "partOfSpeech": "adjective",
+    "definition": "Never done or known before; without previous example.",
+    "example": "The pandemic caused unprecedented disruption to daily life.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "venerate",
+    "partOfSpeech": "verb",
+    "definition": "Regard with great respect; revere.",
+    "example": "Many cultures venerate their ancestors through rituals.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "wrought",
+    "partOfSpeech": "adjective",
+    "definition": "Shaped or made; often with care or effort.",
+    "example": "The wrought iron gate was beautifully crafted.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accelerate",
+    "partOfSpeech": "verb",
+    "definition": "Increase in speed or rate; hasten.",
+    "example": "The car can accelerate from 0 to 60 in seconds.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accidental",
+    "partOfSpeech": "adjective",
+    "definition": "Happening by chance; unintended.",
+    "example": "The accidental discovery led to a new invention.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accumulate",
+    "partOfSpeech": "verb",
+    "definition": "Gather together over time; amass.",
+    "example": "Dust tends to accumulate on neglected shelves.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "affinity",
+    "partOfSpeech": "noun",
+    "definition": "Natural liking or sympathy for someone or something.",
+    "example": "She has an affinity for classical music.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "allocated",
+    "partOfSpeech": "verb",
+    "definition": "Distributed or set aside for a specific purpose.",
+    "example": "The funds were allocated to the science department.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "amiliar",
+    "partOfSpeech": "adjective",
+    "definition": "Well known from repeated experience; customary.",
+    "example": "The familiar smell of coffee woke him up.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "analyses",
+    "partOfSpeech": "noun",
+    "definition": "Detailed examinations of elements or structure.",
+    "example": "The lab analyses confirmed the presence of toxins.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "anticipated",
+    "partOfSpeech": "verb",
+    "definition": "Expected or predicted; looked forward to.",
+    "example": "The team anticipated a tough game against rivals.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "apprised",
+    "partOfSpeech": "verb",
+    "definition": "Informed or notified of something.",
+    "example": "Please keep me apprised of any changes to the schedule.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "approves",
+    "partOfSpeech": "verb",
+    "definition": "Officially agrees to or sanctions.",
+    "example": "The committee approves the new policy unanimously.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "attractive",
+    "partOfSpeech": "adjective",
+    "definition": "Pleasing to the eye or mind; appealing.",
+    "example": "The attractive offer convinced her to apply.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "avoided",
+    "partOfSpeech": "verb",
+    "definition": "Kept away from; evaded.",
+    "example": "He avoided the puddles on his way to school.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "belies",
+    "partOfSpeech": "verb",
+    "definition": "Contradicts or gives false impression of.",
+    "example": "Her smile belies her inner sadness.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "bene",
+    "partOfSpeech": "noun",
+    "definition": "Good or well; often in combination.",
+    "example": "The benevolent donor gave generously.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "bestowed",
+    "partOfSpeech": "verb",
+    "definition": "Conferred or presented as an honor or gift.",
+    "example": "The medal was bestowed upon the brave soldier.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "blended",
+    "partOfSpeech": "verb",
+    "definition": "Mixed together smoothly; combined.",
+    "example": "She blended the ingredients into a smooth batter.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "brooded",
+    "partOfSpeech": "verb",
+    "definition": "Thought deeply and gloomily; dwelled on.",
+    "example": "He brooded over his mistake for days.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ceremoniously",
+    "partOfSpeech": "adverb",
+    "definition": "In a formal or ritualistic manner.",
+    "example": "The award was ceremoniously presented at the banquet.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "clumsily",
+    "partOfSpeech": "adverb",
+    "definition": "In an awkward or uncoordinated way.",
+    "example": "He clumsily dropped the tray of glasses.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "collaboration",
+    "partOfSpeech": "noun",
+    "definition": "Working jointly with others on an activity.",
+    "example": "The project succeeded through close collaboration.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "compared",
+    "partOfSpeech": "verb",
+    "definition": "Examined for similarities and differences.",
+    "example": "She compared the two essays to see which was better.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "compensated",
+    "partOfSpeech": "verb",
+    "definition": "Made up for a loss or deficiency.",
+    "example": "The company compensated her for the extra hours worked.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "compound",
+    "partOfSpeech": "verb",
+    "definition": "Made worse by adding something.",
+    "example": "His mistake only compounded the problem.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "comprehensive",
+    "partOfSpeech": "adjective",
+    "definition": "Covering all elements or aspects.",
+    "example": "The comprehensive exam tested everything we learned.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "concentrate",
+    "partOfSpeech": "verb",
+    "definition": "Focused one's attention or efforts.",
+    "example": "I need to concentrate on my homework now.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "concrete",
+    "partOfSpeech": "adjective",
+    "definition": "Specific and tangible, not abstract.",
+    "example": "She gave concrete examples to support her argument.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "confident",
+    "partOfSpeech": "adjective",
+    "definition": "Feeling sure of oneself or one's abilities.",
+    "example": "He felt confident about passing the test.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "confusing",
+    "partOfSpeech": "adjective",
+    "definition": "Causing bewilderment or lack of clarity.",
+    "example": "The directions were confusing and hard to follow.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "contain",
+    "partOfSpeech": "verb",
+    "definition": "Held or included within something.",
+    "example": "The box contains all my old photos.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "contemplated",
+    "partOfSpeech": "verb",
+    "definition": "Thought about deeply or at length.",
+    "example": "She contemplated moving to a new city.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "contusion",
+    "partOfSpeech": "noun",
+    "definition": "A bruise or injury without broken skin.",
+    "example": "He had a nasty contusion from the fall.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "convenient",
+    "partOfSpeech": "adjective",
+    "definition": "Suited to one's comfort or ease.",
+    "example": "The store is in a convenient location near my house.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "critical",
+    "partOfSpeech": "adjective",
+    "definition": "Expressing disapproval or essential importance.",
+    "example": "It is critical that you arrive on time.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "critique",
+    "partOfSpeech": "noun",
+    "definition": "A detailed analysis and assessment.",
+    "example": "The teacher gave a critique of my essay.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "cult",
+    "partOfSpeech": "noun",
+    "definition": "A group with extreme devotion to a person or idea.",
+    "example": "The cult required total loyalty from its members.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "curiosity",
+    "partOfSpeech": "noun",
+    "definition": "A strong desire to know or learn.",
+    "example": "Her curiosity led her to explore the old attic.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "denigrate",
+    "partOfSpeech": "verb",
+    "definition": "Criticized unfairly to damage reputation.",
+    "example": "He tried to denigrate his opponent's work.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "describe",
+    "partOfSpeech": "verb",
+    "definition": "Gave an account in words.",
+    "example": "Can you describe what you saw?",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "desultory",
+    "partOfSpeech": "adjective",
+    "definition": "Lacking a plan or purpose.",
+    "example": "His desultory remarks confused the audience.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "detects",
+    "partOfSpeech": "verb",
+    "definition": "Discovers or identifies something hidden.",
+    "example": "The scanner detects metal objects.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "differ",
+    "partOfSpeech": "verb",
+    "definition": "Was unlike or dissimilar.",
+    "example": "Their opinions differ on many issues.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "diminish",
+    "partOfSpeech": "verb",
+    "definition": "Made smaller or less important.",
+    "example": "The pain began to diminish after taking medicine.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disliked",
+    "partOfSpeech": "verb",
+    "definition": "Felt aversion or disapproval toward.",
+    "example": "She disliked the new dress code.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "disparity",
+    "partOfSpeech": "noun",
+    "definition": "A great difference or inequality.",
+    "example": "There is a disparity in income between the two groups.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "distrust",
+    "partOfSpeech": "noun",
+    "definition": "Lack of trust or confidence.",
+    "example": "His distrust of strangers made him cautious.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "doubts",
+    "partOfSpeech": "noun",
+    "definition": "Feelings of uncertainty or lack of conviction.",
+    "example": "Her doubts about the plan made her hesitate to agree.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ecting",
+    "partOfSpeech": "verb",
+    "definition": "(non-standard) To cut out or remove.",
+    "example": "He was ecting the damaged section from the report.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ecundity",
+    "partOfSpeech": "noun",
+    "definition": "Fertility or fruitfulness in producing offspring or ideas.",
+    "example": "The ecundity of the soil amazed the farmers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "enhanced",
+    "partOfSpeech": "adjective",
+    "definition": "Improved or increased in quality or value.",
+    "example": "The enhanced security system prevented any breaches.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "erent",
+    "partOfSpeech": "adjective",
+    "definition": "Differing in nature or character.",
+    "example": "Their erent opinions led to a heated debate.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "esteem",
+    "partOfSpeech": "noun",
+    "definition": "High regard or respect for someone.",
+    "example": "She held her mentor in great esteem.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exaggeration",
+    "partOfSpeech": "noun",
+    "definition": "A statement that overstates something beyond the truth.",
+    "example": "Saying he could lift a car was pure exaggeration.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "excessive",
+    "partOfSpeech": "adjective",
+    "definition": "More than is necessary or reasonable.",
+    "example": "The excessive noise from the party kept us awake.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exciting",
+    "partOfSpeech": "adjective",
+    "definition": "Causing great enthusiasm or eagerness.",
+    "example": "The exciting news spread quickly through the school.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exclusive",
+    "partOfSpeech": "adjective",
+    "definition": "Limited to a select group; not shared.",
+    "example": "The exclusive club only accepted members by invitation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exemplar",
+    "partOfSpeech": "noun",
+    "definition": "A perfect example or model of something.",
+    "example": "Her essay was an exemplar of clear writing.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "exhaustive",
+    "partOfSpeech": "adjective",
+    "definition": "Covering every possible detail; thorough.",
+    "example": "The exhaustive search turned up no clues.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "expediency",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being convenient and practical.",
+    "example": "For expediency, they took the shortcut through the park.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "extend",
+    "partOfSpeech": "verb",
+    "definition": "To make longer or stretch out.",
+    "example": "Can you extend the deadline by a week?",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "felt",
+    "partOfSpeech": "verb",
+    "definition": "Past tense of feel; to have experienced an emotion.",
+    "example": "She felt a sudden chill in the air.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "gathering",
+    "partOfSpeech": "noun",
+    "definition": "A meeting or assembly of people.",
+    "example": "The family gathering was full of laughter.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "habitable",
+    "partOfSpeech": "adjective",
+    "definition": "Suitable for living in.",
+    "example": "Scientists search for habitable planets beyond Earth.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "heterogeneity",
+    "partOfSpeech": "noun",
+    "definition": "Diversity or variety in composition.",
+    "example": "The heterogeneity of the group made discussions interesting.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "homogeneous",
+    "partOfSpeech": "adjective",
+    "definition": "Uniform in structure or composition.",
+    "example": "The population was surprisingly homogeneous in background.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "idealistic",
+    "partOfSpeech": "adjective",
+    "definition": "Characterized by high ideals; impractical.",
+    "example": "His idealistic plan ignored real-world constraints.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imagine",
+    "partOfSpeech": "verb",
+    "definition": "To form a mental image or concept of.",
+    "example": "Imagine a world without pollution.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "imitations",
+    "partOfSpeech": "noun",
+    "definition": "Copies or replicas of something genuine.",
+    "example": "The market was full of cheap imitations of designer bags.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "inconclusive",
+    "partOfSpeech": "adjective",
+    "definition": "Not leading to a definite result or conclusion.",
+    "example": "The evidence was inconclusive, so the case remained open.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "indicative",
+    "partOfSpeech": "adjective",
+    "definition": "Serving as a sign or indication of something.",
+    "example": "His smile was indicative of his approval.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ineffectual",
+    "partOfSpeech": "adjective",
+    "definition": "Not producing the desired effect; futile.",
+    "example": "The ineffectual attempts to fix the leak only made it worse.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "innovative",
+    "partOfSpeech": "adjective",
+    "definition": "introducing new ideas or methods; original and creative",
+    "example": "The company's innovative app design won several awards.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "inspiration",
+    "partOfSpeech": "noun",
+    "definition": "a sudden creative idea or motivating influence",
+    "example": "Her speech gave me the inspiration to start my own project.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "interdependent",
+    "partOfSpeech": "adjective",
+    "definition": "mutually reliant on each other",
+    "example": "In a healthy ecosystem, species are interdependent.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "interpret",
+    "partOfSpeech": "verb",
+    "definition": "to explain or understand the meaning of",
+    "example": "How do you interpret the author's message in this poem?",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "irrefutable",
+    "partOfSpeech": "adjective",
+    "definition": "impossible to deny or disprove",
+    "example": "The DNA evidence was irrefutable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "irresolvable",
+    "partOfSpeech": "adjective",
+    "definition": "impossible to solve or settle",
+    "example": "Their conflict seemed irresolvable despite many attempts.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "isolate",
+    "partOfSpeech": "verb",
+    "definition": "to set apart or separate from others",
+    "example": "The lab had to isolate the virus for study.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "jointly",
+    "partOfSpeech": "adverb",
+    "definition": "in a shared or cooperative manner",
+    "example": "They jointly decided to split the costs.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "lonely",
+    "partOfSpeech": "adjective",
+    "definition": "sad because lacking companionship",
+    "example": "After moving to a new city, she felt lonely.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "mandatory",
+    "partOfSpeech": "adjective",
+    "definition": "required by rule or law; obligatory",
+    "example": "Attendance at the safety meeting is mandatory.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "measure",
+    "partOfSpeech": "verb",
+    "definition": "to ascertain the size, amount, or degree of",
+    "example": "We need to measure the room before buying furniture.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "mediated",
+    "partOfSpeech": "verb",
+    "definition": "intervened to resolve a dispute",
+    "example": "A counselor mediated the argument between the two friends.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "misconstrue",
+    "partOfSpeech": "verb",
+    "definition": "to interpret incorrectly; misunderstand",
+    "example": "Don't misconstrue my silence as agreement.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "misinformed",
+    "partOfSpeech": "adjective",
+    "definition": "given false or inaccurate information",
+    "example": "The misinformed voters made decisions based on rumors.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "misunderstandings",
+    "partOfSpeech": "noun",
+    "definition": "failures to understand correctly",
+    "example": "Many misunderstandings arise from poor communication.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "neglects",
+    "partOfSpeech": "verb",
+    "definition": "fails to care for properly",
+    "example": "He neglects his homework when he plays video games.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "oddity",
+    "partOfSpeech": "noun",
+    "definition": "a strange or peculiar thing",
+    "example": "The three-headed turtle was an oddity at the zoo.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "persistent",
+    "partOfSpeech": "adjective",
+    "definition": "continuing firmly despite difficulty",
+    "example": "Her persistent efforts finally paid off.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "plants",
+    "partOfSpeech": "verb",
+    "definition": "places something firmly or secretly",
+    "example": "He plants his feet and refuses to move.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "positions",
+    "partOfSpeech": "noun",
+    "definition": "places or roles occupied by someone",
+    "example": "The candidates argued over their positions on taxes.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pportune",
+    "partOfSpeech": "adjective",
+    "definition": "well-timed; occurring at a favorable time",
+    "example": "The rain came at an opportune moment for the crops.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "preceded",
+    "partOfSpeech": "verb",
+    "definition": "came before in time or order",
+    "example": "The appetizer preceded the main course.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "predict",
+    "partOfSpeech": "verb",
+    "definition": "to say what will happen in the future",
+    "example": "Can you predict the outcome of the game?",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "preliminary",
+    "partOfSpeech": "adjective",
+    "definition": "serving as a preparation for something more important",
+    "example": "The preliminary results look promising.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prepare",
+    "partOfSpeech": "verb",
+    "definition": "to make ready for a specific purpose",
+    "example": "We need to prepare for the exam.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "pretentious",
+    "partOfSpeech": "adjective",
+    "definition": "Attempting to impress by affecting greater importance or merit.",
+    "example": "His pretentious remarks about art annoyed everyone at the gallery.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prevail",
+    "partOfSpeech": "verb",
+    "definition": "Prove more powerful than opposing forces; be widespread.",
+    "example": "Despite the challenges, justice will prevail in the end.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prolong",
+    "partOfSpeech": "verb",
+    "definition": "Extend the duration of.",
+    "example": "They decided to prolong the meeting to discuss the new proposal.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "protected",
+    "partOfSpeech": "adjective",
+    "definition": "Kept safe from harm or injury.",
+    "example": "The protected species cannot be hunted under any circumstances.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "provocative",
+    "partOfSpeech": "adjective",
+    "definition": "Causing annoyance, anger, or strong reaction.",
+    "example": "Her provocative comments sparked a heated debate in class.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "prudence",
+    "partOfSpeech": "noun",
+    "definition": "Caution with regard to practical matters; discretion.",
+    "example": "Acting with prudence, she saved money for emergencies.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rapid",
+    "partOfSpeech": "adjective",
+    "definition": "Happening in a short time; fast.",
+    "example": "The rapid growth of the city led to traffic problems.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rarely",
+    "partOfSpeech": "adverb",
+    "definition": "Not often; seldom.",
+    "example": "She rarely misses a day of school, even when sick.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "reception",
+    "partOfSpeech": "noun",
+    "definition": "The way in which something is received or welcomed.",
+    "example": "The new policy got a cold reception from employees.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "recurrent",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring often or repeatedly.",
+    "example": "He suffered from recurrent headaches every few weeks.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "remembered",
+    "partOfSpeech": "verb",
+    "definition": "Recalled or kept in mind.",
+    "example": "She remembered to bring her homework to class.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "renovate",
+    "partOfSpeech": "verb",
+    "definition": "Restore to a good state of repair.",
+    "example": "They plan to renovate the old kitchen next summer.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "replicate",
+    "partOfSpeech": "verb",
+    "definition": "Make an exact copy of; reproduce.",
+    "example": "Scientists tried to replicate the experiment's results.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "retain",
+    "partOfSpeech": "verb",
+    "definition": "Continue to have; keep possession of.",
+    "example": "She managed to retain her composure during the interview.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "retroactively",
+    "partOfSpeech": "adverb",
+    "definition": "Taking effect from a date in the past.",
+    "example": "The new law was applied retroactively to last year.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "revelations",
+    "partOfSpeech": "noun",
+    "definition": "Surprising and previously unknown facts.",
+    "example": "The documentary contained shocking revelations about the company.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rewards",
+    "partOfSpeech": "noun",
+    "definition": "Things given in recognition of service or achievement.",
+    "example": "Hard work often brings its own rewards.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rgotten",
+    "partOfSpeech": "verb",
+    "definition": "Past participle of forget; not remembered.",
+    "example": "The keys were left at home, completely rgotten.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rientation",
+    "partOfSpeech": "noun",
+    "definition": "Familiarization with a new situation or environment.",
+    "example": "Freshmen attended a week-long rientation before classes started.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "rthodox",
+    "partOfSpeech": "adjective",
+    "definition": "Conforming to established doctrine or practice.",
+    "example": "His rthodox views on religion surprised his liberal friends.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "satirized",
+    "partOfSpeech": "verb",
+    "definition": "Mocked or ridiculed using satire.",
+    "example": "The show satirized politicians and their empty promises.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "scrutinized",
+    "partOfSpeech": "verb",
+    "definition": "Examined very closely and critically.",
+    "example": "The teacher scrutinized every essay for plagiarism.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "secluded",
+    "partOfSpeech": "adjective",
+    "definition": "Private and sheltered; away from people.",
+    "example": "They rented a secluded cabin in the mountains for vacation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "self-contradictory",
+    "partOfSpeech": "adjective",
+    "definition": "Containing elements that contradict each other.",
+    "example": "His self-contradictory statements confused the audience.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sensitive",
+    "partOfSpeech": "adjective",
+    "definition": "Easily affected by external conditions or stimuli.",
+    "example": "Her sensitive skin breaks out in a rash from any scented lotion.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sincerity",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being honest and genuine.",
+    "example": "His sincerity was evident when he apologized without making excuses.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "skepticism",
+    "partOfSpeech": "noun",
+    "definition": "A doubting or questioning attitude toward claims.",
+    "example": "Her skepticism about the miracle cure made her research the ingredients.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "slowly",
+    "partOfSpeech": "adverb",
+    "definition": "At a low speed; not quickly.",
+    "example": "He slowly turned the doorknob, trying not to make a sound.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "sporadic",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring at irregular intervals; not constant.",
+    "example": "The sporadic rain showers made it hard to plan the picnic.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "steady",
+    "partOfSpeech": "adjective",
+    "definition": "Firmly fixed, constant, or regular in movement.",
+    "example": "She maintained a steady pace throughout the marathon.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "stipulate",
+    "partOfSpeech": "verb",
+    "definition": "To specify as a condition or requirement.",
+    "example": "The contract stipulates that payment is due within 30 days.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "stymie",
+    "partOfSpeech": "verb",
+    "definition": "To prevent or hinder progress.",
+    "example": "The lack of funding stymied the research project.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "substantiate",
+    "partOfSpeech": "verb",
+    "definition": "To provide evidence or proof for a claim.",
+    "example": "The lawyer needed documents to substantiate his argument.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "substitute",
+    "partOfSpeech": "verb",
+    "definition": "To replace one thing with another.",
+    "example": "You can substitute olive oil for butter in this recipe.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "subverted",
+    "partOfSpeech": "verb",
+    "definition": "Undermined the power or authority of something.",
+    "example": "The rebel group subverted the government's control over the region.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "summarized",
+    "partOfSpeech": "verb",
+    "definition": "Gave a concise version of the main points.",
+    "example": "She summarized the three-hour meeting in just five minutes.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "surpassed",
+    "partOfSpeech": "verb",
+    "definition": "Exceeded expectations or a previous record.",
+    "example": "His final score surpassed the class average by 20 points.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "thoughtfulness",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being considerate of others.",
+    "example": "Her thoughtfulness was shown when she brought soup to her sick neighbor.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "thrive",
+    "partOfSpeech": "verb",
+    "definition": "To grow or develop vigorously; prosper.",
+    "example": "Plants thrive when they get enough sunlight and water.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "timeworn",
+    "partOfSpeech": "adjective",
+    "definition": "Showing signs of age or long use.",
+    "example": "The timeworn staircase creaked with every step.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "tourist",
+    "partOfSpeech": "noun",
+    "definition": "A person who travels for pleasure.",
+    "example": "The tourist asked for directions to the nearest museum.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ubiquity",
+    "partOfSpeech": "noun",
+    "definition": "The state of being everywhere at once.",
+    "example": "The ubiquity of smartphones has changed how we communicate.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unavoidable",
+    "partOfSpeech": "adjective",
+    "definition": "Not able to be prevented or avoided.",
+    "example": "The delay was unavoidable due to the severe weather.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "underestimate",
+    "partOfSpeech": "verb",
+    "definition": "To judge something as less than it actually is.",
+    "example": "Never underestimate the power of a good night's sleep.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unsympathetic",
+    "partOfSpeech": "adjective",
+    "definition": "Not feeling or showing compassion.",
+    "example": "The unsympathetic manager denied the employee's request for time off.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unyielding",
+    "partOfSpeech": "adjective",
+    "definition": "Not giving way to pressure; stubborn.",
+    "example": "His unyielding stance on the issue frustrated the negotiators.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "useless",
+    "partOfSpeech": "adjective",
+    "definition": "Not fulfilling any useful purpose.",
+    "example": "The broken printer was useless for the report deadline.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "utdated",
+    "partOfSpeech": "adjective",
+    "definition": "No longer current or modern; obsolete.",
+    "example": "The utdated software could not run the new application.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "utilize",
+    "partOfSpeech": "verb",
+    "definition": "To make practical use of something.",
+    "example": "The chef will utilize every part of the vegetable to reduce waste.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "utstrip",
+    "partOfSpeech": "verb",
+    "definition": "to remove or take off completely",
+    "example": "The mechanic had to utstrip the engine to find the problem.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "valuable",
+    "partOfSpeech": "adjective",
+    "definition": "having great worth or importance",
+    "example": "Her advice was valuable during the difficult project.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "varied",
+    "partOfSpeech": "adjective",
+    "definition": "diverse; showing different forms or types",
+    "example": "The museum had a varied collection of artifacts.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "vary",
+    "partOfSpeech": "verb",
+    "definition": "to change or differ within limits",
+    "example": "The prices vary depending on the season.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "veritable",
+    "partOfSpeech": "adjective",
+    "definition": "truly what it is said to be; genuine",
+    "example": "The garden was a veritable paradise of flowers.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "verlook",
+    "partOfSpeech": "verb",
+    "definition": "to look over or examine carefully",
+    "example": "Please verlook the report before submitting it.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "versees",
+    "partOfSpeech": "noun",
+    "definition": "lines of poetry; verses",
+    "example": "She recited several versees from memory.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "abrications",
+    "partOfSpeech": "noun",
+    "definition": "false statements or lies",
+    "example": "His alibi was full of abrications.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "abundant",
+    "partOfSpeech": "adjective",
+    "definition": "existing in large quantities; plentiful",
+    "example": "The region has abundant natural resources.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accessible",
+    "partOfSpeech": "adjective",
+    "definition": "easy to reach, enter, or use",
+    "example": "The building is accessible to people with disabilities.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "accommodate",
+    "partOfSpeech": "verb",
+    "definition": "to have space for; to adjust to",
+    "example": "The hotel can accommodate up to 300 guests.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "acetious",
+    "partOfSpeech": "adjective",
+    "definition": "sour or bitter in taste or manner",
+    "example": "His acetious comments made everyone uncomfortable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "achieve",
+    "partOfSpeech": "verb",
+    "definition": "to reach or accomplish a goal",
+    "example": "She worked hard to achieve her dreams.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "achievement",
+    "partOfSpeech": "noun",
+    "definition": "something accomplished successfully",
+    "example": "Winning the award was a great achievement.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "achievements",
+    "partOfSpeech": "noun",
+    "definition": "plural of achievement; accomplishments",
+    "example": "His academic achievements earned him a scholarship.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "adapt",
+    "partOfSpeech": "verb",
+    "definition": "to adjust to new conditions",
+    "example": "Animals must adapt to survive in changing environments.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "adaptability",
+    "partOfSpeech": "noun",
+    "definition": "ability to adjust to new situations",
+    "example": "Her adaptability made her a great team player.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "adept",
+    "partOfSpeech": "adjective",
+    "definition": "very skilled or proficient",
+    "example": "He is adept at solving complex problems.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "administered",
+    "partOfSpeech": "verb",
+    "definition": "managed or supervised the execution of",
+    "example": "The nurse administered the vaccine carefully.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "adopted",
+    "partOfSpeech": "verb",
+    "definition": "took up and used as one's own",
+    "example": "The company adopted a new policy on remote work.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "aesthetics",
+    "partOfSpeech": "noun",
+    "definition": "principles of beauty and artistic taste",
+    "example": "The aesthetics of the building impressed everyone.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "affecting",
+    "partOfSpeech": "adjective",
+    "definition": "producing an emotional response",
+    "example": "The movie was deeply affecting and made me cry.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "affection",
+    "partOfSpeech": "noun",
+    "definition": "a gentle feeling of fondness or love",
+    "example": "She showed affection for her pet by hugging it.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "aispurea",
+    "partOfSpeech": "noun",
+    "definition": "a hypothetical pure substance",
+    "example": "In chemistry class, we learned about aispurea.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "alter",
+    "partOfSpeech": "verb",
+    "definition": "to change or modify",
+    "example": "The tailor will alter the dress to fit perfectly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "analyze",
+    "partOfSpeech": "verb",
+    "definition": "to examine in detail for explanation or interpretation.",
+    "example": "We need to analyze the data before drawing any conclusions.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ancient",
+    "partOfSpeech": "adjective",
+    "definition": "very old; belonging to the distant past.",
+    "example": "The ancient ruins attracted tourists from around the world.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "anecdotal",
+    "partOfSpeech": "adjective",
+    "definition": "based on personal accounts rather than facts or research.",
+    "example": "Her evidence was mostly anecdotal and not scientifically proven.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "anexplanation",
+    "partOfSpeech": "noun",
+    "definition": "a statement that makes something clear.",
+    "example": "The teacher gave an explanation of the complex theory.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "announced",
+    "partOfSpeech": "verb",
+    "definition": "made a public declaration about something.",
+    "example": "The principal announced the winner of the science fair.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "anticipate",
+    "partOfSpeech": "verb",
+    "definition": "to expect or predict something.",
+    "example": "I anticipate that the test will be challenging.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "apparently",
+    "partOfSpeech": "adverb",
+    "definition": "as far as one can see or understand.",
+    "example": "Apparently, the meeting has been postponed.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "appeased",
+    "partOfSpeech": "verb",
+    "definition": "calmed or satisfied someone by giving in.",
+    "example": "The mother appeased the crying child with a toy.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "applicable",
+    "partOfSpeech": "adjective",
+    "definition": "relevant or appropriate to a situation.",
+    "example": "This rule is applicable to all students.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "appraised",
+    "partOfSpeech": "verb",
+    "definition": "assessed the value or quality of.",
+    "example": "The jeweler appraised the diamond ring.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "apprentice",
+    "partOfSpeech": "noun",
+    "definition": "a person learning a trade from a skilled employer.",
+    "example": "He worked as an apprentice electrician for two years.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "arcane",
+    "partOfSpeech": "adjective",
+    "definition": "understood by few; mysterious or secret.",
+    "example": "The ancient text contained arcane knowledge.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "arepudiation",
+    "partOfSpeech": "noun",
+    "definition": "the act of rejecting or disowning something.",
+    "example": "His arepudiation of the treaty shocked the diplomats.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "artfully",
+    "partOfSpeech": "adverb",
+    "definition": "in a clever or skillful way.",
+    "example": "She artfully dodged the difficult question.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "artworks",
+    "partOfSpeech": "noun",
+    "definition": "works of art, such as paintings or sculptures.",
+    "example": "The museum displayed artworks from the Renaissance.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ascertainable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be found out or determined.",
+    "example": "The facts are ascertainable through research.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "assumptions",
+    "partOfSpeech": "noun",
+    "definition": "things accepted as true without proof.",
+    "example": "We should question our assumptions before deciding.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "attract",
+    "partOfSpeech": "verb",
+    "definition": "to draw or pull something toward oneself.",
+    "example": "The bright colors attract butterflies.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "augment",
+    "partOfSpeech": "verb",
+    "definition": "to make something greater by adding to it.",
+    "example": "She took a job to augment her income.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "authentic",
+    "partOfSpeech": "adjective",
+    "definition": "genuine; not fake or copied.",
+    "example": "The signature was authentic, not a forgery.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "autocated",
+    "partOfSpeech": "verb",
+    "definition": "assigned or allocated automatically.",
+    "example": "The software autocated resources to each task.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "avoid",
+    "partOfSpeech": "verb",
+    "definition": "to keep away from or prevent something.",
+    "example": "Try to avoid sugary drinks to stay healthy.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "awkwardly",
+    "partOfSpeech": "adverb",
+    "definition": "in a clumsy or uncomfortable manner.",
+    "example": "He awkwardly tripped over the step.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "azores",
+    "partOfSpeech": "noun",
+    "definition": "a Portuguese archipelago in the Atlantic Ocean.",
+    "example": "We vacationed in the Azores last summer.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "banal",
+    "partOfSpeech": "adjective",
+    "definition": "so lacking in originality as to be obvious and boring.",
+    "example": "The movie's plot was banal and predictable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "belied",
+    "partOfSpeech": "verb",
+    "definition": "Contradicted or gave a false impression of",
+    "example": "His calm expression belied the anxiety he felt inside.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "beneficial",
+    "partOfSpeech": "adjective",
+    "definition": "Producing good results or helpful effects",
+    "example": "Drinking water is beneficial for your health.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bligated",
+    "partOfSpeech": "verb",
+    "definition": "Bound or obligated morally or legally",
+    "example": "She felt bligated to help her friend study for the test.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "brushstrokes",
+    "partOfSpeech": "noun",
+    "definition": "Marks made by a brush in painting",
+    "example": "The artist's bold brushstrokes gave the painting energy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bscuring",
+    "partOfSpeech": "verb",
+    "definition": "Making unclear or difficult to see",
+    "example": "Fog was bscuring the view of the mountains.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bservant",
+    "partOfSpeech": "adjective",
+    "definition": "Quick to notice or pay attention to details",
+    "example": "A bservant student catches every mistake in the math problem.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bstructed",
+    "partOfSpeech": "verb",
+    "definition": "Blocked or hindered from moving or seeing",
+    "example": "The fallen tree bstructed the path through the forest.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bullfinch",
+    "partOfSpeech": "noun",
+    "definition": "A small European songbird with a stout bill",
+    "example": "A bullfinch perched on the feeder, eating seeds.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "buttress",
+    "partOfSpeech": "noun",
+    "definition": "A support projecting from a wall for stability",
+    "example": "The cathedral's buttress kept the ancient walls from collapsing.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bypass",
+    "partOfSpeech": "verb",
+    "definition": "Go around or avoid an obstacle or rule",
+    "example": "We took a side road to bypass the traffic jam.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bypassed",
+    "partOfSpeech": "verb",
+    "definition": "Past tense of bypass; went around or avoided",
+    "example": "The new highway bypassed the small town entirely.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "cacy",
+    "partOfSpeech": "noun",
+    "definition": "Quality of being cautious or careful",
+    "example": "He handled the fragile vase with great cacy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "calibrations",
+    "partOfSpeech": "noun",
+    "definition": "Adjustments to ensure accurate measurements",
+    "example": "The scientist checked the calibrations on the scale before weighing.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "cations",
+    "partOfSpeech": "noun",
+    "definition": "Positively charged ions in chemistry",
+    "example": "Cations like sodium and potassium are essential for nerve function.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ccasional",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring from time to time; infrequent",
+    "example": "We enjoy ccasional trips to the beach during summer.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ccluded",
+    "partOfSpeech": "verb",
+    "definition": "Blocked or closed off, as a passage or view",
+    "example": "The heavy curtains ccluded all light from the room.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "challenge",
+    "partOfSpeech": "noun",
+    "definition": "A difficult task or problem to overcome",
+    "example": "Climbing the mountain was a real challenge for the team.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "clashed",
+    "partOfSpeech": "verb",
+    "definition": "Fought or disagreed strongly; conflicted",
+    "example": "Their opinions clashed during the debate over school policy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "coalesce",
+    "partOfSpeech": "verb",
+    "definition": "Come together to form one mass or whole",
+    "example": "The small groups coalesced into a single large protest.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "cohesion",
+    "partOfSpeech": "noun",
+    "definition": "The act of sticking together or unity",
+    "example": "Team cohesion is crucial for winning the championship.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "coincided",
+    "partOfSpeech": "verb",
+    "definition": "Happened at the same time or place",
+    "example": "Her birthday coincided with the school holiday this year.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "coincides",
+    "partOfSpeech": "verb",
+    "definition": "Occurs at the same time; corresponds exactly",
+    "example": "The eclipse coincides with the summer solstice.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "collected",
+    "partOfSpeech": "adjective",
+    "definition": "Calm and composed, especially under stress",
+    "example": "Despite the chaos, she remained collected and focused.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "complimented",
+    "partOfSpeech": "verb",
+    "definition": "Praised or expressed admiration for someone",
+    "example": "He complimented her on her excellent presentation skills.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "compounding",
+    "partOfSpeech": "noun",
+    "definition": "Combining or adding to something, often negatively",
+    "example": "The compounding of errors led to a major system failure.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "comprehend",
+    "partOfSpeech": "verb",
+    "definition": "To grasp mentally; understand fully.",
+    "example": "After reading the chapter twice, she could finally comprehend the complex theory.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "compulsory",
+    "partOfSpeech": "adjective",
+    "definition": "Required by law or rule; mandatory.",
+    "example": "Wearing a seatbelt is compulsory in most states.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "concerning",
+    "partOfSpeech": "adjective",
+    "definition": "Causing worry or anxiety; troubling.",
+    "example": "The teacher found the drop in test scores very concerning.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "concerns",
+    "partOfSpeech": "noun",
+    "definition": "Matters of interest or worry; issues.",
+    "example": "The meeting addressed the community's safety concerns.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "conclusive",
+    "partOfSpeech": "adjective",
+    "definition": "Serving to settle an issue; decisive.",
+    "example": "The DNA evidence was conclusive in proving his innocence.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "confined",
+    "partOfSpeech": "adjective",
+    "definition": "Restricted in area or scope; limited.",
+    "example": "The virus was initially confined to a small region.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "conflated",
+    "partOfSpeech": "verb",
+    "definition": "Combined two or more ideas into one; merged.",
+    "example": "He conflated the two historical events in his report.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "confounded",
+    "partOfSpeech": "verb",
+    "definition": "Confused or perplexed; proved wrong.",
+    "example": "The unexpected results confounded the researchers.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "consensus",
+    "partOfSpeech": "noun",
+    "definition": "General agreement among a group.",
+    "example": "The committee reached a consensus after hours of debate.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "considerate",
+    "partOfSpeech": "adjective",
+    "definition": "Showing careful thought for others' feelings.",
+    "example": "It was considerate of him to save a seat for her.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "consistent",
+    "partOfSpeech": "adjective",
+    "definition": "Unchanging in behavior or quality; steady.",
+    "example": "She has been a consistent top performer all year.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "constant",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring continuously; never stopping.",
+    "example": "The constant noise from construction made it hard to study.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "contingent",
+    "partOfSpeech": "adjective",
+    "definition": "Dependent on something else; conditional.",
+    "example": "The picnic is contingent on the weather being nice.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "contributions",
+    "partOfSpeech": "noun",
+    "definition": "Things given to help achieve a common goal.",
+    "example": "Everyone's contributions made the fundraiser a success.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "convening",
+    "partOfSpeech": "verb",
+    "definition": "Assembling or meeting formally.",
+    "example": "The board is convening next Tuesday to discuss the budget.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "converge",
+    "partOfSpeech": "verb",
+    "definition": "Come together from different directions; meet.",
+    "example": "The two rivers converge just south of the city.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "coordinated",
+    "partOfSpeech": "adjective",
+    "definition": "Organized to work together effectively.",
+    "example": "The coordinated effort of the team led to a quick rescue.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "copiaixing",
+    "partOfSpeech": "verb",
+    "definition": "To copy and paste excessively without understanding.",
+    "example": "He was copiaixing paragraphs from the internet for his essay.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "copiatising",
+    "partOfSpeech": "verb",
+    "definition": "To plagiarize by slightly altering original text.",
+    "example": "The student got caught copiatising from a peer's paper.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "coresight",
+    "partOfSpeech": "noun",
+    "definition": "A fundamental insight or central perspective.",
+    "example": "The coresight of the theory is that all matter is energy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "corroborating",
+    "partOfSpeech": "adjective",
+    "definition": "Providing supporting evidence; confirming.",
+    "example": "The witness gave a corroborating account of the event.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "counterproductive",
+    "partOfSpeech": "adjective",
+    "definition": "Having the opposite effect from what is intended.",
+    "example": "Yelling at someone can be counterproductive to resolving a conflict.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "cynical",
+    "partOfSpeech": "adjective",
+    "definition": "Distrustful of others' motives; skeptical.",
+    "example": "After being lied to, she became cynical about promises.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dangerous",
+    "partOfSpeech": "adjective",
+    "definition": "Likely to cause harm or injury; unsafe.",
+    "example": "Driving on icy roads is extremely dangerous.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "decades",
+    "partOfSpeech": "noun",
+    "definition": "Periods of ten years, especially in history.",
+    "example": "The building has stood for decades without major repairs.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "decisive",
+    "partOfSpeech": "adjective",
+    "definition": "Settling an issue or producing a definite result.",
+    "example": "Her decisive move in the final minute won the game.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "decoupled",
+    "partOfSpeech": "verb",
+    "definition": "Separated or disconnected from something else.",
+    "example": "The software update decoupled the app from the main server.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "decried",
+    "partOfSpeech": "verb",
+    "definition": "Publicly denounced or criticized strongly.",
+    "example": "Activists decried the new policy as unfair to students.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "defunct",
+    "partOfSpeech": "adjective",
+    "definition": "No longer existing or functioning.",
+    "example": "The old factory is now defunct and abandoned.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "deliberation",
+    "partOfSpeech": "noun",
+    "definition": "Careful consideration or discussion before a decision.",
+    "example": "After much deliberation, the committee chose the new mascot.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "delivered",
+    "partOfSpeech": "verb",
+    "definition": "Brought or handed over; also, gave a speech.",
+    "example": "She delivered a powerful speech at the assembly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dependent",
+    "partOfSpeech": "adjective",
+    "definition": "Relying on someone or something for support.",
+    "example": "He is dependent on his parents for tuition.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "developments",
+    "partOfSpeech": "noun",
+    "definition": "New events or changes that advance a situation.",
+    "example": "The latest developments in science are exciting.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "diadromous",
+    "partOfSpeech": "adjective",
+    "definition": "Migrating between saltwater and freshwater.",
+    "example": "Salmon are diadromous fish that swim upstream to spawn.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disagree",
+    "partOfSpeech": "verb",
+    "definition": "Have a different opinion or fail to correspond.",
+    "example": "I disagree with your interpretation of the poem.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disconnect",
+    "partOfSpeech": "verb",
+    "definition": "Break the connection or link between things.",
+    "example": "Please disconnect the charger from the laptop.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disengage",
+    "partOfSpeech": "verb",
+    "definition": "Release or detach from something; withdraw.",
+    "example": "He had to disengage from the argument to stay calm.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disfavored",
+    "partOfSpeech": "adjective",
+    "definition": "Regarded with disapproval or less favor.",
+    "example": "The disfavored team still played their best.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disingenuous",
+    "partOfSpeech": "adjective",
+    "definition": "Not sincere; pretending to know less than one does.",
+    "example": "His disingenuous apology fooled no one.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dislike",
+    "partOfSpeech": "verb",
+    "definition": "Feel distaste or aversion toward something.",
+    "example": "I dislike waking up early on weekends.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dismissal",
+    "partOfSpeech": "noun",
+    "definition": "The act of rejecting or sending away.",
+    "example": "His dismissal of the idea was too quick.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disorienting",
+    "partOfSpeech": "adjective",
+    "definition": "Causing confusion about direction or position.",
+    "example": "The maze was disorienting with its identical walls.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dispassionate",
+    "partOfSpeech": "adjective",
+    "definition": "Not influenced by strong emotion; impartial.",
+    "example": "A good judge must be dispassionate and fair.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dispute",
+    "partOfSpeech": "noun",
+    "definition": "A disagreement or argument about something.",
+    "example": "The dispute over the project's budget lasted hours.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "disregarded",
+    "partOfSpeech": "verb",
+    "definition": "Paid no attention to; ignored intentionally.",
+    "example": "She disregarded the warning and got lost.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dissipate",
+    "partOfSpeech": "verb",
+    "definition": "Scatter or vanish; waste foolishly.",
+    "example": "The morning fog will dissipate by noon.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "dissolve",
+    "partOfSpeech": "verb",
+    "definition": "Become or cause to become liquid; officially end.",
+    "example": "The sugar will dissolve in hot water.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distant",
+    "partOfSpeech": "adjective",
+    "definition": "Far away in space or time; aloof.",
+    "example": "The distant mountains looked blue in the haze.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distinctive",
+    "partOfSpeech": "adjective",
+    "definition": "Characteristic of one person or thing; unique.",
+    "example": "Her distinctive laugh made her easy to find.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distort",
+    "partOfSpeech": "verb",
+    "definition": "Twist out of shape; misrepresent the truth.",
+    "example": "The funhouse mirrors distort your reflection.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distract",
+    "partOfSpeech": "verb",
+    "definition": "to draw attention away from something",
+    "example": "The loud noise outside distracted me from studying.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distracted",
+    "partOfSpeech": "adjective",
+    "definition": "unable to concentrate because of being preoccupied",
+    "example": "She was too distracted by her phone to finish her homework.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "distrusted",
+    "partOfSpeech": "verb",
+    "definition": "had no confidence in; doubted",
+    "example": "The team distrusted the new coach's methods at first.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "drawn",
+    "partOfSpeech": "adjective",
+    "definition": "looking strained from exhaustion or worry",
+    "example": "His face looked drawn after pulling an all-nighter.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "duplication",
+    "partOfSpeech": "noun",
+    "definition": "the act of making an exact copy",
+    "example": "Duplication of the key is not allowed without permission.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "eaioiins",
+    "partOfSpeech": "noun",
+    "definition": "not a valid English word",
+    "example": "N/A",
+    "deck": "Advanced"
+  },
+  {
+    "word": "earnest",
+    "partOfSpeech": "adjective",
+    "definition": "showing sincere and intense conviction",
+    "example": "He made an earnest plea for everyone to recycle.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "easton",
+    "partOfSpeech": "noun",
+    "definition": "not a valid English word",
+    "example": "N/A",
+    "deck": "Advanced"
+  },
+  {
+    "word": "eboranie",
+    "partOfSpeech": "noun",
+    "definition": "not a valid English word",
+    "example": "N/A",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ectual",
+    "partOfSpeech": "adjective",
+    "definition": "not a valid English word",
+    "example": "N/A",
+    "deck": "Advanced"
+  },
+  {
+    "word": "elasticity",
+    "partOfSpeech": "noun",
+    "definition": "ability to stretch and return to shape",
+    "example": "The elasticity of the rubber band allowed it to stretch far.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "embraced",
+    "partOfSpeech": "verb",
+    "definition": "accepted or supported willingly",
+    "example": "The school embraced the new diversity program.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "emissaries",
+    "partOfSpeech": "noun",
+    "definition": "people sent on a diplomatic mission",
+    "example": "The king sent emissaries to negotiate peace.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "empty",
+    "partOfSpeech": "adjective",
+    "definition": "containing nothing; not filled",
+    "example": "The fridge was empty, so we ordered pizza.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "emulation",
+    "partOfSpeech": "noun",
+    "definition": "effort to match or surpass by imitation",
+    "example": "His emulation of his older brother drove him to practice harder.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "enact",
+    "partOfSpeech": "verb",
+    "definition": "to make into law by official process",
+    "example": "Congress voted to enact the new education bill.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "encouraged",
+    "partOfSpeech": "verb",
+    "definition": "gave support, confidence, or hope to",
+    "example": "My teacher encouraged me to enter the science fair.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "enhancement",
+    "partOfSpeech": "noun",
+    "definition": "an improvement in quality or value",
+    "example": "The software enhancement fixed several bugs.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "enhancements",
+    "partOfSpeech": "noun",
+    "definition": "plural of enhancement; improvements",
+    "example": "The new phone has many enhancements over the old model.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "entail",
+    "partOfSpeech": "verb",
+    "definition": "to involve or require as necessary",
+    "example": "Becoming a doctor will entail years of study.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "envisioned",
+    "partOfSpeech": "verb",
+    "definition": "imagined as a future possibility",
+    "example": "She envisioned herself graduating with honors.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "epitomizes",
+    "partOfSpeech": "verb",
+    "definition": "is a perfect example of something",
+    "example": "His courage epitomizes the spirit of the team.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "equaled",
+    "partOfSpeech": "verb",
+    "definition": "was the same as in value or quality",
+    "example": "Her score equaled the class record.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ered",
+    "partOfSpeech": "verb",
+    "definition": "not a valid English word",
+    "example": "N/A",
+    "deck": "Advanced"
+  },
+  {
+    "word": "establish",
+    "partOfSpeech": "verb",
+    "definition": "to set up or create on a firm basis",
+    "example": "They plan to establish a new club at school.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "euryhaline",
+    "partOfSpeech": "adjective",
+    "definition": "able to tolerate a wide range of salinity",
+    "example": "Euryhaline fish like salmon thrive in both fresh and salt water.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "evaded",
+    "partOfSpeech": "verb",
+    "definition": "escaped or avoided, especially by cleverness",
+    "example": "The suspect evaded capture by hiding in the crowd.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "evasion",
+    "partOfSpeech": "noun",
+    "definition": "the act of avoiding something or a statement that avoids",
+    "example": "His evasion of the question made everyone suspicious.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "evocative",
+    "partOfSpeech": "adjective",
+    "definition": "bringing strong images, memories, or feelings to mind",
+    "example": "The old photograph was evocative of her childhood summers.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "examine",
+    "partOfSpeech": "verb",
+    "definition": "inspect or analyze carefully and in detail",
+    "example": "The teacher asked us to examine the data for patterns.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "exceeding",
+    "partOfSpeech": "adjective",
+    "definition": "extremely great or beyond what is usual",
+    "example": "The project required exceeding effort from the whole team.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "exchanging",
+    "partOfSpeech": "verb",
+    "definition": "giving something and receiving something else in return",
+    "example": "We are exchanging gifts after the holiday dinner.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "exempli",
+    "partOfSpeech": "noun",
+    "definition": "examples, especially in Latin phrase 'exempli gratia'",
+    "example": "The teacher listed several exempli of literary devices.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "expanded",
+    "partOfSpeech": "verb",
+    "definition": "increased in size, volume, or scope",
+    "example": "The company expanded its operations to three new countries.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "expansions",
+    "partOfSpeech": "noun",
+    "definition": "the act or process of increasing in extent",
+    "example": "The expansions to the mall added fifty new stores.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "expensive",
+    "partOfSpeech": "adjective",
+    "definition": "costing a lot of money; high-priced",
+    "example": "That designer handbag is too expensive for my budget.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "experiment",
+    "partOfSpeech": "noun",
+    "definition": "a scientific procedure to test a hypothesis",
+    "example": "We conducted an experiment to measure plant growth.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "explicable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be explained or understood",
+    "example": "The strange noise was explicable once we found the loose board.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "explore",
+    "partOfSpeech": "verb",
+    "definition": "travel through or examine in order to learn",
+    "example": "We decided to explore the abandoned mine shaft.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "extraneous",
+    "partOfSpeech": "adjective",
+    "definition": "irrelevant or unrelated to the subject",
+    "example": "Please omit extraneous details from your essay.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "extrapolating",
+    "partOfSpeech": "verb",
+    "definition": "estimating beyond known data by assuming trends continue",
+    "example": "Extrapolating from current sales, we expect a 20% increase.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "extricated",
+    "partOfSpeech": "verb",
+    "definition": "freed from a difficult or tangled situation",
+    "example": "She extricated herself from the complicated group project.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "famili",
+    "partOfSpeech": "noun",
+    "definition": "a close friend or associate (variant of 'family')",
+    "example": "He invited only his famili to the secret meeting.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "followi",
+    "partOfSpeech": "noun",
+    "definition": "a group of followers or supporters (variant of 'following')",
+    "example": "The influencer's followi grew rapidly after the viral video.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "forestaus",
+    "partOfSpeech": "noun",
+    "definition": "a type of sausage (variant of 'forest sausage')",
+    "example": "We grilled forestaus over the campfire for dinner.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "grudgingly",
+    "partOfSpeech": "adverb",
+    "definition": "in a reluctant or resentful manner",
+    "example": "He grudgingly admitted that she was right.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "guidance",
+    "partOfSpeech": "noun",
+    "definition": "advice or direction on how to proceed",
+    "example": "The mentor offered guidance on career choices.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "hallmark",
+    "partOfSpeech": "noun",
+    "definition": "a distinctive feature or characteristic",
+    "example": "Punctuality is the hallmark of a reliable employee.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "hand-",
+    "partOfSpeech": "noun",
+    "definition": "incomplete word; likely 'hand' as in part of body",
+    "example": "She raised her hand- to ask a question.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "handmade",
+    "partOfSpeech": "adjective",
+    "definition": "Made by hand, not by machine.",
+    "example": "She wore a beautiful handmade scarf from her grandmother.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "haotian",
+    "partOfSpeech": "noun",
+    "definition": "A Chinese term for the vast sky or heavens.",
+    "example": "In ancient poetry, haotian often symbolizes boundless freedom.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "haphazard",
+    "partOfSpeech": "adjective",
+    "definition": "Lacking order or planning; random.",
+    "example": "His haphazard study habits led to poor test results.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "harbingers",
+    "partOfSpeech": "noun",
+    "definition": "Things or persons that announce the approach of another.",
+    "example": "Dark clouds are often harbingers of a coming storm.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "helped",
+    "partOfSpeech": "verb",
+    "definition": "Past tense of help; gave assistance to.",
+    "example": "She helped her friend move into a new apartment.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "helps",
+    "partOfSpeech": "verb",
+    "definition": "Third person present of help; gives assistance.",
+    "example": "Studying regularly helps improve your grades.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "heterogeneous",
+    "partOfSpeech": "adjective",
+    "definition": "Composed of diverse elements or types.",
+    "example": "The city's population is heterogeneous, with many cultures.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "honor",
+    "partOfSpeech": "noun",
+    "definition": "High respect; integrity in principles.",
+    "example": "It was an honor to meet the award-winning scientist.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "humorous",
+    "partOfSpeech": "adjective",
+    "definition": "Funny; causing laughter or amusement.",
+    "example": "His humorous speech made everyone laugh.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "identified",
+    "partOfSpeech": "verb",
+    "definition": "Past tense of identify; recognized or established identity.",
+    "example": "The witness identified the suspect in a lineup.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "imitates",
+    "partOfSpeech": "verb",
+    "definition": "Copies the behavior or appearance of.",
+    "example": "The parrot imitates sounds it hears frequently.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "implicit",
+    "partOfSpeech": "adjective",
+    "definition": "Implied though not directly expressed.",
+    "example": "Her silence gave implicit agreement to the plan.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "imply",
+    "partOfSpeech": "verb",
+    "definition": "Suggest indirectly rather than state explicitly.",
+    "example": "His tone seemed to imply he knew the answer.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "import",
+    "partOfSpeech": "noun",
+    "definition": "Significance or meaning of something.",
+    "example": "The import of her words was not lost on me.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "impractical",
+    "partOfSpeech": "adjective",
+    "definition": "Not sensible or realistic; unworkable.",
+    "example": "Building a rocket in your backyard is impractical.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "impracticat",
+    "partOfSpeech": "adjective",
+    "definition": "Misspelling of impractical; not practical.",
+    "example": "His impracticat ideas wasted everyone's time.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "incentives",
+    "partOfSpeech": "noun",
+    "definition": "Things that motivate or encourage action.",
+    "example": "Bonuses are incentives for employees to work harder.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "incidental",
+    "partOfSpeech": "adjective",
+    "definition": "Occurring as a minor part of something else.",
+    "example": "The incidental costs of the trip added up quickly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "incongruity",
+    "partOfSpeech": "noun",
+    "definition": "Lack of harmony; something out of place.",
+    "example": "The incongruity of a clown at a funeral was striking.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "inconsistent",
+    "partOfSpeech": "adjective",
+    "definition": "Not staying the same; changeable or contradictory.",
+    "example": "His inconsistent excuses made him seem untrustworthy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "inconsolable",
+    "partOfSpeech": "adjective",
+    "definition": "Unable to be comforted; extremely sad.",
+    "example": "She was inconsolable after losing her pet.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indecipherable",
+    "partOfSpeech": "adjective",
+    "definition": "Not able to be read or understood.",
+    "example": "His handwriting was so messy it was indecipherable.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indicated",
+    "partOfSpeech": "verb",
+    "definition": "Past tense of indicate; pointed out or showed.",
+    "example": "The sign indicated the exit was to the left.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indisputable",
+    "partOfSpeech": "adjective",
+    "definition": "Unable to be challenged or denied.",
+    "example": "The evidence against him was indisputable.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indistinct",
+    "partOfSpeech": "adjective",
+    "definition": "Not clear; vague or blurred.",
+    "example": "The figure in the fog was indistinct.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indoctrinated",
+    "partOfSpeech": "verb",
+    "definition": "Taught to accept a set of beliefs uncritically.",
+    "example": "The cult indoctrinated its members with extreme ideologies.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indulgently",
+    "partOfSpeech": "adverb",
+    "definition": "In a lenient or permissive manner.",
+    "example": "She smiled indulgently at her little brother's antics.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "inertia",
+    "partOfSpeech": "noun",
+    "definition": "Tendency to remain unchanged or inactive.",
+    "example": "The company's inertia prevented it from adapting to new trends.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "inexplicable",
+    "partOfSpeech": "adjective",
+    "definition": "Impossible to explain or account for.",
+    "example": "The sudden power outage was inexplicable.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "infeasible",
+    "partOfSpeech": "adjective",
+    "definition": "Not possible to do easily or conveniently.",
+    "example": "Building a bridge in a week is infeasible.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "infer",
+    "partOfSpeech": "verb",
+    "definition": "Deduce from evidence rather than explicit statements.",
+    "example": "From her frown, I inferred she was upset.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "infinitesimal",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely small; negligible in size or amount.",
+    "example": "The chance of winning was infinitesimal.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "influence",
+    "partOfSpeech": "noun",
+    "definition": "Capacity to affect someone's character or decisions.",
+    "example": "Her mentor had a strong influence on her career.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "inhibited",
+    "partOfSpeech": "adjective",
+    "definition": "Restrained or held back from free expression.",
+    "example": "He felt too inhibited to speak in class.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "insensible",
+    "partOfSpeech": "adjective",
+    "definition": "Unaware or unconscious; lacking sensitivity.",
+    "example": "He remained insensible to the cold.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "intangible",
+    "partOfSpeech": "adjective",
+    "definition": "Unable to be touched; not physical.",
+    "example": "Trust is an intangible asset.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "integrated",
+    "partOfSpeech": "adjective",
+    "definition": "Combined into a unified whole.",
+    "example": "The school integrated technology into every classroom.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "interrupt",
+    "partOfSpeech": "verb",
+    "definition": "Stop someone from speaking or an activity.",
+    "example": "Please don't interrupt me while I'm talking.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "introduce",
+    "partOfSpeech": "verb",
+    "definition": "Present someone or something for the first time.",
+    "example": "She introduced her friend to the group.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "investigations",
+    "partOfSpeech": "noun",
+    "definition": "Formal inquiries to uncover facts.",
+    "example": "The police conducted investigations into the theft.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "involve",
+    "partOfSpeech": "verb",
+    "definition": "Include as a necessary part or result.",
+    "example": "The project will involve extensive research.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "irmness",
+    "partOfSpeech": "noun",
+    "definition": "State of being firm or resolute.",
+    "example": "His irmness in decision-making earned him respect.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "jiachen",
+    "partOfSpeech": "noun",
+    "definition": "A Chinese given name meaning 'good family'.",
+    "example": "Jiachen is my best friend from math class.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "kilonova",
+    "partOfSpeech": "noun",
+    "definition": "Explosion from merging neutron stars, brighter than nova.",
+    "example": "Astronomers observed a kilonova in a distant galaxy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "lashed",
+    "partOfSpeech": "verb",
+    "definition": "Struck with a whip or moved violently.",
+    "example": "The storm lashed the coast with heavy rain.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "learned",
+    "partOfSpeech": "adjective",
+    "definition": "Having much knowledge through study.",
+    "example": "The learned professor gave a fascinating lecture.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "liachen",
+    "partOfSpeech": "noun",
+    "definition": "A Chinese name meaning 'beautiful morning'.",
+    "example": "Liachen won the science fair last year.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "liana",
+    "partOfSpeech": "noun",
+    "definition": "Climbing woody vine in tropical forests.",
+    "example": "The monkey swung from a thick liana.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "liang",
+    "partOfSpeech": "noun",
+    "definition": "Chinese unit of weight equal to about 50 grams.",
+    "example": "She bought a liang of silver for her necklace.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "lighthearted",
+    "partOfSpeech": "adjective",
+    "definition": "Cheerful and carefree; not serious.",
+    "example": "We shared lighthearted jokes during lunch.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "loses",
+    "partOfSpeech": "verb",
+    "definition": "Fails to keep or maintain; is deprived of.",
+    "example": "She loses her keys almost every morning before school.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "loved",
+    "partOfSpeech": "verb",
+    "definition": "Had a deep affection for someone or something.",
+    "example": "He loved playing basketball with his friends after class.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "luctuate",
+    "partOfSpeech": "verb",
+    "definition": "To waver between different opinions or actions.",
+    "example": "I luctuate between wanting to study and wanting to nap.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "magnitude",
+    "partOfSpeech": "noun",
+    "definition": "Great size, extent, or importance.",
+    "example": "The magnitude of the earthquake surprised everyone.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "managed",
+    "partOfSpeech": "verb",
+    "definition": "Succeeded in doing something despite difficulty.",
+    "example": "She managed to finish her project just before the deadline.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "manifest",
+    "partOfSpeech": "adjective",
+    "definition": "Clear and obvious to the eye or mind.",
+    "example": "His joy was manifest when he saw the surprise party.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "meliorate",
+    "partOfSpeech": "verb",
+    "definition": "To make better; improve.",
+    "example": "The new teacher's methods helped meliorate the students' grades.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "mimicked",
+    "partOfSpeech": "verb",
+    "definition": "Imitated closely, often for comedic effect.",
+    "example": "The parrot mimicked the sound of the doorbell perfectly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "misconstrued",
+    "partOfSpeech": "verb",
+    "definition": "Interpreted wrongly; misunderstood.",
+    "example": "His joke was misconstrued as an insult by the new kid.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "motivation",
+    "partOfSpeech": "noun",
+    "definition": "The reason or drive to act or achieve.",
+    "example": "Her motivation for studying hard was to get into a good college.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "multifariousness",
+    "partOfSpeech": "noun",
+    "definition": "The quality of having many varied parts.",
+    "example": "The multifariousness of the festival's activities kept everyone entertained.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "mutable",
+    "partOfSpeech": "adjective",
+    "definition": "Liable to change; not permanent.",
+    "example": "The weather in spring is mutable, changing from rain to sun quickly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "neglected",
+    "partOfSpeech": "verb",
+    "definition": "Failed to care for or attend to properly.",
+    "example": "The garden was neglected and overgrown with weeds.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "neness",
+    "partOfSpeech": "noun",
+    "definition": "The state of being new or recent.",
+    "example": "The neness of the software caused some bugs to appear.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "nity",
+    "partOfSpeech": "noun",
+    "definition": "The state of being neat or tidy.",
+    "example": "The nity of her room impressed her parents.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "nuanced",
+    "partOfSpeech": "adjective",
+    "definition": "Characterized by subtle shades of meaning.",
+    "example": "The novel's nuanced characters made it a compelling read.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "nullify",
+    "partOfSpeech": "verb",
+    "definition": "To make legally void; cancel out.",
+    "example": "The new evidence could nullify the previous verdict.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ones",
+    "partOfSpeech": "noun",
+    "definition": "Individuals or things of a specified kind.",
+    "example": "The red ones are my favorite flavor of candy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "originate",
+    "partOfSpeech": "verb",
+    "definition": "To have a beginning or source in.",
+    "example": "The rumor originated from a misunderstanding in the chat.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "outcome",
+    "partOfSpeech": "noun",
+    "definition": "The final result or consequence.",
+    "example": "The outcome of the game was a tie, surprising everyone.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "overcame",
+    "partOfSpeech": "verb",
+    "definition": "Succeeded in dealing with a problem or obstacle.",
+    "example": "She overcame her fear of public speaking by practicing daily.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "overreach",
+    "partOfSpeech": "verb",
+    "definition": "To attempt more than one can handle.",
+    "example": "He tends to overreach by taking on too many projects at once.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "painstakingly",
+    "partOfSpeech": "adverb",
+    "definition": "With great care and thoroughness.",
+    "example": "She painstakingly painted each tiny detail on the model.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "pane",
+    "partOfSpeech": "noun",
+    "definition": "A single sheet of glass in a window.",
+    "example": "A baseball shattered the window pane during the game.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "partition",
+    "partOfSpeech": "noun",
+    "definition": "A division or barrier between sections.",
+    "example": "A wooden partition separated the two cubicles.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "perception",
+    "partOfSpeech": "noun",
+    "definition": "The way something is understood or interpreted.",
+    "example": "Her perception of the movie changed after reading the book.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "permissible",
+    "partOfSpeech": "adjective",
+    "definition": "Allowed or permitted by rules.",
+    "example": "Is it permissible to use calculators during the test?",
+    "deck": "Advanced"
+  },
+  {
+    "word": "petitioned",
+    "partOfSpeech": "verb",
+    "definition": "Made a formal request to an authority.",
+    "example": "The students petitioned the principal for a later start time.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "pieces",
+    "partOfSpeech": "noun",
+    "definition": "Separate parts or portions of something.",
+    "example": "She carefully assembled the pieces of the puzzle.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "popularity",
+    "partOfSpeech": "noun",
+    "definition": "State of being liked by many people.",
+    "example": "The singer's popularity soared after her new album.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "popularize",
+    "partOfSpeech": "verb",
+    "definition": "Make something widely liked or known.",
+    "example": "The chef helped popularize vegan cuisine in the city.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "possessions",
+    "partOfSpeech": "noun",
+    "definition": "Items that someone owns.",
+    "example": "He packed all his possessions into two boxes.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "pranks",
+    "partOfSpeech": "noun",
+    "definition": "Playful tricks or jokes.",
+    "example": "April Fools' Day is known for harmless pranks.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "predicated",
+    "partOfSpeech": "verb",
+    "definition": "Based or founded on something.",
+    "example": "His argument was predicated on faulty data.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "predictions",
+    "partOfSpeech": "noun",
+    "definition": "Statements about future events.",
+    "example": "Weather predictions said it would rain all week.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "verb",
+    "definition": "Maintain or keep in original state.",
+    "example": "We must preserve historical buildings for future generations.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "presumptuous",
+    "partOfSpeech": "adjective",
+    "definition": "Overstepping bounds; too bold or forward.",
+    "example": "It was presumptuous of him to assume he got the job.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "presupposing",
+    "partOfSpeech": "verb",
+    "definition": "Assuming something beforehand without proof.",
+    "example": "The theory is flawed, presupposing that all people are rational.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "preventable",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of being stopped before happening.",
+    "example": "Many diseases are preventable with proper vaccines.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "proclaims",
+    "partOfSpeech": "verb",
+    "definition": "Announces officially or publicly.",
+    "example": "The mayor proclaims the first week of May as Bike Week.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "prohibitive",
+    "partOfSpeech": "adjective",
+    "definition": "So high as to prevent purchase or use.",
+    "example": "The cost of the medication was prohibitive for most patients.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "proponent",
+    "partOfSpeech": "noun",
+    "definition": "Person who supports a cause or idea.",
+    "example": "She is a strong proponent of renewable energy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "protoplanet",
+    "partOfSpeech": "noun",
+    "definition": "Early stage of a planet in formation.",
+    "example": "The protoplanet gathered dust and gas as it orbited the star.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "proxies",
+    "partOfSpeech": "noun",
+    "definition": "People authorized to act for others.",
+    "example": "Shareholders can vote by proxies if they cannot attend.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "qian",
+    "partOfSpeech": "noun",
+    "definition": "Chinese unit of weight, equal to about 3.75 grams.",
+    "example": "The recipe called for two qian of ginger.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "questionable",
+    "partOfSpeech": "adjective",
+    "definition": "Doubtful as to truth or quality.",
+    "example": "His motives for helping were questionable.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "raudulent",
+    "partOfSpeech": "adjective",
+    "definition": "Involving fraud; deceitful.",
+    "example": "The company was sued for raudulent business practices.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "realizec",
+    "partOfSpeech": "verb",
+    "definition": "Become fully aware of something.",
+    "example": "I realizec that I left my keys at home.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "realized",
+    "partOfSpeech": "verb",
+    "definition": "Became aware of or achieved.",
+    "example": "She realized her dream of becoming a doctor.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "recants",
+    "partOfSpeech": "verb",
+    "definition": "Takes back a statement formally.",
+    "example": "The witness recants his earlier testimony under pressure.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reciprocity",
+    "partOfSpeech": "noun",
+    "definition": "A mutual exchange of privileges or actions.",
+    "example": "The two countries signed a trade agreement based on reciprocity.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "recognized",
+    "partOfSpeech": "adjective",
+    "definition": "Acknowledged as valid or worthy of attention.",
+    "example": "She is a recognized expert in the field of genetics.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "recollect",
+    "partOfSpeech": "verb",
+    "definition": "To remember or bring back to mind.",
+    "example": "I can't recollect where I left my keys.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "recur",
+    "partOfSpeech": "verb",
+    "definition": "To happen again or repeatedly.",
+    "example": "The same problem tends to recur every few months.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reforms",
+    "partOfSpeech": "noun",
+    "definition": "Changes made to improve a system or organization.",
+    "example": "The school board implemented major reforms to the curriculum.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "regrettable",
+    "partOfSpeech": "adjective",
+    "definition": "Causing or deserving regret; unfortunate.",
+    "example": "It's regrettable that the concert was canceled.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reiniger",
+    "partOfSpeech": "noun",
+    "definition": "One who cleans or purifies something again.",
+    "example": "The reiniger carefully removed the old paint from the sculpture.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "rejuvenate",
+    "partOfSpeech": "verb",
+    "definition": "To make someone or something look or feel younger.",
+    "example": "A good night's sleep can rejuvenate your energy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "relate",
+    "partOfSpeech": "verb",
+    "definition": "To show a connection or association between things.",
+    "example": "The study relates stress to poor health outcomes.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reliably",
+    "partOfSpeech": "adverb",
+    "definition": "In a trustworthy or consistent manner.",
+    "example": "This car runs reliably even in extreme weather.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "relocation",
+    "partOfSpeech": "noun",
+    "definition": "The act of moving to a new place.",
+    "example": "Her job required relocation to another state.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reluctantly",
+    "partOfSpeech": "adverb",
+    "definition": "With hesitation or unwillingness.",
+    "example": "He reluctantly agreed to help with the project.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "renewing",
+    "partOfSpeech": "adjective",
+    "definition": "Making something new or fresh again.",
+    "example": "The renewing rain brought life back to the garden.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "repeatable",
+    "partOfSpeech": "adjective",
+    "definition": "Able to be done or said again.",
+    "example": "The experiment's results were repeatable under the same conditions.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "represented",
+    "partOfSpeech": "verb",
+    "definition": "Acted or spoke on behalf of someone or something.",
+    "example": "The lawyer represented her client in court.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "repressed",
+    "partOfSpeech": "adjective",
+    "definition": "Kept under control; suppressed.",
+    "example": "He had repressed feelings of anger from his childhood.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reproduction",
+    "partOfSpeech": "noun",
+    "definition": "The process of producing offspring or copies.",
+    "example": "The museum displayed a reproduction of the ancient vase.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "repudiates",
+    "partOfSpeech": "verb",
+    "definition": "Refuses to accept or be associated with.",
+    "example": "The politician repudiates any form of discrimination.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "researcher",
+    "partOfSpeech": "noun",
+    "definition": "A person who conducts systematic investigation.",
+    "example": "The researcher published her findings in a scientific journal.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "resolve",
+    "partOfSpeech": "verb",
+    "definition": "To find a solution to a problem or dispute.",
+    "example": "We need to resolve this conflict before it escalates.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "respectable",
+    "partOfSpeech": "adjective",
+    "definition": "Worthy of respect; decent or proper.",
+    "example": "He comes from a respectable family in the community.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "restalis",
+    "partOfSpeech": "noun",
+    "definition": "A fictional or rare term; not standard English.",
+    "example": "The restalis of the ritual was kept secret.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "retells",
+    "partOfSpeech": "verb",
+    "definition": "Tells a story again in a different way.",
+    "example": "The author retells the classic fairy tale with a modern twist.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "revealed",
+    "partOfSpeech": "verb",
+    "definition": "Made known or disclosed something previously hidden.",
+    "example": "The investigation revealed new evidence about the crime.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "reverence",
+    "partOfSpeech": "noun",
+    "definition": "Deep respect or veneration for someone or something.",
+    "example": "The students showed reverence for their teacher.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "revise",
+    "partOfSpeech": "verb",
+    "definition": "to reexamine and make alterations to improve.",
+    "example": "I need to revise my essay before the deadline.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "salinity",
+    "partOfSpeech": "noun",
+    "definition": "the concentration of dissolved salts in water.",
+    "example": "The salinity of the ocean affects marine life.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "salmon",
+    "partOfSpeech": "noun",
+    "definition": "a large fish with pinkish flesh, valued as food.",
+    "example": "We grilled salmon for dinner last night.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "sanction",
+    "partOfSpeech": "noun",
+    "definition": "a penalty for disobeying a law or rule.",
+    "example": "The UN imposed economic sanctions on the country.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "savings",
+    "partOfSpeech": "noun",
+    "definition": "money set aside for future use, not spent.",
+    "example": "She used her savings to buy a car.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "scrupulous",
+    "partOfSpeech": "adjective",
+    "definition": "diligent and attentive to details and ethics.",
+    "example": "A scrupulous student checks every answer twice.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "scrutinizing",
+    "partOfSpeech": "verb",
+    "definition": "examining closely and critically.",
+    "example": "The inspector is scrutinizing the building plans.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "selective",
+    "partOfSpeech": "adjective",
+    "definition": "choosing only the best or most suitable.",
+    "example": "Colleges are selective about admissions.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "self-servingly",
+    "partOfSpeech": "adverb",
+    "definition": "in a manner that benefits oneself primarily.",
+    "example": "He self-servingly took credit for the team's work.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "shadow",
+    "partOfSpeech": "noun",
+    "definition": "a dark area cast by an object blocking light.",
+    "example": "The tree's shadow cooled us on a hot day.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "siiciting",
+    "partOfSpeech": "verb",
+    "definition": "to urge or persuade to do something wrong.",
+    "example": "He was accused of siiciting a bribe.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "simplification",
+    "partOfSpeech": "noun",
+    "definition": "the process of making something easier or simpler.",
+    "example": "The teacher's simplification helped us understand.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "simpsies",
+    "partOfSpeech": "noun",
+    "definition": "a foolish or naive person, often overly sentimental.",
+    "example": "Don't be such a simpsies; think before you act.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "skeptical",
+    "partOfSpeech": "adjective",
+    "definition": "not easily convinced; having doubts.",
+    "example": "I'm skeptical about his promises.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "solidi",
+    "partOfSpeech": "noun",
+    "definition": "plural of solidus; ancient Roman gold coins.",
+    "example": "The museum displayed a collection of solidi.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "solidified",
+    "partOfSpeech": "verb",
+    "definition": "made solid or firm; strengthened.",
+    "example": "The lava solidified into rock.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "solitary",
+    "partOfSpeech": "adjective",
+    "definition": "existing or living alone; isolated.",
+    "example": "He prefers a solitary walk in the woods.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "split",
+    "partOfSpeech": "verb",
+    "definition": "to divide or separate into parts.",
+    "example": "Let's split the bill equally.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "sssisring",
+    "partOfSpeech": "verb",
+    "definition": "to hiss or make a sibilant sound.",
+    "example": "The snake was sssisring in the grass.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ssssrng",
+    "partOfSpeech": "verb",
+    "definition": "to make a prolonged sibilant sound.",
+    "example": "The steam pipe was ssssrng loudly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "stcing",
+    "partOfSpeech": "verb",
+    "definition": "to sting or cause a sharp pain.",
+    "example": "The bee was stcing my arm.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "steward",
+    "partOfSpeech": "noun",
+    "definition": "a person who manages another's property or affairs.",
+    "example": "The steward ensured the estate was well-maintained.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "subdued",
+    "partOfSpeech": "adjective",
+    "definition": "quiet and restrained; less intense.",
+    "example": "The subdued lighting created a calm atmosphere.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "subordinates",
+    "partOfSpeech": "noun",
+    "definition": "people under the authority of another.",
+    "example": "The manager delegated tasks to his subordinates.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "subside",
+    "partOfSpeech": "verb",
+    "definition": "to become less intense or to sink to a lower level.",
+    "example": "The floodwaters began to subside.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "superficial",
+    "partOfSpeech": "adjective",
+    "definition": "Existing or occurring at or on the surface.",
+    "example": "Her interest in the topic was only superficial, so she didn't read the whole article.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "superfluous",
+    "partOfSpeech": "adjective",
+    "definition": "Unnecessary, especially through being more than enough.",
+    "example": "The extra decorations seemed superfluous after the room was already beautifully arranged.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "superior",
+    "partOfSpeech": "adjective",
+    "definition": "Higher in rank, status, or quality.",
+    "example": "Her superior performance in the competition earned her a scholarship.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "superseded",
+    "partOfSpeech": "verb",
+    "definition": "Replaced by something newer or more advanced.",
+    "example": "The old software was superseded by a more efficient version.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "supplement",
+    "partOfSpeech": "noun",
+    "definition": "Something added to complete or enhance something.",
+    "example": "He takes a vitamin supplement to ensure he gets enough nutrients.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "supplied",
+    "partOfSpeech": "verb",
+    "definition": "Provided with something needed or wanted.",
+    "example": "The teacher supplied the students with all the necessary materials for the project.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "supportive",
+    "partOfSpeech": "adjective",
+    "definition": "Providing encouragement or emotional help.",
+    "example": "My parents have always been supportive of my career choices.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "suppress",
+    "partOfSpeech": "verb",
+    "definition": "Forcibly put an end to; prevent from expression.",
+    "example": "The government tried to suppress the protest, but it only grew larger.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "surprising",
+    "partOfSpeech": "adjective",
+    "definition": "Causing unexpected wonder or astonishment.",
+    "example": "It was surprising to see the shy student volunteer for the lead role.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "surrendered",
+    "partOfSpeech": "verb",
+    "definition": "Ceased resistance; gave up control or possession.",
+    "example": "After hours of negotiation, the thief finally surrendered to the police.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "suspicions",
+    "partOfSpeech": "noun",
+    "definition": "Feelings that something is wrong without proof.",
+    "example": "Her suspicions about the stranger were confirmed when he was caught stealing.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "taste",
+    "partOfSpeech": "noun",
+    "definition": "A person's liking for something; discernment.",
+    "example": "She has excellent taste in music, always recommending the best new bands.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "terminate",
+    "partOfSpeech": "verb",
+    "definition": "Bring to an end; conclude.",
+    "example": "The company decided to terminate the contract due to repeated delays.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "thousands",
+    "partOfSpeech": "noun",
+    "definition": "A number equal to ten hundred; many.",
+    "example": "Thousands of fans gathered outside the stadium to see the concert.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "tolerate",
+    "partOfSpeech": "verb",
+    "definition": "Allow existence without interference; endure.",
+    "example": "I can tolerate the noise from the construction site during the day.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "traced",
+    "partOfSpeech": "verb",
+    "definition": "Found or discovered by investigating clues.",
+    "example": "The detective traced the call to a phone booth across town.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "tranquil",
+    "partOfSpeech": "adjective",
+    "definition": "Free from disturbance; calm and peaceful.",
+    "example": "The lake was tranquil in the early morning, perfect for meditation.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "transformed",
+    "partOfSpeech": "verb",
+    "definition": "Made a thorough or dramatic change in form.",
+    "example": "The old warehouse was transformed into a modern art gallery.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "transpose",
+    "partOfSpeech": "verb",
+    "definition": "Transfer to a different place or context.",
+    "example": "The musician decided to transpose the song into a higher key.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "trivial",
+    "partOfSpeech": "adjective",
+    "definition": "Of little value or importance; insignificant.",
+    "example": "Don't waste time on trivial details; focus on the main issue.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "typical",
+    "partOfSpeech": "adjective",
+    "definition": "Having the distinctive qualities of a particular type.",
+    "example": "It was a typical summer day in Florida: hot and humid.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "uctuate",
+    "partOfSpeech": "verb",
+    "definition": "To rise and fall irregularly in number or amount.",
+    "example": "Stock prices often uctuate based on market news.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "uctuations",
+    "partOfSpeech": "noun",
+    "definition": "Irregular rising and falling in number or amount.",
+    "example": "The uctuations in temperature made it hard to plan the outdoor event.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "uence",
+    "partOfSpeech": "noun",
+    "definition": "The capacity to have an effect on someone or something.",
+    "example": "Her teacher's uence inspired her to pursue a career in science.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "uestionable",
+    "partOfSpeech": "adjective",
+    "definition": "Doubtful as regards truth or quality; suspicious.",
+    "example": "The authenticity of the painting was uestionable, so the museum declined it.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "wild",
+    "partOfSpeech": "adjective",
+    "definition": "not domesticated; uncultivated; unrestrained.",
+    "example": "The wild horse galloped freely across the open plain.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "yuan",
+    "partOfSpeech": "noun",
+    "definition": "the basic monetary unit of China.",
+    "example": "She exchanged her dollars for yuan at the airport.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "researchers",
+    "partOfSpeech": "noun",
+    "definition": "people who conduct systematic investigation.",
+    "example": "The researchers published their findings in a scientific journal.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "colleagues",
+    "partOfSpeech": "noun",
+    "definition": "people with whom one works in a profession.",
+    "example": "My colleagues and I collaborated on the project.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "languages",
+    "partOfSpeech": "noun",
+    "definition": "systems of communication used by a country or group.",
+    "example": "She is fluent in three languages: English, Spanish, and French.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "approximately",
+    "partOfSpeech": "adverb",
+    "definition": "roughly; about; not exactly.",
+    "example": "The journey takes approximately two hours by car.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "claim",
+    "partOfSpeech": "verb",
+    "definition": "state or assert as a fact.",
+    "example": "The scientist claims that the new drug is effective.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "instance",
+    "partOfSpeech": "noun",
+    "definition": "an example or single occurrence of something.",
+    "example": "For instance, consider the case of the missing documents.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "negative",
+    "partOfSpeech": "adjective",
+    "definition": "expressing denial, refusal, or lack; pessimistic.",
+    "example": "Her negative attitude affected the team's morale.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "painting",
+    "partOfSpeech": "noun",
+    "definition": "a picture created with paint on a surface.",
+    "example": "The painting of the sunset hung in the gallery.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "novel",
+    "partOfSpeech": "adjective",
+    "definition": "new and original; not like anything seen before.",
+    "example": "The novel approach to solving the problem impressed everyone.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "conclusion",
+    "partOfSpeech": "noun",
+    "definition": "the end or final part; a judgment reached.",
+    "example": "After reviewing the data, we came to a conclusion.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "gradually",
+    "partOfSpeech": "adverb",
+    "definition": "in a gradual way; slowly over time.",
+    "example": "The sky gradually darkened as the storm approached.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "indigenous",
+    "partOfSpeech": "adjective",
+    "definition": "originating naturally in a particular place; native.",
+    "example": "The indigenous people have lived here for centuries.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "exactly",
+    "partOfSpeech": "adverb",
+    "definition": "in an exact manner; precisely.",
+    "example": "That is exactly what I meant to say.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "contrast",
+    "partOfSpeech": "noun",
+    "definition": "the state of being strikingly different from something else.",
+    "example": "In contrast to her sister, she is very outgoing.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "similarly",
+    "partOfSpeech": "adverb",
+    "definition": "in a similar way; likewise.",
+    "example": "Similarly, the second experiment yielded the same results.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "evidence",
+    "partOfSpeech": "noun",
+    "definition": "facts or information indicating whether a belief is true.",
+    "example": "The evidence clearly supports the theory.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "moreover",
+    "partOfSpeech": "adverb",
+    "definition": "in addition; besides; further.",
+    "example": "The plan is costly; moreover, it is risky.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "sculpture",
+    "partOfSpeech": "noun",
+    "definition": "a three-dimensional work of art created by shaping material.",
+    "example": "The marble sculpture stood in the center of the plaza.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "describes",
+    "partOfSpeech": "verb",
+    "definition": "gives an account of; depicts in words.",
+    "example": "The article describes the events of the day.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "desert",
+    "partOfSpeech": "noun",
+    "definition": "a barren, arid region with little rainfall.",
+    "example": "The Sahara is the largest hot desert in the world.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "nations",
+    "partOfSpeech": "noun",
+    "definition": "large groups of people united by common descent, history, or language.",
+    "example": "Many nations sent representatives to the conference.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "conducted",
+    "partOfSpeech": "verb",
+    "definition": "carried out; organized and directed.",
+    "example": "The experiment was conducted under strict conditions.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "nevertheless",
+    "partOfSpeech": "adverb",
+    "definition": "in spite of that; however; yet.",
+    "example": "It was raining; nevertheless, we went for a walk.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "respectively",
+    "partOfSpeech": "adverb",
+    "definition": "in the order previously mentioned",
+    "example": "Tom and Jerry scored 85 and 90, respectively.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "birds",
+    "partOfSpeech": "noun",
+    "definition": "warm-blooded egg-laying vertebrates with feathers",
+    "example": "The birds flew south for the winter.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "discovered",
+    "partOfSpeech": "verb",
+    "definition": "found something previously unknown",
+    "example": "She discovered a hidden path in the woods.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "novels",
+    "partOfSpeech": "noun",
+    "definition": "long fictional narratives",
+    "example": "I read three novels over spring break.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "previously",
+    "partOfSpeech": "adverb",
+    "definition": "before the present time",
+    "example": "He had previously worked at a bank.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "specifically",
+    "partOfSpeech": "adverb",
+    "definition": "in a precise manner",
+    "example": "She specifically asked for a window seat.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "suggests",
+    "partOfSpeech": "verb",
+    "definition": "puts forward for consideration",
+    "example": "The data suggests a new approach.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "mexican",
+    "partOfSpeech": "adjective",
+    "definition": "relating to Mexico or its people",
+    "example": "We had authentic Mexican food for dinner.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "regardless",
+    "partOfSpeech": "adverb",
+    "definition": "without being affected by circumstances",
+    "example": "She went to the party regardless of the rain.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "carbon",
+    "partOfSpeech": "noun",
+    "definition": "a nonmetallic element found in all organic matter",
+    "example": "Carbon emissions contribute to global warming.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "characteristics",
+    "partOfSpeech": "noun",
+    "definition": "distinguishing features or qualities",
+    "example": "Honesty is one of her best characteristics.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "participants",
+    "partOfSpeech": "noun",
+    "definition": "people who take part in something",
+    "example": "All participants completed the survey.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "climate",
+    "partOfSpeech": "noun",
+    "definition": "weather conditions over a long period",
+    "example": "The climate in Arizona is very dry.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "contrary",
+    "partOfSpeech": "adjective",
+    "definition": "opposite in nature or direction",
+    "example": "Contrary to popular belief, bats are not blind.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "explain",
+    "partOfSpeech": "verb",
+    "definition": "make clear or understandable",
+    "example": "Can you explain the math problem again?",
+    "deck": "Advanced"
+  },
+  {
+    "word": "increasing",
+    "partOfSpeech": "adjective",
+    "definition": "becoming greater in size or amount",
+    "example": "The increasing cost of tuition worries students.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "abrupt",
+    "partOfSpeech": "adjective",
+    "definition": "sudden and unexpected",
+    "example": "The car came to an abrupt stop.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "abstract",
+    "partOfSpeech": "adjective",
+    "definition": "existing in thought rather than matter",
+    "example": "The concept of love is abstract.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "abysmal",
+    "partOfSpeech": "adjective",
+    "definition": "extremely bad or deep",
+    "example": "His test scores were abysmal.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "acceptable",
+    "partOfSpeech": "adjective",
+    "definition": "adequate or satisfactory",
+    "example": "Is this answer acceptable?",
+    "deck": "Advanced"
+  },
+  {
+    "word": "accuracy",
+    "partOfSpeech": "noun",
+    "definition": "the quality of being correct",
+    "example": "The accuracy of the report was questioned.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "acknowledge",
+    "partOfSpeech": "verb",
+    "definition": "accept or admit the existence of",
+    "example": "She acknowledged her mistake.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "acquired",
+    "partOfSpeech": "verb",
+    "definition": "gained possession or knowledge of",
+    "example": "He acquired a new skill quickly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "adhere",
+    "partOfSpeech": "verb",
+    "definition": "stick firmly to a surface or rule",
+    "example": "You must adhere to the dress code.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "adjust",
+    "partOfSpeech": "verb",
+    "definition": "alter slightly to achieve a desired result",
+    "example": "She adjusted the volume on the TV.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "admire",
+    "partOfSpeech": "verb",
+    "definition": "To regard with respect or warm approval.",
+    "example": "I admire how she stays calm under pressure.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "advantageous",
+    "partOfSpeech": "adjective",
+    "definition": "Providing a benefit or favorable outcome.",
+    "example": "Being bilingual is advantageous when applying for jobs.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "advent",
+    "partOfSpeech": "noun",
+    "definition": "The arrival of a notable person or thing.",
+    "example": "The advent of smartphones changed how we communicate.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "advise",
+    "partOfSpeech": "verb",
+    "definition": "To offer suggestions about the best course.",
+    "example": "My counselor advised me to take more math classes.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "aggravate",
+    "partOfSpeech": "verb",
+    "definition": "To make a problem or situation worse.",
+    "example": "Scratching the mosquito bite only aggravated the itch.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "aggressive",
+    "partOfSpeech": "adjective",
+    "definition": "Forceful and determined, often overly so.",
+    "example": "His aggressive driving scared the other passengers.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "allude",
+    "partOfSpeech": "verb",
+    "definition": "To suggest or call attention to indirectly.",
+    "example": "The author alluded to Shakespeare in the opening line.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "ambiguity",
+    "partOfSpeech": "noun",
+    "definition": "Uncertainty or inexactness of meaning.",
+    "example": "The ambiguity of the instructions led to confusion.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "announce",
+    "partOfSpeech": "verb",
+    "definition": "To make a public declaration about something.",
+    "example": "The principal will announce the winner at the assembly.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "antecedent",
+    "partOfSpeech": "noun",
+    "definition": "A thing that existed before or precedes another.",
+    "example": "The antecedent to the Civil War was decades of tension.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "antipathy",
+    "partOfSpeech": "noun",
+    "definition": "A deep-seated feeling of dislike or aversion.",
+    "example": "She felt antipathy toward anyone who bullied others.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "apex",
+    "partOfSpeech": "noun",
+    "definition": "The highest point or peak of something.",
+    "example": "Reaching the apex of the mountain was exhilarating.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "appropriate",
+    "partOfSpeech": "adjective",
+    "definition": "Suitable or proper for a particular situation.",
+    "example": "Wearing a suit to the interview was appropriate.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "approximate",
+    "partOfSpeech": "adjective",
+    "definition": "Nearly exact but not completely accurate.",
+    "example": "Can you give me an approximate cost for the repairs?",
+    "deck": "Advanced"
+  },
+  {
+    "word": "assemble",
+    "partOfSpeech": "verb",
+    "definition": "To gather together or fit parts together.",
+    "example": "We need to assemble the bookshelf before tonight.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "bold",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a willingness to take risks; confident.",
+    "example": "Her bold speech inspired the entire student body.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "borrow",
+    "partOfSpeech": "verb",
+    "definition": "To take and use something with intent to return.",
+    "example": "Can I borrow your calculator for the test?",
+    "deck": "Advanced"
+  },
+  {
+    "word": "calibrate",
+    "partOfSpeech": "verb",
+    "definition": "To adjust precisely for proper functioning.",
+    "example": "The technician calibrated the scale to ensure accuracy.",
+    "deck": "Advanced"
+  },
+  {
+    "word": "obscure",
+    "partOfSpeech": "adjective",
+    "definition": "not well known; difficult to understand",
+    "example": "The author's obscure references made the essay hard to follow.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "ongoing",
+    "partOfSpeech": "adjective",
+    "definition": "continuing without interruption or end",
+    "example": "The ongoing debate about school uniforms has divided the student council.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "original",
+    "partOfSpeech": "adjective",
+    "definition": "not derived from something else; first of its kind",
+    "example": "Her original idea for the science fair won first prize.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "forgot",
+    "partOfSpeech": "verb",
+    "definition": "failed to remember; left behind unintentionally",
+    "example": "I forgot my lunch at home this morning.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unalterable",
+    "partOfSpeech": "adjective",
+    "definition": "not capable of being changed or altered",
+    "example": "The unalterable deadline meant we had to finish the project tonight.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unbothered",
+    "partOfSpeech": "adjective",
+    "definition": "not worried or disturbed by something",
+    "example": "Even with the loud music, she remained unbothered while studying.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unclassifiable",
+    "partOfSpeech": "adjective",
+    "definition": "not able to be placed in a category",
+    "example": "His art style was so unique it seemed unclassifiable.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "uncontroversial",
+    "partOfSpeech": "adjective",
+    "definition": "not causing disagreement or debate",
+    "example": "The uncontroversial decision to extend recess was welcomed by everyone.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "undeniable",
+    "partOfSpeech": "adjective",
+    "definition": "impossible to deny or dispute",
+    "example": "The undeniable evidence proved his theory correct.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unfailingly",
+    "partOfSpeech": "adverb",
+    "definition": "in a way that never fails; always",
+    "example": "He unfailingly arrives to class five minutes early.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unfounded",
+    "partOfSpeech": "adjective",
+    "definition": "not based on fact or evidence",
+    "example": "The rumor that the test was canceled was completely unfounded.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unnecessary",
+    "partOfSpeech": "adjective",
+    "definition": "not needed; more than required",
+    "example": "Bringing a sleeping bag to the one-day trip was unnecessary.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unoriginal",
+    "partOfSpeech": "adjective",
+    "definition": "lacking originality; copied from others",
+    "example": "His unoriginal essay merely repeated ideas from the textbook.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unpredictable",
+    "partOfSpeech": "adjective",
+    "definition": "not able to be predicted; changeable",
+    "example": "The weather in spring is often unpredictable, with sudden rainstorms.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unsurprising",
+    "partOfSpeech": "adjective",
+    "definition": "expected; not causing surprise",
+    "example": "It was unsurprising that the popular kid won the election.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "unvarying",
+    "partOfSpeech": "adjective",
+    "definition": "not changing; constant and uniform",
+    "example": "The unvarying routine of school became boring after a while.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "vacillating",
+    "partOfSpeech": "adjective",
+    "definition": "alternating between different opinions or actions",
+    "example": "Her vacillating decision on the prom theme frustrated the committee.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "variant",
+    "partOfSpeech": "noun",
+    "definition": "a form or version that differs from others",
+    "example": "The new variant of the virus spread more quickly.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "vaunt",
+    "partOfSpeech": "verb",
+    "definition": "to boast or brag about something",
+    "example": "He liked to vaunt his high test scores in front of friends.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "verifiable",
+    "partOfSpeech": "adjective",
+    "definition": "able to be checked or proven true",
+    "example": "The scientist ensured all data was verifiable through experiments.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "vigilance",
+    "partOfSpeech": "noun",
+    "definition": "Watchful attention; alertness to danger or opportunity.",
+    "example": "The security guard's vigilance prevented a break-in.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "voracity",
+    "partOfSpeech": "noun",
+    "definition": "Extreme greed or eagerness, especially for food.",
+    "example": "Her voracity for knowledge led her to read three books a week.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "assiduous",
+    "partOfSpeech": "adjective",
+    "definition": "Showing great care and perseverance in one's work.",
+    "example": "The assiduous student reviewed her notes every night.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "cacophony",
+    "partOfSpeech": "noun",
+    "definition": "A harsh, discordant mixture of sounds.",
+    "example": "The cacophony of car horns outside made it hard to concentrate.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "capitulate",
+    "partOfSpeech": "verb",
+    "definition": "to surrender or give in under agreed conditions",
+    "example": "After hours of negotiation, the company had to capitulate to the union's demands.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "clemency",
+    "partOfSpeech": "noun",
+    "definition": "mercy or leniency, especially toward an offender",
+    "example": "The judge showed clemency by reducing the sentence for the first-time offender.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "despot",
+    "partOfSpeech": "noun",
+    "definition": "a ruler with absolute power and often cruel",
+    "example": "The despot silenced all opposition through fear and intimidation.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "fastidious",
+    "partOfSpeech": "adjective",
+    "definition": "very attentive to detail and accuracy",
+    "example": "She was so fastidious about her notes that every comma was perfect.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "hackneyed",
+    "partOfSpeech": "adjective",
+    "definition": "lacking freshness due to overuse; trite",
+    "example": "The movie's plot was hackneyed, with the same predictable love story.",
+    "deck": "High-Frequency"
+  },
+  {
+    "word": "obdurate",
+    "partOfSpeech": "adjective",
+    "definition": "stubbornly refusing to change one's opinion",
+    "example": "Despite the evidence, he remained obdurate and refused to apologize.",
+    "deck": "High-Frequency"
   }
 ]

@@ -154,7 +154,7 @@ async function chat(system: string, user: string, temperature: number): Promise<
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${API_KEY}` },
     body: JSON.stringify({
-      model: "deepseek-chat",
+      model: "deepseek-v4-pro",
       messages: [
         { role: "system", content: system },
         { role: "user", content: user },

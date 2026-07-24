@@ -1,6 +1,5 @@
 "use client";
 
-import { Flag } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useRunner } from "@/lib/runner-store";
 import {
@@ -40,15 +39,15 @@ export function Navigator({ children }: { children: React.ReactNode }) {
                   className={cn(
                     "relative flex h-10 w-10 items-center justify-center rounded-md border text-sm font-medium transition-colors",
                     i === current && "ring-2 ring-primary ring-offset-1",
-                    answered
-                      ? "border-primary bg-primary text-primary-foreground"
-                      : "border-dashed border-muted-foreground/40 text-muted-foreground hover:bg-accent",
+                    // Flagged wins: the whole tile goes red so it can't be missed.
+                    flagged
+                      ? "border-red-500 bg-red-500 text-white hover:bg-red-600"
+                      : answered
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-dashed border-muted-foreground/40 text-muted-foreground hover:bg-accent",
                   )}
                 >
                   {i + 1}
-                  {flagged && (
-                    <Flag className="absolute -right-1 -top-1 h-3 w-3 fill-amber-500 text-amber-500" />
-                  )}
                 </button>
               </DialogTrigger>
             );
@@ -63,7 +62,7 @@ export function Navigator({ children }: { children: React.ReactNode }) {
             Unanswered
           </span>
           <span className="flex items-center gap-1.5">
-            <Flag className="h-3 w-3 fill-amber-500 text-amber-500" /> Flagged
+            <span className="h-3 w-3 rounded-sm bg-red-500" /> Flagged
           </span>
         </div>
       </DialogContent>
