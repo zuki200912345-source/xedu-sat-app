@@ -21,6 +21,7 @@ interface RunnerState {
     moduleAttemptId: string,
     questions: RunnerQuestion[],
     saved: Record<string, Partial<AnswerState>>,
+    initialQuestionIndex?: number,
   ) => void;
   goTo: (index: number) => void;
   next: () => void;
@@ -48,12 +49,13 @@ export const useRunner = create<RunnerState>((set, get) => ({
   timerHidden: false,
   dirty: new Set(),
 
-  init: (moduleAttemptId, questions, saved) => {
+  init: (moduleAttemptId, questions, saved, initialQuestionIndex = 0) => {
     const answers: Record<string, AnswerState> = {};
     for (const q of questions) {
       answers[q.id] = { ...blank(), ...(saved[q.id] ?? {}) };
     }
-    set({ moduleAttemptId, questions, answers, current: 0, dirty: new Set() });
+    const current = Math.max(0, Math.min(initialQuestionIndex, questions.length - 1));
+    set({ moduleAttemptId, questions, answers, current, dirty: new Set() });
   },
 
   goTo: (index) =>
