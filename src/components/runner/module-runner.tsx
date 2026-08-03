@@ -2,10 +2,16 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Bookmark, ChevronDown, Pencil } from "lucide-react";
+import { Bookmark, ChevronDown, Ellipsis, LogOut, Pencil, RotateCcw } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import {
   Dialog,
   DialogContent,
@@ -25,7 +31,11 @@ import { ReferenceSheet } from "@/components/runner/reference-sheet";
 import { DirectionsDialog } from "@/components/runner/directions";
 import { QuestionText } from "@/components/runner/math-text";
 import { Navigator } from "@/components/runner/navigator";
-import { saveAnswer } from "@/app/(app)/practice/actions";
+import {
+  restartModuleAttempt,
+  saveAnswer,
+  saveModuleProgress,
+} from "@/app/(app)/practice/actions";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -42,6 +52,10 @@ export function ModuleRunner({
   durationMinutes,
   questions,
   saved,
+  hasSavedProgress = false,
+  initialSecondsLeft,
+  initialQuestionIndex = 0,
+  exitHref,
   finishAction,
   heading,
   submitLabel = "Review & submit",
@@ -54,6 +68,10 @@ export function ModuleRunner({
   durationMinutes: number;
   questions: RunnerQuestion[];
   saved: Record<string, Partial<AnswerState>>;
+  hasSavedProgress?: boolean;
+  initialSecondsLeft?: number | null;
+  initialQuestionIndex?: number;
+  exitHref: string;
   /** Grades/advances server-side; may return a redirect target. */
   finishAction: (attemptId: string) => Promise<{ redirect?: string } | void>;
   /** Section/module label lines (full test only). Omit for standalone practice. */
@@ -78,9 +96,15 @@ export function ModuleRunner({
 
   const [ready, setReady] = useState(false);
   const [started, setStarted] = useState(false);
-  const [secondsLeft, setSecondsLeft] = useState(durationMinutes * 60);
+  const [resumeAvailable, setResumeAvailable] = useState(hasSavedProgress);
+  const [secondsLeft, setSecondsLeft] = useState(
+    initialSecondsLeft ?? durationMinutes * 60,
+  );
   const [submitOpen, setSubmitOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [restarting, setRestarting] = useState(false);
+  const [exiting, setExiting] = useState(false);
+  const [exitStep, setExitStep] = useState<0 | 1 | 2>(0);
   const [calcOpen, setCalcOpen] = useState(false);
   const [refOpen, setRefOpen] = useState(false);
   const [directionsOpen, setDirectionsOpen] = useState(false);
@@ -92,13 +116,44 @@ export function ModuleRunner({
   const isMath = section === "MATH";
 
   // Initialize the store once.
+  const storageKey = `xedu-sat:runner:${moduleAttemptId}`;
+
   useEffect(() => {
-    init(moduleAttemptId, questions, saved as Record<string, Partial<AnswerState>>);
+    let restoredQuestion = initialQuestionIndex;
+    if (hasSavedProgress) {
+      try {
+        const stored = JSON.parse(localStorage.getItem(storageKey) ?? "null") as {
+          version?: number;
+          current?: number;
+        } | null;
+        if (stored?.version === 1 && Number.isInteger(stored.current)) {
+          restoredQuestion = stored.current ?? initialQuestionIndex;
+        }
+      } catch {
+        localStorage.removeItem(storageKey);
+      }
+    }
+    init(
+      moduleAttemptId,
+      questions,
+      saved as Record<string, Partial<AnswerState>>,
+      restoredQuestion,
+    );
     setReady(true);
-  }, [init, moduleAttemptId, questions, saved]);
+  }, [hasSavedProgress, init, initialQuestionIndex, moduleAttemptId, questions, saved, storageKey]);
 
   const q = questions[current];
   const a = q ? answers[q.id] : undefined;
+  const secondsLeftRef = useRef(secondsLeft);
+
+  useEffect(() => {
+    secondsLeftRef.current = secondsLeft;
+  }, [secondsLeft]);
+
+  useEffect(() => {
+    if (!ready) return;
+    localStorage.setItem(storageKey, JSON.stringify({ version: 1, current }));
+  }, [current, ready, storageKey]);
 
   // Once the module starts, warn on any attempt to leave/close the tab.
   useEffect(() => {
@@ -111,6 +166,21 @@ export function ModuleRunner({
     return () => window.removeEventListener("beforeunload", onBeforeUnload);
   }, [started, submitting]);
 
+  // Persist the clock throughout the session so closing the tab loses at most
+  // a few seconds. The explicit Exit flow performs a final awaited save.
+  useEffect(() => {
+    if (!started || submitting || exiting) return;
+    const persist = () => {
+      void saveModuleProgress({
+        moduleAttemptId,
+        secondsRemaining: secondsLeftRef.current,
+      }).catch(() => {});
+    };
+    persist();
+    const id = setInterval(persist, 10_000);
+    return () => clearInterval(id);
+  }, [exiting, moduleAttemptId, started, submitting]);
+
   // Per-second timer: count down module time, count up time-on-question.
   useEffect(() => {
     if (!ready || !started || !q) return;
@@ -121,10 +191,9 @@ export function ModuleRunner({
     return () => clearInterval(id);
   }, [ready, started, q, tick]);
 
-  const submit = useCallback(async () => {
-    setSubmitting(true);
-    try {
-      await Promise.all(
+  const flushAnswers = useCallback(
+    () =>
+      Promise.all(
         questions.map((qq) => {
           const st = useRunner.getState().answers[qq.id];
           return saveAnswer({
@@ -136,23 +205,71 @@ export function ModuleRunner({
             eliminated: st?.eliminated ?? [],
           });
         }),
-      );
+      ),
+    [moduleAttemptId, questions],
+  );
+
+  const submit = useCallback(async () => {
+    setSubmitting(true);
+    try {
+      await flushAnswers();
       const res = await finishAction(attemptId);
+      localStorage.removeItem(storageKey);
       if (res?.redirect) router.push(res.redirect);
       else router.refresh();
     } catch {
       toast.error("Could not submit — please try again");
       setSubmitting(false);
     }
-  }, [attemptId, moduleAttemptId, questions, router, finishAction]);
+  }, [attemptId, finishAction, flushAnswers, router, storageKey]);
+
+  const beginSession = useCallback(() => {
+    document.documentElement.requestFullscreen?.().catch(() => {});
+    setStarted(true);
+  }, []);
+
+  const restartSession = useCallback(async () => {
+    setRestarting(true);
+    try {
+      await restartModuleAttempt(moduleAttemptId);
+      localStorage.removeItem(storageKey);
+      init(moduleAttemptId, questions, {}, 0);
+      setSecondsLeft(durationMinutes * 60);
+      setResumeAvailable(false);
+      beginSession();
+    } catch {
+      toast.error("Could not restart the module");
+    } finally {
+      setRestarting(false);
+    }
+  }, [beginSession, durationMinutes, init, moduleAttemptId, questions, storageKey]);
+
+  const leaveSession = useCallback(async () => {
+    setExiting(true);
+    try {
+      await Promise.all([
+        flushAnswers(),
+        saveModuleProgress({
+          moduleAttemptId,
+          secondsRemaining: secondsLeftRef.current,
+        }),
+      ]);
+      await document.exitFullscreen?.().catch(() => {});
+      router.push(exitHref);
+    } catch {
+      setExiting(false);
+      setExitStep(0);
+      toast.error("Could not save your progress. Please try again.");
+    }
+  }, [exitHref, flushAnswers, moduleAttemptId, router]);
 
   // Auto-submit when time runs out.
   useEffect(() => {
-    if (ready && secondsLeft === 0 && !submitting) {
+    if (ready && started && secondsLeft === 0 && !submitting) {
       toast.info("Time's up — submitting your module");
       void submit();
     }
-  }, [ready, secondsLeft, submitting, submit]);
+  }, [ready, secondsLeft, started, submitting, submit]);
 
   // Debounced autosave of dirty answers.
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -199,6 +316,7 @@ export function ModuleRunner({
 
   // ---- Pre-test lock screen: nothing is visible until the student commits ----
   if (!started) {
+    const sessionName = heading ? "test" : "module";
     return (
       <div className="flex h-screen flex-col items-center justify-center gap-6 bg-white px-6 text-center text-[#0f172a]">
         <div className="max-w-md space-y-4">
@@ -210,24 +328,45 @@ export function ModuleRunner({
           ) : (
             <h1 className="text-2xl font-bold">{section === "MATH" ? "Math" : "Reading & Writing"} module</h1>
           )}
-          <div className="rounded-2xl border bg-secondary/40 p-5 text-left text-sm leading-relaxed">
-            <p className="font-semibold">Before you start:</p>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5">
-              <li>{questions.length} questions · {durationMinutes} minutes. The timer starts the moment you begin.</li>
-              <li>The screen locks into fullscreen and <strong>you can&apos;t leave</strong> until you submit this module.</li>
-              <li>You may submit early to move to the next module here — but on the <strong>real Digital SAT you cannot skip modules or breaks</strong>, so practice with the full time.</li>
-            </ul>
-          </div>
-          <Button
-            size="lg"
-            className="w-full"
-            onClick={() => {
-              document.documentElement.requestFullscreen?.().catch(() => {});
-              setStarted(true);
-            }}
-          >
-            Start test
-          </Button>
+          {resumeAvailable ? (
+            <>
+              <div className="rounded-2xl border border-primary/30 bg-primary/5 p-5 text-left text-sm leading-relaxed">
+                <p className="font-semibold">Your timed {sessionName} is still in progress.</p>
+                <p className="mt-2 text-muted-foreground">
+                  Continue with {formatClock(secondsLeft)} remaining and all saved answers, or restart this module from the beginning.
+                </p>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  onClick={restartSession}
+                  disabled={restarting}
+                  className="gap-2"
+                >
+                  <RotateCcw className="h-4 w-4" />
+                  {restarting ? "Restarting…" : "Restart module"}
+                </Button>
+                <Button size="lg" onClick={beginSession} disabled={restarting}>
+                  Continue where I left off
+                </Button>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="rounded-2xl border bg-secondary/40 p-5 text-left text-sm leading-relaxed">
+                <p className="font-semibold">Before you start:</p>
+                <ul className="mt-2 list-disc space-y-1.5 pl-5">
+                  <li>{questions.length} questions · {durationMinutes} minutes. The timer starts the moment you begin.</li>
+                  <li>This is meant to be a timed test. Use the three-dot menu if you need to save and exit.</li>
+                  <li>You may submit early to move to the next module here — but on the <strong>real Digital SAT you cannot skip modules or breaks</strong>, so practice with the full time.</li>
+                </ul>
+              </div>
+              <Button size="lg" className="w-full" onClick={beginSession}>
+                Start test
+              </Button>
+            </>
+          )}
         </div>
       </div>
     );
@@ -317,6 +456,26 @@ export function ModuleRunner({
               Annotate
             </button>
           )}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button
+                className="flex flex-col items-center gap-0.5 text-xs font-medium"
+                aria-label="More test options"
+              >
+                <Ellipsis className="h-5 w-5" />
+                More
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="w-44">
+              <DropdownMenuItem
+                onSelect={() => setExitStep(1)}
+                className="text-destructive focus:text-destructive"
+              >
+                <LogOut />
+                Save and exit
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </header>
 
@@ -491,6 +650,44 @@ export function ModuleRunner({
             </Button>
             <Button onClick={submit} disabled={submitting}>
               {submitting ? "Submitting…" : "Submit module"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={exitStep === 1} onOpenChange={(open) => setExitStep(open ? 1 : 0)}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Leave this timed test?</DialogTitle>
+            <DialogDescription>
+              This is meant to be completed under timed conditions. Leaving now will pause the timer and save your answers.
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setExitStep(0)}>
+              Stay in test
+            </Button>
+            <Button variant="destructive" onClick={() => setExitStep(2)}>
+              Continue to exit
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={exitStep === 2} onOpenChange={(open) => setExitStep(open ? 2 : 0)}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Are you sure you want to leave?</DialogTitle>
+            <DialogDescription>
+              Your remaining time and answers will be saved. When you return, you can continue from here or restart this module.
+            </DialogDescription>
+          </DialogHeader>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setExitStep(1)} disabled={exiting}>
+              Go back
+            </Button>
+            <Button variant="destructive" onClick={leaveSession} disabled={exiting}>
+              {exiting ? "Saving…" : "Yes, save and exit"}
             </Button>
           </DialogFooter>
         </DialogContent>
