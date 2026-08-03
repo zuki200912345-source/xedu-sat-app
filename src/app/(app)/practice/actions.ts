@@ -58,18 +58,30 @@ const saveSchema = z.object({
   eliminated: z.array(z.string()).max(4),
 });
 
+const progressSchema = z.object({
+  moduleAttemptId: z.string().min(1),
+  secondsRemaining: z.number().int().min(0).max(60 * 60 * 4),
+});
+
+async function requireOpenModuleAttempt(moduleAttemptId: string, userId: string) {
+  const moduleAttempt = await prisma.moduleAttempt.findUnique({
+    where: { id: moduleAttemptId },
+    include: { attempt: true },
+  });
+  if (!moduleAttempt || moduleAttempt.attempt.userId !== userId) throw new Error("FORBIDDEN");
+  if (moduleAttempt.attempt.status !== "IN_PROGRESS" || moduleAttempt.completedAt) {
+    throw new Error("Attempt is closed");
+  }
+  return moduleAttempt;
+}
+
 /** Auto-save a single answer. Correctness is NOT computed or returned here. */
 export async function saveAnswer(input: z.infer<typeof saveSchema>) {
   const user = await requireUser();
   const data = saveSchema.parse(input);
 
   // Authorize: the module attempt must belong to this user's attempt.
-  const ma = await prisma.moduleAttempt.findUnique({
-    where: { id: data.moduleAttemptId },
-    include: { attempt: true },
-  });
-  if (!ma || ma.attempt.userId !== user.id) throw new Error("FORBIDDEN");
-  if (ma.attempt.status !== "IN_PROGRESS") throw new Error("Attempt is closed");
+  await requireOpenModuleAttempt(data.moduleAttemptId, user.id);
 
   await prisma.answer.upsert({
     where: {
@@ -93,6 +105,38 @@ export async function saveAnswer(input: z.infer<typeof saveSchema>) {
       eliminated: JSON.stringify(data.eliminated),
     },
   });
+  return { ok: true };
+}
+
+/** Save the timed-module clock so a student can leave and resume safely. */
+export async function saveModuleProgress(input: z.infer<typeof progressSchema>) {
+  const user = await requireUser();
+  const data = progressSchema.parse(input);
+  await requireOpenModuleAttempt(data.moduleAttemptId, user.id);
+  await prisma.moduleAttempt.update({
+    where: { id: data.moduleAttemptId },
+    data: { secondsRemaining: data.secondsRemaining },
+  });
+  return { ok: true };
+}
+
+/** Clear only the active module, preserving any earlier completed test modules. */
+export async function restartModuleAttempt(moduleAttemptId: string) {
+  const user = await requireUser();
+  await requireOpenModuleAttempt(moduleAttemptId, user.id);
+
+  await prisma.$transaction([
+    prisma.answer.deleteMany({ where: { moduleAttemptId } }),
+    prisma.moduleAttempt.update({
+      where: { id: moduleAttemptId },
+      data: {
+        rawCorrect: null,
+        routedPath: null,
+        secondsRemaining: null,
+        startedAt: new Date(),
+      },
+    }),
+  ]);
   return { ok: true };
 }
 
