@@ -34,7 +34,10 @@ export default async function RunModulePage({
   const { attemptId, moduleAttemptId } = await startPracticeAttempt(test.id);
 
   // Load any previously saved answers for resume.
-  const savedRows = await prisma.answer.findMany({ where: { moduleAttemptId } });
+  const [savedRows, moduleAttempt] = await Promise.all([
+    prisma.answer.findMany({ where: { moduleAttemptId } }),
+    prisma.moduleAttempt.findUniqueOrThrow({ where: { id: moduleAttemptId } }),
+  ]);
   const saved: Record<string, Partial<AnswerState>> = {};
   for (const row of savedRows) {
     saved[row.questionId] = {
@@ -50,6 +53,12 @@ export default async function RunModulePage({
     mod.section === "MATH"
       ? SAT_CONFIG.math.minutesPerModule
       : SAT_CONFIG.rw.minutesPerModule;
+  const lastActiveQuestion = Math.max(
+    0,
+    ...questions.map((question, index) =>
+      (saved[question.id]?.secondsSpent ?? 0) > 0 || saved[question.id]?.response ? index : 0,
+    ),
+  );
 
   return (
     <ModuleRunner
@@ -59,6 +68,10 @@ export default async function RunModulePage({
       durationMinutes={durationMinutes}
       questions={questions}
       saved={saved}
+      hasSavedProgress={moduleAttempt.secondsRemaining !== null || savedRows.length > 0}
+      initialSecondsLeft={moduleAttempt.secondsRemaining}
+      initialQuestionIndex={lastActiveQuestion}
+      exitHref="/practice"
       finishAction={finishPracticeAttempt}
       submitLabel="Review & submit"
     />
