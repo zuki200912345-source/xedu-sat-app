@@ -68,6 +68,13 @@ export default async function TakeTestPage({
   const isLastModule = mod.section === "MATH" && mod.order === 2;
   // Section 1 = Reading & Writing, Section 2 = Math (Bluebook ordering).
   const sectionNumber = mod.section === "MATH" ? 2 : 1;
+  const activeModuleAttempt = attempt.moduleAttempts.find((ma) => ma.id === activeMa.id)!;
+  const lastActiveQuestion = Math.max(
+    0,
+    ...questions.map((question, index) =>
+      (saved[question.id]?.secondsSpent ?? 0) > 0 || saved[question.id]?.response ? index : 0,
+    ),
+  );
 
   return (
     <ModuleRunner
@@ -82,6 +89,10 @@ export default async function TakeTestPage({
       durationMinutes={durationMinutes}
       questions={questions}
       saved={saved}
+      hasSavedProgress={activeModuleAttempt.secondsRemaining !== null || savedRows.length > 0}
+      initialSecondsLeft={activeModuleAttempt.secondsRemaining}
+      initialQuestionIndex={lastActiveQuestion}
+      exitHref="/tests"
       finishAction={submitFullModule}
       submitLabel="Submit module"
       submitDialogTitle={
